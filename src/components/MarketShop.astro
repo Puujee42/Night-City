@@ -1,0 +1,9 @@
+---
+const {data} = Astro.props
+import AllWeapon from "./AllWeapon.astro"
+---
+<div>
+    {data.map((json)=> 
+    <AllWeapon {... json }/>
+    )}
+</div>

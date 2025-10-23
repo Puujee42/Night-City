@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Wasp",
+    "image": "/wasp.jpg",
+    "id": "dynalar_wasp",
+    "aliases": ["The Stinger", "Sandy's Friend", "Hummingbird"],
+    "type": "Power Pistol",
+    "manufacturer": "Dynalar Sandevistan",
+    "status": "Active; Specialist Market",
+    "cost": "€$75,000",
+    "specialAbility": "Significantly increased fire rate and reload speed while a Sandevistan is active. No muzzle flash.",
+
+    "baseStats": {
+      "attackSpeed": 9,
+      "damage": 60,
+      "reloadSpeed": 1,
+      "range": 30,
+      "mods": 2
+    },
+
+    "manufacturingIntel": {
+      "creator": "Dynalar Sandevistan (Integrated Systems Division)",
+      "creatorReputation": "Dynalar is a market leader in high-end reflex co-processors. The 'Wasp' was a side project, born from a simple question: 'What kind of gun would someone moving at 10x normal speed actually want to use?' The design team focused on creating a weapon that could keep up with a Sandevistan user's overclocked neurology.",
+      "developmentHistory": "The Wasp was designed in parallel with Dynalar's Mk.4 Sandevistan. They realized that traditional firearms felt sluggish and clumsy during time dilation. The Wasp's lightweight polymer frame, electronic trigger, and caseless flechette ammunition were all engineered for maximum handling speed. The 'active-sync' feature, which overclocks the firing mechanism when it detects a Sandevistan is active, was the final breakthrough. It's not sold as a weapon, but as an 'accessory' to their premium cyberware.",
+      "productionDate": "Circa 2075"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Unbelievable rate of fire and reload speed when paired with a Sandevistan.",
+        "The lack of muzzle flash preserves the user's vision during time dilation.",
+        "Extremely lightweight, with near-zero recoil, allowing for perfect accuracy while moving at high speeds.",
+        "Excellent for overwhelming a single target with a rapid volley of precise shots."
+      ],
+      "weaknesses": [
+        "Very low base damage per shot; relies on landing multiple hits.",
+        "Ineffective outside of its intended Sandevistan synergy.",
+        "Caseless flechette ammo is less common and more expensive than standard rounds.",
+        "Poor performance against heavily armored targets."
+      ],
+      "recommendedRoles": "Speed Solo, Blade/Gun Hybrid, High-Reflex Assassin.",
+      "masteryArchetype": "A 'Hummingbird' build. A user with a top-tier Sandevistan and cyberware that enhances movement speed and critical chance. The ideal user activates their Sandy, closes the distance to an enemy, and unloads the entire magazine into their head before time returns to normal. They are a blur of motion, dealing death in a thousand tiny cuts."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Niche, but available. The Wasp is sold at high-end weapon vendors in City Center and Japantown. It is often marketed as a package deal with Dynalar's Sandevistan implants. Some ripperdocs with connections to Dynalar may also carry it in their private stock.",
+      "rumoredLocation": "It's said that the leader of the 'WRAITHS' speed-demon Nomad pack, a former Dynalar test subject, carries a pair of master-crafted Wasps. He's known to challenge city racers to deadly contests in the Badlands, using the pistols to 'puncture' the competition."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Blur' (Speed Solo)",
+        "context": "Clearing the Arasaka Waterfront warehouse.",
+        "feedback": "'This gun is the only thing that can keep up with my Sandy. Click the switch, and it's like time stops. I can empty the clip, reload, and empty it again before the first body hits the ground. It feels like an extension of my chrome. Perfect.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Juggernaut' (Brawler)",
+        "context": "Fistfight with Animals.",
+        "feedback": "'Tried using this peashooter without any speedware. It's like throwing angry bees at someone. The damage is pathetic. It just pissed them off. My fists hit harder. This is a toy for chrome-addicted speed-freaks, not a real gun.'",
+        "rating": "1/5 (Without Sandevistan)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Assault on a Kang Tao facility.",
+        "feedback": "'It's a very specialized tool. When the Sandy is on, you feel like a god, a blur of motion just deleting enemies. But the second it runs out, you're holding a glorified pop gun. It's all or nothing, which is pretty much Night City in a nutshell, right?'",
+        "rating": "4/5 (High Synergy)"
+      }
+    ]
+  }
+}

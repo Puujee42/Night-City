@@ -1,0 +1,9 @@
+---
+import Card from "./Card.astro"
+const {data} = Astro.props
+---
+<div class="cards">
+    {data.map((json)=>
+        <Card {...json} />
+    )}
+</div>

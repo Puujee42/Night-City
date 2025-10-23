@@ -1,0 +1,168 @@
+---
+const {title, fixer, danger, type, pay, place} = Astro.props;
+const item = fixer
+console.log(item)
+---
+
+<div class="gig-card">
+    <div class="scanlines"></div>
+    <div class="gig-header">
+        <h1 class="gig-title">{title}</h1>
+        <span class="gig-type">{type}</span>
+    </div>
+    <div class="gig-details">
+        <div class="gig-row">
+            <span class="label">FIXER:</span>
+            <span class="value">{fixer}</span>
+
+        </div>
+        <div class="gig-row">
+            <span class="label">LOCATION:</span>
+            <span class="value">{place}</span>
+        </div>
+        <div class="gig-row">
+            <span class="label">DANGER LEVEL:</span>
+            <span class={`value danger danger-${danger.toLowerCase()}`}>{danger}</span>
+        </div>
+        <div class="gig-row payment-row">
+            <span class="label">PAYMENT:</span>
+            <span class="value pay">{pay}</span>
+        </div>
+    </div>
+    <div class="corner-cut"></div>
+</div>
+
+<style>
+    /*
+     * This component is now styled to integrate with your global CSS.
+     * It assumes a dark, techy aesthetic as its base, using global accent colors.
+    */
+    .gig-card {
+        /* Inherits 'Deltha' font-family from body */
+        background: var(--background-dark, #0a0a0f); /* Fallback for context */
+        color: var(--gray-900); /* Will be overridden by specific elements */
+        
+        /* Using a variable defined in your global dark mode for the border */
+        border: 2px solid var(--gray-400); 
+        padding: 2rem 2.5rem; /* Increased padding for wider layout */
+        position: relative;
+        overflow: hidden;
+        width: 100%; /* Flexible width to fit its container */
+        
+        /* Kept the iconic clip-path, scaled up */
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 35px), calc(100% - 35px) 100%, 0 100%);
+    }
+
+    /* Decorative corner element uses a global accent color */
+    .corner-cut {
+        position: absolute;
+        bottom: 0; right: 0;
+        width: 35px; height: 35px;
+        background: var(--cyber-yellow);
+        clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    }
+
+    /* Scanlines effect remains for atmosphere */
+    .scanlines {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 75%, rgba(0,0,0,0.3));
+        background-size: 100% 4px;
+        animation: scan 10s linear infinite;
+        pointer-events: none;
+    }
+    @keyframes scan {
+        0% { background-position: 0 0; } 100% { background-position: 0 400px; }
+    }
+
+    .gig-header {
+        display: flex; justify-content: space-between; align-items: flex-start;
+        border-bottom: 2px solid var(--cyber-yellow);
+        padding-bottom: 1rem; margin-bottom: 2rem;
+    }
+
+    /* Using a class to avoid conflicting with global h1 */
+    .gig-title {
+        font-size: 2.25rem; /* Scaled up for laptops */
+        font-weight: bold;
+        margin: 0;
+        color: var(--cyber-yellow);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-shadow: 0 0 5px rgba(252, 238, 10, 0.5);
+        text-align: left; /* Ensure it's left-aligned */
+    }
+
+    .gig-type {
+        background: var(--cyber-cyan);
+        color: var(--background-dark-text);
+        padding: 0.4rem 1.2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 10px 100%);
+        align-self: flex-end;
+        transform: translateY(-5px);
+        white-space: nowrap;
+    }
+
+    .gig-details {
+        display: flex; flex-direction: column;
+        gap: 1.25rem; /* Increased spacing */
+    }
+    
+    .gig-row {
+        display: flex; justify-content: space-between; align-items: baseline;
+        font-size: 1.2rem; /* Increased font size */
+    }
+
+    /* Dotted line connector */
+    .gig-row::after {
+        content: ''; flex-grow: 1;
+        /* Using a global color for the dots */
+        border-bottom: 2px dotted var(--gray-600); 
+        margin: 0 0.75rem;
+        transform: translateY(-4px);
+    }
+    .gig-row:last-child::after { content: none; }
+
+    .label {
+        font-weight: bold;
+        color: var(--gray-600); /* Using global variable */
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        flex-shrink: 0;
+        background: var(--background-dark, #0a0a0f);
+        padding-right: 0.5rem;
+    }
+
+    .value {
+        color: var(--gray-900); /* Text color from global dark theme */
+        font-weight: 500;
+        text-align: right;
+        flex-shrink: 0;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        background: var(--background-dark, #0a0a0f);
+    }
+
+    /* Simplified payment row for better alignment */
+    .payment-row {
+        margin-top: 1rem;
+        border-top: 1px solid var(--gray-400);
+        padding-top: 1rem;
+    }
+     .payment-row::after{
+        border-bottom: 2px dotted var(--gray-600); /* Re-add connector */
+    }
+
+    .pay {
+        color: var(--cyber-cyan);
+        font-weight: bold;
+        text-shadow: 0 0 5px rgba(0, 240, 255, 0.5);
+    }
+
+    .danger { font-weight: bold; text-transform: uppercase; }
+    .danger-low { color: var(--cyber-green, #22c55e); }
+    .danger-medium { color: var(--cyber-yellow, #facc15); }
+    .danger-high { color: var(--cyber-red, #ef4444); }
+</style>

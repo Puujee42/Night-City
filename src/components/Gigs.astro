@@ -1,0 +1,76 @@
+---
+import Gig from "./Gig.astro"
+
+const {data} = Astro.props
+console.log(data)
+---
+<div class="job-market-list">
+    {data.map((job) => (
+        <div class="job-market-item">
+            <Gig {...job} />
+        </div>
+    ))}
+</div>
+<style>
+    html{
+    --background : white;
+    --gray-200 : #222222;
+    --gray-400: #444444;
+    --gray-600: #333333;
+    --gray-900: #555555;
+    --gray-1000:black;
+    }
+    html.dark{
+        --background: black;
+        --gray-200: #aaaaaa;
+        --gray-400: #d3cccc;
+        --gray-600: #a09898;
+        --gray-900: #ffffff;
+        --gray-1000: white;
+    }
+    .job-market-list {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        max-width: 100%;
+        margin: 2rem auto;
+        flex-wrap: wrap;
+        background: var(--background); /* Deep black background */
+        padding: 2rem 0;
+    }
+
+    .job-market-item {
+        border-radius: 12px;
+        box-shadow: 0 4px 24px var(--background);
+        padding: 2rem 1.5rem;
+        transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+        cursor: pointer;
+        color: var(--gray-1000);
+        min-width: 320px;
+        max-width: 380px;
+        flex: 1 1 320px;
+        font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    }
+
+    .job-market-item:hover {
+        box-shadow: 0 8px 32px var(--gray-1000);
+        border-color: var(--background);
+        transform: translateY(-4px) scale(1.02);
+    }
+
+    .job-market-item * {
+        color: var(--gray-1000);
+    }
+
+    @media (max-width: 900px) {
+        .job-market-list {
+            flex-direction: column;
+            gap: 1.5rem;
+            padding: 1rem 0;
+        }
+        .job-market-item {
+            max-width: 100%;
+            min-width: unset;
+        }
+    }
+</style>

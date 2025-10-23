@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Spitfire",
+    "image": "/spitfire.jpg",
+    "id": "budget_arms_spitfire",
+    "aliases": ["The Panic Button", "Gonk's Gambit", "The Last Resort"],
+    "type": "Power Revolver",
+    "manufacturer": "Budget Arms",
+    "status": "Common; Black Market Modification",
+    "cost": "€$12,000",
+    "specialAbility": "The alternate fire mode unloads the entire cylinder in a rapid, inaccurate burst. Perfect for when your target is 'somewhere in front of you.'",
+
+    "baseStats": {
+      "attackSpeed": 1.5,
+      "damage": 180,
+      "reloadSpeed": 2.2,
+      "range": 40,
+      "mods": 1
+    },
+
+    "manufacturingIntel": {
+      "creator": "Various back-alley gunsmiths",
+      "creatorReputation": "The Spitfire isn't a factory model; it's a popular and dangerous after-market modification. Techies with more guts than sense will take a standard Budget Arms revolver, file down the sear, and disable the cylinder lock. This allows the user to hold down the trigger and 'fan' the hammer, firing all six rounds in a chaotic, uncontrolled spray.",
+      "developmentHistory": "The modification was born out of desperation on the streets of Watson. Gangers and low-level mercs needed a way to counter heavily chromed solos without having the eddies for military-grade hardware. The 'Spitfire' mod was the answer: a cheap way to turn a simple revolver into a room-clearing panic weapon. It's unreliable, inaccurate, and just as likely to misfire as it is to hit its target, but in a desperate, close-quarters fight, it can be a surprisingly effective equalizer.",
+      "productionDate": "Ongoing, widely available"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "The fan-fire mode provides incredible burst damage at point-blank range.",
+        "An excellent 'panic button' for when an enemy unexpectedly closes the distance.",
+        "Cheap to acquire and its ammunition is plentiful.",
+        "Intimidating psychological effect; the roar of a fanned revolver is terrifying."
+      ],
+      "weaknesses": [
+        "The fan-fire mode has virtually zero accuracy beyond a few meters.",
+        "High chance of jamming or misfiring, especially with low-quality ammunition.",
+        "The massive recoil from the fan-fire can leave the user disoriented.",
+        "Low base damage per shot compared to higher-caliber revolvers."
+      ],
+      "recommendedRoles": "Street Ganger, Brawler, Desperate Mercenary.",
+      "masteryArchetype": "A 'Street Brawler' build. A user who lives and dies by close-quarters chaos. They don't aim; they point. The ideal user combines the Spitfire with a Berserk OS, charging into an enemy's face and using the fan-fire to turn them into a bloody mess. It's a high-risk, high-reward playstyle for those who like to live dangerously."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Very Common. Any shady weapon vendor in Watson or the Badlands is likely to have a Spitfire modded revolver under the counter. It's a popular choice for gangers and those just starting their merc careers.",
+      "rumoredLocation": "The 2nd Amendment store in V's megabuilding is known to have a few 'special' items in the back for trusted customers. The owner, Wilson, is rumored to have a master-crafted Spitfire with a reinforced cylinder that he keeps for himself."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Gutter Rat' (Street Kid)",
+        "context": "Ambushed by Maelstrom in a Kabuki alley.",
+        "feedback": "'Three psychos cornered me, thought I was dead meat. Fanned the Spitfire. The noise, the kick... it was insane. When the smoke cleared, I was standing, they weren't. This piece of junk saved my life. Wouldn't trust it to hit the broad side of a barn, but up close? It's a dragon.'",
+        "rating": "4/5 (For a cheap gun)"
+      },
+      {
+        "merc": "'Deadeye' (Sharpshooter)",
+        "context": "Rooftop firefight in City Center.",
+        "feedback": "'This is an insult to firearms. The standard fire is weak, and the 'special ability' is just praying to God one of your bullets hits something other than the ceiling. It's a clumsy, inefficient, and dangerous toy. I wouldn't use it to shoot scop.'",
+        "rating": "1/5 (An abomination)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Getting cornered by a cyberpsycho.",
+        "feedback": "'He was right on top of me, my primary was empty. Pulled this thing out and just held the trigger down. The sheer force of six rounds hitting him point-blank staggered him long enough for me to get some distance. It's a terrible gun... until it's the only gun that can save your life.'",
+        "rating": "3/5 (The perfect 'oh shit' button)"
+      }
+    ]
+  }
+}

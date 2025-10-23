@@ -1,0 +1,194 @@
+[
+    {
+        "title": "Arthur Cormac",
+        "image": "/arthur.webp",
+        "desc": "A professional's fixer operating in the heart of the corporate beast, City Center. Cormac's gigs are clean, direct, and almost always involve screwing over one corporation for the benefit of another. He deals in data theft, executive extractions, and industrial sabotage. Don't expect him to get personal; for him, it's just business.",
+        "jobArea": "City Center",
+        "jobThreatLevel": "10",
+        "fixerRank": "Your go-to for high-stakes corporate espionage with a professional touch.",
+        "gradientFrom": "#0d0221",
+        "gradientTo": "#ff0054",
+        "recentGigs": [
+            "Corpo Courier Clash",
+            "Data Heist: Fuyutsuki Plaza",
+            "Executive Extraction"
+        ],
+        "reliability": "Solid and professional. Cormac pays on time and provides clear objectives. No surprises, which is a rare commodity in this city."
+    },
+    {
+        "title": "Dakota Smith",
+        "image": "/smith.png",
+        "desc": "The undisputed law of the Badlands, Dakota is a Nomad fixer with deep roots in the Aldecaldo nation. She's more than just a job broker; she's a cornerstone of the community outside the city walls. Her gigs often involve hitting Militech or reclaiming Nomad property. She has little patience for corpo attitudes but respects a choom who gets the job done.",
+        "jobArea": "Badlands",
+        "jobThreatLevel": "8",
+        "fixerRank": "The spirit of the desert. The only gateway to legitimate work in the Badlands.",
+        "gradientFrom": "#00f2fe",
+        "gradientTo": "#240b36",
+        "recentGigs": [
+            "Big in Japan",
+            "The Heisenberg Principle",
+            "Flying Drugs"
+        ],
+        "reliability": "As dependable as the desert sun. Dakota is straightforward, respects the Nomad code, and won't stab you in the back. Her jobs are exactly as advertised."
+    },
+    {
+        "title": "Dexter DeShawn",
+        "image": "/dexter.png",
+        "desc": "One of the most ambitious and well-known fixers in Night City, aiming for the major leagues. Dex doesn't deal in small-time gigs; he orchestrates complex heists that promise legendary payouts. He's a smooth talker who's good at reading people, using his charm to assemble crews for high-stakes operations. However, his ambition often outweighs his loyalty.",
+        "jobArea": "City-Wide Operations",
+        "jobThreatLevel": "5",
+        "fixerRank": "The gatekeeper to the big leagues. His jobs make you a legend or a corpse.",
+        "gradientFrom": "#000000",
+        "gradientTo": "#ff00f7",
+        "recentGigs": [
+            "The Heist",
+            "The Information",
+            "Lizzie's Bar Recon"
+        ],
+        "reliability": "Zero. Dexter is a master manipulator who sees mercs as disposable assets. He'll promise you the world and put a bullet in your head to save his own skin. Do not trust."
+    },
+    {
+        "title": "Dino Dinovic",
+        "image": "/dino.png",
+        "desc": "Dino is the fixer for City Center's vices. Part-time rockerboy, full-time operator, he lines up gigs that are loud, flashy, and often involve Night City's elite. Need to sabotage a rival band's concert, steal a corpo's prized guitar, or embarrass a media personality? Dino's your man. He operates out of his bar, where deals are sealed with a shot of synth-tequila.",
+        "jobArea": "City Center, Corpo Plaza",
+        "jobThreatLevel": "9",
+        "fixerRank": "The city's premier fixer for anything related to music, media, and mayhem.",
+        "gradientFrom": "#4a00e0",
+        "gradientTo": "#f53844",
+        "recentGigs": [
+            "The understatement",
+            "Serial killer",
+            "The Frolics of Power"
+        ],
+        "reliability": "Highly reliable for professionals. Dino values discretion and competence above all. As long as you don't make a mess, the eddies are good and the contracts are clean."
+    },
+    {
+        "title": "Faraday",
+        "image": "/friday.png",
+        "desc": "A ruthless corporate fixer with deep ties to Militech, Faraday specializes in using deniable assets—mercs—to wage a shadow war against Arasaka. His objectives are always corporate, his methods are cold, and his expectations are absolute. He sees his crews as tools to achieve a goal, and is not afraid to discard them when they've served their purpose.",
+        "jobArea": "Santo Domingo",
+        "jobThreatLevel": "8",
+        "fixerRank": "A corporate shark who offers high pay for high-risk espionage.",
+        "gradientFrom": "#00c9ff",
+        "gradientTo": "#92fe9d",
+        "recentGigs": [
+            "Arasaka Counter-Intel",
+            "The Kuznetsov Extraction",
+            "Prototype Pilfer"
+        ],
+        "reliability": "Purely transactional and utterly ruthless. Faraday will pay well, but he considers mercs expendable tools for his corporate ambitions. Expect to be cut loose if the job goes sideways."
+    },
+    {
+        "title": "Mikhail Akulov",
+        "image": "/russian.png",
+        "desc": "The SovOil fixer in Night City. Officially a diplomat, unofficially a key player in the international espionage game. Akulov's gigs involve protecting Soviet assets, stealing corporate secrets from his nation's rivals, and ensuring the USSR's interests are maintained in the chaos of the Free State of NC. His jobs are cloak-and-dagger affairs.",
+        "jobArea": "International (Operating in NC)",
+        "jobThreatLevel": "7",
+        "fixerRank": "Your connection for international intrigue and Cold War-style spy games.",
+        "gradientFrom": "#7cffcb",
+        "gradientTo": "#1d2671",
+        "recentGigs": [
+            "A Shrine Defiled",
+            "Red Tech Retrieval",
+            "Consulate Courier"
+        ],
+        "reliability": "Questionable. Akulov operates with a clear political agenda. Payment is likely secure, but you're a foreign asset in a game with rules you don't know. High risk of unforeseen complications."
+    },
+    {
+        "title": "Muamar 'El Capitán' Reyes",
+        "image": "/choom.png",
+        "desc": "The king of Santo Domingo. A former corpo who decided he'd rather run the streets than a boardroom, El Capitán is now the district's premier fixer. He has a soft spot for the working class and a passion for anything with wheels. His gigs range from vehicle theft and corporate sabotage to helping out the locals, all while maintaining his iron grip on the territory.",
+        "jobArea": "Santo Domingo",
+        "jobThreatLevel": "9",
+        "fixerRank": "The undisputed authority on cars and street-level justice in Santo Domingo.",
+        "gradientFrom": "#c94b4b",
+        "gradientTo": "#0d0221",
+        "recentGigs": [
+            "Assassination of the corpo rat",
+            "The rescue fo the reporter",
+            "Heist: Arrayo"
+        ],
+        "reliability": "Top-tier. El Capitán is a businessman who values his reputation. He's fair, provides solid intel, and pays exactly what was promised. A professional's choice in Santo Domingo."
+    },
+    {
+        "title": "Regina Jones",
+        "image": "/regina.png",
+        "desc": "An ex-media with a conscience, Regina Jones now operates as Watson's most principled fixer. She uses her network to help the downtrodden and expose corporate corruption. She's known for her long-running investigation into Cyberpsychosis, often hiring mercs to neutralize dangerous individuals non-lethally so they can be studied.",
+        "jobArea": "Watson",
+        "jobThreatLevel": "8",
+        "fixerRank": "The fixer with a cause, focused on cyberpsychosis and protecting the people of Watson.",
+        "gradientFrom": "#0f2027",
+        "gradientTo": "#2c5364",
+        "recentGigs": [
+            "The Ripperdoc",
+            "Last Login",
+            "Cyberpsycho Sighting: Bloody Ritual"
+        ],
+        "reliability": "Extremely reliable with a moral compass. Regina genuinely cares about Watson and her mercs. The pay is fair, and she'll have your back if you do right by her."
+    },
+    {
+        "title": "Rogue Amendiares",
+        "image": "/rogue.png",
+        "desc": "A living legend. Once a top-tier solo alongside Johnny Silverhand, Rogue is now the undisputed Queen of the Afterlife and Night City's premier fixer. She only deals with the best mercs for the highest-paying jobs. Access to her clientele is a sign that you've truly made it. Every major contract in the city eventually crosses her desk.",
+        "jobArea": "Night City (Global Reach)",
+        "jobThreatLevel": "10",
+        "fixerRank": "The Queen of Fixers. The final word on who lives and dies in the merc world.",
+        "gradientFrom": "#f00578",
+        "gradientTo": "#000000",
+        "recentGigs": [
+            "Chippin' In",
+            "Blistering Love",
+            "Johnny Silverhands regard"
+        ],
+        "reliability": "The gold standard, but you pay for it. Rogue is a legend for a reason. Her intel is flawless and the pay is unmatched, but she expects nothing less than perfection. Failure is not an option."
+    },
+    {
+        "title": "Sebastian Ibarra",
+        "image": "/father.png",
+        "desc": "Known to all in Heywood as 'Padre.' A former priest for the Valentinos, he now serves his community as a fixer with a strict moral code. Padre's main goal is to maintain the delicate balance of power in his district, often mediating between gangs. His jobs carry a certain weight, as he rarely asks for anything that doesn't serve his vision of a safer Heywood.",
+        "jobArea": "Heywood",
+        "jobThreatLevel": "10",
+        "fixerRank": "The moral compass of Heywood, brokering peace and violence with equal measure.",
+        "gradientFrom": "#ffdd00",
+        "gradientTo": "#000000",
+        "recentGigs": [
+            "Intel of the biotechnica",
+            "Rescueing civialians from the animal gang",
+            "For the god"
+        ],
+        "reliability": "Dependable, with a code. Padre is a man of his word and expects the same from you. He pays well and offers a degree of protection in his territory, but crossing his moral lines is a bad idea."
+    },
+    {
+        "title": "Wade Bleecker",
+        "image": "/best.png",
+        "desc": "Once a rising Petrochem exec, Wade Bleecker was betrayed and left for dead. He survived by erasing his past and re-emerging as the enigmatic Mr. Hands, the untouchable information broker of Dogtown. He operates through proxies and encrypted holocalls, manipulating the district's complex political landscape from the shadows. His true motives are a mystery; only the results matter.",
+        "jobArea": "Dogtown (formerly Pacifica)",
+        "jobThreatLevel": "10",
+        "fixerRank": "The ghost in the machine of Dogtown, orchestrating its future one gig at a time.",
+        "gradientFrom": "#00b09b",
+        "gradientTo": "#96c93d",
+        "recentGigs": [
+            "Save the dogtown",
+            "Clear scavengers",
+            "Hi Ho Silver Lining"
+        ],
+        "reliability": "Professionally reliable, personally unknowable. Mr. Hands is an information broker who pays excellently for flawless execution. He provides what you need to succeed but keeps his motives shrouded in secrecy. Trust the contract, not the man."
+    },
+    {
+        "title": "Wakako Okada",
+        "image": "/okada.png",
+        "desc": "The shrewd and deadly matriarch of Westbrook. Operating from her pachinko parlor on Jig-Jig Street, Wakako has outlived five husbands and countless rivals. She is a master of negotiation and has deep ties to the Tyger Claws. She values efficiency and discretion, and has a reputation for being both polite and utterly terrifying. Her jobs are always executed flawlessly.",
+        "jobArea": "Westbrook, Japantown",
+        "jobThreatLevel": "9",
+        "fixerRank": "The patient spider at the center of Westbrook's web. All business, no pleasure.",
+        "gradientFrom": "#1d2b64",
+        "gradientTo": "#f8cdda",
+        "recentGigs": [
+            "The Gig",
+            "The liar",
+            "A Shrine Defiled"
+        ],
+        "reliability": "Impeccably reliable and ruthlessly efficient. Wakako is all business. The pay is prompt, the instructions are precise, and failure is dealt with severely. Do the job as specified, and you'll have no problems."
+    }
+]

@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Loa",
+    "image": "/loa.jpg",
+    "id": "voodoo_boys_loa",
+    "aliases": ["The Soul-Cutter", "Net-Cleaver", "Ghede's Kiss"],
+    "type": "Melee (Machete)",
+    "manufacturer": "Voodoo Boys (Custom)",
+    "status": "Unique; Ritual Artifact",
+    "cost": "€$88,000 (Black Market Estimate)",
+    "specialAbility": "Hits on an enemy apply a unique quickhack that disables their special abilities and slowly drains their RAM. Defeating an enemy restores 2 RAM to the user.",
+
+    "baseStats": {
+      "attackSpeed": 2.8,
+      "damage": 250,
+      "reloadSpeed": 0,
+      "range": 2.5,
+      "mods": 1
+    },
+
+    "manufacturingIntel": {
+      "creator": "The Houngans of the Voodoo Boys",
+      "creatorReputation": "The Loa is not manufactured; it is consecrated. High-ranking Voodoo Boys priests, known as Houngans, forge these machetes in ritual ceremonies. They embed the blades with micro-circuitry and 'baptize' them in the data streams of the Old Net, inviting a low-level AI—a digital 'Loa' or spirit—to inhabit the weapon.",
+      "developmentHistory": "The Loa was created as a tool for the Voodoo Boys' holy war against Netwatch and the Blackwall. They needed a weapon that could function in both 'meatspace' and cyberspace simultaneously. The result is a blade that cuts flesh while its indwelling AI launches a parallel assault on the target's personal network, severing their connection to their own cyberware. Each Loa is unique, bearing the sigils and carrying the favor of the specific AI spirit it houses.",
+      "productionDate": "Ongoing, ritual creation"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Extremely effective against netrunners and enemies who rely heavily on special abilities.",
+        "The RAM drain effect can cripple a high-level enemy netrunner in seconds.",
+        "Restores user's RAM on kill, allowing for a devastating synergy between physical and cyber combat.",
+        "Carries immense cultural and spiritual significance, inspiring fear and respect."
+      ],
+      "weaknesses": [
+        "Lower base physical damage compared to pure combat blades like katanas.",
+        "The special ability is useless against purely physical or robotic enemies with no RAM.",
+        "The indwelling AI can sometimes cause minor, unpredictable visual glitches in the user's optics.",
+        "Possession by an outsider is considered a grave desecration by the Voodoo Boys."
+      ],
+      "recommendedRoles": "Netrunner-Blade Hybrid, Cyber-Exorcist, Anti-Netrunner Specialist.",
+      "masteryArchetype": "A 'Bokor' build. A netrunner who is not afraid to get their hands dirty. The ideal user initiates combat from the shadows with a powerful quickhack, then closes the distance with the Loa to finish the job, using the restored RAM from the kill to immediately target the next enemy. They are a whirlwind of digital curses and physical death."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Effectively zero. A Loa cannot be bought. It is a sacred object granted to Voodoo Boys champions or high-ranking netrunners who have proven their devotion to the cause. An outsider would likely have to take it from a Voodoo Boys leader, an act that would bring the full, terrifying wrath of their netrunners down upon them.",
+      "rumoredLocation": "Placide, a high-ranking lieutenant of the Voodoo Boys, is said to carry a master-crafted Loa, blessed by Brigitte herself. He has been seen using it to 'cleanse' Netwatch agents who stray too far into Pacifica. It never leaves his side."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Spider' (Netrunner)",
+        "context": "Netrunner duel against a high-level 6th Street decker.",
+        "feedback": "'This blade is a cheat code. The choom was trying to fry my brain with Overheat while I was closing in. Two slashes from the Loa and his deck went silent. I could feel his panic as his RAM flatlined. It cuts the body and the mind. A true netrunner's weapon.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Rhino' (Brawler)",
+        "context": "Clearing out a Militech security drone depot.",
+        "feedback": "'It's a sharp machete, I'll give it that. But all that hocus pocus RAM-drain stuff? Useless against a squad of Militech drones. They don't have brains to fry. I just needed to hit 'em hard. Should have brought my hammer.'",
+        "rating": "2/5 (Against robots)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Infiltrating the Grand Imperial Mall in Pacifica.",
+        "feedback": "'You can feel something... else in this blade. When it hits, your vision glitches for a second with Voodoo Boys' sigils. It's like the blade itself is hacking the target. It's unsettling, but damn effective. It's more than a weapon; it's a key to a whole other world.'",
+        "rating": "4/5 (Unsettling)"
+      }
+    ]
+  }
+}

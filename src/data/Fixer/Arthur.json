@@ -1,0 +1,88 @@
+{
+  "fixerProfile": {
+    "title": "Arthur Cormac",
+    "image": "/arthur.webp",
+    "aliases": ["The Suit", "Corpo's Ghost"],
+    "status": "Active",
+    "primaryTerritory": "City Center, Corpo Plaza",
+    "specialization": "Corporate Espionage, Data Theft, Executive Extraction, Sabotage",
+
+    "biography": {
+      "earlyLife": "Arthur Cormac's early records are heavily scrubbed, a sign of a high-level corporate background. Street intel suggests he was a mid-level counter-intelligence analyst for a lesser corporation that was forcibly acquired by Kang Tao. Rather than being integrated, Cormac was 'retired' with a generous severance and a non-disclosure agreement thicker than a phone book. He saw this not as an end, but as an opportunity to monetize his unique skill set from the other side of the table.",
+      "riseAsFixer": "Cormac didn't rise from the streets; he descended from the towers. He leveraged his old contacts and intimate knowledge of corporate security protocols to carve out a niche as the go-to fixer for 'internal affairs.' He understood that the biggest wars in Night City weren't fought with guns in the streets, but with data packets in the boardrooms. He built his reputation on discretion, efficiency, and an uncanny ability to predict corporate responses, making his gigs surgical strikes rather than messy brawls.",
+      "modusOperandi": "Cormac is a strategist above all. He treats every gig like a chess match, providing his mercs with meticulously detailed intel—building layouts, security patrol routes, and psychological profiles of key targets. He communicates exclusively through encrypted channels and never meets his contractors in person. He detests unnecessary violence and collateral damage, viewing it as a sign of amateurism. His philosophy is simple: get in, get the asset, and get out before the target even knows they've been hit.",
+      "reputation": "Among the elite mercs of Night City, Cormac is known as a high-risk, high-reward professional. He's considered cold and detached, viewing his mercs as highly-skilled tools for a specific job. There's no loyalty or friendship, only a contract. However, his intel is second to none, and his payouts are consistently in the top percentile. Working for Cormac is a mark of prestige, a sign that you're skilled enough to operate in the corporate big leagues."
+    },
+
+    "legendaryGig": {
+        "gigTitle": "The Petrochem-SovOil Ghost Exchange",
+        "date": "03.11.2072",
+        "objective": "Simultaneously steal Petrochem's proprietary geological survey data for the entire North American sector and plant fabricated evidence framing their chief rival, SovOil, for the theft. The operation was timed to coincide with the Global Energy Summit in Night City to maximize market impact.",
+        "client": "Consolidated Energies (Anonymized European Conglomerate)",
+        "target": "Petrochem Geological Archive & SovOil's Reputation",
+        "outcome": "A masterpiece of corporate warfare. Cormac hired a two-person crew: 'Cipher,' a legendary netrunner, and 'Wraith,' a solo specializing in deep-cover infiltration. Using Cormac's intel, Wraith, disguised as a senior data archivist with flawless biometric credentials, gained physical access to a supposedly 'air-gapped' server terminal in Petrochem Tower. This allowed Cipher to bypass the external ICE and perform the 'ghost exchange.' The real data was siphoned to a secure dead drop, while a carefully crafted data-worm containing SovOil's digital signature was unleashed. The 'theft' was discovered mid-summit. Petrochem's stock crashed by 40% in two hours. SovOil was buried in legal challenges and sanctions. The client acquired Petrochem's devalued stock and secured key drilling rights.",
+        "hiredMercs": "'Cipher' (Netrunner), 'Wraith' (Infiltration Solo)",
+        "mercFeedback": "'It was the quietest half-a-million I ever made. Arthur didn't give us a plan; he gave us a script. Every password, every guard rotation, every psychological tick of the floor manager was in the briefing. I was in their most secure server room for twenty minutes, and my heart rate never went above 80. We weren't mercs; we were ghosts executing a prophecy. That's the Cormac difference.' - 'Wraith' (Solo)",
+        "payout": "€$ 500,000",
+        "reputationImpact": "This single operation cemented Cormac's status as a kingmaker. He proved he could do more than just steal secrets; he could manipulate the very fabric of the corporate world, collapsing a giant and elevating a rival without a single shot fired. After the Ghost Exchange, working for Cormac wasn't just lucrative—it was the ultimate validation of a merc's skill in the world of espionage."
+    },
+
+    "fixerRatings": {
+      "overallThreat": "10/10 (The master of the intel)",
+      "reliability": "10/10 - If the contract is fulfilled to his exact specifications, payment is guaranteed and instantaneous.",
+      "payment": "9/10 - Consistently offers top-tier pay, but takes a significant cut for his premium intel.",
+      "intelQuality": "10/10 - His primary advantage. Provides flawless, comprehensive data packages for every gig.",
+      "discretion": "10/10 - Covers all tracks. Uses dead drops and encrypted transactions. Mercs who work for him rarely get burned.",
+      "resourcefulness": "7/10 - Excellent at acquiring corporate-grade software and access keys, but less connected for street-level gear or muscle.",
+      "mercSurvivability": "8/10 - His detailed planning leads to high success rates, but the consequences of failure on his high-security jobs are severe."
+    },
+
+    "advantages": {
+      "strengths": [
+        "Unparalleled access to corporate security protocols and intel.",
+        "Specializes in high-value targets, ensuring massive payouts.",
+        "Meticulous planning minimizes risk and avoids unnecessary conflict.",
+        "Absolute discretion ensures mercs remain ghosts."
+      ],
+      "weaknesses": [
+        "Lacks significant influence outside of City Center.",
+        "Strictly business; offers no loyalty or support if a job goes south.",
+        "Inflexible mission parameters; deviation from the plan is not tolerated.",
+        "Failure often means angering a major corporation with no fixer to shield you."
+      ]
+    },
+
+    "recentGigDetails": [
+      {
+        "gigTitle": "Executive Extraction",
+        "date": "10.18.2077",
+        "objective": "Infiltrate Arasaka Tower's R&D wing and extract a lead researcher from the genetics division, Dr. Aris Thorne, who was looking to defect to Biotechnica.",
+        "client": "Biotechnica (Anonymized)",
+        "target": "Dr. Aris Thorne",
+        "outcome": "Successful. The solo, 'Spectre,' utilized a service maintenance cover and forged biometric credentials provided by Cormac to bypass lower-level security. A localized network disruption, timed to the second, allowed him to reach the target's lab during a shift change. Dr. Thorne was successfully sedated, placed in a cryo-stasis container disguised as waste material, and escorted to a Biotechnica safe house in Westbrook.",
+        "mercFeedback": "'The plan was tight, felt like I had the building's blueprints wired to my Kiroshis. Every guard, every camera sweep was exactly where Cormac said it'd be. Didn't have to fire a single shot. Clean, quiet, and a fat shard at the end. Can't ask for more.' - 'Spectre' (Solo)",
+        "payout": "€$ 25,000"
+      },
+      {
+        "gigTitle": "Data Heist: Fuyutsuki Plaza",
+        "date": "10.05.2077",
+        "objective": "Steal preclinical trial data for a new combat drug, 'Project Berserker,' from a secure server within the Fuyutsuki Plaza offices of Dai-Lung Cybernetics.",
+        "client": "Militech (Anonymized)",
+        "target": "Project 'Berserker' Research Data",
+        "outcome": "Successful with complications. The netrunner, 'Static,' breached the local network, but an unscheduled corporate security audit triggered a silent alarm. The team's solo had to create a diversion by triggering a fire alarm on another floor, resulting in a brief firefight with building security. The team escaped before corporate response units arrived. Cormac docked their pay 10% for 'unprofessional noise.'",
+        "mercFeedback": "'Cormac's access codes got me in, but you can't plan for everything. Had to get loud to get out, and he wasn't happy about it. The pay was still good, but don't expect a pat on the back if you have to improvise. He pays for silence.' - 'Static' (Netrunner)",
+        "payout": "€$ 18,000 (after deduction)"
+      },
+      {
+        "gigTitle": "Corpo Courier Clash",
+        "date": "09.21.2077",
+        "objective": "Intercept a Kang Tao armored convoy en route to the Morro Rock spaceport and acquire a briefcase containing prototype schematics for a new generation of smart-targeting cyber-optics.",
+        "client": "Zetatech (Anonymized)",
+        "target": "Briefcase of Schematics (ID: Zeta-9)",
+        "outcome": "Flawless execution. Cormac provided the exact convoy route and schedule. The team's wheelman, 'Roadblock,' used a remote vehicle hack to disable the lead car's brakes at a key intersection, causing a non-lethal pile-up. The solo team neutralized the guards with non-lethal shock rounds, secured the asset, and were gone in a new vehicle in under 90 seconds. No alarms were raised.",
+        "mercFeedback": "'It wasn't a fight, it was a procedure. We were just following the steps Cormac laid out on the shard. He turned a convoy bust into a simple traffic stop. Easiest 20k I ever made.' - 'Roadblock' (Wheelman)",
+        "payout": "€$ 20,000"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "fixerProfile": {
+    "title": "Dino Dinovic",
+    "image": "/dino.png",
+    "aliases": ["The Bandit", "Mr. Downtown"],
+    "status": "Active",
+    "primaryTerritory": "City Center, Corpo Plaza, Downtown",
+    "specialization": "Media Manipulation, Sabotage, Wetwork (Assassination), Luxury Acquisitions, Scandal Management",
+
+    "biography": {
+      "earlyLife": "Dino's origins are split between the stage and the street. As the bassist for the infamous rockerboy band 'Gloryhole Bandits,' he got a backstage pass to the hedonistic and treacherous world of Night City's elite. He learned early that information and favors were more valuable than any record deal. He began as the guy who could 'arrange things' for fellow musicians and celebs—making rivals miss shows, leaking compromising photos to the media, or sourcing gear that 'fell off a truck.'",
+      "riseAsFixer": "His transition to a full-time fixer was seamless. He leveraged his extensive network of corpo execs, media personalities, and street-level talent to become the premier broker for gigs requiring a scalpel, not a sledgehammer. His bar became his office, a smoky, neon-lit neutral ground where a desperate corpo could hire a merc to ruin a rival's career in the booth next to a media vulture selling info on that same corpo. Dino thrives in this ecosystem of secrets and lies.",
+      "modusOperandi": "Dino is a pragmatist with a taste for style. He despises loud, messy operations that draw unwanted attention. His gigs are about precision: planting a virus, stealing a specific shard of data, or making a target disappear as if they never existed. He communicates directly and expects his mercs to be sharp, resourceful professionals who can think on their feet and, most importantly, keep quiet. He doesn't have time for gonks who solve problems by emptying a magazine.",
+      "reputation": "In City Center, Dino is the man you call when you have a problem money can't solve publicly. He's known for his reliability and his impeccable discretion. He's not a friend or a mentor; he's a service provider. As long as you're competent and follow the brief, the contract will be honored to the letter. Screw up and make a scene, and you'll find your name blacklisted from every decent gig in the district."
+    },
+    
+    "legendaryGig": {
+        "gigTitle": "The Prime Time Deconstruction",
+        "date": "08.19.2073",
+        "objective": "Publicly and permanently destroy the career of Buck Arnold, N54's top-rated and notoriously corrupt news anchor, during his own live, prime-time broadcast.",
+        "client": "The Aurelian Group (Political Lobby)",
+        "target": "Buck Arnold's Career & Credibility",
+        "outcome": "A masterpiece of psychological warfare. Dino hired a two-merc team: a netrunner to control the broadcast systems and a social infiltrator to get close to the production. The infiltrator, disguised as a production assistant, swapped Arnold's teleprompter script with a subtly altered version designed to induce paranoia. As Arnold began stumbling over his words, the netrunner used a state-of-the-art deepfake AI to manipulate his face and voice in real-time, twisting his stammers into what appeared to be a full-blown on-air confession of bribery and illegal dealings with Militech. The broadcast was unstoppable. Arnold's career was over before the show even cut to commercial.",
+        "hiredMercs": "'Echo' (Netrunner/AI Specialist), 'Masque' (Social Infiltrator)",
+        "mercFeedback": "'Dino didn't hire us to kill a man; he hired us to kill an idea. We didn't use a single bullet, but we executed him live in front of ten million people. He had us dismantle a man's entire life with nothing but whispers and corrupted data streams. That's not just a gig; it's art.' - 'Echo' (Netrunner)",
+        "payout": "€$ 250,000",
+        "reputationImpact": "This job became an urban legend in media and merc circles, the ultimate example of a 'clean' hit. It established Dino as the undisputed king of character assassination and media manipulation. After 'Prime Time,' everyone in the city's elite knew that if you needed to destroy someone powerful without leaving a single drop of blood, Dino Dinovic was the only fixer to call."
+    },
+
+    "fixerRatings": {
+      "overallThreat": "9/10 (The king of the media)",
+      "reliability": "9/10 - A true professional. He pays what he promises for a job done to his standards. No loyalty, but impeccable business sense.",
+      "payment": "8/10 - Offers very competitive rates for jobs that require more brains than brawn. Solid and consistent.",
+      "intelQuality": "8/10 - Excellent for his niche. Provides keycodes, schedules, and blackmail material. Less focused on tactical combat layouts.",
+      "discretion": "9/10 - His bread and butter. He expects silent operators and provides the tools to achieve that. A clean gig is a successful gig.",
+      "resourcefulness": "8/10 - Deeply connected in the Downtown scene. Can source anything from off-market cyberware to exclusive party invitations.",
+      "mercSurvivability": "8/10 - High. His preference for stealth and sabotage means mercs are less likely to get into open warfare, provided they're skilled enough to follow the plan."
+    },
+
+    "advantages": {
+      "strengths": [
+        "Unmatched connections in Night City's media, corporate, and entertainment circles.",
+        "Specializes in stealth, sabotage, and social engineering.",
+        "Reliable, professional, and provides clear, concise mission parameters.",
+        "Values skilled operators and pays well for clean, quiet work."
+      ],
+      "weaknesses": [
+        "Has little interest or expertise in large-scale combat operations.",
+        "Influence is heavily concentrated in the City Center area.",
+        "Intolerant of messy, loud, or failed jobs; will cut a merc loose without hesitation.",
+        "Purely transactional; offers no personal protection or backup if a job goes wrong."
+      ]
+    },
+
+    "recentGigDetails": [
+      {
+        "gigTitle": "The understatement",
+        "date": "10.25.2077",
+        "objective": "A Kiroshi Optics executive is launching a new product line. The client wants to ruin the launch party not with a bang, but with a whisper. Infiltrate the exclusive event and swap the executive's presentation shard with a doctored one provided by Dino.",
+        "client": "Rival Kiroshi Executive (Anonymized)",
+        "target": "Presentation Data Shard",
+        "outcome": "Flawless execution. The merc, 'Charade,' gained entry disguised as a high-end caterer. During the pre-launch mingle, she lifted the lead engineer's access card, entered the speaker's lounge, and swapped the shards. The product launch became a PR nightmare, displaying doctored financial projections that suggested massive fraud. The merc was out before the first slide even loaded.",
+        "mercFeedback": "'Dino's gigs are like puzzles. This one wasn't about cracking skulls, it was about cracking a party. A little social engineering, a light touch... and a whole career goes up in smoke. It's an art form.' - 'Charade' (Infiltrator)",
+        "payout": "€$ 10,000"
+      },
+      {
+        "gigTitle": "Serial killer",
+        "date": "10.11.2077",
+        "objective": "An investigative journalist working on a story about a corporate 'wetwork' specialist was found dead, ruled a 'suicide.' Retrieve the raw, unedited CCTV footage from the Militech-secured metro station where she died to prove it was murder.",
+        "client": "[REDACTED MEDIA CONTACT]",
+        "target": "CCTV Server at Memorial Park Station",
+        "outcome": "Successful. The netrunner, 'Glitch,' used Dino's authorization codes to get inside the station's security hub. While inside, he bypassed internal ICE to access the archived, uncompressed footage, revealing a third figure on the platform—a known corporate assassin—who administered a neurotoxin before the 'jump.' The data was delivered, exposing the killer.",
+        "mercFeedback": "'Going up against Militech security is never smart, but Dino's connect got me through the front door. The data was buried deep. Without his lead, that journalist would've just been another statistic. Dino pays well to hunt the real monsters in this city.' - 'Glitch' (Netrunner)",
+        "payout": "€$ 12,000"
+      },
+      {
+        "gigTitle": "The Frolics of Power",
+        "date": "09.29.2077",
+        "objective": "Steal an incriminating braindance shard from the private collection of a corrupt NCPD Deputy Chief, stored in a safe in his penthouse, during one of his exclusive, hedonistic parties.",
+        "client": "NCPD Internal Affairs (Anonymized)",
+        "target": "Encrypted Braindance Shard",
+        "outcome": "Successful. The operative, 'Silencer,' blended in with the party guests, lifted the keycard from a distracted security guard, and accessed the chief's private chambers. He bypassed the safe's simple electronic lock and extracted the evidence without alerting the target or his powerful guests, who were otherwise engaged.",
+        "mercFeedback": "'Had to blend in with a bunch of corpo-scum and politicians. Found the BD, slipped out the back while they were all enjoying the party. Dino's gigs are more about brains than bullets. I dig it.' - 'Silencer' (Solo)",
+        "payout": "€$ 8,500"
+      }
+    ]
+  }
+}

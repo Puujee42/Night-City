@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Rhino",
+    "image": "/rhino.png",
+    "id": "animals_rhino",
+    "aliases": ["The Wall-Buster", "The Doorknocker", "Big Bertha"],
+    "type": "Grenade Launcher",
+    "manufacturer": "Animals (Modified)",
+    "status": "Custom; Faction Breaching Tool",
+    "cost": "€$70,000 (Black Market Estimate)",
+    "specialAbility": "Fires a grenade that deals massive explosive damage in a huge radius and is guaranteed to knock down all affected enemies. Has a very long reload time.",
+
+    "baseStats": {
+      "attackSpeed": 0.5,
+      "damage": 800,
+      "reloadSpeed": 5,
+      "range": 30,
+      "mods": 1
+    },
+
+    "manufacturingIntel": {
+      "creator": "The Forgemasters of the Animals",
+      "creatorReputation": "The Rhino, like the Jawbreaker, is a product of the Animals' 'brute force' engineering philosophy. They saw the need for a portable breaching tool and created one from the simplest, toughest parts they could find: a scavenged industrial-grade flare gun chassis, a reinforced barrel, and custom-packed concussive grenades.",
+      "developmentHistory": "The Rhino wasn't designed to kill; it was designed to make an entrance. The Animals needed a way to bypass fortified doors and walls in rival gang hideouts. The 'Rhino' grenade is a low-fragmentation, high-concussion explosive. Its purpose is to blow open a path and send everyone on the other side flying. It's the first thing an enemy hears before a pack of juiced-up Animals comes charging through the brand-new hole in their wall. It is the physical embodiment of a 'knock-knock' joke where the punchline is a fist to the face.",
+      "productionDate": "Ongoing, forged as needed"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Unmatched crowd control, capable of knocking down an entire squad with a single shot.",
+        "Excellent for initiating combat, creating chaos, and breaching fortified positions.",
+        "The massive explosive radius can clear entire rooms of weaker enemies.",
+        "Surprisingly effective at destroying vehicles and environmental cover."
+      ],
+      "weaknesses": [
+        "Abysmally slow reload speed, leaving the user completely defenseless after firing.",
+        "The grenade's trajectory is a slow, parabolic arc, making it difficult to hit moving targets at a distance.",
+        "The massive blast radius makes it extremely dangerous to use in close quarters.",
+        "Carries only one shot per 'magazine.'"
+      ],
+      "recommendedRoles": "Breacher, Heavy Gunner, Demolitions Expert, Crowd Control.",
+      "masteryArchetype": "A 'Point-Man' build. A solo with a high Body attribute and cyberware that enhances explosive resistance and reload speed. The ideal user is the first one through the door... or the one who *makes* the door. They kick off a fight by firing the Rhino into a packed room, then switch to a shotgun or LMG to clean up the dazed and scattered survivors. They don't engage in fights; they start them, with a bang."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Rare. The Rhino is a specialist tool, not a standard-issue weapon, even for the Animals. It is typically carried by their designated 'breacher' heavies. It is never sold and can only be acquired by taking it from an Animal pack leader during a raid.",
+      "rumoredLocation": "Sasquatch, the leader of the Animals at the GIM, reportedly has a whole armory of these. She uses them for 'training exercises,' which mostly involve seeing who can blow the biggest hole in a concrete wall. Access to her armory is... not recommended."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Breaker' (Brawler)",
+        "context": "Assaulting a fortified Scavenger den.",
+        "feedback": "'The Scavs had the door barred shut. I just aimed the Rhino at the wall next to it. The wall disappeared. So did most of the Scavs. Walked in, cleaned up the rest. This isn't a gun. It's a portable 'delete' button for walls and the people behind them.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Deadeye' (Sharpshooter)",
+        "context": "Open field battle against Wraiths.",
+        "feedback": "'It's a mortar, not a rifle. The grenade moves so slowly you could outrun it. Tried to hit a moving vehicle and the shell landed a hundred feet behind it. It's a powerful but clumsy tool for a very specific job, and that job is not 'shooting things that move'.'",
+        "rating": "2/5 (For my work)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Cornered in a narrow hallway by a cyberpsycho.",
+        "feedback": "'Bad idea. Bad, bad idea. Fired it at the psycho who was ten feet away. The good news is, he went down. The bad news is, so did I. And I was on fire. The blast radius on this thing is no joke. Use with extreme caution. And distance. Lots of distance.'",
+        "rating": "3/5 (Nearly killed myself)"
+      }
+    ]
+  }
+}

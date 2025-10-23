@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Oni's Breath",
+    "image": "/oni.png",
+    "id": "tyger_claws_onis_breath",
+    "aliases": ["The Dragon's Roar", "The Kabuki-yaki", "Hell's Bouncer"],
+    "type": "Power Shotgun",
+    "manufacturer": "Tyger Claws (Custom)",
+    "status": "Custom; Faction Signature Weapon",
+    "cost": "€$100,000 (Black Market Estimate)",
+    "specialAbility": "Fires a tight spread of incendiary pellets that deal high Thermal damage. Defeating an enemy with this weapon causes them to explode, setting nearby enemies on fire.",
+
+    "baseStats": {
+      "attackSpeed": 2,
+      "damage": "180 (+Thermal)",
+      "reloadSpeed": 2.8,
+      "range": 15,
+      "mods": 2
+    },
+
+    "manufacturingIntel": {
+      "creator": "The Bladesmiths of the Hiromi Sato Dojo",
+      "creatorReputation": "While known for their katanas, the Tyger Claw masters also create firearms they deem worthy of their aesthetic. The Oni's Breath is their answer to the crude, artless shotguns of other gangs. Each one is handcrafted, its barrel adorned with a fearsome, hand-painted Oni mask, a demon of Japanese folklore.",
+      "developmentHistory": "The Oni's Breath was created as a 'breaching' weapon for the Tyger Claws' enforcers, but with a unique purpose: psychological warfare. The custom incendiary shells are loaded with a proprietary chemical that not only burns but also creates a brilliant, terrifying flash. The 'corpse-explosion' was an intended feature, a way to spread chaos and fear among tightly-packed groups of enemies. It's a weapon designed to make a violent, fiery statement, upholding the honor of the Claws by turning their enemies into screaming pyres.",
+      "productionDate": "Ongoing, custom forged"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Exceptional for crowd control, as the corpse-explosion can chain-react in dense groups of enemies.",
+        "High Thermal damage is devastating against unarmored targets and can cause panic.",
+        "The tight spread makes it surprisingly effective at short-to-medium range.",
+        "A visually and audibly intimidating weapon that can break enemy morale."
+      ],
+      "weaknesses": [
+        "Less effective against heavily armored or robotic enemies who are resistant to fire.",
+        "The corpse-explosion can be unpredictable and can cause self-inflicted damage in close quarters.",
+        "The incendiary shells are a custom ammo type and can be difficult to source.",
+        "As a signature Tyger Claw weapon, carrying it in Maelstrom or 6th Street territory is asking for a fight."
+      ],
+      "recommendedRoles": "Breacher, Crowd Control, Pyromaniac, Street Samurai.",
+      "masteryArchetype": "An 'Oni' build. A merc with a high Body attribute and cyberware that grants immunity or high resistance to Thermal damage. The ideal user is an aggressive, close-quarters combatant who charges into the heart of the enemy, using the shotgun to create fiery chain reactions. They thrive in chaos, turning the battlefield into an inferno that they can walk through unharmed. They don't just clear a room; they purify it with fire."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Very Rare. The Oni's Breath is a badge of honor among the Tyger Claws and is not sold commercially. It is gifted to members who have demonstrated extreme loyalty and ferocity. The only fixer who could possibly source one is Wakako Okada, and the price would be a significant favor, not just eddies.",
+      "rumoredLocation": "The Tyger Claw leaders who run the pachinko parlors in Japantown are each said to keep an Oni's Breath under the counter. The manager of the pachinko parlor on Jig-Jig Street, a fearsome solo named Kazu, is rumored to have a master-crafted version with an extended magazine."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Oni' (Tyger Claw Enforcer)",
+        "context": "Repelling a Maelstrom raid on a Japantown market.",
+        "feedback": "'The Maelstrom filth came in a wave, all chrome and rage. I met them with the Oni's Breath. The first one I dropped exploded, and took two of his chooms with him. They broke and ran. They came expecting a fight; they got a taste of hell. This is the voice of our honor.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Pacifier' (Corpo Agent)",
+        "context": "Attempted non-lethal hostage rescue.",
+        "feedback": "'This weapon is a liability. I was trying for a clean, non-lethal resolution. I neutralized one of the kidnappers, and his body promptly exploded, setting the hostage on fire. The mission was a complete failure. This is a weapon of pure, uncontrollable chaos. I'll stick to my Banshee.'",
+        "rating": "1/5 (Collateral Damage Nightmare)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Clearing out a packed warehouse of gangers.",
+        "feedback": "'This shotgun is just... fun. You line 'em up, knock one down, and watch the fireworks. It's like a bloody, beautiful domino effect of fire and explosions. Probably not the most tactical weapon, but who needs tactics when you can just burn everything down?'",
+        "rating": "4/5 (Pure, chaotic fun)"
+      }
+    ]
+  }
+}

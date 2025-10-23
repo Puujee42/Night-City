@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Stinger",
+    "image": "/stinger.jpg",
+    "id": "kiroshi_stinger",
+    "aliases": ["The Optic Scrambler", "The Blinder", "Surgeon's Blade"],
+    "type": "Power Knife",
+    "manufacturer": "Kiroshi Opticals",
+    "status": "Active; Corporate Security Issue",
+    "cost": "€$55,000",
+    "specialAbility": "Critical hits apply a unique 'Blind' effect, reducing enemy accuracy and movement speed.",
+
+    "baseStats": {
+      "attackSpeed": 4,
+      "damage": 150,
+      "reloadSpeed": 0,
+      "range": 1.8,
+      "mods": 1
+    },
+
+    "manufacturingIntel": {
+      "creator": "Kiroshi Opticals (Special Projects Division)",
+      "creatorReputation": "Kiroshi is the undisputed leader in ocular cyberware. The Stinger was a skunkworks project developed by their internal security division. The team's lead, a former Arasaka agent, believed that the most effective way to neutralize a modern opponent was to attack their primary interface with the world: their optics.",
+      "developmentHistory": "The Stinger was designed as a defensive tool for Kiroshi's corporate agents and researchers. It's not meant to win a duel, but to end a confrontation before it begins. The 'sting' is delivered by a microscopic, auto-injecting needle in the blade's tip, which deploys a fast-acting neurotoxin that specifically targets the optic nerve and any connected cyberware. The resulting sensory overload causes temporary blindness and disorientation, allowing the user to escape or perform a non-lethal takedown. It is standard issue for high-level Kiroshi personnel traveling in unsecured zones.",
+      "productionDate": "Circa 2074"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Excellent for creating tactical openings and disabling dangerous enemies without killing them.",
+        "The Blind effect is devastating against snipers, netrunners, and other ranged threats.",
+        "Extremely fast attack speed allows for multiple chances to land a critical hit.",
+        "Completely silent, making it an ideal tool for stealth and infiltration."
+      ],
+      "weaknesses": [
+        "Very low base damage; not an effective primary weapon for lethal combat.",
+        "The neurotoxin is less effective against enemies with basic or no optical cyberware.",
+        "Short range requires the user to be at point-blank distance to be effective.",
+        "The toxin reservoir has a limited number of charges and must be refilled."
+      ],
+      "recommendedRoles": "Infiltrator, Spy, Non-lethal Operative, Netrunner (Self-Defense).",
+      "masteryArchetype": "A 'Surgeon' build. An operative with a high Cool and Reflexes attribute who specializes in surgical strikes. The ideal user combines the Stinger with a high critical chance build and a Kerenzikov. They dodge an enemy's attack, trigger time dilation, and land a precise, critical strike to the target's head, blinding them. This creates the perfect opportunity to perform a non-lethal takedown or simply walk away."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Uncommon. The Stinger is not sold on the open market but can be acquired from ripperdocs with Kiroshi corporate contacts. It is also occasionally found on the black market after being 'lost' by a corporate agent. Some high-end weapon vendors in Japantown may carry it for a premium.",
+      "rumoredLocation": "A recent deal between Kiroshi and the Tyger Claws for 'security consulting' has resulted in a number of Stingers making their way into the hands of the gang's elite assassins. The Tyger Claw boss at the Cherry Blossom Market is rumored to carry a gold-plated Stinger as a sign of his new corporate partnership."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Ghost' (Infiltrator)",
+        "context": "Bypassing a heavily augmented Arasaka guard.",
+        "feedback": "'The guard was a chrome monster, would have been a hell of a fight. Instead, I slipped past his patrol, got behind him, and put the Stinger in his neck. His optics went haywire, he started firing blind. I just walked past him while he was shooting at ghosts. A beautiful tool for a quiet professional.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Animal' (Brawler)",
+        "context": "Pit fight against a rival.",
+        "feedback": "'This little toothpick is a joke. I stabbed the guy and he just got madder. No power, no impact. It's a glorified needle. My fists are more effective. This is for spies and cowards, not for a real fight.'",
+        "rating": "1/5"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Dealing with a cyberpsycho sniper.",
+        "feedback": "'The psycho was perched on a rooftop, taking out NCPD one by one. I couldn't get a clean shot. So I snuck up, hit him with the Stinger, and his rifle went silent. Found him stumbling around, completely blind. Made the non-lethal takedown a breeze. Regina would love this thing.'",
+        "rating": "4/5 (Extremely effective in its niche)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+<footer>&copy; NightCity<p id="time"></p></footer>
+<script>
+    const el = document.getElementById("time")
+    const time = new Date()
+    if(el){
+        el.textContent += time.getFullYear().toString()
+    }
+</script>

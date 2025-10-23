@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Gut Ripper",
+    "image": "/ripper.jpg",
+    "id": "scavenger_gut_ripper",
+    "aliases": ["The Organ Grinder", "Scav Special", "Chop-Top"],
+    "type": "Melee (Chainsword)",
+    "manufacturer": "Scavenger (Salvaged)",
+    "status": "Black Market; Highly Unreliable",
+    "cost": "€$45,000 (Black Market Estimate)",
+    "specialAbility": "Every hit applies a strong Bleed effect. Fully charged attacks have a 100% chance to dismember.",
+
+    "baseStats": {
+      "attackSpeed": 1.8,
+      "damage": 400,
+      "reloadSpeed": 0,
+      "range": 2.2,
+      "mods": 1
+    },
+
+    "manufacturingIntel": {
+      "creator": "Unknown Scav 'Ripperdoc'",
+      "creatorReputation": "This weapon has no single creator; it's a design born of grim necessity and cobbled together in the blood-soaked chop shops of Watson and Pacifica. The 'blueprints' are passed between Scavenger cells. Each Gut Ripper is unique, built from whatever parts are available—industrial chainsaws, motorcycle engines, and scrap metal welded together with more hope than skill.",
+      "developmentHistory": "The Gut Ripper was 'developed' for the Scavengers' primary business: involuntary organ and chrome harvesting. They needed a tool that could quickly and crudely tear through flesh and cheap armor to get to the valuable parts underneath. It's not a weapon of war; it's a butcher's tool, optimized for terror and messy disassembly. The roar of its engine is often the last thing a victim hears, a sound now synonymous with Scav activity.",
+      "productionDate": "Ongoing"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Unmatched dismemberment capability, ideal for spreading terror and bypassing worn armor.",
+        "The continuous Bleed effect can quickly drain the health of even tough enemies.",
+        "High psychological impact; the sound and sight of it can cause less hardened enemies to panic.",
+        "Relatively easy to maintain with common industrial parts."
+      ],
+      "weaknesses": [
+        "Extremely loud, making stealth impossible.",
+        "Slow, clumsy attack speed leaves the user open to counter-attacks.",
+        "Has a notorious tendency to jam or run out of fuel at the worst possible moment.",
+        "Being caught with this weapon by the NCPD will get you immediately flagged as a suspected Scavenger."
+      ],
+      "recommendedRoles": "Berserker, Terror Trooper, Psycho-Brawler.",
+      "masteryArchetype": "A 'Slaughterhouse' build. A user with a Berserk operating system and cyberware focused on pain resistance and raw strength. The ideal user doesn't dodge; they charge forward, using the Gut Ripper's brutal power to tear through the front lines, ignoring incoming fire. They win fights not with skill, but with pure, unrelenting savagery."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Common on the black market, if you know which back alleys to check. Often sold by shady arms dealers in Kabuki or scavenged directly from the bodies of Scavenger heavies. No reputable vendor would ever carry this weapon.",
+      "rumoredLocation": "A high-ranking Scavenger boss known as 'The Surgeon' is said to wield a master-crafted Gut Ripper with a custom, chrome-plated engine. He reportedly runs a major harvesting operation out of a derelict hospital in the Northside Industrial District."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Animal' (Brawler)",
+        "context": "Clearing a rival gang's hideout.",
+        "feedback": "'This thing's a beast! It doesn't cut, it CHEWS. Ripped right through their armor, their chrome, their everything. Walked in the front door, left through a red mist. They were screaming before I even got to 'em. Hell of a good time.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Ghost' (Infiltrator)",
+        "context": "Attempted stealth takedown.",
+        "feedback": "'Are you kidding me? I tried to sneak up on a guard, and the moment I revved this piece of junk, every alarm in the building went off. It sounds like a damn rocket taking off. It's the least subtle weapon I have ever held. Threw it in the bay.'",
+        "rating": "1/5 (Useless for stealth)"
+      },
+      {
+        "merc": "'Patch' (Techie)",
+        "context": "Sustained firefight with Tyger Claws.",
+        "feedback": "'It works... mostly. Chewed through three Claws before the drive chain snapped mid-swing. Had to finish the fight with my pistol. It's a Scav weapon, through and through: brutal, effective, and held together with spit and a prayer. Carry a backup.'",
+        "rating": "3/5 (Unreliable)"
+      }
+    ]
+  }
+}

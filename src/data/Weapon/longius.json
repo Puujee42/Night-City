@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Longinus",
+    "image": "/longinus.jpg",
+    "id": "kang_tao_longinus",
+    "aliases": ["The God-Killer", "Railgun", "Can Opener"],
+    "type": "Tech Sniper Rifle",
+    "manufacturer": "Kang Tao",
+    "status": "Military Prototype; Highly Restricted",
+    "cost": "€$175,000 (Black Market Estimate)",
+    "specialAbility": "A fully charged shot has 100% Armor Penetration and deals bonus damage based on the distance to the target. It cannot be silenced.",
+
+    "baseStats": {
+      "attackSpeed": 0.3,
+      "damage": 1500,
+      "reloadSpeed": 4.5,
+      "range": 300,
+      "mods": 2
+    },
+
+    "manufacturingIntel": {
+      "creator": "Lin Junjie (Kang Tao Ballistics Division)",
+      "creatorReputation": "Lin Junjie is a 'brute-force' theorist, a direct rival to the elegant, stealth-focused engineers at Arasaka. He believes that no problem exists that cannot be solved with a sufficiently large application of kinetic energy. His designs are infamous for their massive power consumption, deafening sound profiles, and unparalleled destructive capability.",
+      "developmentHistory": "The Longinus was Kang Tao's answer to the heavily armored 'Behemoth'-class cyborgs deployed by Militech during the Fourth Corporate War. The primary innovation is the 'Magnetic Final Stage Acceleration' (MFSA) system. The molten tungsten spike is fired conventionally, but a series of magnetic coils along the barrel accelerate it further *after* it has already left, ensuring maximum velocity at extreme ranges. The project was deemed too power-intensive and slow for standard infantry, relegating it to a highly specialized, anti-materiel role. Only a handful of prototypes were ever field-tested.",
+      "productionDate": "Circa 2073-2075"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Unrivaled single-shot damage, capable of one-shotting most targets.",
+        "A fully charged shot ignores all armor, making it the ultimate tank-killer.",
+        "Exceptional performance at extreme ranges, with damage increasing over distance.",
+        "Devastating against vehicles, mechs, and heavily armored cyborgs."
+      ],
+      "weaknesses": [
+        "Cannot be silenced, making it a 'one shot, one alert' weapon.",
+        "Extremely slow rate of fire and a lengthy reload leave the user vulnerable.",
+        "The charge time makes hitting fast-moving targets incredibly difficult.",
+        "Unique ammunition is nearly impossible to find on the open market."
+      ],
+      "recommendedRoles": "Anti-Materiel Sniper, Designated Marksman, Heavy Asset Neutralizer.",
+      "masteryArchetype": "A 'Patient Hunter' build. A solo with a high Cool attribute who finds a perch and waits for the perfect shot. They don't engage in firefights; they end them before they begin. Cyberware that enhances optical zoom, stability, and battlefield awareness is essential to unlock its true, city-block-spanning potential."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Effectively zero. The Longinus is a state secret. It cannot be bought. It can only be 'acquired' as the ultimate reward from a legendary fixer for an impossible job, or pried from the hands of a Kang Tao black ops commander.",
+      "rumoredLocation": "Intel suggests a Kang Tao convoy transporting a Longinus prototype was ambushed by Wraiths in the eastern Badlands. The Wraiths, lacking the skill to use it, are rumored to be keeping the weapon as a trophy in their main fortress, the 'Sun-Scorched Overlook,' under the personal guard of their leader."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Eagle-Eye' (Nomad Sniper)",
+        "context": "Neutralizing a Militech Behemoth cyborg during a convoy escort.",
+        "feedback": "'Saw the Behemoth crest the ridge and thought we were done for. One charged shot from the Longinus, right through the cockpit. It didn't just stop it; it turned the whole damn chassis into a molten slag heap. This thing doesn't just kill, it erases.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Breaker' (Close-Quarters Brawler)",
+        "context": "Clearing a Maelstrom den in a tight corridor.",
+        "feedback": "'Tried to use it indoors. BIG mistake. By the time I'd charged one shot, three psychos were already chewing on my face. This thing is like trying to swat a fly with a sledgehammer. It's useless if your target is anywhere in the same zip code as you. Sold it for a shotgun.'",
+        "rating": "2/5 (For the wrong job)"
+      },
+      {
+        "merc": "'Fuse' (Tech Specialist)",
+        "context": "Corporate assassination from a rooftop in City Center.",
+        "feedback": "'The engineering is insane. The power draw dims the lights in your apartment. The shot sounds like a thunderclap. It's not a rifle; it's a controlled catastrophe. It does one thing, and one thing only, perfectly. Just make sure you're a long, long way away when you pull the trigger.'",
+        "rating": "4/5 (Highly Specialized)"
+      }
+    ]
+  }
+}

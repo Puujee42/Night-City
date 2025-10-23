@@ -1,0 +1,89 @@
+[
+    {
+        "title":"Gig: Bring Me the Head of Gustavo Orta",
+        "fixer":"Sebastian Ibarra",
+        "danger":"9",
+        "type":"Gun for Hire",
+        "pay":"€$12,500",
+        "place":"Heywood, Vista Del Rey"
+    },
+    {
+        "title":"Fifth Column",
+        "fixer":"Sebastian Ibarra",
+        "danger":"10",
+        "type":"Thievery",
+        "pay":"€$25,000",
+        "place":"Heywood, The Glen"
+    },
+    {
+        "title":"Hacking the Hacker",
+        "fixer":"Muamar 'El Capitán' Reyes",
+        "danger":"9",
+        "type":"Agent Saboteur",
+        "pay":"€$27,500",
+        "place":"Santo Domingo, Arroyo"
+    },{
+        "title":"Two Wrongs Makes Us Right",
+        "fixer":"Mr. Hands",
+        "danger":"10",
+        "type":"Thievery",
+        "pay":"€$30,000",
+        "place":"Pacifica, Dogtown"
+    },{
+        "title":"Greed Never Pays",
+        "fixer":"Wakako Okada",
+        "danger":"8",
+        "type":"Search and Recover",
+        "pay":"€$8,500",
+        "place":"Westbrook, Japantown"
+    },{
+        "title":"Life's Work",
+        "fixer":"Sebastian Ibarra",
+        "danger":"10",
+        "type":"Search and Recover",
+        "pay":"€$15,000",
+        "place":"Heywood, The Glen"
+    },{
+        "title":"Dogtown Saints",
+        "fixer":"Mr. Hands",
+        "danger":"9",
+        "type":"SOS: Merc Needed",
+        "pay":"€$35,000",
+        "place":"Pacifica, Dogtown"
+    },{
+        "title":"A Lack of Empathy",
+        "fixer":"Dino Dinovic",
+        "danger":"9",
+        "type":"Agent Saboteur",
+        "pay":"€$15,000",
+        "place":"City Center, Downtown"
+    },{
+        "title":"Serial Suicide",
+        "fixer":"Arthur Cormac",
+        "danger":"9",
+        "type":"Thievery",
+        "pay":"€$16,000",
+        "place":"City Center, Corpo Plaza"
+    },{
+        "title":"Family Heirloom",
+        "fixer":"Rogue Amendiares",
+        "danger":"9",
+        "type":"Search and Recover",
+        "pay":"€$22,500",
+        "place":"Westbrook, Charter Hill"
+    },{
+        "title":"Breaking News",
+        "fixer":"Muamar 'El Capitán' Reyes",
+        "danger":"9",
+        "type":"Agent Saboteur",
+        "pay":"€$20,000",
+        "place":"Santo Domingo, Rancho Coronado"
+    },{
+        "title":"Race to the Top",
+        "fixer":"Muamar 'El Capitán' Reyes",
+        "danger":"10",
+        "type":"Thievery",
+        "pay":"€$25,000",
+        "place":"Santo Domingo, Arroyo"
+    }
+]

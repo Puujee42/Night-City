@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Cerberus",
+    "image": "/cerberus.jpg",
+    "id": "militech_cerberus",
+    "aliases": ["The Gatekeeper", "Triple Threat", "Hellhound"],
+    "type": "Power Assault Rifle",
+    "manufacturer": "Militech",
+    "status": "Active; Special Forces Issue",
+    "cost": "€$130,000 (Black Market Estimate)",
+    "specialAbility": "Fires a three-round burst in a horizontal spread. The last round in the burst has a high chance to knock down enemies.",
+
+    "baseStats": {
+      "attackSpeed": 6.5,
+      "damage": "210",
+      "reloadSpeed": 2.5,
+      "range": 70,
+      "mods": 4
+    },
+
+    "manufacturingIntel": {
+      "creator": "Militech Skunkworks (Weapons Division)",
+      "creatorReputation": "The Cerberus was designed by a team led by Dr. Aris Kane, a notorious weapons engineer known for his 'overwhelming force' doctrine. Kane believes that enemy morale is a resource to be depleted, and his designs prioritize psychological impact—loud, terrifying weapons that dominate the battlefield and sow chaos among enemy ranks.",
+      "developmentHistory": "Developed in the wake of the Fourth Corporate War, the Cerberus was conceived as the ultimate room-clearer for Militech's urban assault squads. Standard assault rifles were deemed insufficient for suppressing multiple, heavily augmented targets in tight corridors. The triple-barrel design was a radical solution, creating a 'wall of lead' that could pin down an entire squad at once. It proved exceptionally effective in clearing fortified gang hideouts and corporate bunkers, quickly becoming a favored tool of Militech's elite.",
+      "productionDate": "Circa 2074-2076"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Unmatched suppression and crowd control at short to medium range.",
+        "High knockdown chance can incapacitate even heavily armored enemies.",
+        "Devastating stopping power makes it ideal for breaching and clearing operations.",
+        "Psychological impact can cause less determined enemies to break cover or retreat."
+      ],
+      "weaknesses": [
+        "Extremely high ammo consumption.",
+        "Significant recoil and a wide spread make it highly ineffective at long range.",
+        "The loud, distinctive firing sound instantly alerts all enemies in the area.",
+        "Heavy and cumbersome, reducing user mobility."
+      ],
+      "recommendedRoles": "Pointman, Breacher, Juggernaut, Urban Assault Specialist.",
+      "masteryArchetype": "A 'Juggernaut' build. An operative with a high Body attribute, recoil control perks, and cyberware that enhances armor and reload speed. The ideal user is a walking tank who kicks down the door, uses the Cerberus to flatten everything inside, and doesn't care who hears them coming."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Rare. As a special forces weapon, the Cerberus is not available on the open market. It is typically acquired from high-tier fixers with military contacts (like Muamar or Rogue), black market arms dealers in Watson, or by taking it from the cold, dead hands of a Militech Heavy Trooper.",
+      "rumoredLocation": "Street chatter suggests a recent shipment of Cerberus rifles, bound for a Militech black site, was 'lost' during a Maelstrom ambush in the Northside Industrial District. Rumor has it the Maelstrom leader, 'Stitch,' now uses a heavily modified Cerberus as his personal weapon."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Rhino' (Enforcer)",
+        "context": "Clearing a Scavenger den in a megabuilding.",
+        "feedback": "'This thing doesn't just drop gonks, it pushes them back. Cleared a whole hallway of scavs in two bursts. The last guy flew back ten feet. It's not subtle, but when did subtlety ever win a real firefight? This is my new door-knocker.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Whisper' (Infiltrator)",
+        "context": "Corporate data heist, stealth required.",
+        "feedback": "'Tried using it for a quiet gig. Big mistake. The first burst blew my cover, shredded three terminals, and brought the whole damn building down on me. It's a sledgehammer, not a scalpel. It's loud, it's messy, and it's everything I'm not. Sold it the next day.'",
+        "rating": "1/5 (Not for stealth)"
+      },
+      {
+        "merc": "'Sparks' (Techie)",
+        "context": "Convoy ambush in Santo Domingo.",
+        "feedback": "'The engineering is brutal but effective. The staggered barrel alignment is a smart solution for suppression. But man, it chews through ammo like nothing else. I burned through 300 rounds in under a minute. You need deep pockets and a strong back to keep this beast fed.'",
+        "rating": "4/5 (High Upkeep)"
+      }
+    ]
+  }
+}

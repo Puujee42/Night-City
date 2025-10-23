@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Firewall",
+    "image": "/firewall.jpg",
+    "id": "netwatch_firewall",
+    "aliases": ["The System Rebooter", "ICE Breaker", "Psycho-Soother"],
+    "type": "Tech Shotgun",
+    "manufacturer": "Netwatch (Commissioned from Tetratronic)",
+    "status": "Restricted; Netwatch Agent Issue Only",
+    "cost": "€$160,000 (Black Market Estimate)",
+    "specialAbility": "A fully charged shot deals massive Thermal damage and applies the 'Cyberware Malfunction' quickhack to all enemies in a cone.",
+
+    "baseStats": {
+      "attackSpeed": 1.2,
+      "damage": "80 (+Thermal)",
+      "reloadSpeed": 3.2,
+      "range": 15,
+      "mods": 1
+    },
+
+    "manufacturingIntel": {
+      "creator": "Netwatch Cyber-Warfare R&D Division",
+      "creatorReputation": "Netwatch doesn't build weapons; they define threats. The Firewall was a solution commissioned from Tetratronic to a specific problem: how to non-lethally neutralize a high-threat, cybernetically-enhanced individual without blowing them to pieces. The project lead was a former cyberpsycho-squad survivor who believed that a 'system crash' was more effective than a bullet.",
+      "developmentHistory": "The Firewall was developed as Netwatch's primary tool for dealing with rogue netrunners and early-stage cyberpsychos. It's not a shotgun in the traditional sense. It doesn't fire projectiles. Instead, a fully charged shot releases a focused, conical blast of high-intensity microwaves and thermal energy. This 'firewall' of energy is designed to instantly overwhelm and reboot most commercial cyberware, effectively flash-frying implants and causing a system-wide malfunction. It's a weapon that attacks the chrome, not the person.",
+      "productionDate": "Circa 2075"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "The ultimate anti-cyberware weapon, capable of disabling entire groups of heavily chromed enemies.",
+        "Applies a powerful quickhack without requiring a cyberdeck or RAM.",
+        "Exceptional for crowd control and creating tactical openings in a firefight.",
+        "Provides a reliable, area-of-effect method for non-lethal neutralization."
+      ],
+      "weaknesses": [
+        "Almost zero physical damage, making it completely useless against unaugmented targets or environmental objects.",
+        "The charge-up mechanic makes it slow and difficult to use in fast-paced, reactive combat.",
+        "Extremely short effective range.",
+        "Possession of this weapon is highly illegal and will be treated as stolen Netwatch property by the NCPD."
+      ],
+      "recommendedRoles": "Cyberpsycho Hunter, Non-lethal Specialist, Techie, Field Control.",
+      "masteryArchetype": "A 'System Administrator' build. An operative focused on Intelligence and Technical Ability who views combat as a series of systems to be controlled and exploited. The ideal user combines the Firewall with debilitating quickhacks, using the shotgun to 'crash' a group of enemies before picking them apart with precision attacks or non-lethal takedowns. They don't win firefights; they de-escalate them, forcefully."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Effectively zero. This is a restricted, proprietary tool issued exclusively to Netwatch field agents. It is never sold, legally or otherwise. The only way to acquire one is to take it from a Netwatch agent—a move that will put you at the top of their most-wanted list.",
+      "rumoredLocation": "A Netwatch agent went dark while investigating rogue AI activity in Pacifica. It's rumored the Voodoo Boys captured him and are currently attempting to reverse-engineer his Firewall in their main server hub, deep within the Grand Imperial Mall. They would see its anti-cyberware tech as a profound threat."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Regina Jones' (Fixer)",
+        "context": "Reviewing after-action report from a cyberpsycho gig.",
+        "feedback": "'The operative used a Firewall. The target, a Maelstrom ganger with 80% chrome conversion, was neutralized without a single fatal wound. His combat implants were slagged, but his organic systems were stable. This weapon is a miracle of de-escalation technology. I need more of them.'",
+        "rating": "5/5 (For my work)"
+      },
+      {
+        "merc": "'Havoc' (Ex-Military Merc)",
+        "context": "Street shootout with Valentinos.",
+        "feedback": "'I tried to use this fancy light-show against some V-boys. The ones with chrome arms and fancy eyes went down twitching, sure. But the guys with just a pistol and a bad attitude? It barely tickled them. This isn't a weapon; it's a very expensive and very specific can opener. Not for a real soldier.'",
+        "rating": "2/5 (Too situational)"
+      },
+      {
+        "merc": "'Glitch' (Netrunner)",
+        "context": "Testing the weapon's capabilities.",
+        "feedback": "'This... this is beautiful. It's a quickhack that you can hold in your hands. It doesn't just damage; it communicates with their chrome on a fundamental level and tells it to *stop*. It's the ultimate expression of a netrunner's philosophy: why break the body when you can simply crash the system?'",
+        "rating": "5/5"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+---
+import Gigs from "../components/Gigs.astro";
+import Hero from "../components/Hero.astro";
+import MainLayout from "../Layout/MainLayout.astro";
+import data from "../data/Gigs.json"
+import weapon from "../data/Weapons.json"
+import Weapons from "../components/Weapons.astro";
+---
+	<MainLayout title="Home" keywords="this is home">
+		<Hero/>
+		<Gigs data={data}  />
+		<Weapons data = {weapon.weapons} />
+	</MainLayout>
+</html>

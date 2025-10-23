@@ -1,0 +1,86 @@
+{
+  "fixerProfile": {
+    "title": "Sebastian Ibarra",
+    "image": "/father.png",
+    "aliases": ["Padre", "The Father of Heywood"],
+    "status": "Active",
+    "primaryTerritory": "Heywood (The Glen, Vista Del Rey, Wellsprings)",
+    "specialization": "Gang Mediation, Street Justice, Morally-Driven Wetwork, Search and Recovery",
+
+    "biography": {
+      "earlyLife": "Before he was a fixer, Sebastian Ibarra was a priest. Not in a quiet monastery, but in the heart of the streets, serving a congregation that included the Valentinos gang. He was their confessor, their spiritual guide, a man who understood the complex relationship between faith and violence in a place like Heywood. A pivotal and bloody gang conflict, the 'Moto Cielo bloodbath,' served as his revelation, convincing him that he could better serve his flock by taking a more direct hand in their temporal affairs.",
+      "riseAsFixer": "Padre's transition to fixer was a natural evolution of his role. The community already trusted him, and the Valentinos already respected his wisdom. He began by arranging 'solutions'—settling disputes, recovering stolen property, and dispensing justice that the NCPD couldn't or wouldn't. His influence grew until he became the unofficial patriarch of Heywood, a shepherd guiding his often-violent flock through the treacherous landscape of Night City.",
+      "modusOperandi": "Padre operates with a strict, self-imposed code of honor rooted in his faith. He is calm, patient, and speaks with the gravitas of a man who has heard a thousand confessions. His gigs are rarely simple 'for-the-eddies' jobs; they are sermons written in violence. He tasks his mercs with punishing the wicked, protecting the innocent, or balancing the scales of justice between warring factions. He judges everyone by their actions, and to work for him is to submit to his moral calculus.",
+      "reputation": "In Heywood, Padre is an institution. He is loved by the community, revered by the Valentinos, and respected even by his rivals like 6th Street. He is seen as a just, if severe, father figure. Mercs know that a contract from Padre is more than a job; it's a test of character. He is a man who deals in sin and salvation, and he pays well for both."
+    },
+
+    "fixerRatings": {
+      "overallThreat": "10/10 (Territorial)",
+      "reliability": "9/10 - A man of his word. His code of honor is unbreakable, but he expects the same level of integrity from his mercs.",
+      "payment": "8/10 - The pay is consistently good and fair. While not as flashy as corpo gigs, it's solid, reliable, and always delivered.",
+      "intelQuality": "9/10 - Unmatched for Heywood. He knows every family, every secret, and every allegiance within his district. His intel on the Valentinos is perfect.",
+      "discretion": "8/10 - His operations often serve as a public message, but he is a master of managing the narrative and any NCPD fallout.",
+      "resourcefulness": "9/10 - Can mobilize the full force of the Valentinos and call upon a deep network of community favors throughout Heywood.",
+      "mercSurvivability": "8/10 - High. He does not send his people on suicide missions. He sees his mercs as instruments of his will and expects them to return."
+    },
+
+    "advantages": {
+      "strengths": [
+        "Unwavering code of honor and deep-seated community loyalty.",
+        "Commands the respect and resources of the Valentinos gang.",
+        "Unrivaled intelligence and control within the Heywood district.",
+        "Offers morally complex gigs that can feel genuinely righteous."
+      ],
+      "weaknesses": [
+        "Influence is heavily concentrated in Heywood.",
+        "His personal moral code prevents him from taking purely pragmatic or amoral jobs.",
+        "Can be unforgiving to those who violate his trust or harm his community.",
+        "Less connected for high-tech corporate or netrunning-focused operations."
+      ]
+    },
+"legendaryGig": {
+        "gigTitle": "The Sermon on the Street",
+        "date": "Circa 2072",
+        "objective": "End the escalating, bloody war between the Valentinos and 6th Street that was tearing Heywood apart and killing innocent civilians in the crossfire.",
+        "client": "The People of Heywood (Self-Initiated)",
+        "target": "The primary warmongers within both gangs.",
+        "outcome": "A masterpiece of brutal mediation. Instead of picking a side, Padre identified the key, irredeemable lieutenants on both sides who were fueling the conflict for their own power. He hired two separate, elite solos for two separate jobs, telling neither the full story. In a single, coordinated night of violence, the most fanatical captains in both the Valentinos and 6th Street were eliminated. With the agitators gone, Padre called a summit. From a position of undeniable authority, he brokered a peace treaty that has largely held to this day.",
+        "hiredMercs": "'Absolution' (Solo), 'The Penitent' (Solo)",
+        "mercFeedback": "'He sent me to eliminate a 6th Street monster who was butchering civilians. He called it 'God's work.' The next day, I heard a Valentino captain bought it too. That's when I understood. Padre didn't take sides. He cleansed the board. He's not a fixer; he's a force of nature. He'll cut off a limb to save the body, even if it's his own.' - 'Absolution' (Solo)",
+        "payout": "Peace in Heywood. Unquestionable authority over all factions.",
+        "reputationImpact": "This single event established Padre as the absolute and final word in Heywood. He proved he was loyal not to a single gang, but to the soul of the district itself. He became a figure of immense fear and respect, a shepherd who would not hesitate to put down his own rabid dogs to protect the flock. After this, his influence became law."
+    },
+"recentGigDetails": [
+      {
+        "gigTitle": "Intel of the biotechnica",
+        "date": "10.28.2077",
+        "objective": "Padre has received word that a Biotechnica subsidiary is running an illegal clinic in Heywood, testing an unregistered immunosuppressant on the homeless population. Infiltrate the clinic and steal the trial data as proof.",
+        "client": "The People of Heywood",
+        "target": "Biotechnica Clinical Trial Data",
+        "outcome": "Successful. The merc bypassed the clinic's corporate security, accessed the central server, and downloaded terabytes of incriminating data. The evidence was leaked to an independent media outlet, leading to a massive scandal, the closure of the clinic, and a quiet, substantial 'donation' from Biotechnica to Heywood's community fund, facilitated by Padre.",
+        "mercFeedback": "'This wasn't a corpo gig, it was an exorcism. Padre sent me to cast out a demon in a lab coat. The data I pulled... God. Some sins can't be forgiven. Padre made sure this one was paid for.' - 'V' (Mercenary)",
+        "payout": "€$ 15,000"
+      },
+      {
+        "gigTitle": "Rescueing civilians from the animal gang",
+        "date": "10.15.2077",
+        "objective": "The Animals have been encroaching on Heywood, kidnapping civilians for their underground fighting pits. Hit their makeshift arena in a Wellsprings warehouse and free the captives.",
+        "client": "Heywood Community",
+        "target": "Civilian Captives",
+        "outcome": "Successful, and bloody. The solo, 'Saint,' launched a one-man assault during a preliminary fight, using the chaos as cover. The merc systematically eliminated the Animals' leadership in the warehouse and released a dozen terrified civilians from their cages. The Valentinos, tipped off by Padre, arrived to 'clean up' and reclaim the territory.",
+        "mercFeedback": "'Padre's gigs have a clarity you don't find anywhere else. The target was evil, plain and simple. I wasn't a merc tonight; I was the wrath of God. And the pay was righteous.' - 'Saint' (Solo)",
+        "payout": "€$ 12,000 + Community Gratitude"
+      },
+      {
+        "gigTitle": "For the god",
+        "date": "10.08.2077",
+        "objective": "A sacred Valentino artifact, a silver-plated crucifix belonging to a legendary founder, was stolen by 6th Street gangers as an act of provocation. Retrieve it from their fortified bar in The Glen.",
+        "client": "The Valentino Nation",
+        "target": "The Crucifix of Moto Cielo",
+        "outcome": "Successful. The operative infiltrated the 6th Street bar during a rowdy night, using the noise to cover their movements. The crucifix, displayed like a trophy behind the bar, was recovered without a single shot fired. Its quiet return to the local church was a greater victory for Padre than any gunfight, demonstrating that faith and subtlety are the sharpest weapons.",
+        "mercFeedback": "'I expected a bloodbath, but Padre's plan was... elegant. He said the object had a spirit, and that violence would tarnish it. Walked in, walked out. It wasn't about eddies; it was about respect. You don't get many gigs like that.' - 'Pilgrim' (Infiltrator)",
+        "payout": "€$ 10,000 + Valentino Favor"
+      }
+    ]
+  }
+}

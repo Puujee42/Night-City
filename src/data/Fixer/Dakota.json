@@ -1,0 +1,88 @@
+{
+  "fixerProfile": {
+    "title": "Dakota Smith",
+    "image": "/smith.png",
+    "aliases": ["The Oracle of the Wastes", "Badlands Mama"],
+    "status": "Active",
+    "primaryTerritory": "Badlands, Eastern Desert, Rocky Ridge",
+    "specialization": "Nomad Affairs, Smuggling, Salvage Operations, Convoy Escort & Ambush",
+
+    "biography": {
+      "earlyLife": "Dakota's history is the history of the Badlands. Born into the Pomo tribe, she found a new family with the Aldecaldos after the Unification War shattered the old world. She is a veteran of the road, having survived countless skirmishes, corporate land grabs, and the harsh realities of desert life. This experience forged her into a pragmatic and deeply respected elder. In her quieter moments, she practices old traditions, interpreting smoke signals and consulting the spirits of the desert—a trait outsiders find eccentric, but Nomads understand as a deep connection to their environment.",
+      "riseAsFixer": "Dakota never sought to be a fixer in the traditional sense; the role found her. As the Aldecaldo clan grew, so did the need for a central point of contact for outsiders looking to do business. Her reputation for fairness, unwavering loyalty to her people, and intimate knowledge of the treacherous wastes made her the natural choice. She became the gatekeeper, ensuring that any work done in her territory benefited the Nomad community and respected their code. To this day, no significant operation happens in the Badlands without her knowledge or approval.",
+      "modusOperandi": "Dakota is direct and grounded. She operates from her sprawling workshop, a hub of activity where vehicles are repaired and deals are made over the roar of engines. She eschews the encrypted holocalls of city fixers for face-to-face meetings or crackly radio transmissions. Her gigs are practical and tangible: hijacking rival gang resources, salvaging valuable tech from pre-Collapse ruins, or escorting precious cargo through Wraith territory. She values resourcefulness and respect for the land above all else, and always huffs from her personal oxygen tank, a habit picked up decades ago.",
+      "reputation": "In the Badlands, Dakota Smith's word is law. She is seen less as a crime boss and more as a chieftain. To Nomads, she is a wise mother figure who protects her family fiercely. To outsiders, she is the only authority that matters beyond the city's jurisdiction. Betraying her is unthinkable, as it means earning the enmity of every Nomad clan in the region—a guaranteed death sentence carried out by the desert itself."
+    },
+
+    "legendaryGig": {
+        "gigTitle": "The Serpent's Tooth Heist",
+        "date": "07.04.2069",
+        "objective": "Capture Militech's colossal mobile drilling platform, the 'Sand-Serpent,' which was illegally draining the last clean aquifer in the Eastern Desert, threatening every Nomad clan with extinction.",
+        "client": "The United Nomad Nations (Aldecaldos, Jodes, Snake Nation)",
+        "target": "Militech Mobile Drilling Platform 'Sand-Serpent'",
+        "outcome": "A landmark victory for the Nomad people. Dakota orchestrated a multi-clan assault timed to coincide with a massive sandstorm she predicted by reading the wind. While the storm provided cover and disabled Militech's aerial support, a small merc team infiltrated the platform to sabotage its command systems. Simultaneously, a huge convoy of Aldecaldo war-rigs and Snake Nation bikers launched a full-scale diversionary attack on the platform's perimeter defenses. With the command systems down and the guards distracted, the platform was seized with minimal Nomad casualties. The 'Sand-Serpent' was repurposed to provide clean water for the entire Nomad community.",
+        "hiredMercs": "'Nash' (Infiltration Specialist), 'Saul Navarro' (Aldecaldo Commander)",
+        "mercFeedback": "'City fixers plan jobs. Dakota plans battles. She didn't just give us a route; she gave us the storm itself as our cover. She turned the desert, Militech's greatest enemy, into our single greatest weapon. We weren't just stealing a machine; we were taking back our future. She doesn't fight for eddies; she fights for water, for family. And in the Badlands, that's the only thing worth dying for.' - 'Saul Navarro' (Aldecaldo Commander)",
+        "payout": "Control of the region's only clean water source. A lasting alliance between the major Nomad clans.",
+        "reputationImpact": "This operation transcended the world of gigs; it became the founding myth of the modern Nomad nation in the region. Dakota proved that with unity and a deep understanding of the land, Nomads could defeat the mightiest corporations. She was no longer just a fixer; she was the Matriarch of the Badlands, the one who brought water back to the people."
+    },
+
+    "fixerRatings": {
+      "overallThreat": "8/10 (High)",
+      "reliability": "10/10 - Her word is her bond. She operates on the Nomad code of honor; deals are sacred.",
+      "payment": "8/10 - Pays fairly in eddies, but often supplements with valuable salvage rights, rare vehicle parts, or clan support.",
+      "intelQuality": "9/10 - Unmatched for the Badlands. Knows every canyon, patrol route, and secret pass. Less potent for deep corporate intel.",
+      "discretion": "8/10 - The desert keeps its secrets. While not anonymous, her operations are well-insulated from NCPD or corpo jurisdiction.",
+      "resourcefulness": "9/10 - Can source any vehicle or heavy weapon needed for the wastes and can call upon an entire Nomad clan for backup.",
+      "mercSurvivability": "9/10 - The environment is hostile, but her solid intel and potential for backup make her gigs highly survivable."
+    },
+
+    "advantages": {
+      "strengths": [
+        "Unrivaled knowledge of the Badlands terrain and its inhabitants.",
+        "Commands the loyalty and resources of the Aldecaldo Nation.",
+        "Access to unique, heavily modified vehicles and off-road gear.",
+        "Contracts are straightforward, with clear, tangible objectives."
+      ],
+      "weaknesses": [
+        "Limited influence and contacts within Night City's corporate towers.",
+        "Gigs often draw direct, violent attention from Wraiths or Raffen Shiv.",
+        "Her judgment can sometimes be influenced by mystical beliefs.",
+        "Less interested in pure profit than in the well-being of her community."
+      ]
+    },
+
+    "recentGigDetails": [
+      {
+        "gigTitle": "Big in Japan",
+        "date": "10.22.2077",
+        "objective": "Locate and retrieve a specific shipping container from a Badlands junkyard and deliver its contents—a custom-tuned car.",
+        "client": "Unnamed Japantown Surgeon",
+        "target": "Custom 'Turbo-R V-Tech' Vehicle",
+        "outcome": "Successful. The merc located the container among hundreds in a sprawling scrapheap. After dealing with local scavengers, the container was opened, and the pristine vehicle was driven back to the client in Night City. Dakota facilitated the initial contact and took a finder's fee.",
+        "mercFeedback": "'Weird gig. Rich city boy loses his ride in the desert. Dakota pointed the way, I did the dirty work. Simple. She even let me keep some of the scrap I found.' - 'V' (Mercenary)",
+        "payout": "€$ 10,000 + Salvage Rights"
+      },
+      {
+        "gigTitle": "The Heisenberg Principle",
+        "date": "10.15.2077",
+        "objective": "Ambush a Wraith convoy transporting a mobile drug lab and steal their entire supply of high-grade meth.",
+        "client": "Aldecaldos (Internal)",
+        "target": "Wraith Drug Supply & Lab Equipment",
+        "outcome": "Flawless execution. Using Dakota's intel on the convoy's route through a narrow canyon, a Nomad ambush team disabled the lead vehicles, forcing a firefight. The Wraiths were overwhelmed, and the lab was captured intact. The drugs were later sold on the black market, funding the clan for months.",
+        "mercFeedback": "'Dakota knows these canyons like the back of her hand. The Wraiths drove right into our kill box. It wasn't a fight; it was a harvest.' - 'Scorpion' (Aldecaldo Warrior)",
+        "payout": "Clan Resources & Spoils"
+      },
+      {
+        "gigTitle": "Flying Drugs",
+        "date": "09.28.2077",
+        "objective": "A Kang Tao transport drone carrying medical supplies crashed in the desert. Recover the drone's cargo before the Wraiths or Kang Tao's recovery team arrives.",
+        "client": "Self-Initiated (for Aldecaldo Clan)",
+        "target": "Crate of Medical Supplies",
+        "outcome": "Successful. The merc tracked the drone to its crash site in a radioactive zone. After fighting off a pack of Wraiths drawn by the crash, the medical crate was secured and transported back to the Aldecaldos' camp, providing vital supplies for their medic.",
+        "mercFeedback": "'Straightforward smash and grab. Get to the drone, grab the goods, don't die. Dakota's tip was solid gold; we got there just as the Wraiths were prying the crate open.' - 'V' (Mercenary)",
+        "payout": "€$ 6,000 + Clan Reputation"
+      }
+    ]
+  }
+}

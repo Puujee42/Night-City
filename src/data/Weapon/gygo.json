@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Gyges",
+    "image": "/gyges.png",
+    "id": "kang_tao_gyges",
+    "aliases": ["The Anatomist", "The Trinity Rifle", "The Executive Eraser"],
+    "type": "Smart Precision Rifle",
+    "manufacturer": "Kang Tao",
+    "status": "Restricted; Corporate Hitman Issue",
+    "cost": "€$165,000",
+    "specialAbility": "While aiming at a single target, the smart-targeting system automatically highlights up to 3 weak points (head, chest, cyberware). A charged shot fires a burst that hits all tagged points simultaneously.",
+
+    "baseStats": {
+      "attackSpeed": 2.5,
+      "damage": 300,
+      "reloadSpeed": 2.2,
+      "range": 120,
+      "mods": 3
+    },
+
+    "manufacturingIntel": {
+      "creator": "Kang Tao Smart Solutions R&D",
+      "creatorReputation": "The Gyges is the brainchild of a Kang Tao AI, a weapons-designing algorithm tasked with creating the 'most efficient single-target neutralization platform.' The human engineers simply built what the AI designed. The name is a reference to a mythological king who could become invisible—a nod to the weapon's ability to eliminate a target from a distance with unseen precision.",
+      "developmentHistory": "The Gyges was developed for Kang Tao's internal security and elite corporate assassins. The problem they sought to solve was the 'bullet sponge'—heavily augmented solos and cyborgs who could soak up dozens of hits. The Gyges's 'Multi-Vector Targeting System' was the solution. It doesn't just aim for center mass; it analyzes a target's cyberware, armor, and biological signs, then calculates the three most devastating impact points. A single trigger pull unleashes a micro-burst of three rounds that strike these points simultaneously, ensuring a catastrophic system shock and immediate neutralization. It's not just a gun; it's a guided kill-package.",
+      "productionDate": "Circa 2076"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Unrivaled for quickly eliminating a single, high-threat enemy.",
+        "The simultaneous multi-point impact is devastating against heavily armored or cybernetically enhanced targets.",
+        "As a Smart Weapon, it has exceptional accuracy, even at long range.",
+        "Rewards a tactical, patient playstyle focused on prioritizing and eliminating key threats."
+      ],
+      "weaknesses": [
+        "Highly ineffective against crowds or multiple, fast-moving targets.",
+        "The charge time for the multi-shot burst leaves the user exposed.",
+        "Requires a high-end Smart Link cyberware to function at its full potential.",
+        "Each burst consumes three rounds, leading to high ammo usage."
+      ],
+      "recommendedRoles": "Corporate Assassin, Designated Marksman, Anti-Cyborg Specialist.",
+      "masteryArchetype": "A 'Surgeon' build. A netrunner-solo hybrid with a high Intelligence and Cool attribute. The ideal user is an information-gatherer who uses Ping and other recon quickhacks to identify the most dangerous enemy on the field. They then find a secure position, take aim with the Gyges, and eliminate that threat with a single, perfectly calculated burst before the firefight even begins. They dismantle enemy squads piece by piece, starting with the strongest."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Extremely Rare. The Gyges is a restricted piece of Kang Tao's corporate arsenal. It is never sold legally. The only ways to acquire one are through a top-tier fixer with Kang Tao connections (like Arthur Cormac or Mr. Hands) for an exorbitant price, or by looting it from an elite Kang Tao corporate agent.",
+      "rumoredLocation": "Intel suggests that a Kang Tao executive's personal bodyguard, stationed at the Kang Tao headquarters in Corpo Plaza, is one of the few individuals in Night City authorized to carry a Gyges. Security is, needless to say, extreme."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Ghost' (Infiltrator)",
+        "context": "Assassination of a heavily armored Militech cyborg.",
+        "feedback": "'The target was a walking tank, shrugging off my pistol rounds. Switched to the Gyges. Took aim, saw the three red dots appear on his head, optic, and heart-pump. One trigger pull, three simultaneous impacts. He just... switched off. It's the most brutally efficient weapon I've ever seen.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Rhino' (Brawler)",
+        "context": "Ambushed by a swarm of Scavengers in a tight corridor.",
+        "feedback": "'This thing is useless when you're being rushed. By the time I aimed at one scav and charged the shot, three more were already on top of me. It's too slow, too focused. You need something that can spray and pray, not this... calculator with a trigger.'",
+        "rating": "1/5 (For crowd control)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Taking on a cyberpsycho.",
+        "feedback": "'Fighting a psycho is all about taking them down fast. The Gyges is perfect for that. I waited for an opening, aimed, and let the multi-shot do its work. One burst, and he was staggered and vulnerable. It's not a gun for a firefight; it's a gun for ending a fight before it starts.'",
+        "rating": "4/5 (Precision matters)"
+      }
+    ]
+  }
+}

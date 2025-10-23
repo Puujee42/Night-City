@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Jawbreaker",
+    "image": "/breaker.jpg",
+    "id": "animals_jawbreaker",
+    "aliases": ["The Tenderizer", "Big Henry", "The Attitude Adjuster"],
+    "type": "Melee (Hammer)",
+    "manufacturer": "Animals (Custom)",
+    "status": "Custom; Faction Signature Weapon",
+    "cost": "€$60,000 (Black Market Estimate)",
+    "specialAbility": "Heavy attacks cannot be blocked and have a 100% chance to stagger enemies, including mini-bosses. A fully charged heavy attack creates a ground-shaking shockwave.",
+
+    "baseStats": {
+      "attackSpeed": 1.1,
+      "damage": 800,
+      "reloadSpeed": 0,
+      "range": 3,
+      "mods": 0
+    },
+
+    "manufacturingIntel": {
+      "creator": "The Forgemasters of the Animals",
+      "creatorReputation": "The Animals don't have 'gunsmiths'; they have 'forgemasters.' These are the strongest members of the pack, who create weapons in grueling sessions of metalwork and rage. The Jawbreaker is their signature creation, a test of strength to both build and wield. Each one is forged in the fires of a stolen foundry and 'christened' in a sparring match.",
+      "developmentHistory": "The Jawbreaker was designed for a simple purpose: to break things. Specifically, to break through the reinforced riot shields of NCPD MAX-TAC units and the armor of rival gang heavies. The design incorporates a repurposed industrial hydraulic piston as the core, giving it an immense, unbalanced weight. The result is a weapon that is slow and clumsy, but lands with the force of a car crash, capable of shattering chrome and bone with a single, devastating impact.",
+      "productionDate": "Ongoing, forged as needed"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Incredible single-hit damage, capable of neutralizing most enemies in one blow.",
+        "Guaranteed stagger effect on heavy attacks makes it excellent for breaking through an enemy's guard.",
+        "The area-of-effect shockwave can create space and disrupt entire groups of enemies.",
+        "Extremely durable and requires almost no maintenance."
+      ],
+      "weaknesses": [
+        "Painfully slow attack speed leaves the user wide open for long periods.",
+        "Extremely heavy, significantly reducing movement speed and stamina regeneration.",
+        "Has zero utility for stealth or any situation that doesn't involve direct, brutal confrontation.",
+        "Its sheer size can make it difficult to use in tight corridors."
+      ],
+      "recommendedRoles": "Juggernaut, Brawler, Tank, Crowd Control Specialist.",
+      "masteryArchetype": "An 'Alpha Predator' build. A user who has completely forgone speed and subtlety for pure, unadulterated strength and resilience. Paired with a Berserk OS, Gorilla Arms (for the Body bonus), and cyberware that enhances health and armor, the ideal user doesn't block or dodge. They wade into the thick of a fight, soak up damage, and answer every problem with a single, earth-shattering swing."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Rare. A true Jawbreaker is a badge of honor and is never sold. It is typically awarded to the champion of the Animals' fighting pits. A merc would have to either challenge and defeat an Animal champion in single combat or 'liberate' it from a high-ranking Animal leader.",
+      "rumoredLocation": "Sasquatch, the leader of the Animals' pack at the Grand Imperial Mall, is said to wield the original Jawbreaker. It is rumored to be forged from the hydraulic leg of a Militech combat mech she personally tore apart. She uses it both as a weapon and a symbol of her authority."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Rhino' (Brawler)",
+        "context": "Pit fight against a chromed-out Maelstrom ganger.",
+        "feedback": "'He had a shield, thought he was tough. One swing from the Jawbreaker turned his shield into confetti and his chrome arm into scrap metal. This hammer doesn't negotiate. It just... ends the conversation. Permanently.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Blur' (Speed Solo)",
+        "context": "Attempting to use it during a high-speed firefight.",
+        "feedback": "'Tried to swing this thing and almost threw my back out. By the time I'd lifted it for a second swing, I'd already taken a dozen bullets. It's like trying to fight with a damn anchor. It's slow, it's clumsy, and it gets you killed if you're not built like a brick wall.'",
+        "rating": "1/5 (If you value speed)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Assaulting the Grand Imperial Mall.",
+        "feedback": "'The moment you pick this thing up, you feel it. It's not just heavy; it's angry. Every swing is a commitment. You hit the ground and everyone stumbles. You hit a person and they just... pop. It's the most unsubtle and satisfying weapon I've ever used.'",
+        "rating": "4/5 (Brutally effective)"
+      }
+    ]
+  }
+}

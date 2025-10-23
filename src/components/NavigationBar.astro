@@ -1,0 +1,46 @@
+---
+import ThemeSwitcher from "./ThemeSwitcher.astro"
+---
+<nav>
+    <strong>AfterLife Net</strong>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">Gigs</a></li>
+        <li><a href="/night">Fixer list</a></li>
+        <li><a href="/Market">Weapon shop</a></li>
+    </ul>
+    <ThemeSwitcher />
+</nav>
+<style>
+    ul{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 3rem;
+    justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color:var(--gray-400);
+    }
+    a:hover{
+        color:var(--gray-1000);
+        
+    }
+    nav{
+    margin: 10px;
+    display: flex;
+    border: 2px solid transparent;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+</style>
+<script>
+    const pathname = window.location.pathname
+    const link = document.querySelector(` nav a[href="${pathname}"]`)
+    if(link){
+        link.classList.add("active")
+    }
+</script>

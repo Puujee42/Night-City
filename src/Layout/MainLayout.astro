@@ -1,0 +1,31 @@
+---
+import NavigationBar from "../components/NavigationBar.astro"
+import "../styles/globals.css"
+import Footer from "../components/Footer.astro"
+---
+<html lang="en" >
+	<head>
+		<meta charset="utf-8" />
+		<meta name="keywords" content={Astro.props.keywords}>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content="Astro" />
+		<title>{Astro.props.title}</title>
+		<script is:inline>
+			const color = localStorage.getItem("theme")
+			let isDarkMode = color === "dark"
+			if(isDarkMode){
+				document.documentElement.classList.add("dark")
+			}else{
+				document.documentElement.classList.remove("dark")
+			}
+		</script>
+	</head>
+	<body>
+        <main>
+            <NavigationBar />
+            <slot />
+            <Footer/>
+        </main>
+    </body>
+</html>

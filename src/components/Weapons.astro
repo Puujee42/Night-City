@@ -1,0 +1,11 @@
+---
+import Weapon from "./Weapon.astro"
+const {data} = Astro.props
+
+---
+<div>
+    {data.map((json)=>
+        <Weapon {... json } />
+    )}
+    <button><a href="/Market">Click here to see more</a></button>
+</div>

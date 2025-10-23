@@ -1,0 +1,214 @@
+---
+const {
+    title, image, desc, jobArea, jobThreatLevel, gradientFrom, gradientTo, fixerRank, recentGigs, reliability 
+} = Astro.props;
+let item = title.split(' ')[0]
+console.log(item)
+let threatCategory;
+const level = Number(jobThreatLevel);
+if (level <= 4) {
+    threatCategory = 'low';
+} else if (level <= 7) {
+    threatCategory = 'medium';
+} else {
+    threatCategory = 'high';
+}
+---
+
+<div class="fixer-dossier" style={`--gradient: linear-gradient(to bottom right, ${gradientFrom}, ${gradientTo})`}>
+    <div class="scanlines"></div>
+    <div class="dossier-header">
+        <h1>{title}</h1>
+        <span class="fixer-rank">{fixerRank}</span>
+    </div>
+    <div class="dossier-body">
+        <div class="fixer-image-container">
+            <img src={image} alt={`Dossier photo of ${title}`} />
+        </div>
+        <div class="details-grid">
+            <!-- Core Details -->
+            <div class="detail-row">
+                <span class="label">PRIMARY TERRITORY:</span>
+                <span class="value">{jobArea}</span>
+            </div>
+            <div class="detail-row">
+                <span class="label">TYPICAL THREAT:</span>
+                <span class={`value threat threat-${threatCategory}`}>{threatCategory.toUpperCase()} [{level}/10]</span>
+            </div>
+            
+            <!-- Intel Description -->
+            <div class="detail-row description-row">
+                 <span class="label">INTEL:</span>
+                 <p class="value description">{desc}</p>
+            </div>
+
+            <!-- NEW: Reliability Assessment -->
+            <div class="detail-row description-row">
+                 <span class="label">RELIABILITY ASSESSMENT:</span>
+                 <p class="value description">{reliability}</p>
+            </div>
+            
+            <!-- NEW: Recent Gigs Log -->
+            {recentGigs && recentGigs.length > 0 && (
+                <div class="detail-row">
+                    <span class="label">RECENT ACTIVITY LOG:</span>
+                    <ul class="recent-gigs-list">
+                        {recentGigs.map(gig => (
+                            <li>{gig}</li>
+                        ))}
+                    </ul>
+                </div>
+            )}
+            <button><a href=`./fixers/${item}`>See more about fixer here </a></button>
+        </div>
+    </div>
+    <div class="corner-cut" style={`background-color: ${gradientTo}`}></div>
+</div>
+
+<style>
+    /* Using a font that fits the aesthetic */
+   @font-face {
+    font-family: 'Deltha';
+    src: url('../../public/Deltha.ttf'); /* Ensure this path is correct */
+    }
+    :root {
+        --cyber-yellow: #fcee0a;
+        --cyber-cyan: #00f0ff;
+        --cyber-red: #ef4444;
+        --cyber-green: #22c55e;
+        --background-dark: #0a0a0f;
+        --text-light: #e1e1e1;
+        --text-dark: #8c8c8c;
+    }
+
+    /* --- DOSSIER CARD --- */
+    .fixer-dossier {
+        font-family: 'Deltha', sans-serif;
+        max-width: 1200px; /* Increased max-width for more content on laptops */
+        margin: 4rem auto;
+        background: var(--background-dark);
+        color: var(--text-light);
+        position: relative;
+        overflow: hidden;
+        border: 4px solid transparent;
+        border-image: var(--gradient) 1;
+        box-shadow: 0 0 30px -5px var(--gradient-from, #ff00ff);
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), calc(100% - 40px) 100%, 0 100%);
+    }
+
+    .corner-cut {
+        position: absolute; bottom: 0; right: 0;
+        width: 40px; height: 40px;
+        clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    }
+    
+    .scanlines {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.4));
+        background-size: 100% 3px;
+        animation: scan 8s linear infinite;
+        pointer-events: none; z-index: 1;
+    }
+    @keyframes scan {
+        0% { background-position: 0 0; } 100% { background-position: 0 300px; }
+    }
+
+    /* --- HEADER --- */
+    .dossier-header {
+        padding: 1.5rem 2.5rem;
+        border-bottom: 2px solid var(--cyber-yellow);
+        display: flex; justify-content: space-between; align-items: baseline;
+    }
+
+    .dossier-header h1 {
+        font-size: 3rem; font-weight: 700; margin: 0;
+        color: var(--cyber-yellow);
+        text-transform: uppercase;
+        text-shadow: 0 0 8px rgba(252, 238, 10, 0.6);
+        text-align: left;
+    }
+
+    .fixer-rank {
+        font-size: 1.2rem; font-weight: 700;
+        color: var(--text-dark);
+        text-transform: uppercase; letter-spacing: 2px;
+    }
+
+    /* --- BODY --- */
+    .dossier-body {
+        display: grid;
+        grid-template-columns: 350px 1fr; /* Slightly larger image column */
+        gap: 2.5rem;
+        padding: 2.5rem;
+        position: relative; z-index: 2;
+    }
+
+    .fixer-image-container {
+        width: 350px; height: 400px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+        border: 2px solid var(--text-dark);
+    }
+    
+    .fixer-image-container img {
+        width: 100%; height: 100%; object-fit: cover;
+        filter: grayscale(40%) contrast(110%) brightness(0.9);
+        transition: filter 0.3s ease;
+    }
+    .fixer-dossier:hover img {
+        filter: grayscale(0%) contrast(100%) brightness(1);
+    }
+    
+    /* --- DETAILS GRID --- */
+    .details-grid {
+        display: flex; flex-direction: column;
+        gap: 2rem; /* Increased gap for more content */
+    }
+
+    .detail-row {
+        display: flex; flex-direction: column; align-items: flex-start;
+    }
+
+    .label {
+        font-weight: 700; font-size: 1rem;
+        color: var(--text-dark);
+        text-transform: uppercase; letter-spacing: 1.5px;
+        margin-bottom: 0.5rem;
+    }
+
+    .value {
+        font-size: 1.25rem; font-weight: 500;
+        color: var(--text-light);
+    }
+
+    .description {
+        font-size: 1.1rem; line-height: 1.7;
+        color: var(--text-light);
+        max-width: 70ch; /* Ensure long descriptions remain readable */
+    }
+    
+    .threat { font-weight: 700; text-transform: uppercase; }
+    .threat-low { color: var(--cyber-green); }
+    .threat-medium { color: var(--cyber-yellow); }
+    .threat-high { color: var(--cyber-red); }
+
+    /* --- NEW: RECENT GIGS LIST --- */
+    .recent-gigs-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .recent-gigs-list li {
+        color: var(--text-light);
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+    }
+    /* Custom bullet point for the list items */
+    .recent-gigs-list li::before {
+        content: '>>';
+        color: var(--cyber-cyan);
+        margin-right: 0.75rem;
+        font-weight: 700;
+    }
+</style>

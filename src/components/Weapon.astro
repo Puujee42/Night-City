@@ -1,0 +1,225 @@
+---
+// --- PROPS ---
+const {
+    id, name, type, manufacturer, rarity, iconic, description, specialAbility, baseStats, baseCost
+} = Astro.props;
+---
+
+<div class="weapon-card" id={id}>
+    <div class="scanlines"></div>
+    <div class="weapon-header">
+        <div class="name-and-type">
+            <h1>{name}</h1>
+            <span class="weapon-type">{type}</span>
+        </div>
+        {iconic && <span class="iconic-tag">ICONIC</span>}
+    </div>
+
+    <div class="weapon-body">
+        <div class="description-block">
+            <span class="label">MANUFACTURER:</span>
+            <span class="manufacturer-value">{manufacturer}</span>
+        </div>
+        <div class="description-block">
+            <span class="label">DESCRIPTION:</span>
+            <p>{description}</p>
+        </div>
+        <div class="description-block special-ability">
+            <span class="label">SPECIAL ABILITY:</span>
+            <p>{specialAbility}</p>
+        </div>
+
+        <div class="stats-block">
+            <span class="label">BASE STATS</span>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span>Attack Speed</span>
+                    <span class="stat-value">{baseStats.attackSpeed}</span>
+                </div>
+                <div class="stat-item">
+                    <span>Damage</span>
+                    <span class="stat-value">{baseStats.damage}</span>
+                </div>
+                 <div class="stat-item">
+                    <span>Range</span>
+                    <span class="stat-value">{baseStats.range}m</span>
+                </div>
+                <div class="stat-item">
+                    <span>Reload Speed</span>
+                    <span class="stat-value">{baseStats.reloadSpeed}s</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="weapon-footer">
+        <span class="label">ACQUISITION COST:</span>
+        <span class="cost-value">{baseCost}</span>
+    </div>
+    <div class="corner-cut"></div>
+</div>
+
+<!-- 
+ ======================================================================
+    GLOBAL STYLES FOR THE MARKET GRID (FIXED VERSION)
+    - To use this, wrap your WeaponCard components in a 
+      <div class="weapon-market-grid"> on your page.
+ ======================================================================
+-->
+<style is:global>
+    .weapon-market-grid {
+        display: grid;
+        
+        /* --- THIS IS THE KEY CHANGE --- */
+        /* This creates a fixed grid with exactly 5 equal-width columns. */
+        grid-template-columns: repeat(5, 1fr);
+
+        gap: 2rem;
+        padding: 2rem;
+        max-width: 2200px;
+        margin: 0 auto;
+    }
+
+    /* Responsive fallbacks for smaller laptop screens */
+    @media (max-width: 1600px) {
+        .weapon-market-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media (max-width: 1200px) {
+        .weapon-market-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+     @media (max-width: 768px) {
+        .weapon-market-grid {
+            grid-template-columns: 1fr; /* Single column on tablets/phones */
+        }
+    }
+</style>
+
+<!-- 
+ ======================================================================
+    COMPONENT-SPECIFIC STYLES FOR THE CARD ITSELF
+ ======================================================================
+-->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
+
+    :root {
+       --cyber-yellow: #fcee0a;
+       --cyber-cyan: #00f0ff;
+       --background-dark: #0a0a0f;
+       --text-light: #e1e1e1;
+       --text-dark: #8c8c8c;
+       --border-color: rgba(0, 240, 255, 0.2);
+    }
+
+    .weapon-card {
+        font-family: 'Rajdhani', sans-serif;
+        background: var(--background-dark);
+        color: var(--text-light);
+        border: 2px solid var(--border-color);
+        width: 100%; 
+        height: 100%;
+        display: flex; 
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
+        transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .weapon-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--cyber-yellow);
+        box-shadow: 0 5px 20px rgba(252, 238, 10, 0.2);
+    }
+
+    .corner-cut {
+        position: absolute; bottom: 0; right: 0;
+        width: 30px; height: 30px;
+        background: var(--cyber-yellow);
+        clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    }
+    .scanlines {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 75%, rgba(0,0,0,0.3));
+        background-size: 100% 4px;
+        animation: scan 10s linear infinite;
+        pointer-events: none; z-index: 1;
+    }
+    @keyframes scan {
+        0% { background-position: 0 0; } 100% { background-position: 0 400px; }
+    }
+
+    .weapon-header {
+        display: flex; justify-content: space-between; align-items: flex-start;
+        padding: 1.5rem;
+        border-bottom: 2px solid var(--cyber-yellow);
+        position: relative; z-index: 2;
+        background: rgba(252, 238, 10, 0.05);
+    }
+    .weapon-header h1 {
+        font-size: 2rem; font-weight: 700;
+        color: var(--cyber-yellow); text-transform: uppercase;
+        letter-spacing: 1px; text-shadow: 0 0 8px var(--cyber-yellow);
+        margin: 0; line-height: 1;
+    }
+    .weapon-type {
+        font-size: 0.9rem; color: var(--text-dark);
+        text-transform: uppercase; letter-spacing: 1.5px;
+    }
+    .iconic-tag {
+        background: var(--cyber-yellow); color: var(--background-dark);
+        font-weight: 700; padding: 0.25rem 0.75rem; font-size: 0.8rem;
+        text-transform: uppercase; letter-spacing: 1px;
+        clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .weapon-body {
+        padding: 1.5rem;
+        display: flex; flex-direction: column; gap: 1.25rem;
+        position: relative; z-index: 2;
+        flex-grow: 1;
+    }
+    .label {
+        font-size: 0.8rem; font-weight: 700;
+        color: var(--text-dark); text-transform: uppercase;
+        letter-spacing: 1.5px; margin-bottom: 0.25rem;
+        display: block;
+    }
+    .manufacturer-value { font-size: 1.1rem; font-weight: 700; color: var(--text-light); }
+    .description-block p { font-size: 1rem; line-height: 1.5; color: var(--text-light); margin: 0; }
+    
+    .special-ability {
+        border-left: 3px solid var(--cyber-yellow);
+        background: rgba(252, 238, 10, 0.05);
+        padding: 0.75rem;
+    }
+    .special-ability p { color: var(--cyber-yellow); font-style: italic; font-size: 0.95rem; }
+    
+    .stats-block {
+        margin-top: auto;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border-color);
+    }
+    .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    .stat-item { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.9rem; color: var(--text-dark); }
+    .stat-item::after {
+        content: ''; flex-grow: 1; border-bottom: 1px dotted var(--text-dark);
+        margin: 0 0.5rem; transform: translateY(-3px);
+    }
+    .stat-value { font-size: 1rem; font-weight: 700; color: var(--text-light); }
+
+    .weapon-footer {
+        display: flex; justify-content: space-between; align-items: center;
+        background: rgba(0, 240, 255, 0.1);
+        border-top: 2px solid var(--cyber-cyan);
+        padding: 1rem 1.5rem;
+        position: relative; z-index: 2;
+    }
+    .cost-value {
+        font-size: 1.5rem; font-weight: 700; color: var(--cyber-cyan);
+        text-shadow: 0 0 8px var(--cyber-cyan);
+    }
+</style>

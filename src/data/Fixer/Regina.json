@@ -1,0 +1,87 @@
+{
+  "fixerProfile": {
+    "title": "Regina Jones",
+    "image": "/regina.png",
+    "aliases": ["Regi", "The Reporter", "Watson's Watchdog"],
+    "status": "Active",
+    "primaryTerritory": "Watson (Kabuki, Little China, Northside)",
+    "specialization": "Cyberpsycho Neutralization, Investigative Work, Missing Persons, Social Justice",
+
+    "biography": {
+      "earlyLife": "Regina's story began behind a microphone, not a gun. She was a star investigative reporter for FTF Radio, known for her tenacity and her unwavering commitment to exposing the truth, no matter how dangerous. When the independent station was devoured by the corporate giant News 54, Regina refused to become a soulless talking head. She quit, taking her most valuable asset with her: an unparalleled network of contacts that spanned every level of Watson's society.",
+      "riseAsFixer": "For Regina, becoming a fixer wasn't a career change; it was a change in method. She realized she could do more to help the people of Watson with a good merc than with a news story. She leveraged her contacts to connect people in need with skilled operators, quickly becoming the district's most reliable and respected fixer. She traded headlines for contracts, but her mission remained the same: to fight for the little guy in a city that had forgotten them.",
+      "modusOperandi": "Regina operates with a rare and dangerous commodity in Night City: a moral compass. She specializes in jobs that other fixers won't touch—not because they're too difficult, but because they don't pay enough or are too morally complex. Her most famous work involves tracking and neutralizing cyberpsychos, where she uniquely insists on non-lethal methods. She believes many are victims who can be saved, a stark contrast to the city's usual 'shoot on sight' policy.",
+      "reputation": "Regina Jones is a beacon in the neon-drenched slum of Watson. The locals trust her, the gangs respect her, and mercs know that a contract from her is always on the level. She is known for her fairness, her compassion, and her fierce protectiveness of both her clients and her contractors. While her payouts might not rival the corporate gigs in City Center, working for Regina earns a different kind of currency: respect and the knowledge that you're fighting on the right side of the line."
+    },
+
+    "fixerRatings": {
+      "overallThreat": "8/10 (High)",
+      "reliability": "10/10 - Arguably the most trustworthy fixer in Night City. Her word is her bond, and she genuinely cares for her people.",
+      "payment": "7/10 - The pay is fair and always delivered, but focused more on consistency than on massive one-time scores. Often provides unique cyberware as a bonus.",
+      "intelQuality": "9/10 - As a former reporter, her investigative skills are second to none. Her intel on Watson's gangs and street-level events is impeccable.",
+      "discretion": "8/10 - While her cyberpsycho gigs can be messy, she is an expert at managing NCPD response and keeping her mercs' records clean.",
+      "resourcefulness": "8/10 - Her vast network allows her to find people, information, and tech that are otherwise lost in the city's noise.",
+      "mercSurvivability": "9/10 - Excellent. She provides solid support, prioritizes non-lethal options, and wants her contractors to come back in one piece."
+    },
+     "legendaryGig": {
+        "gigTitle": "The Tin Man's Heart",
+        "date": "02.14.2074",
+        "objective": "A series of identical cyberpsycho attacks were plaguing Kabuki, all linked to victims who received cheap chrome from the same back-alley clinic. Regina's objective was to prove the attacks were not random but were induced by faulty, malicious cyberware, and to expose the ripperdoc responsible.",
+        "client": "The Kabuki Market Protection Guild",
+        "target": "The ripperdoc 'Doc Carver' and his illegal cyberware operation.",
+        "outcome": "Flawless. Regina's hired merc, a solo named 'Witness,' gathered testimony and located Carver's hidden lab. A netrunner then infiltrated the lab's network, finding data proving Carver was intentionally installing defective chrome with a hidden psychosis-inducing malware for a twisted research project. Instead of just killing him, Regina leaked the unredacted evidence to every dataterm in Watson and tipped off the NCPD. The community, armed with the truth, descended on the clinic. Carver was apprehended by MaxTac, and the data became the foundational research for Regina's lifelong project to understand and treat cyberpsychosis.",
+        "hiredMercs": "'Witness' (Recon Solo), 'Cipher' (Netrunner)",
+        "mercFeedback": "'Regina didn't send us to kill a monster; she sent us to perform an autopsy on his crimes. We gathered evidence, not just bodies. It was the first time a job felt like it was actually cleaning up the streets, not just making them bloodier. She paid us, sure, but the real reward was seeing that bastard dragged out in cuffs.' - 'Witness' (Solo)",
+        "payout": "€$ 50,000 + The complete, unredacted research data from the ripperdoc's lab.",
+        "reputationImpact": "This case defined Regina's legacy. She proved that cyberpsychosis could have external triggers and that its victims weren't just monsters to be put down. She became the guardian of Watson, a fixer who sought justice, not just profit, and established the network of trust that makes her the district's most reliable operator."
+    },
+
+    "advantages": {
+      "strengths": [
+        "Unwavering reliability and a strong moral code.",
+        "Provides unique, morally-driven jobs that often help the community.",
+        "Excellent street-level intelligence network throughout Watson.",
+        "Genuinely invested in the well-being and survival of her mercs."
+      ],
+      "weaknesses": [
+        "Cash payouts are generally lower than those from more ruthless, corporate-focused fixers.",
+        "Her influence is heavily concentrated in the Watson district.",
+        "Her insistence on non-lethal approaches can complicate otherwise straightforward missions.",
+        "Refuses to take on jobs she deems immoral, limiting her scope."
+      ]
+    },
+
+    "recentGigDetails": [
+      {
+        "gigTitle": "Cyberpsycho Sighting: Bloody Ritual",
+        "date": "10.22.2077",
+        "objective": "Track and neutralize a cyberpsycho who has been staging ritualistic murders in the Northside industrial district. Non-lethal force is required.",
+        "client": "Self-Initiated (Cyberpsycho Research)",
+        "target": "Maelstrom Cultist Zaria Hughes",
+        "outcome": "Successful. The merc tracked the cyberpsycho to her lair, engaged her in a difficult fight, and successfully incapacitated her without killing her. The data from the encounter was sent to Regina for her research into treating cyberpsychosis.",
+        "mercFeedback": "'It's always a trip with Regi's psycho gigs. You gotta fight for your life but pull your punches at the last second. The pay is decent, and I guess we're helping people... maybe.' - 'V' (Mercenary)",
+        "payout": "€$ 5,000 + Reputation"
+      },
+      {
+        "gigTitle": "The Ripperdoc",
+        "date": "10.18.2077",
+        "objective": "A ripperdoc in Kabuki is being held hostage by Maelstrom gangers. Infiltrate the clinic, eliminate the gangers, and rescue the doc.",
+        "client": "Local Kabuki Community",
+        "target": "Ripperdoc Charles Bucks",
+        "outcome": "Successful. The operative infiltrated the clinic through a side entrance, neutralized the Maelstrom gangers, and freed the ripperdoc. The clinic was able to resume its essential services for the community.",
+        "mercFeedback": "'Straightforward rescue op. Regina pointed me at some gangoons who were shaking down a good man. Cleaned house, got paid. Good work for a good cause.' - 'V' (Mercenary)",
+        "payout": "€$ 4,500"
+      },
+      {
+        "gigTitle": "Last Login",
+        "date": "10.10.2077",
+        "objective": "A local netrunner has gone missing. Investigate his last known location, find his computer, and discover what happened to him.",
+        "client": "Concerned Family Member",
+        "target": "Alois Daquin's Computer",
+        "outcome": "Successful. The merc located the missing runner's apartment, now occupied by Scavengers. After clearing the apartment, the computer was accessed, revealing that the runner had died during a dangerous netrun. The information provided closure for his family.",
+        "mercFeedback": "'Felt like one of Regina's old reporter gigs. Follow the clues, find the truth. It's a nice change of pace from just zeroing everyone in sight.' - 'T-Bug' (Netrunner)",
+        "payout": "€$ 4,000"
+      }
+    ]
+  }
+}

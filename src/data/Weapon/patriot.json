@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "The Patriot",
+    "image": "/patriot.jpg",
+    "id": "6th_street_patriot",
+    "aliases": ["The Freedom Cannon", "Old Glory", "The Second Amendment"],
+    "type": "Power LMG",
+    "manufacturer": "6th Street (Custom)",
+    "status": "Custom; Faction Signature Weapon",
+    "cost": "€$110,000 (Black Market Estimate)",
+    "specialAbility": "The rate of fire and Crit Chance increase the longer you fire the weapon. The final 10 rounds in the magazine deal bonus Electrical damage.",
+
+    "baseStats": {
+      "attackSpeed": "7.0 -> 15.0",
+      "damage": 110,
+      "reloadSpeed": 3.8,
+      "range": 60,
+      "mods": 3
+    },
+
+    "manufacturingIntel": {
+      "creator": "Gunner Paige (6th Street's Master Gunsmith)",
+      "creatorReputation": "Gunner is a grizzled NUSA veteran and the heart of 6th Street's arsenal. He believes in the 'American way' of weapon design: big, loud, and lots of bullets. He sees foreign-made weapons as flimsy and overly complicated. His creations are rugged, reliable, and designed to project maximum force, embodying the Second Amendment philosophy that underpins his gang's entire culture.",
+      "developmentHistory": "The Patriot began as a standard Constitutional Arms 'Defender' LMG. Gunner and his team stripped it down and rebuilt it with a custom-tooled accelerator and a modified ammo feed. The goal was to create the ultimate suppression weapon for their street battles, a gun that would become more ferocious the longer a firefight lasted. The NUSA flag wrap was a final touch, turning the weapon from a simple tool into a powerful piece of propaganda. It's now awarded to 6th Street members who show exceptional valor in defending their territory.",
+      "productionDate": "Ongoing, custom order only"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Exceptional sustained-fire capability, ideal for pinning down large groups of enemies.",
+        "The escalating rate of fire can overwhelm even heavily armored targets.",
+        "Bonus electrical damage on the final rounds can disable cyberware and finish off wounded foes.",
+        "A large magazine capacity reduces the need for frequent reloads in prolonged engagements."
+      ],
+      "weaknesses": [
+        "Initial accuracy is poor and gets worse as the rate of fire increases.",
+        "Extremely heavy, significantly reducing user mobility and dodge speed.",
+        "Chews through ammunition at an alarming rate.",
+        "The flashy design and loud firing sound make the user an obvious, high-priority target."
+      ],
+      "recommendedRoles": "Heavy Gunner, Suppression Specialist, Point Defender.",
+      "masteryArchetype": "A 'Walking Turret' build. A solo with a high Body attribute and cyberware that enhances recoil control and provides damage resistance. The ideal user finds a solid piece of cover, plants their feet, and holds down the trigger until nothing is left standing. They are the anchor of their squad, a screaming bastion of overwhelming firepower."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Very Rare. The Patriot is a symbol of status within 6th Street and is never sold. It must be earned through loyalty to the gang or 'liberated' from a high-ranking 6th Street lieutenant. Some black-market replicas exist, but they lack the custom accelerator of a genuine Gunner Paige original.",
+      "rumoredLocation": "The current leader of the 6th Street chapter in Arroyo, 'Major' Rick, is said to carry a master-crafted Patriot on all his patrols. He's often seen holding court at their fortified HQ, a converted auto plant, with the weapon displayed prominently on his back."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Gunner' (6th Street Veteran)",
+        "context": "Defending a checkpoint against a Valentino assault.",
+        "feedback": "'When the V-boys came charging, I just held down the trigger. The first few seconds, you're just scaring 'em. Then the accelerator kicks in and this baby starts to sing. It's not a gun, it's a declaration of independence written in hot lead. USA! USA!'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Spectre' (Solo Infiltrator)",
+        "context": "Attempted stealth operation in a 6th Street compound.",
+        "feedback": "'I picked this up off a guard, thinking it might be useful. It's the loudest, heaviest, most obnoxious thing I've ever carried. Fired one burst and every 'patriot' in a three-block radius knew exactly where I was. It's a decent LMG, but 'subtlety' isn't in its vocabulary.'",
+        "rating": "2/5 (For my work)"
+      },
+      {
+        "merc": "'Breaker' (Brawler)",
+        "context": "Open street battle against Militech forces.",
+        "feedback": "'Holy hell, the kick on this thing! You gotta be chromed to the gills just to keep it pointed forward. But if you can handle it, it tears through corpo armor like it's paper. The light show at the end of the mag is a nice touch, fries their chrome right up. A real beast.'",
+        "rating": "4/5 (If you can handle it)"
+      }
+    ]
+  }
+}

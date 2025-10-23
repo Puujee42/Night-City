@@ -1,0 +1,41 @@
+html{
+    --background : white;
+    --gray-200 : #222222;
+    --gray-400: #444444;
+    --gray-600: #333333;
+    --gray-900: #555555;
+    --gray-1000:black;
+}
+html.dark{
+    --background: black;
+    --gray-200: #aaaaaa;
+    --gray-400: #d3cccc;
+    --gray-600: #a09898;
+    --gray-900: #ffffff;
+    --gray-1000: white;
+}
+@font-face {
+    font-family: Deltha;
+    src: url('../../public/Deltha.ttf');
+}
+body{
+    font-family: deltha;
+    background-color: var(--background);
+    color: var(--gray-200);
+}
+h1{
+    color:var(--gray-900);
+    margin: 20px;
+}
+img{
+    width: 550px;
+    height: 350px;
+    display: block;
+}
+h2{
+    margin: 20px;
+}
+p{
+    margin: 20px;
+
+}

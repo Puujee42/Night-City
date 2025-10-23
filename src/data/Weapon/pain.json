@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Pain-Drill",
+    "image": "/pain-drill.png",
+    "id": "maelstrom_pain_drill",
+    "aliases": ["The Auger", "Chrome-Ripper", "The Dentist"],
+    "type": "Melee (Brutal Arms)",
+    "manufacturer": "Maelstrom (Modified)",
+    "status": "Custom; Faction Signature Weapon",
+    "cost": "€$78,000 (Black Market Estimate)",
+    "specialAbility": "A fully charged heavy attack causes the drill to spin at supersonic speeds, instantly destroying enemy armor and applying a devastating Bleed effect.",
+
+    "baseStats": {
+      "attackSpeed": 1.5,
+      "damage": 550,
+      "reloadSpeed": 0,
+      "range": 2.8,
+      "mods": 1
+    },
+
+    "manufacturingIntel": {
+      "creator": "Maelstrom 'Chrome-Barons'",
+      "creatorReputation": "The Pain-Drill isn't forged; it's desecrated. Maelstrom's tech-priests—high-ranking members with a twisted genius for engineering—create these weapons in their chop shops. They take industrial-grade rock drills, salvaged from abandoned mines, and weld them to overclocked rocket engines. The result is a weapon that is barely controllable, dangerously unstable, and utterly terrifying.",
+      "developmentHistory": "The weapon was born from Maelstrom's eternal war against heavily armored MAX-TAC and Militech forces. Katanas glanced off, and bullets were often ineffective. They needed something that didn't just hit armor but *erased* it. The Pain-Drill was the solution. Its spinning, diamond-tipped head doesn't cut; it grinds, pulverizes, and bores through plated steel and bone with equal, horrifying efficiency. It quickly became a symbol of a Maelstrom heavy, a statement of their contempt for all forms of defense.",
+      "productionDate": "Ongoing, chaotic creation"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Unmatched armor-shredding capability, capable of neutralizing heavily armored targets in a single charged attack.",
+        "The Bleed effect from a charged attack is one of the strongest in the game, ensuring a kill.",
+        "High base damage and stagger chance on light attacks.",
+        "Immense psychological impact; the high-pitched scream of the drill can cause panic."
+      ],
+      "weaknesses": [
+        "The slowest melee weapon in its class, with a long, telegraphed wind-up on heavy attacks.",
+        "Extremely loud, alerting every enemy in the vicinity.",
+        "The repurposed rocket engine is prone to overheating, occasionally dealing Thermal damage to the wielder.",
+        "Has zero defensive or parrying capability; it is a tool of pure, relentless offense."
+      ],
+      "recommendedRoles": "Berserker, Juggernaut, Armor-Shredder, Psycho-Brawler.",
+      "masteryArchetype": "A 'Maelstrom Juggernaut' build. A user who has embraced the abyss, with a high Body attribute, a Berserk OS, and cyberware that grants immunity to their own status effects (like the self-inflicted burns). The ideal user is a chrome-addicted monster who charges headfirst into the most heavily armored enemy on the field, using the Pain-Drill to open them up like a tin can so the rest of the squad can pour in."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Extremely Rare. A Pain-Drill is a Maelstrom status symbol and is never sold. It is typically wielded by the gang's 'Berserker' champions. To get one, a merc would have to venture deep into Maelstrom territory—like the All Foods plant—and take it from its former owner.",
+      "rumoredLocation": "Royce, the current de-facto leader of Maelstrom at the All Foods plant, is said to keep a collection of these weapons. He reportedly awards them to gangers who survive a direct confrontation with MAX-TAC. It's rumored he has a master-crafted version, with a perpetual motion engine, locked away in his personal armory."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Brick' (Ex-Maelstrom Leader)",
+        "context": "Reflecting on his time leading the gang.",
+        "feedback": "'That thing... it's not a weapon. It's a scream. A promise. A promise that nothing you wear, nothing you hide behind, is gonna save you. We built it to show the corps that their armor was just a suggestion. And it worked.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Spectre' (Solo Infiltrator)",
+        "context": "Attempting a stealth mission in a Maelstrom den.",
+        "feedback": "'Picked one up, thought it might be useful. The moment I activated it, it sounded like a jet engine taking off inside a tin can. Every psycho in the building knew exactly where I was. This is the loudest, most unsubtle object ever created by man. It's the opposite of stealth.'",
+        "rating": "1/5 (For my purposes)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Confronting a Militech Crusader mech.",
+        "feedback": "'My bullets were just bouncing off this thing. Switched to the Pain-Drill, charged it up, and hit the leg joint. The sound was deafening. It tore right through the armor plating, showering sparks everywhere. It brought the whole damn mech to its knees. Terrifying... and beautiful.'",
+        "rating": "4/5 (The ultimate can opener)"
+      }
+    ]
+  }
+}

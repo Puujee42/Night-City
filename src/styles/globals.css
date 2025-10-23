@@ -1,0 +1,200 @@
+/* === ROOT & COLOR PALETTE DEFINITIONS === */
+html {
+    /* --- Your Original Colors --- */
+    --background: white;
+    --gray-200: #222222;
+    --gray-400: #444444;
+    --gray-600: #333333;
+    --gray-900: #555555;
+    --gray-1000: black;
+    
+    /* --- Cyberpunk Accent Colors --- */
+    --cyber-yellow: #fcee0a;
+    --cyber-cyan: #00f0ff;
+    --cyber-red: #ef4444;
+    
+    /* Utility */
+    --background-dark-text: #0a0a0f;
+
+    /* NEW: Increase base font size for better readability on large screens */
+    font-size: 18px; /* Was 16px by default */
+}
+
+html.dark {
+    --background: #0a0a0f;
+    --gray-200: #aaaaaa;
+    --gray-400: #d3cccc;
+    --gray-600: #a09898;
+    --gray-900: #ffffff;
+    --gray-1000: #f0f0f0;
+}
+
+/* === GLOBAL & BODY STYLES === */
+@font-face {
+    font-family: 'Deltha';
+    src: url('../../public/Deltha.ttf'); /* Ensure this path is correct */
+}
+
+body {
+    font-family: 'Deltha', sans-serif;
+    background-color: var(--background);
+    color: var(--gray-900);
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"%3E%3Cfilter id="n"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="10" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100" height="100" filter="url(%23n)" opacity="0.1"/%3E%3C/svg%3E');
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    
+    /* --- NEW: Wide Screen Layout Grid --- */
+    /* This creates a full-width layout with controlled padding */
+    display: grid;
+    grid-template-columns: 1fr min(1600px, calc(100% - 8rem)) 1fr; /* Edge, Content, Edge */
+    grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
+}
+
+/* --- NEW: HUD-style Framing Elements --- */
+/* These pseudo-elements create fixed corner brackets on the screen */
+body::before, body::after {
+    content: '';
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-color: var(--cyber-cyan);
+    opacity: 0.5;
+    pointer-events: none; /* Make them non-interactive */
+}
+body::before {
+    top: 2rem;
+    left: 2rem;
+    border-top: 2px solid;
+    border-left: 2px solid;
+}
+body::after {
+    bottom: 2rem;
+    right: 2rem;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+
+main, footer {
+    /* Make main and footer occupy the central content column */
+    grid-column: 2;
+}
+
+main {
+    grid-row: 2;
+    padding: 2rem 0; /* Vertical padding only */
+}
+
+/* === TYPOGRAPHY === */
+h1, h2, h3 {
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 3.5rem; /* Increased size */
+    color: var(--cyber-yellow);
+    text-shadow: 0 0 10px rgba(252, 238, 10, 0.6);
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 2.25rem; /* Increased size */
+    color: var(--gray-1000);
+    margin-top: 4rem;
+    
+    /* NEW: Full-width data block header style */
+    background-color: var(--gray-200);
+    color: var(--background);
+    padding: 0.75rem 1.5rem;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%);
+}
+html.dark h2 {
+    background-color: var(--gray-1000);
+    color: var(--background);
+}
+
+
+p {
+    line-height: 1.8; /* Increased line-height for readability */
+    font-size: 1.1rem;
+    max-width: 80ch; /* Limit line length for comfort, even on wide screens */
+}
+
+strong {
+    display: flex;
+    justify-content: start;
+    color: var(--gray-1000);
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px 0;
+    font-family: 'Deltha', sans-serif;
+    font-size: 1.5em;
+}
+
+/* === INTERACTIVE ELEMENTS === */
+a {
+    color: var(--cyber-cyan);
+    text-decoration: none;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0 0 8px var(--cyber-cyan);
+}
+
+button, a.active {
+    font-family: 'Deltha', sans-serif;
+    background: var(--cyber-yellow);
+    color: var(--background-dark-text);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%);
+}
+
+button:hover, a.active:hover {
+    color: var(--background-dark-text);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(252, 238, 10, 0.4);
+}
+
+/* === MISC & STRUCTURAL ELEMENTS === */
+hr, blockquote {
+    max-width: 80ch; /* Constrain these elements for readability */
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: var(--cyber-cyan);
+    box-shadow: 0 0 10px var(--cyber-cyan);
+    margin: 4rem 0;
+}
+
+blockquote {
+    border-left: 4px solid var(--cyber-yellow);
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    color: var(--gray-600);
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+footer {
+    grid-row: 3;
+    text-align: center;
+    color: var(--gray-600);
+    padding: 3rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid var(--gray-400);
+}

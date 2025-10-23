@@ -1,0 +1,8 @@
+---
+import GigList from "../components/GigList.astro"
+import MainLayout from "../Layout/MainLayout.astro"
+import data from "../data/Allgigs.json"
+---
+<MainLayout title="About" keywords="This is about">
+   <GigList data={data} />
+</MainLayout>

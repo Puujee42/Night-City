@@ -1,0 +1,86 @@
+{
+  "fixerProfile": {
+    "title": "Rogue Amendiares",
+    "image": "/rogue.png",
+    "aliases": ["The Queen of the Afterlife", "The Queen of Fixers"],
+    "status": "Active",
+    "primaryTerritory": "Night City (Global Reach from the Afterlife)",
+    "specialization": "High-Stakes Operations, Corporate Warfare, Elite Mercenary Contracts, Information Brokerage",
+
+    "biography": {
+      "earlyLife": "Before she was a fixer, Rogue was a legend. In the golden age of solos, she was one of the best, a razor-sharp merc who ran the shadows alongside names like Johnny Silverhand and Morgan Blackhand. Her reputation was forged in fire during the corporate wars, culminating in her role in the infamous 2023 assault on Arasaka Tower. While many from that era are now just names on drinks at the Afterlife, Rogue survived, smarter, harder, and more cynical than ever.",
+      "riseAsFixer": "After the disappearance of Johnny Silverhand, Rogue traded her guns for information. She realized that the real power wasn't in pulling the trigger, but in knowing who to point the gun at. She took over the Afterlife, transforming it from a simple merc bar into the nexus of the entire Night City underworld. From her personal booth, she built an information empire, becoming the ultimate broker of secrets and violence. All roads in the merc world eventually lead to her.",
+      "modusOperandi": "Rogue is the final word. She operates with a level of professionalism and detachment that can only come from decades of survival. She deals exclusively in high-stakes, high-payout gigs that are beyond the scope of any other fixer. Her clientele includes the most powerful corporations, media entities, and political players in the world. She is a master strategist who orchestrates events from the shadows, viewing mercs as highly specialized chess pieces in a global game. To even get a meeting with her is to prove you are one of the best.",
+      "reputation": "In Night City, Rogue is royalty. She is not just a fixer; she is the system. Her name commands universal respect, born from a legendary past and an iron-fisted control over the present. A contract from Rogue is the pinnacle of a merc's career—a sign that they have entered the major leagues. She is seen as a living monument, the woman who outplayed, outsmarted, and outlived them all."
+    },
+
+    "fixerRatings": {
+      "overallThreat": "10/10 (Legendary)",
+      "reliability": "10/10 - An ironclad contract. Her word is unbreakable, and payment is guaranteed. However, her loyalty is to the success of the mission, not the merc.",
+      "payment": "10/10 - The highest in Night City, period. She deals in fortunes worthy of the legendary risks her jobs entail.",
+      "intelQuality": "10/10 - Flawless. Her information network is the most sophisticated and far-reaching in the world. There are no surprises on her gigs.",
+      "discretion": "10/10 - Absolute. The secrets of gods and kings pass through her, and the vault has never been breached.",
+      "resourcefulness": "10/10 - If it can be bought, stolen, or built, Rogue can acquire it. This includes everything from military AVs to political favors.",
+      "mercSurvivability": "7/10 - The only rating that isn't perfect, for a reason. Her intel is flawless, but she sends her mercs into the very heart of the storm. Her jobs are the most dangerous in the world, and only the absolute best have a chance of walking away."
+    },
+
+    "advantages": {
+      "strengths": [
+        "Access to the most lucrative and impactful jobs in the world.",
+        "An unparalleled global intelligence network.",
+        "A legendary reputation that can open any door and intimidate any rival.",
+        "Commands the respect and fear of every major faction in Night City."
+      ],
+      "weaknesses": [
+        "Emotionally detached and ruthlessly pragmatic.",
+        "Zero tolerance for failure or unprofessionalism.",
+        "Her jobs carry the highest possible risk of death or corporate retaliation.",
+        "Deals are purely transactional; she offers no personal loyalty."
+      ]
+    },
+    "legendaryGig": {
+            "gigTitle": "The Orbital Air Coup",
+            "date": "Circa 2065",
+            "objective": "Orchestrate the hostile takeover of the aerospace giant Orbital Air by manipulating global markets and systematically dismantling its board of directors from the shadows.",
+            "client": "Anonymous Pan-European Consortium",
+            "target": "The corporate sovereignty of Orbital Air.",
+            "outcome": "A flawless, bloodless corporate assassination. Over three days, Rogue's network initiated a cascading failure: a netrunner team crashed their stock value with targeted data leaks, a solo team acquired blackmail material on key board members to force their resignations, and her media contacts flooded the news with negative press. The client consortium acquired the crippled company for a pittance. The entire operation was attributed to 'market volatility'.",
+            "hiredMercs": "'The Syndicate' (A legendary, now-disbanded crew of specialists).",
+            "mercFeedback": "'We never saw Rogue. We just got our orders on a shard. My team was tasked with one thing: retrieve a data cache from a penthouse in Geneva. We didn't know that at the same time, another crew was hitting a server farm in Tokyo. We were just cogs. It was only when we saw the news a week later that we realized we hadn't just done a gig; we had helped topple a kingdom. That's Rogue's level.' - Attributed to a former Syndicate member.",
+            "payout": "Undisclosed percentage of the acquisition. Estimated to be over €$ 10,000,000.",
+            "reputationImpact": "This operation redefined what a 'heist' could be. Rogue proved that the greatest weapon in Night City wasn't a gun, but information. It cemented her transition from legendary solo to the undisputed Queen of Fixers, a master strategist who could move global markets and shatter corporations from her booth in the Afterlife."
+        },
+      "recentGigDetails": [
+      {
+        "gigTitle": "Chippin' In",
+        "date": "Late 2077",
+        "objective": "A ghost from the past wants to settle a score. At the urging of the Johnny Silverhand engram, help Rogue hunt down intel on the location of Adam Smasher.",
+        "client": "Johnny Silverhand (via V)",
+        "target": "Adam Smasher",
+        "outcome": "Successful. This was no ordinary gig. Rogue leveraged her entire network not for eddies, but for a ghost. The trail led from old contacts to a violent confrontation aboard the ship 'Ebunike.' The intel was secured, but the operation was a raw, personal affair that saw the Queen of the Afterlife step back into the role of a solo on a mission of revenge.",
+        "mercFeedback": "'This wasn't business. This was personal. For the first time, I saw the Rogue that Johnny knew—the legend, not the fixer. She wanted Smasher, and she moved heaven and earth to get a lead. She's still the best there ever was.' - 'V' (Mercenary)",
+        "payout": "Personal Debt / Alliance"
+      },
+      {
+        "gigTitle": "Blistering Love",
+        "date": "Late 2077",
+        "objective": "Fulfill an old promise. Take Rogue on a 'date' to the Silver Screen Drive-In, a ghost of a place for a ghost of a memory, as a final farewell to Johnny Silverhand.",
+        "client": "Johnny Silverhand (via V)",
+        "target": "A night out.",
+        "outcome": "Successful. A surreal and personal mission that had nothing to do with contracts or combat. Rogue confronted the ghost of her past, sharing a moment of vulnerability and closure under the flickering screen before returning to her throne. The event solidified a complex and powerful alliance, transforming a business relationship into something more.",
+        "mercFeedback": "'She's the Queen for a reason. Even when she's off the clock, she's still five steps ahead. It wasn't about the movie; it was about closing a fifty-year-old wound. There's more to her than just the Afterlife.' - 'V' (Mercenary)",
+        "payout": "Trust & Partnership"
+      },
+      {
+        "gigTitle": "Johnny Silverhand's Regard",
+        "date": "Late 2077",
+        "objective": "The ultimate gig: assault Arasaka Tower. With Johnny's engram and Rogue at your side, lead a legendary charge against the most powerful corporation on Earth.",
+        "client": "Self-Initiated",
+        "target": "Arasaka Tower / Mikoshi",
+        "outcome": "Legendary, but costly. With Rogue providing tactical command and fighting on the front lines, the team launched a full-scale assault. It was a blaze of glory that echoed the original 2023 attack. Rogue, the ultimate survivor, finally confronted her past and Adam Smasher, paying the ultimate price to see the mission through. She went out not as a fixer, but as the solo she always was.",
+        "mercFeedback": "'She went out on her own terms, in a storm of fire and lead, just like a legend should. She wasn't just my fixer; in the end, she was my choom. She gave everything to finish what she and Johnny started.' - 'V' (Mercenary)",
+        "payout": "A Legend's Legacy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+---
+import Moon from "../../public/m.svg"
+import Sun from "../../public/su.svg"
+---
+<button id="theme-switcher">
+    <span><Moon id="moon" class="mooning"/></span>
+    <span><Sun id="sun" class="suning"/></span>
+</button>
+<style is:global>
+    .mooning{
+        width: 75px;
+        height: 75px;
+        border-radius: 3rem;
+    }
+    .suning{
+        width: 75px;
+        height: 75px;
+        border-radius: 3rem;
+    }
+    span{
+        cursor: pointer;
+    }
+</style>
+<script type="module" is:inline>
+    const color = localStorage.getItem("theme")
+    let isDarkMode = color === "dark"
+    if(isDarkMode){
+        document.documentElement.classList.add("dark")
+    }else{
+        document.documentElement.classList.remove("dark")
+    }
+    updateIcon()
+    function updateIcon(){
+        const moonEl = document.getElementById("moon")
+        const sunEl = document.getElementById("sun")
+        if(sunEl && moonEl){
+            if(isDarkMode === true){
+                sunEl.style.display = "none"
+                moonEl.style.display = "inline"
+            }else{
+                moonEl.style.display = "none"
+                sunEl.style.display = "inline"
+            }
+        }
+    }
+    function toggle(){
+        isDarkMode = !isDarkMode
+        updateIcon()
+        document.documentElement.classList.toggle("dark")
+        localStorage.setItem("theme",isDarkMode ? "dark" : "light")
+    }
+    document.getElementById("theme-switcher").addEventListener("click",function(){
+        toggle()
+    })
+</script>

@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Ghede's Gaze",
+    "image": "/ghede.png",
+    "id": "ghede_gaze",
+    "aliases": ["The Cursed SMG", "The Hexer", "Digital Voodoo"],
+    "type": "Smart SMG",
+    "manufacturer": "Voodoo Boys (Custom)",
+    "status": "Unique; Consecrated Artifact",
+    "cost": "€$140,000 (Black Market Estimate)",
+    "specialAbility": "Critical hits have a high chance to apply a random, low-tier quickhack (e.g., Reboot Optics, Weapon Glitch) to the target.",
+
+    "baseStats": {
+      "attackSpeed": 10,
+      "damage": 70,
+      "reloadSpeed": 2,
+      "range": 45,
+      "mods": 3
+    },
+
+    "manufacturingIntel": {
+      "creator": "Maman Brigitte and the High Priests of the Voodoo Boys",
+      "creatorReputation": "This weapon is not merely built; it is 'ridden.' The Voodoo Boys take a standard SMG chassis and painstakingly rewire its smart-targeting system, creating a 'vessel.' Through a dangerous ritual, they invite a semi-sentient AI from the Old Net—a digital 'Ghede' or spirit of chaos—to inhabit the gun's firmware. The process is unstable and often fails, making each successful creation a sacred artifact.",
+      "developmentHistory": "Ghede's Gaze was developed as a defensive tool for Voodoo Boys netrunners. When forced into a physical confrontation, they needed a weapon that could still leverage their greatest strength: hacking. The indwelling AI acts as a co-processor, using the kinetic energy from a critical hit to power and deploy a simple, disruptive quickhack. It turns every firefight into a two-front war, attacking the target's body with bullets and their chrome with digital curses.",
+      "productionDate": "Ongoing, ritual creation"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Excellent for overwhelming a single, heavily-chromed target with a barrage of disruptive quickhacks.",
+        "The random nature of the quickhacks can create unpredictable and chaotic openings in a fight.",
+        "High rate of fire and smart-targeting synergy make it easy to land multiple critical hits.",
+        "Provides a netrunner with offensive hacking capabilities even when out of RAM."
+      ],
+      "weaknesses": [
+        "The quickhack effect is random and cannot be controlled, making it unreliable for specific strategies.",
+        "Lower base damage than a pure Power SMG.",
+        "The indwelling AI is rumored to be mischievous, occasionally causing the weapon to jam or its wielder's optics to flicker with cryptic symbols.",
+        "As a sacred Voodoo Boys weapon, carrying it will make you a prime target for Netwatch."
+      ],
+      "recommendedRoles": "Netrunner, Techie-Goon, Cyber-Witchdoctor.",
+      "masteryArchetype": "A 'Digital Trickster' build. A netrunner with a high Intelligence and Cool attribute who embraces chaos. They don't need a plan. The ideal user focuses on landing critical hits, letting the weapon's AI sow discord among enemy ranks while they use their own quickhacks to exploit the resulting confusion. They turn every firefight into a cascade of system failures and panicked screams."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Forbidden. Ghede's Gaze is a sacred tool and a closely guarded secret of the Voodoo Boys' inner circle. It is never sold or traded. The only way an outsider could acquire one is by defeating a high-ranking Voodoo Boys champion in ritual combat or by navigating the treacherous depths of the Old Net and striking a bargain with a digital Loa yourself.",
+      "rumoredLocation": "Brigitte, the leader of the Voodoo Boys, is said to be the keeper of the first and most powerful Ghede's Gaze. It is rumored to house a fragment of a legendary AI from before the Blackwall. She keeps it secured in her holiest server room within the Grand Imperial Mall."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Spider' (Netrunner)",
+        "context": "Defending an access point against a Militech netrunner and his guards.",
+        "feedback": "'This SMG is alive. I swear it. I was dueling the enemy decker when his bodyguards breached the room. I just held down the trigger. The guards' guns started jamming, their optics went dark... it was chaos. The gun fought the solos while I fried the runner. It's like having a second netrunner in your hands.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Havoc' (Ex-Military Merc)",
+        "context": "Street battle against unaugmented gangers.",
+        "feedback": "'It's a decent SMG, I guess. Fast fire rate. But all that fancy hacking nonsense? It did nothing to these street rats. They don't have enough chrome to hack. It just felt like a weak pistol. It's a one-trick pony, and the trick doesn't always work.'",
+        "rating": "2/5 (Useless against low-techs)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Exploring the depths of Pacifica.",
+        "feedback": "'Holding this thing is... weird. Sometimes my optics flicker with static and weird symbols. And when I hit a crit, and the enemy's gun just flies out of their hands... it feels less like I'm shooting and more like I'm casting a spell. This ain't just a gun; it's Voodoo.'",
+        "rating": "4/5 (Effective but creepy)"
+      }
+    ]
+  }
+}

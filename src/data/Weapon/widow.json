@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Widowmaker",
+    "image": "/widowmaker.jpg",
+    "id": "darra_polytechnic_widowmaker",
+    "aliases": ["The Wall-Breaker", "Boomer's Friend", "Double Trouble"],
+    "type": "Tech Double-Barrel Shotgun",
+    "manufacturer": "Darra Polytechnic",
+    "status": "Active; Specialist Market",
+    "cost": "€$105,000",
+    "specialAbility": "A charged shot fires both barrels at once with massive armor penetration and a wider spread.",
+
+    "baseStats": {
+      "attackSpeed": 1,
+      "damage": "300",
+      "reloadSpeed": 2,
+      "range": 18,
+      "mods": 2
+    },
+
+    "manufacturingIntel": {
+      "creator": "Darra Polytechnic (Artisan Division)",
+      "creatorReputation": "Darra Polytechnic is known for producing reliable, no-frills firearms. The 'Widowmaker' line was an experimental passion project, an attempt to fuse classic, handcrafted shotgun design with modern tech weaponry. They wanted to create a gun for the discerning merc who appreciates the feel of polished wood and engraved steel but demands the performance of a cutting-edge railgun.",
+      "developmentHistory": "The design is based on a classic over-under shotgun, prized for its balance and reliability. The innovation came from replacing the standard firing mechanism with a compact, electromagnetic charging system. This allows the user to fire standard shells or to hold the trigger, charging both barrels to launch the projectiles at hypersonic speeds. The result is a weapon that functions as a reliable CQC tool and a devastating, short-range anti-cover weapon. It became a cult favorite among tech-savvy solos and collectors.",
+      "productionDate": "Circa 2070"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Extremely versatile; functions as both a standard Power shotgun and a cover-penetrating Tech weapon.",
+        "The charged shot is capable of eliminating multiple, tightly-packed enemies through thin walls.",
+        "High burst damage makes it devastating in close-quarters ambushes.",
+        "Faster reload speed than most pump-action or drum-fed shotguns."
+      ],
+      "weaknesses": [
+        "Limited to two shots before a mandatory reload, punishing missed shots.",
+        "The charged shot has a significant delay, requiring a pre-calculated attack.",
+        "The wider spread on the charged shot makes it less effective against single targets at medium range.",
+        "Loud and flashy, making it unsuitable for stealth."
+      ],
+      "recommendedRoles": "Techie-Solo Hybrid, Breacher, Combat Engineer.",
+      "masteryArchetype": "A 'Combat Tactician' build. A merc with a high Technical Ability attribute who uses their knowledge of the environment to their advantage. The ideal user doesn't charge into a room; they ping their enemies, see them through the walls, and use the Widowmaker's charged shot to eliminate them before the fight even begins. They are a master of ambush and surprise."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Rare, but obtainable. The Widowmaker is a high-end, specialist weapon. It can be found at upscale weapon vendors in City Center and Japantown. It is also a known favorite of combat-oriented Nomads, and can sometimes be purchased from their traveling caravans.",
+      "rumoredLocation": "Nash, a high-ranking member of the Raffen Shiv, is said to carry a heavily modified Widowmaker with a custom stock and an overclocked charging coil. He was last seen running a smuggling operation out of a cave system in the eastern Badlands."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Boomer' (Techie)",
+        "context": "Clearing a Valentino-held apartment complex.",
+        "feedback": "'This gun is just plain smart. Ping the floor above me, see three Valentinos hiding behind a sofa. Charge up the Widowmaker, aim at the floor, and... *thump-thump*. Problem solved. No need to even kick down the door. It's the most efficient tool I own.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Havoc' (Ex-Military Merc)",
+        "context": "Open firefight in an Arasaka plaza.",
+        "feedback": "'It's a beautiful gun, but two shots is just not enough. By the time I've reloaded, I've already taken a face full of lead from some corpo with a standard assault rifle. It's a great ambush weapon, but in a straight-up, prolonged fight, it leaves you hanging.'",
+        "rating": "3/5 (Needs a bigger magazine)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Ambushing a Raffen Shiv camp.",
+        "feedback": "'I got this from Nash. It's a work of art. The kick is satisfying, and the sound of a charged shot punching through a shipping container to flatline the guy on the other side... it never gets old. It's a thinking person's shotgun.'",
+        "rating": "4/5 (Highly satisfying)"
+      }
+    ]
+  }
+}

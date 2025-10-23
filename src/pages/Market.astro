@@ -1,0 +1,8 @@
+---
+import MainLayout from "../Layout/MainLayout.astro";
+import MarketShop from "../components/MarketShop.astro";
+import data from "../data/Allweapons.json"
+---
+<MainLayout>
+    <MarketShop data = {data.weapons} />
+</MainLayout>

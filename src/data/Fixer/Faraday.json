@@ -1,0 +1,88 @@
+{
+  "fixerProfile": {
+    "title": "Faraday",
+    "image": "/friday.png",
+    "aliases": ["The Militech Leash", "The Suit"],
+    "status": "Deceased (as of 2076)",
+    "primaryTerritory": "Santo Domingo, Corpo Plaza",
+    "specialization": "Corporate Espionage, Prototype Acquisition, Black Ops, Asset Denial",
+
+    "biography": {
+      "earlyLife": "Faraday was a product of the Militech corporate machine. A junior executive in the R&D acquisitions department, he was known for his cold ambition and a complete lack of empathy. He saw the chaotic underworld of Night City not as a danger, but as an untapped resource—a way to climb the corporate ladder by using deniable assets (mercs) to achieve off-the-books objectives for his superiors.",
+      "riseAsFixer": "He never operated like a traditional fixer. He was an internal corporate agent given a long leash. Militech provided him with access to cutting-edge prototypes and a hefty budget to run black ops against Arasaka. He built a reputation for having the shiniest new chrome and the biggest payouts, which attracted skilled but desperate crews like the one led by Maine, and later, David Martinez.",
+      "modusOperandi": "Faraday's method was simple: dangle an irresistible prize—a piece of military-grade tech or a life-changing sum of eddies—and push his crew to their absolute limits. He was a micromanager, demanding constant updates and showing no tolerance for failure. He viewed his mercs not as people, but as investments. If an investment went bad, he would cut his losses without a moment's hesitation, often by selling out the crew to save himself.",
+      "reputation": "Faraday is remembered as a cautionary tale about the dangers of corpo gigs. He was a user, a man who burned through one of the most promising crews in Santo Domingo to fuel his own career. To veteran mercs, his name is a byword for betrayal. Working for him was a fast track to either a penthouse or a shallow grave, with the odds heavily favouring the latter."
+    },
+
+    "legendaryGig": {
+        "gigTitle": "The Kestrel Heist",
+        "date": "Circa 2075",
+        "objective": "Steal the Zetatech 'Kestrel' prototype, an experimental combat hovercar, directly from its exhibition lap during the annual Night City Grand Prix.",
+        "client": "Militech R&D (Deniable Operations)",
+        "target": "Zetatech 'Kestrel' Prototype",
+        "outcome": "A spectacular and violent success. Faraday provided Maine's crew with a Militech Basilisk APC equipped with a prototype EMP cannon. They used it to disable the Kestrel mid-race, leading to a massive pile-up and a running battle with Zetatech security on the Grand Prix track itself. The crew successfully hijacked the prototype and escaped through the storm drains, leaving a trail of destruction. Militech got their prize, and Faraday got his promotion.",
+        "hiredMercs": "'Maine' (Crew Leader), 'Dorio' (Enforcer), 'Pilar' (Techie)",
+        "mercFeedback": "'Faraday gave us a fucking tank and told us to crash a party. It was chaos. We almost bought it a dozen times, but the chrome was top-shelf, and the payout... Jesus. With that kind of gear, you feel like you can do anything. That's the hook. He makes you feel invincible right before he gets you killed.' - 'Maine' (Crew Leader)",
+        "payout": "€$ 400,000 + Rights to keep the (heavily damaged) EMP cannon.",
+        "reputationImpact": "This heist defined Faraday's modus operandi. It proved he could provide mercs with military-grade hardware for high-risk, high-reward operations. It cemented his reputation as the fixer who offered the best toys and the biggest paychecks, attracting ambitious, chrome-hungry crews and establishing his pattern of using them as live-fire test subjects for Militech's newest weapons."
+    },
+
+    "fixerRatings": {
+      "overallThreat": "9/10 (Extreme)",
+      "reliability": "2/10 - Highly Unstable. He honors the payment if a job is a clean success, but will immediately betray his crew to corporate forces to cover his tracks or mitigate failure.",
+      "payment": "9/10 - Backed by Militech's deep pockets, his payouts were among the highest in the city, a necessary lure for the extreme risks involved.",
+      "intelQuality": "7/10 - Provides excellent corporate-level data, but often overlooks or ignores on-the-ground human factors, leading to deadly surprises.",
+      "discretion": "4/10 - His operations are flashy and tend to attract massive heat. He is skilled at erasing his own connection, but leaves his mercs to take the fall.",
+      "resourcefulness": "9/10 - His primary advantage. Can source military-grade prototypes and experimental cyberware that no other fixer can get.",
+      "mercSurvivability": "1/10 - Abysmal. Working for Faraday was a near-certain death sentence. His crews had one of the shortest life expectancies in the business."
+    },
+
+    "advantages": {
+      "strengths": [
+        "Unprecedented access to Militech's experimental and military-grade technology.",
+        "Offers exceptionally high payouts for successful missions.",
+        "Ambitious, high-stakes gigs that could make a merc a legend.",
+        "Direct line to a major corporation's resources."
+      ],
+      "weaknesses": [
+        "Views mercenaries as completely disposable assets.",
+        "High probability of betrayal at the first sign of trouble.",
+        "Gigs are extremely dangerous and often pit crews against Arasaka's elite forces.",
+        "Lack of street-level common sense in his planning."
+      ]
+    },
+
+    "recentGigDetails": [
+      {
+        "gigTitle": "Project Cyberskeleton",
+        "date": "Late 2076",
+        "objective": "Field-test and secure the Militech 'Cyberskeleton' prototype by eliminating Arasaka forces during a high-profile corporate confrontation.",
+        "client": "Militech Upper Management",
+        "target": "Arasaka Tower Security Forces",
+        "outcome": "Catastrophic Failure. The operative, David Martinez, successfully utilized the Cyberskeleton but suffered a full-blown cyberpsychotic breakdown. The resulting rampage through City Center triggered a maximum-level MAX-TAC response. Faraday attempted to flee but was ultimately eliminated by Militech's own internal affairs agents for his failure to control the asset.",
+        "mercFeedback": "'Log Analysis: Faraday pushed the operative past all known human limits for a piece of hardware. When the asset went rogue, Faraday's only protocol was self-preservation. A complete operational and ethical failure.' - Post-Incident Report",
+        "payout": "€$ 0 (Operator and Fixer Eliminated)"
+      },
+      {
+        "gigTitle": "The Tanaka Extraction",
+        "date": "Mid-2076",
+        "objective": "Intercept an Arasaka limo and forcibly extract navigational data from corporate executive Kenichi Tanaka.",
+        "client": "Militech Counter-Intelligence",
+        "target": "Kenichi Tanaka's Data",
+        "outcome": "Partially Successful with Severe Complications. The crew successfully stopped the limo, but the operation devolved into a chaotic firefight, resulting in Tanaka's death. The data was retrieved, but the unsanctioned killing of a high-level Arasaka exec put immense heat on the crew and made them a priority target for corporate retaliation.",
+        "mercFeedback": "'The job went sideways fast. It was supposed to be a snatch and grab, but it turned into a murder. Faraday didn't care how it got done, only that he got his data. That's when the real trouble started.' - Crew Survivor Testimony",
+        "payout": "€$ 40,000"
+      },
+      {
+        "gigTitle": "The Kuznetsov Extraction",
+        "date": "Early 2076",
+        "objective": "Acquire sensitive information from a rival Arasaka netrunner, Maxim Kuznetsov, regarding Arasaka's deep-net security protocols.",
+        "client": "Militech Cyber-Warfare Division",
+        "target": "Maxim Kuznetsov",
+        "outcome": "Successful. The crew, led by Maine, cornered the target and forcibly extracted the required data. The operation was clean by Faraday's standards, reinforcing his trust in the crew for more high-stakes operations.",
+        "mercFeedback": "'Standard corpo-on-corpo shit. Faraday pointed, we bit. The pay was good, so we didn't ask too many questions. Maybe we should have.' - Maine (Crew Leader)",
+        "payout": "€$ 35,000"
+      }
+    ]
+  }
+}

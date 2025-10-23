@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Whisper",
+    "image": "/whisper.png",
+    "id": "arasaka_whisper",
+    "aliases": ["The Ghost's Kiss", "The Flatline Foil", "Kage-no-Yaiba (Blade of Shadows)"],
+    "type": "Melee (Mono-edge Blade)",
+    "manufacturer": "Arasaka (Special Operations Division)",
+    "status": "Restricted; Arasaka Black Ops Issue",
+    "cost": "€$135,000 (Black Market Estimate)",
+    "specialAbility": "Lunging heavy attacks have a 100% Crit Chance and bypass a portion of enemy armor. Successful stealth takedowns with this weapon briefly activate Optical Camo.",
+
+    "baseStats": {
+      "attackSpeed": 4.5,
+      "damage": 280,
+      "reloadSpeed": 0,
+      "range": 3,
+      "mods": 2
+    },
+
+    "manufacturingIntel": {
+      "creator": "The Arasaka 'Kage' (Shadow) Program",
+      "creatorReputation": "This blade was not designed by a single person, but by Arasaka's elite wetwork division. It is the culmination of centuries of traditional blade-making and cutting-edge material science. Their philosophy is that a true assassin needs only one strike, perfectly placed, to end a conflict.",
+      "developmentHistory": "The Whisper was developed for Arasaka's top counter-intelligence agents and assassins, operatives who are sent to eliminate threats with absolute silence and deniability. The blade itself is a single, mono-molecular edge suspended in a state-of-the-art synthetic frame, making it unimaginably sharp and light. The integrated micro-projectors in the hilt sync with the user's cyberware, using the bio-feedback from a successful stealth kill to power a brief 'shroud' of optical camo, allowing for seamless, chain-stealth takedowns.",
+      "productionDate": "Ongoing, highly classified production"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Unmatched for stealth operations, with the ability to chain silent kills.",
+        "The guaranteed critical hit on a lunging attack makes it perfect for initiating combat from the shadows.",
+        "Extremely high attack speed allows for rapid follow-up strikes.",
+        "Bypasses armor on its most powerful attack, making it effective against elite guards."
+      ],
+      "weaknesses": [
+        "Very low base damage on light attacks; relies on critical hits and stealth multipliers.",
+        "Fragile; has a very low chance to parry or block heavy melee attacks.",
+        "Ineffective in open, prolonged firefights against multiple opponents.",
+        "The Optical Camo effect is too brief for general-purpose invisibility."
+      ],
+      "recommendedRoles": "Stealth Assassin, Infiltrator, Netrunner-Solo Hybrid.",
+      "masteryArchetype": "A 'Shinobi' build. A user with sky-high Cool and Reflexes attributes who treats combat like a deadly puzzle. They use quickhacks to distract and isolate targets, then use the Whisper's lunge to strike from the shadows. The brief invisibility from the kill allows them to immediately reposition and select their next target. They are a ghost, a rumor, and the last thing their enemies never see."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Effectively zero. The Whisper is proprietary Arasaka technology and one of their most closely guarded secrets. It is never sold. The only way to obtain one is to pry it from the grip of a high-level Arasaka agent, a feat few have lived to talk about. Some top-tier fixers, like Wakako or Rogue, might be able to source one for an astronomical price, but it would paint a massive Arasaka-shaped target on your back.",
+      "rumoredLocation": "It's whispered that Sandayu Oda, Goro Takemura's cybernetic replacement as Saburo Arasaka's personal guard, carries a pair of master-crafted Whispers in addition to his Jinchu-Maru. He is the living embodiment of the weapon's deadly potential."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Ghost' (Infiltrator)",
+        "context": "Neutralizing the entire security detail of a Petrochem exec without raising an alarm.",
+        "feedback": "'This blade is not a weapon; it's a key. A key that opens throats. I lunged, and the first guard just... went quiet. The camo shimmered, and I was behind the next one. Cleared the whole floor like a phantom. It's the most professional tool I've ever used. Perfection.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Rhino' (Brawler)",
+        "context": "Ambushed in an open street battle with 6th Street.",
+        "feedback": "'This thing is a toothpick. Tried to go toe-to-toe with some 6th Street heavy and my first hit barely scratched his armor. It's useless if you can't get the jump on someone. Snapped it in half trying to block his hammer. A fragile toy for sneaks.'",
+        "rating": "1/5 (For a real fight)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Assassination gig in a crowded nightclub.",
+        "feedback": "'The target was surrounded by people. Couldn't risk a gun. Slipped through the crowd, one quick lunge, and he was down. The camo flash was just enough to let me blend back into the dancers before anyone even noticed him fall. It's a beautiful, terrifying piece of work.'",
+        "rating": "4/5 (Precision tool)"
+      }
+    ]
+  }
+}

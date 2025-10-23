@@ -1,0 +1,225 @@
+---
+const { title, fixer, type, target, danger, description, pay, place } = Astro.props;
+let threatCategory;
+const level = Number(danger);
+if (level <= 4) {
+    threatCategory = 'low';
+} else if (level <= 7) {
+    threatCategory = 'medium';
+} else {
+    threatCategory = 'high';
+}
+---
+
+<div class="gig-card-dossier">
+    <div class="scanlines"></div>
+    <div class="gig-header">
+        <h1>{title}</h1>
+        <span class="gig-type">{type}</span>
+    </div>
+    <div class="gig-details">
+        <div class="gig-row">
+            <span class="label">FIXER:</span>
+            <span class="value">{fixer}</span>
+        </div>
+        <div class="gig-row">
+            <span class="label">TARGET:</span>
+            <span class="value">{target}</span>
+        </div>
+         <div class="gig-row">
+            <span class="label">LOCATION:</span>
+            <span class="value">{place}</span>
+        </div>
+        <div class="gig-row">
+            <span class="label">DANGER LEVEL:</span>
+            <span class={`value danger danger-${danger.toLowerCase()}`}>{danger}</span>
+        </div>
+    </div>
+
+    <div class="gig-description">
+        <div class="desc-header">
+             <span class="label">BRIEFING:</span>
+        </div>
+        <p>{description}</p>
+    </div>
+
+    <div class="payment-row">
+        <span class="label">EXPECTED PAY:</span>
+        <span class="value pay">{pay}</span>
+    </div>
+
+    <div class="corner-cut"></div>
+</div>
+
+<style>
+    /* Using the same font for aesthetic consistency */
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap');
+
+    :root {
+        --cyber-yellow: #fcee0a;
+        --cyber-cyan: #00f0ff;
+        --cyber-red: #ef4444;
+        --cyber-green: #22c55e;
+        --background-dark: #0a0a0f;
+        --text-light: #e1e1e1;
+        --text-dark: #8c8c8c;
+        --border-color: rgba(0, 240, 255, 0.4);
+        --glow-color: rgba(0, 240, 255, 0.2);
+    }
+
+    /* --- DOSSIER STYLING --- */
+    .gig-card-dossier {
+        /* Increased size for a more prominent, focused view */
+        max-width: 800px;
+        margin: 4rem auto;
+        background: var(--background-dark);
+        color: var(--text-light);
+        border: 2px solid var(--border-color);
+        /* More padding for a less cramped feel */
+        padding: 2.5rem 3rem;
+        font-family: 'Rajdhani', sans-serif;
+        position: relative;
+        /* Larger corner cut to scale with the new size */
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), calc(100% - 40px) 100%, 0 100%);
+        overflow: hidden;
+        /* Added a hover effect for more interactivity */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gig-card-dossier:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px var(--glow-color);
+    }
+
+    /* Larger decorative corner to match the clip-path */
+    .corner-cut {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background: var(--cyber-yellow);
+        clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    }
+
+    /* Scanlines effect remains the same */
+    .scanlines {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.1) 75%, rgba(0,0,0,0.3));
+        background-size: 100% 4px;
+        animation: scan 10s linear infinite;
+        pointer-events: none; z-index: 1;
+    }
+    @keyframes scan {
+        0% { background-position: 0 0; } 100% { background-position: 0 400px; }
+    }
+
+    .gig-header {
+        display: flex; justify-content: space-between; align-items: flex-start;
+        padding-bottom: 1rem; margin-bottom: 2rem;
+        width: 100%; border-bottom: 2px solid var(--cyber-yellow);
+        position: relative; z-index: 2;
+    }
+
+    .gig-header h1 {
+        /* Larger font size for more impact */
+        font-size: 3rem;
+        font-weight: 700; margin: 0; color: var(--cyber-yellow);
+        text-transform: uppercase; letter-spacing: 1px;
+        text-shadow: 0 0 8px rgba(252, 238, 10, 0.6);
+    }
+
+    .gig-type {
+        background: var(--cyber-cyan); color: var(--background-dark);
+        padding: 0.4rem 1.25rem; font-size: 1rem; font-weight: 700;
+        text-transform: uppercase;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 15px 100%);
+        align-self: flex-end; transform: translateY(-8px); white-space: nowrap;
+    }
+
+    .gig-details {
+        display: flex; flex-direction: column;
+        /* More vertical space between rows */
+        gap: 1.25rem;
+        width: 100%; position: relative; z-index: 2;
+        margin-bottom: 2.5rem;
+    }
+    
+    .gig-row {
+        display: flex; justify-content: space-between; align-items: baseline;
+        /* Scaled up the font size */
+        font-size: 1.25rem;
+    }
+    
+    /* Dotted line connector effect remains */
+    .gig-row::after {
+        content: ''; flex-grow: 1; border-bottom: 2px dotted var(--text-dark);
+        margin: 0 0.75rem; transform: translateY(-4px);
+    }
+
+    .label {
+        font-weight: 700; color: var(--text-dark);
+        text-transform: uppercase; letter-spacing: 1.5px;
+        flex-shrink: 0;
+    }
+
+    .value {
+        color: var(--text-light); font-weight: 600;
+        text-align: right; flex-shrink: 0;
+        background: var(--background-dark); /* Sits on top of the dotted line */
+        padding-left: 0.75rem;
+    }
+
+    /* --- DESCRIPTION SECTION --- */
+    .gig-description {
+        margin: 2.5rem 0;
+        /* Added a background to visually separate the briefing */
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--border-color);
+        padding: 1.5rem;
+        border-radius: 4px;
+    }
+
+    .desc-header {
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .gig-description p {
+        margin: 0; color: var(--text-light);
+        /* Larger font and line-height for readability */
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+
+    /* --- PAYMENT SECTION --- */
+    /* Separated payment for emphasis */
+    .payment-row {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        border-top: 2px solid var(--cyber-yellow);
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .payment-row .label {
+        font-size: 1.25rem;
+        color: var(--text-light);
+    }
+    
+    .payment-row .pay {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--cyber-cyan);
+        text-shadow: 0 0 8px rgba(0, 240, 255, 0.6);
+    }
+
+    /* Danger level colors remain the same */
+    .danger { font-weight: bold; text-transform: uppercase; }
+    .danger-low { color: var(--cyber-green); }
+    .danger-medium { color: var(--cyber-yellow); }
+    .danger-high { color: var(--cyber-red); }
+</style>

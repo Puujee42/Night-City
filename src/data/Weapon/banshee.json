@@ -1,0 +1,104 @@
+{
+  "weaponProfile": {
+    "title": "Banshee",
+    "image": "/banshee.png",
+    "id": "zetatech_banshee",
+    "aliases": ["The Screamer", "Sonic Boom", "Glass Shatterer"],
+    "type": "Tech Pistol",
+    "manufacturer": "Zetatech",
+    "status": "Corporate Security Issue; Restricted",
+    "cost": "€$115,000 (Black Market Estimate)",
+    "specialAbility": "A fully charged shot releases a wide, conical sonic blast that deafens and stuns enemies, disabling their special abilities and scrambling their optics for a short time.",
+
+    "baseStats": {
+      "attackSpeed": 3,
+      "damage": "50 (+Sonic)",
+      "reloadSpeed": 1.5,
+      "range": 25,
+      "mods": 2
+    },
+
+    "designAndMaterials": {
+      "materials": "The Banshee is constructed from an injection-molded, sound-dampening polymer to prevent vibrations from affecting the user. The core of the weapon is a series of piezoelectric crystals housed within a resonant chamber. The flared, bell-like muzzle is a specially designed acoustic waveguide made from a lightweight ceramic composite, designed to shape the sonic blast with precision.",
+      "ammunitionType": "The Banshee uses no projectile ammunition. It is powered by a proprietary Zetatech high-density charge pack that energizes the internal piezoelectric crystals. A standard shot is a focused, high-frequency sonic 'punch,' while a charged shot releases a wide-spectrum sonic wave. The weapon is nearly silent until the pulse impacts the target area.",
+      "compatibleMods": [
+        {
+          "slot": "Optics",
+          "mod": "Zetatech 'Audiogram' Scope",
+          "description": "A diagnostic scope that highlights targets with active auditory and ocular cyberware, increasing the duration of the stun and scramble effects against them."
+        },
+        {
+          "slot": "Muzzle",
+          "mod": "Harmonic Amplifier",
+          "description": "Widens the cone of the charged sonic blast, allowing it to affect a larger group of enemies at the cost of a slight reduction in range."
+        },
+        {
+          "slot": "Internal",
+          "mod": "Overcharged Capacitor",
+          "description": "Reduces the charge time for the sonic blast by 30%, allowing for more frequent use of the weapon's crowd control capabilities."
+        }
+      ]
+    },
+
+    "weaponPhilosophy": {
+      "concept": "The Banshee embodies Zetatech's core principle of 'Control, Don't Destroy.' In a world where a single stray bullet can obliterate millions of eddies worth of server data or kill a priceless extraction target, lethal force is a liability. The Banshee is the solution. It is a weapon of systemic disruption, designed not to end a life, but to temporarily erase a target's ability to function. Its philosophy is surgical and clean: overwhelm their senses, crash their cyberware, and neutralize the threat before a single drop of blood is shed. It is the chosen tool of an operator who sees violence as a messy, unprofitable last resort."
+    },
+
+    "manufacturingIntel": {
+      "creator": "Zetatech Non-Lethal Solutions Division",
+      "creatorReputation": "Zetatech's Non-Lethal division is known for creating some of the most advanced crowd control technology on the market. Their philosophy is 'asset preservation,' believing that it's more profitable to incapacitate a threat than to destroy it and the valuable environment around it. Their lead designer is a former audio engineer obsessed with harmonic resonance.",
+      "developmentHistory": "The Banshee was developed under a lucrative contract for corporate clients who needed a way to neutralize threats in sensitive locations like server farms, laboratories, and executive suites. Traditional firearms caused too much collateral damage. The Banshee's innovation is its 'Resonant Sonic Pulse' generator, which fires a focused wave of sound capable of incapacitating targets by overloading their auditory and ocular cyberware without piercing a single wall. It quickly became the preferred tool for high-end corporate security worldwide.",
+      "productionDate": "Circa 2075"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Superb non-lethal crowd control, capable of stunning entire groups in a single blast.",
+        "The Stun and 'Optic Scramble' effects are devastating against netrunners and other tech-focused enemies.",
+        "Completely silent until the moment of impact, allowing for surprise attacks.",
+        "Zero collateral damage to the environment, making it ideal for hostage situations or data protection gigs."
+      ],
+      "weaknesses": [
+        "Extremely low lethal damage; not designed for killing.",
+        "The sonic pulse has a short range and cannot penetrate cover.",
+        "The charge-up time for the conical blast requires pre-meditation.",
+        "Almost useless against enemies with hardened or no auditory/optical cyberware."
+      ],
+      "recommendedRoles": "Riot Control, Corporate Security, Non-Lethal Infiltrator, Support.",
+      "masteryArchetype": "A 'Field Controller' build. A merc with a high Cool and Intelligence attribute who focuses on managing the battlefield. The ideal user combines the Banshee with non-lethal quickhacks and EMP grenades. They don't eliminate threats; they disable them, controlling the flow of combat and creating openings for their squad to perform takedowns or achieve the objective without a single casualty."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Highly Restricted. The Banshee is a corporate-issue weapon and is not sold to the public. It can only be acquired through fixers with deep corporate security contacts, like Arthur Cormac, or by looting it from a high-level Zetatech security commander.",
+      "rumoredLocation": "Intel suggests a Maelstrom raid on a Zetatech convoy resulted in a crate of Banshees falling into their hands. They reportedly use them during their initiation rituals and 'raves' at the All Foods plant, enjoying the disorienting sonic effects. Their lead techie is said to be trying to weaponize the sonic frequency to lethal levels."
+    },
+
+    "fieldTestimonials": [
+      {
+        "mercName": "'Static' (Corpo Security Specialist)",
+        "role": "Field Control / Asset Protection",
+        "context": "Neutralizing a rival netrunner crew attempting a data heist in a secure server farm.",
+        "feedback": "'The op was clean. Five hostiles, armed to the teeth, jacked in and ready to fry the system. One charged blast from the Banshee and all five were on the floor, cyberware rebooting, optics full of static. No damage to the server racks, no fire suppression triggered. We just walked in and cuffed them. It's not a weapon; it's a 'problem solved' button.'",
+        "rating": "5/5"
+      },
+      {
+        "mercName": "'Rhino' (Brawler)",
+        "role": "The Muscle / Tank",
+        "context": "A street brawl against the Animals gang in Santo Domingo.",
+        "feedback": "'My fixer gave me this... *thing*... for a gig. I hit a juiced-up Animal with a full blast. He stumbled, shook his head like a dog trying to get water out of its ear, and then charged me even angrier than before. This peashooter is a liability. If you're in a real fight, you need something that makes holes, not noise. Threw it in the river.'",
+        "rating": "1/5 (A dangerous toy)"
+      },
+      {
+        "mercName": "'Quiet' (Cyberpsycho Hunter)",
+        "role": "Non-Lethal Specialist",
+        "context": "Subduing a cyberpsycho in a crowded Japantown market for Regina Jones.",
+        "feedback": "'The target was chromed to the gills, waving a shotgun around, civilians everywhere. A single shot would have caused a massacre. I came in from a side alley, charged the Banshee, and hit him with the sonic wave. His optics went haywire and his weapon system rebooted. That gave me the two-second window I needed to get in close and hit him with the tranquilizer. It's the perfect tool for when you absolutely cannot afford a stray round. It doesn't kill, it creates opportunities.'",
+        "rating": "4/5 (The ultimate specialist tool)"
+      }
+    ],
+
+    "crewSynergyAssessment": {
+      "analysis": "The Banshee is a quintessential support weapon that can define a crew's effectiveness in non-lethal and control-based operations. It is best wielded by the crew's Netrunner or a dedicated 'Controller' merc. Their role is to initiate combat by disabling the most dangerous threats in a room, allowing the crew's solo or melee specialist to move in and perform takedowns on the stunned and blinded enemies. It synergizes perfectly with quickhacks like 'Cyberware Malfunction' and 'Optics Reboot,' creating a devastating cascade of sensory overload. In a crew built for stealth and subtlety, the Banshee is the ultimate insurance policy for when things go loud, ensuring the 'loud' part is one-sided."
+    }
+  }
+}

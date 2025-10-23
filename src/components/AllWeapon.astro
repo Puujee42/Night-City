@@ -1,0 +1,202 @@
+---
+// --- PROPS ---
+// This component expects a single weapon object from your JSON file.
+const {
+    id, name, type, manufacturer, iconic, description, specialAbility, baseStats, baseCost, image // Added image prop
+} = Astro.props;
+let val = ''
+for(let i = 0; i < 3; i++){
+    val += name[i].toLowerCase()
+}
+console.log(val)
+// Create a simple "rarity" category for color-coding
+let rarityCategory;
+if (iconic) {
+    rarityCategory = 'iconic';
+} else {
+    rarityCategory = 'standard';
+}
+---
+
+<div class="dossier-card" style={`--gradient: linear-gradient(to bottom right, #00c9ff, #92fe9d)`}>
+    <div class="scanlines"></div>
+    <div class="dossier-header">
+        <h1>{name}</h1>
+        <span class="dossier-rank">{type}</span>
+    </div>
+    <div class="dossier-body">
+        <div class="dossier-image-container">
+            <!-- Add a placeholder or actual image path in your JSON for this to work -->
+            <img src={image || '/placeholder-weapon.webp'} alt={`Database image of ${name}`} />
+        </div>
+        <div class="details-grid">
+            <!-- Core Details -->
+            <div class="detail-row">
+                <span class="label">MANUFACTURER:</span>
+                <span class="value">{manufacturer}</span>
+            </div>
+            <div class="detail-row">
+                <span class="label">RARITY:</span>
+                <span class={`value threat threat-${rarityCategory}`}>{iconic ? 'ICONIC' : 'STANDARD'}</span>
+            </div>
+            
+            <!-- Description -->
+            <div class="detail-row description-row">
+                 <span class="label">DESCRIPTION:</span>
+                 <p class="value description">{description}</p>
+            </div>
+
+            <!-- Special Ability -->
+            <div class="detail-row description-row">
+                 <span class="label">SPECIAL ABILITY:</span>
+                 <p class="value description ability">{specialAbility}</p>
+            </div>
+            
+            <!-- Base Stats -->
+            <div class="detail-row">
+                <span class="label">BASE STATS:</span>
+                <div class="stats-list">
+                   <div class="stat-item"><span>Attack Speed:</span> <span>{baseStats.attackSpeed}</span></div>
+                   <div class="stat-item"><span>Damage:</span> <span>{baseStats.damage}</span></div>
+                   <div class="stat-item"><span>Range:</span> <span>{baseStats.range}m</span></div>
+                   <div class="stat-item"><span>Reload Speed:</span> <span>{baseStats.reloadSpeed}s</span></div>
+                </div>
+            </div>
+            <button><a href={`./weapons/${val}`}>See acquisition details</a></button>
+        </div>
+    </div>
+    <div class="corner-cut" style={`background-color: #92fe9d`}></div>
+</div>
+
+<style>
+    /* This style block is a direct copy of your fixer dossier, adapted for weapons */
+    @font-face {
+        font-family: 'Deltha';
+        src: url('../../public/Deltha.ttf');
+    }
+    :root {
+        --cyber-yellow: #fcee0a;
+        --cyber-cyan: #00f0ff;
+        --cyber-red: #ef4444;
+        --cyber-green: #22c55e;
+        --background-dark: #0a0a0f;
+        --text-light: #e1e1e1;
+        --text-dark: #8c8c8c;
+    }
+
+    .dossier-card {
+        font-family: 'Deltha', sans-serif;
+        max-width: 1200px;
+        margin: 4rem auto;
+        background: var(--background-dark);
+        color: var(--text-light);
+        position: relative;
+        overflow: hidden;
+        border: 4px solid transparent;
+        border-image: var(--gradient) 1;
+        box-shadow: 0 0 30px -5px var(--gradient-from, #ff00ff);
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), calc(100% - 40px) 100%, 0 100%);
+    }
+
+    .corner-cut {
+        position: absolute; bottom: 0; right: 0;
+        width: 40px; height: 40px;
+        clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    }
+    
+    .scanlines {
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.4));
+        background-size: 100% 3px;
+        animation: scan 8s linear infinite;
+        pointer-events: none; z-index: 1;
+    }
+    @keyframes scan { 0% { background-position: 0 0; } 100% { background-position: 0 300px; } }
+
+    .dossier-header {
+        padding: 1.5rem 2.5rem;
+        border-bottom: 2px solid var(--cyber-yellow);
+        display: flex; justify-content: space-between; align-items: baseline;
+    }
+
+    .dossier-header h1 {
+        font-size: 3rem; font-weight: 700; margin: 0;
+        color: var(--cyber-yellow);
+        text-transform: uppercase;
+        text-shadow: 0 0 8px rgba(252, 238, 10, 0.6);
+        text-align: left;
+    }
+
+    .dossier-rank {
+        font-size: 1.2rem; font-weight: 700;
+        color: var(--text-dark);
+        text-transform: uppercase; letter-spacing: 2px;
+    }
+
+    .dossier-body {
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        gap: 2.5rem;
+        padding: 2.5rem;
+        position: relative; z-index: 2;
+    }
+
+    .dossier-image-container {
+        width: 350px; height: 400px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+        border: 2px solid var(--text-dark);
+        /* NEW: Added a background for placeholder */
+        background-color: rgba(0,0,0,0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .dossier-image-container img {
+        width: 100%; height: 100%; object-fit: contain; /* Use contain for weapons to see the whole item */
+        filter: grayscale(40%) contrast(110%) brightness(0.9);
+        transition: filter 0.3s ease;
+        padding: 1rem;
+    }
+    .dossier-card:hover img { filter: grayscale(0%) contrast(100%) brightness(1); }
+    
+    .details-grid { display: flex; flex-direction: column; gap: 2rem; }
+    .detail-row { display: flex; flex-direction: column; align-items: flex-start; }
+
+    .label {
+        font-weight: 700; font-size: 1rem;
+        color: var(--text-dark);
+        text-transform: uppercase; letter-spacing: 1.5px;
+        margin-bottom: 0.5rem;
+    }
+    .value { font-size: 1.25rem; font-weight: 500; color: var(--text-light); }
+    .description { font-size: 1.1rem; line-height: 1.7; color: var(--text-light); max-width: 70ch; }
+    
+    .threat { font-weight: 700; text-transform: uppercase; }
+    .threat-iconic { color: var(--cyber-yellow); } /* For iconic items */
+    .threat-standard { color: var(--text-light); } /* For standard items */
+    
+    /* Special styling for ability text */
+    .ability {
+        color: var(--cyber-cyan);
+        font-style: italic;
+    }
+
+    /* --- BASE STATS LIST --- */
+    .stats-list {
+        list-style: none; padding: 0; margin: 0;
+        width: 100%;
+    }
+    .stat-item {
+        color: var(--text-light); font-size: 1.1rem;
+        margin-bottom: 0.5rem; display: flex;
+        align-items: center; justify-content: space-between;
+    }
+     .stat-item span:first-child{
+        color: var(--text-dark);
+        margin-right: 1rem;
+    }
+     .stat-item span:last-child{
+        font-weight: 700;
+    }
+</style>

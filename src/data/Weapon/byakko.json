@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Byakko",
+    "image": "/byakko.jpg",
+    "id": "tyger_claws_byakko",
+    "aliases": ["The White Tiger", "The Blur", "Japantown's Edge"],
+    "type": "Melee (Katana)",
+    "manufacturer": "Tyger Claws (Custom)",
+    "status": "Custom; Faction Signature Weapon",
+    "cost": "€$92,000 (Black Market Estimate)",
+    "specialAbility": "Every consecutive hit increases your attack speed and movement speed. After 5 hits, allows you to perform a powerful dash-strike.",
+
+    "baseStats": {
+      "attackSpeed": 3.2,
+      "damage": 300,
+      "reloadSpeed": 0,
+      "range": 2.5,
+      "mods": 2
+    },
+
+    "manufacturingIntel": {
+      "creator": "The Bladesmiths of the Hiromi Sato Dojo",
+      "creatorReputation": "The Byakko is forged by a secretive group of Tyger Claw masters who blend traditional sword-making with cutting-edge cybernetics. They believe a katana should be an extension of the user's will. The name 'Byakko' refers to the White Tiger of the West, a symbol of righteous fury and deadly speed.",
+      "developmentHistory": "The Byakko was created for the Tyger Claws' 'Kensei'—their sword saints and elite enforcers. The core innovation is the neuro-link integrated into the hilt. It monitors the user's adrenaline and bio-feedback, creating a feedback loop: as the user attacks faster, the link stimulates their nervous system, pushing their reflexes and speed even further. The dash-strike is the culmination of this, a short-range teleportation burst powered by the overclocked link. It's a weapon designed for duels and for cutting down multiple opponents in a furious, unstoppable storm of steel.",
+      "productionDate": "Ongoing, custom forged"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Exceptional in prolonged engagements against multiple enemies, as its speed continuously ramps up.",
+        "The dash-strike provides incredible mobility, allowing the user to close gaps or escape encirclement.",
+        "High base attack speed makes it a formidable dueling weapon.",
+        "Rewards an aggressive, relentless combat style."
+      ],
+      "weaknesses": [
+        "The speed-boosting effect resets if the user stops attacking, punishing defensive or hesitant play.",
+        "Lower single-hit damage compared to heavier blades or blunt weapons.",
+        "The neuro-link can cause minor sensory overload (visual static) during intense, prolonged use.",
+        "As a signature Tyger Claw weapon, carrying it in other gang territories can attract unwanted attention."
+      ],
+      "recommendedRoles": "Street Samurai, Speed Solo, Melee Brawler.",
+      "masteryArchetype": "A 'Bladedancer' build. A merc with a high Reflexes attribute, a Sandevistan, and cyberware that enhances melee damage and stamina. The ideal user never stops moving. They weave through enemies, their attack speed ramping up to a blur, culminating in a series of lightning-fast dash-strikes that leave a trail of dismembered bodies. They don't just fight; they perform a deadly dance."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Very Rare. The Byakko is a symbol of rank and skill within the Tyger Claws and is never sold on the open market. It is traditionally gifted to a Claw who has proven their mastery, or it can be 'inherited' from a defeated Kensei. Wakako Okada is the only fixer who can reliably source one, and only for her most trusted and skilled operatives.",
+      "rumoredLocation": "The current champion of the Tyger Claw dojo in Japantown, a solo known only as 'Kage' (Shadow), is said to wield the finest Byakko ever forged. He can sometimes be seen meditating at the Cherry Blossom Market shrine, the blade resting at his side."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Ronin' (Street Samurai)",
+        "context": "Clearing out a warehouse full of Maelstrom gangers.",
+        "feedback": "'This blade... it has a hunger. The more you feed it, the faster it gets. By the end of the fight, I wasn't even thinking, just moving. It felt like I was teleporting from one gonk to the next. It's not just a weapon; it's a partner.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Turtle' (Heavy Gunner)",
+        "context": "Defending a position against an Arasaka assault team.",
+        "feedback": "'I prefer to keep my distance. Tried using this thing when they breached my position. It's fast, I'll give it that, but you have to be right in their face, constantly swinging. If you stop for even a second to take cover, it feels sluggish. Not for a defensive fighter.'",
+        "rating": "2/5 (Wrong playstyle)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Received as a gift after completing all of Wakako's gigs.",
+        "feedback": "'Wakako said this was a gift for a true professional. She wasn't kidding. The feeling when the neuro-link kicks in and the world slows to a crawl around your blade... there's nothing else like it. It's the ultimate reward for a blade-master in this city.'",
+        "rating": "5/5 (A true masterpiece)"
+      }
+    ]
+  }
+}

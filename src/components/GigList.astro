@@ -1,0 +1,10 @@
+---
+import type { ACTION_ERROR_CODES, ACTION_QUERY_PARAMS, ActionError } from "astro:actions"
+import List from "./List.astro"
+
+const {data} = Astro.props
+console.log(data)
+---
+<div>
+    {data.map((json)=><List {... json} />)}
+</div>

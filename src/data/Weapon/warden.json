@@ -1,0 +1,71 @@
+{
+  "weaponProfile": {
+    "title": "Warden",
+    "image": "/warden.png",
+    "id": "kang_tao_warden",
+    "aliases": ["The Shepherd's Crook", "The Pacifier", "The HR Special"],
+    "type": "Melee (Stun Staff)",
+    "manufacturer": "Kang Tao",
+    "status": "Active; Corporate Security Issue",
+    "cost": "€$85,000",
+    "specialAbility": "Non-lethal. Blocking incoming attacks builds up a charge. A heavy attack expends the charge to release a powerful electrical blast that can chain to nearby enemies.",
+
+    "baseStats": {
+      "attackSpeed": 2.5,
+      "damage": 180,
+      "reloadSpeed": 0,
+      "range": 3.5,
+      "mods": 1
+    },
+
+    "manufacturingIntel": {
+      "creator": "Kang Tao Non-Lethal Enforcement Division",
+      "creatorReputation": "Kang Tao's reputation is built on smart guns that think. The Warden comes from a different philosophy: a smart weapon that *defends*. The project was led by a former martial arts master who believed that the best way to win a fight was to control your opponent's energy and use it against them.",
+      "developmentHistory": "The Warden was designed as a crowd control and VIP protection tool for Kang Tao's elite corporate sentinels. The core technology is its 'Kinetic-to-Capacitor' conversion system. The staff's frame absorbs the kinetic energy of blocked impacts—melee or ballistic—and stores it in a high-capacity capacitor in the head. A heavy attack discharges this capacitor in a targeted, chain-lightning blast. It's a weapon that grows stronger the more aggressively it is attacked, making it the perfect tool for a defensive operator facing overwhelming numbers.",
+      "productionDate": "Circa 2074"
+    },
+
+    "tacticalAssessment": {
+      "strengths": [
+        "Excellent for crowd control and managing multiple opponents in a non-lethal manner.",
+        "Rewards a defensive, patient, and skilled playstyle.",
+        "The chain lightning effect can incapacitate an entire squad with a single, well-timed discharge.",
+        "Longer reach than most one-handed melee weapons."
+      ],
+      "weaknesses": [
+        "Deals purely non-lethal electrical damage, making it useless for assassination gigs.",
+        "Low base damage; relies on the charged blast to be effective.",
+        "Ineffective if the user cannot successfully block incoming attacks to build a charge.",
+        "Vulnerable to high-damage, unblockable heavy attacks."
+      ],
+      "recommendedRoles": "Bodyguard, Corporate Sentinel, Peacekeeper, Martial Artist.",
+      "masteryArchetype": "A 'Guardian' build. A merc with high Reflexes and Cool attributes who specializes in counter-attacks and defense. The ideal user combines the Warden with a Kerenzikov or Sandevistan, using time dilation to perfectly block a flurry of incoming attacks, instantly building a full charge. They then unleash the electrical blast to neutralize the entire group before finishing them with non-lethal takedowns. They are an untouchable, elegant master of control."
+    },
+
+    "acquisitionIntel": {
+      "marketAvailability": "Uncommon. As a corporate security weapon, the Warden is not sold in most street-level gun shops. It can be purchased from high-end, corporate-affiliated weapon vendors in Corpo Plaza. It is also a rare drop from high-level Kang Tao corporate guards.",
+      "rumoredLocation": "The head of security for the Kang Tao orbital launch facility is a renowned martial artist who is said to wield a master-crafted Warden with a gold-inlaid frame and an overclocked capacitor. He has reportedly never been defeated in a sparring match."
+    },
+
+    "fieldTestimonials": [
+      {
+        "merc": "'Aegis' (Bodyguard)",
+        "context": "Protecting a corpo exec during a shareholder riot.",
+        "feedback": "'They came at us with pipes and bats. I just stood my ground, blocked every swing. The staff was humming, fully charged in seconds. One heavy swing, and the whole front line dropped, twitching. The rest scattered. I didn't have to kill a soul. This thing is the ultimate de-escalation tool.'",
+        "rating": "5/5"
+      },
+      {
+        "merc": "'Breaker' (Brawler)",
+        "context": "One-on-one cage match against an Animal.",
+        "feedback": "'Blocking? Who has time for blocking? I just wanted to hit him. This thing feels like a wet noodle until it's charged up, and you can't charge it if you're the one throwing all the punches. It's a reactive weapon for people who are afraid to just go in and break some chrome.'",
+        "rating": "2/5 (Too defensive)"
+      },
+      {
+        "merc": "'V' (Mercenary)",
+        "context": "Regina Jones gig: neutralize a cyberpsycho non-lethally.",
+        "feedback": "'The psycho was fast, all blades and fury. I just kept blocking, letting the Warden soak up his rage. When it was glowing, I unleashed the blast. He went down like a sack of potatoes, system rebooted. It's an elegant weapon for a more civilized merc. Regina was very happy.'",
+        "rating": "4/5 (A perfect tool for specific jobs)"
+      }
+    ]
+  }
+}

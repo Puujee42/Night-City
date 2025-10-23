@@ -1,0 +1,113 @@
+[
+    {
+        "title":"Gig: Bring Me the Head of Gustavo Orta",
+        "fixer":"Sebastian Ibarra",
+        "target":"Gustavo Orta",
+        "danger":"9",
+        "type":"Gun for Hire",
+        "description":"The heart of this gig lies in a personal tragedy. Nolan Frakes's daughter, Martha, defied her family and gang allegiance to be with Gustavo. This relationship ended in disaster, with Martha now lying in a coma after being shot in the head. While the streets whisper that this was her punishment for abandoning her family, her grieving father places the blame squarely on Gustavo. Fueled by a desperate need for revenge, Nolan has hired Padre to ensure Gustavo pays for what happened to his daughter.",
+        "pay":"€$12,500",
+        "place":"Heywood, Vista Del Rey"
+    },
+    {
+        "title":"Fifth Column",
+        "fixer":"Sebastian Ibarra",
+        "target":"Incriminating Data on Javier Alvarado",
+        "danger":"10",
+        "type":"Thievery",
+        "description":"The client is a well-funded media personality who is digging for scandalous information on Javier Alvarado, an advisor to the current mayor. The allegation is that Alvarado is embezzling public funds and funneling them into the pockets of the Valentinos. As Padre cynically notes, it's election season, which means it's good for business, and his business is finding people to do the dirty work without asking too many questions.",
+        "pay":"€$25,000",
+        "place":"Heywood, The Glen"
+    },
+    {
+        "title":"Hacking the Hacker",
+        "fixer":"Muamar 'El Capitán' Reyes",
+        "target":"6th Street's Netrunner Operation",
+        "danger":"9",
+        "type":"Agent Saboteur",
+        "description":"El Capitán's intel reveals that the 6th Street gang has overstepped. They've managed to hijack a Militech transport in his territory and are now attempting to crack sophisticated corporate weaponry. Believing they can shift the balance of power, 6th Street has underestimated the vigilance of Santo Domingo's premier fixer. El Capitán intends to provide them with a rude awakening by sabotaging their efforts from the inside.",
+        "pay":"€$27,500",
+        "place":"Santo Domingo, Arroyo"
+    },{
+        "title":"Two Wrongs Makes Us Right",
+        "fixer":"Mr. Hands",
+        "target":"Stolen Maelstrom Medical Van", 
+        "danger":"10",
+        "type":"Thievery",
+        "description":"The premise is simple: the Animals have gotten their hands on a van packed with valuable medical stimulants. This isn't just any street-grade chrome; it's a specialized, modified lidocaine that's considered white hot because the Animals lifted it from Maelstrom. Maelstrom uses the substance for their brutal initiation rites, while the Animals mix it into their 'juice' cocktails to fuel their frenzy.",
+        "pay":"€$30,000",
+        "place":"Pacifica, Dogtown"
+    },{
+        "title":"Greed Never Pays",
+        "fixer":"Wakako Okada",
+        "target":"CorpCracker Lockbreaker Device",
+        "danger":"8",
+        "type":"Search and Recover",
+        "description":"A classic tale of betrayal. Wakako was negotiating the purchase of a valuable 'CorpCracker' device from a fence named Leah Gladen. This tech can jailbreak corporate-issued cyberware, making it priceless. Just as a price was about to be agreed upon, Leah went silent. Wakako suspects foul play and needs someone to investigate what happened to Leah and, more importantly, retrieve the device.",
+        "pay":"€$8,500",
+        "place":"Westbrook, Japantown"
+    },{
+        "title":"Life's Work",
+        "fixer":"Sebastian Ibarra",
+        "target":"Jake Estevez's Custom Quadra",
+        "danger":"10",
+        "type":"Search and Recover",
+        "description":"Padre introduces the client, Jake Estevez, as a 'genius among techies and an asshole among shitheads.' This brilliant mechanic had been working for 6th Street, pouring his soul into a custom vehicle he considers his life's work. However, Jake angered the wrong people and was forced to flee, leaving his prized creation behind. Now, he wants it back.",
+        "pay":"€$15,000",
+        "place":"Heywood, The Glen"
+    },{
+        "title":"Dogtown Saints",
+        "fixer":"Mr. Hands",
+        "target":"Dr. Anthony Anderson",
+        "danger":"9",
+        "type":"SOS: Merc Needed",
+        "description":"The gig revolves around Dr. Anthony Anderson, a ripperdoc who runs a pro-bono clinic. In a place forgotten by Trauma Team, Anderson is a rare lifeline. However, his altruism has put him in danger. Mr. Hands informs V that the clinic has been overrun by Scavengers, and Dr. Anderson is now a hostage. V's objective is to infiltrate the clinic, neutralize the Scav threat, and ensure the doctor's survival.",
+        "pay":"€$35,000",
+        "place":"Pacifica, Dogtown"
+    },{
+        "title":"A Lack of Empathy",
+        "fixer":"Dino Dinovic",
+        "target":"Empathy Nightclub's Server",
+        "danger":"9",
+        "type":"Agent Saboteur",
+        "description":"The story revolves around two former friends, Larry Fanghorn and Adam Ibrahimovic, who opened the Empathy nightclub. As money poured in, Adam accused Larry of skimming profits, locked him out, and hired the Animals as bouncers. Larry, claiming innocence, has hired Dino to arrange for a saboteur to bring the club's operations to a standstill, forcing Adam to the negotiating table.",
+        "pay":"€$15,000",
+        "place":"City Center, Downtown"
+    },{
+        "title":"Serial Suicide",
+        "fixer":"Arthur Cormac",
+        "target":"CCTV Footage of Zola's Death",
+        "danger":"9",
+        "type":"Thievery",
+        "description":"A string of suspicious suicides among influential people has caught Arthur's attention. The latest victim is Zola Barnes, a journalist who supposedly 'fell' onto the tracks at the Memorial Park metro station. Cormac doesn't buy the official story. He suspects a cover-up and wants a merc to investigate.",
+        "pay":"€$16,000",
+        "place":"City Center, Corpo Plaza"
+    },{
+        "title":"Family Heirloom",
+        "fixer":"Rogue Amendiares",
+        "target":"Samurai Bootleg Recording",
+        "danger":"9",
+        "type":"Search and Recover",
+        "description":"The client is the son of Nancy, Samurai's former keyboardist and an old acquaintance of Rogue's. He recently lost his car in a card game, but the real loss was a priceless item inside: a one-of-a-kind bootleg recording of a Samurai concert. Rogue, as a favor, wants you to retrieve this irreplaceable piece of history.",
+        "pay":"€$22,500",
+        "place":"Westbrook, Charter Hill"
+    },{
+        "title":"Breaking News",
+        "fixer":"Muamar 'El Capitán' Reyes",
+        "target":"Kendachi Smuggling Van",
+        "danger":"9",
+        "type":"Agent Saboteur",
+        "description":"El Capitán's client is Ted Fox, a reporter for N54. He's convinced that Kendachi and the 6th Street gang are secretly working together. Ted needs concrete proof. The mission is to infiltrate a Kendachi-controlled factory and plant a tracker on a specific van, presumably loaded with goods destined for 6th Street.",
+        "pay":"€$20,000",
+        "place":"Santo Domingo, Rancho Coronado"
+    },{
+        "title":"Race to the Top",
+        "fixer":"Muamar 'El Capitán' Reyes",
+        "target":"Data from Matheus Stove's Computer",
+        "danger":"10",
+        "type":"Thievery",
+        "description":"A classic corporate backstabbing. El Capitán's client is vying for a promotion and needs you to find compromising information on his rival, Matheus Stove. Reyes has heard rumors of Stove's ties to the Valentinos and needs you to infiltrate the Kendachi factory to find the proof.",
+        "pay":"€$25,000",
+        "place":"Santo Domingo, Arroyo"
+    }
+]

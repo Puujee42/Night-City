@@ -1,0 +1,88 @@
+{
+  "fixerProfile": {
+    "title": "Mikhail Akulov",
+    "image": "/russian.png",
+    "aliases": ["The Diplomat", "The Soviet Bear", "Comrade Fixer"],
+    "status": "Active",
+    "primaryTerritory": "International (Operating in Night City)",
+    "specialization": "Geopolitical Espionage, Counter-Intelligence, Technology Acquisition, Asset Protection",
+
+    "biography": {
+      "earlyLife": "Mikhail Akulov is a product of the new Soviet Union's intelligence services, a professional spy trained in the old-school methods of the KGB but fluent in the modern language of cyberwarfare. His official title is 'Cultural Attaché' at the Soviet Consulate in Night City, a flimsy cover for his true role as SovOil's primary field operator and talent scout in the NUSA.",
+      "riseAsFixer": "Akulov did not 'rise' through the street ranks; he was deployed. He arrived in Night City with a mission and the full backing of a nation-state. He uses the 'fixer' network as a tool to recruit deniable assets—mercs—to carry out tasks that the USSR cannot officially sanction. He doesn't need street cred; his reputation is backed by the might of the Red Army and the deep pockets of SovOil.",
+      "modusOperandi": "Akulov is the consummate professional: formal, paranoid, and meticulous. He avoids the chaotic bars of the underworld, preferring secure, discreet locations for his business. His communication is often through coded messages and dead drops. He views his mercenary contractors as foreign assets: incredibly useful for specific tasks, but ultimately expendable and not to be trusted. His gigs are less about personal gain and more about advancing the geopolitical interests of his homeland.",
+      "reputation": "Working for Akulov is a different game entirely. It's not about building a rep at the Afterlife; it's about stepping onto the international stage. He is known to be impeccably professional and his payments are backed by a state treasury, making them highly reliable. However, the stakes are immense. Failure doesn't just mean a pissed-off client; it could mean becoming the scapegoat in an international incident with no one coming to bail you out."
+    },
+
+    "legendaryGig": {
+        "gigTitle": "The Ghost of Shinjuku",
+        "date": "11.07.2071",
+        "objective": "Exfiltrate Dr. Lena Sokolova, a top Arasaka bio-technician with deep knowledge of their 'Secure Soul' program, who wished to defect to the USSR.",
+        "client": "SovOil Foreign Intelligence Directorate",
+        "target": "Dr. Lena Sokolova",
+        "outcome": "A flawless ghost operation. Akulov orchestrated a multi-stage exfiltration that left Arasaka hunting shadows. A merc team created a diversionary cyberattack on the local power grid, while a second solo team extracted Sokolova from her secure apartment in Japantown. She was then moved through a series of consulate-owned safe houses before being smuggled out of the city in a diplomatic convoy with full immunity. Arasaka didn't even know she was missing for 48 hours.",
+        "hiredMercs": "'Mirage' (Infiltrator), 'Karat' (Transport Specialist)",
+        "mercFeedback": "'This wasn't a job, it was a move in a chess game we couldn't see. Akulov gave us a timetable, not a plan. Every second was accounted for. We never even spoke to the target, just delivered the 'package' to the next checkpoint. He used us like scalpels—make the incision, disappear. We felt like pieces of a perfect, terrifying machine.' - 'Mirage' (Infiltrator)",
+        "payout": "€$ 450,000 + Prototype 'Tishina-class' Soviet stealth cyberware",
+        "reputationImpact": "This operation was Akulov's masterpiece. He successfully outmaneuvered Arasaka's formidable counter-intelligence on their home turf and spirited away one of their most valuable assets without a single casualty. The gig became a legend in the intelligence community, establishing Akulov as a major player in the Great Game and proving that the Soviet Bear's claws could reach deep into the heart of Night City."
+    },
+
+    "fixerRatings": {
+      "overallThreat": "7/10 (High Consequence)",
+      "reliability": "7/10 - The state pays its debts, but you are a disposable pawn. He will not hesitate to disavow you if an operation is compromised.",
+      "payment": "8/10 - Well-funded by SovOil. Payments are substantial and secure, often including bonuses of rare, off-market Soviet tech.",
+      "intelQuality": "8/10 - Excellent high-level political and corporate intelligence. May lack granular knowledge of Night City's more esoteric street gangs.",
+      "discretion": "9/10 - As a trained spy, operational security is paramount. His missions are designed to be surgical and silent.",
+      "resourcefulness": "9/10 - Has access to the resources of a superpower, including military-grade Soviet cyberware, weapons, and intelligence networks.",
+      "mercSurvivability": "6/10 - The gigs are well-planned, but the political nature means there is zero margin for error. If you are caught, you are on your own."
+    },
+
+    "advantages": {
+      "strengths": [
+        "Backed by the financial and military resources of the new USSR.",
+        "Provides access to unique and powerful Soviet-made military technology.",
+        "Operates with state-level intelligence, offering deep insights into corporate and political targets.",
+        "Highly professional, with clear objectives and reliable payment."
+      ],
+      "weaknesses": [
+        "Views mercenaries as expendable foreign assets, offering no loyalty.",
+        "Gigs carry the risk of massive geopolitical fallout.",
+        "Rigid, formal operational style with no flexibility for improvisation.",
+        "Failure will result in being immediately disavowed by the Soviet government."
+      ]
+    },
+
+    "recentGigDetails": [
+      {
+        "gigTitle": "Red Tech Retrieval",
+        "date": "10.19.2077",
+        "objective": "An experimental SovOil deep-scan cyber-optic prototype was stolen by a Maelstrom cell. Infiltrate their chop shop in Watson and retrieve it before they can crack the encryption.",
+        "client": "SovOil Advanced Research Division",
+        "target": "Prototype 'Kestrel' Optic System",
+        "outcome": "Successful. The merc bypassed Maelstrom's chaotic defenses, located the prototype in their workshop, and eliminated the netrunner attempting to jailbreak it. The tech was recovered intact and delivered to a consulate dead drop.",
+        "mercFeedback": "'The Maelstrom psychos were a mess, but the real scary part was the tech. Felt like I was holding a state secret. The pay was good, but I got the feeling Akulov would've zeroed me if I'd even scratched it.' - 'V' (Mercenary)",
+        "payout": "€$ 20,000 + Kaukaz Bratsk-10 shotgun"
+      },
+      {
+        "gigTitle": "Consulate Courier",
+        "date": "10.02.2077",
+        "objective": "An NCPD detective in possession of an encrypted shard detailing Arasaka's illegal surveillance of the Soviet consulate is planning to sell it. Acquire the shard before the transaction.",
+        "client": "Soviet Counter-Intelligence",
+        "target": "NCPD Detective's Data Shard",
+        "outcome": "Successful. The operative tracked the detective to a meeting point in Japantown, neutralized him and the Arasaka buyers, and secured the shard. The data leak was contained.",
+        "mercFeedback": "'Felt like something out of an old spy braindance. Akulov gave me the target, the time, and the place. The rest was wetwork. This wasn't about eddies; it was about sending a message.' - 'Shadow' (Solo)",
+        "payout": "€$ 18,000"
+      },
+      {
+        "gigTitle": "Diplomatic Incident Aversion",
+        "date": "09.15.2077",
+        "objective": "The son of a visiting Soviet diplomat has gotten into deep gambling debt with the Tyger Claws. Extract him from their casino before they can use him for leverage.",
+        "client": "Soviet Diplomatic Corps",
+        "target": "Alexei Volkov",
+        "outcome": "Successful. The merc infiltrated the Tyger Claw casino, created a diversion, and extracted the target from a back room. The diplomat's son was returned to the consulate, and a major political incident was averted. The Tyger Claws were compensated financially through an anonymous third party to smooth things over.",
+        "mercFeedback": "'Had to pull some rich kid out of the fire. The pay was great, but the whole time I felt like I was on a leash. One wrong move and I'd have started World War 3.' - 'Babysitter' (Mercenary)",
+        "payout": "€$ 22,000"
+      }
+    ]
+  }
+}
