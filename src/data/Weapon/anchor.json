@@ -1,104 +1,78 @@
 {
   "weaponProfile": {
-    "title": "Anchor",
+    "title": "Dead-Stop",
     "image": "/anchor.png",
-    "id": "militech_anchor",
-    "aliases": ["The Holdout", "The Pocket Sniper", "Dead-Stop"],
+    "id": "militech_anchor_legendary",
+    "aliases": ["The Holdout", "Bastion's Vow", "The Line"],
     "type": "Power Revolver",
-    "manufacturer": "Militech",
-    "status": "Active; Marksman Issue",
-    "cost": "€$98,000",
-    "specialAbility": "Recoil is significantly reduced and accuracy is massively increased after standing still for 1.5 seconds. The first shot fired after this effect is active is a guaranteed critical hit.",
-
+    "manufacturer": "Militech (Custom Masterwork)",
+    "status": "Unique; Hero's Relic",
+    "cost": "Priceless (A Symbol of Valor)",
+    "specialAbility": "Recoil is significantly reduced and accuracy is massively increased after standing still for 1.1 seconds. The first shot fired after this effect is active is a guaranteed critical hit that applies a powerful knockdown effect. Headshot kills with this first shot will ricochet to a second nearby enemy.",
     "baseStats": {
       "attackSpeed": 1.8,
-      "damage": 500,
+      "damage": "500",
       "reloadSpeed": 2.5,
       "range": 60,
       "mods": 2
     },
-
+    "keyRelationships": {
+      "nemesis": "Commander Ryota Takahashi (Arasaka | Disgraced). Takahashi was the brilliant young Arasaka commander whose entire elite squad was systematically dismantled by Sgt. Miller during the 'Siege of the 7th Hell.' He was out-sniped, out-maneuvered, and publicly humiliated by a single soldier with a revolver. Now a bitter, demoted officer in a dead-end post, he is obsessively dedicated to finding 'Dead-Stop,' believing that defeating its wielder in a duel is the only way to erase his shame and reclaim his lost honor.",
+      "creator": "Militech R&D (Urban Warfare Division)"
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Siege of the 7th Hell",
+        "date": "02.11.2074",
+        "objective": "During a corporate skirmish, Militech Sergeant 'Bastion' Miller and his squad were cut off and pinned down on the 7th floor of a half-constructed skyscraper by a superior Arasaka force led by Commander Takahashi.",
+        "client": "Militech (Emergency Defense)",
+        "target": "The Arasaka Assault Squad",
+        "outcome": "A legendary last stand that became required viewing at the Militech academy. Miller, armed with his custom-tuned Anchor, 'Dead-Stop,' held the central stairwell alone for over an hour, covering his squad's retreat. Using the long sightlines, he systematically eliminated Takahashi's elite soldiers one by one with perfectly placed, guaranteed critical shots every time they broke cover. He fell, but not before his squad escaped and reinforcements arrived. The Arasaka operation was a catastrophic failure.",
+        "mercFate": "Sergeant 'Bastion' Miller was posthumously awarded Militech's highest honor. He became a legend, a symbol of the 'hold the line' doctrine.",
+        "mercFeedback": "'The helmet cams are unbelievable. It's just Miller, braced behind a pillar. He doesn't move. Doesn't flinch. Just *BAM*... Arasaka down. Wait. *BAM*... another one. He held off an entire elite squad with a revolver. He didn't just win the fight; he broke their will. Takahashi wasn't defeated; he was dismantled, piece by piece.' - Militech training academy analysis.",
+        "payout": "The survival of Miller's squad and a major tactical victory.",
+        "reputationImpact": "This event turned 'Dead-Stop' into a legendary weapon, a symbol of Militech's grit and a soldier's ultimate sacrifice. It became a holy relic within the military community. It also created a bitter, lifelong enemy in Commander Takahashi, a man whose brilliant career was single-handedly destroyed by this very gun."
+    },
     "designAndMaterials": {
-      "materials": "The Anchor is built around a massive, over-engineered frame of forged tungsten steel to handle its powerful recoil. The barrel is chrome-lined and ported to reduce muzzle climb. Its most distinctive feature is the oversized housing beneath the barrel, containing the 'Gyroscopic Recoil Nullifier' (GRN), a dense, free-floating gyroscopic stabilizer. The grip is a solid block of polymer with high-traction inlays, designed for a two-handed hold.",
-      "ammunitionType": "Chambered for the Militech .45 'Dead-Stop' round. This is a heavy, subsonic, tungsten-core projectile designed for maximum kinetic energy transfer. It excels at punching through light cover and unarmored targets. The sheer mass of the round is what gives the Anchor its legendary stopping power, but also contributes to its significant recoil when the GRN is not active.",
-      "compatibleMods": [
-        {
-          "slot": "Optics",
-          "mod": "Militech 'Hawkeye' Hybrid Scope",
-          "description": "A 2x-4x variable zoom scope that links to the GRN. When the stabilization effect is active, the scope automatically highlights enemy head and weak points."
-        },
-        {
-          "slot": "Muzzle",
-          "mod": "Mag-Port Compensator",
-          "description": "A heavy, ported compensator that uses magnetic bursts to counteract muzzle flip, slightly reducing recoil when firing on the move and tightening the spread."
-        },
-        {
-          "slot": "Internal",
-          "mod": "GRN Overdrive Actuator",
-          "description": "A custom-tuned actuator for the gyroscopic system that reduces the activation time from 1.5s to 1.1s, rewarding a more aggressive but still stationary playstyle."
-        }
-      ]
+        "materials": "The frame is a master-crafted piece of forged tungsten steel, significantly heavier than the standard model, bearing the engraved name of Sgt. 'Bastion' Miller. The barrel is a custom, ported heavy barrel. The GRN housing is adorned with the Militech 7th Cavalry insignia. The grip is worn synth-leather, molded perfectly to a two-handed hold.",
+        "ammunitionType": "Chambered for the Militech .45 'Dead-Stop' round. This specific weapon is calibrated to handle an experimental 'heavy grain' version of the round, providing a more powerful knockdown effect than the standard-issue variant.",
+        "compatibleMods": [
+            { "slot": "Optics", "mod": "Militech 'Hawkeye' Hybrid Scope", "description": "A 2x-4x variable zoom scope that links to the GRN. When stabilization is active, the scope highlights enemy weak points." },
+            { "slot": "Internal", "mod": "Miller's Calibrated GRN", "description": "This unique, master-crafted gyroscopic system is the heart of the weapon. It activates faster (1.1s) and provides a more stable platform than any commercial Anchor, enabling the powerful knockdown and ricochet effects." }
+        ]
     },
-
-    "weaponPhilosophy": {
-      "concept": "The Anchor is the embodiment of Militech's defensive doctrine: 'Hold the line at all costs.' It was designed for the patient killer, the soldier who understands that the best position is a fortified one. Its philosophy rejects the chaotic dance of run-and-gun combat in favor of absolute, unyielding certainty. The 1.5-second delay is not a flaw; it is a feature that forces discipline. It teaches the user to control the battlefield through superior positioning and to make every shot a decisive, final statement. The Anchor is not a tool for fighting; it is a tool for executing from a position of absolute power."
+     "weaponPhilosophy": {
+      "concept": "The Anchor is the embodiment of Militech's defensive doctrine: 'Hold the line at all costs.' It was designed for the patient killer who understands that the best position is a fortified one. Its philosophy rejects the chaotic dance of run-and-gun combat in favor of absolute certainty. The activation delay is not a flaw; it is a feature that forces discipline. It teaches the user to control the battlefield through superior positioning and to make every shot a decisive, final statement. It is a tool for executing from a position of absolute power."
     },
-
     "manufacturingIntel": {
-      "creator": "Militech R&D (Urban Warfare Division)",
-      "creatorReputation": "The Anchor was designed by a team of ex-NUSA combat engineers who specialized in defensive operations. They identified a gap in the Militech arsenal: a powerful sidearm for designated marksmen and heavy gunners who were often pinned down in fixed positions.",
-      "developmentHistory": "The project's goal was to create a revolver with the accuracy of a precision rifle. The breakthrough was the 'Gyroscopic Recoil Nullifier' (GRN). When the user remains stationary, the onboard system has time to fully spool up, creating a perfectly stable firing platform that counteracts nearly all recoil and hand tremor. The guaranteed critical hit on the first shot was a software bonus, designed to reward a patient, tactical approach. The Anchor became standard issue for Militech snipers and heavy weapons specialists as their secondary firearm.",
+      "creatorReputation": "The Anchor was designed by a team of ex-NUSA combat engineers. 'Dead-Stop' was the personal sidearm of Sergeant 'Bastion' Miller, a custom-tuned prototype he received for valor directly from the R&D division.",
+      "developmentHistory": "'Dead-Stop' is the one-of-a-kind prototype that proved the Anchor's potential. After Miller's legendary last stand, Militech used the weapon's fame to promote the mass-produced version to their troops. The commercial models are effective, but they lack the custom calibration, faster GRN, and legendary history of the original.",
       "productionDate": "Circa 2073"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Incredible accuracy and stopping power when fired from a stationary position.",
-        "The guaranteed critical hit allows for devastating opening shots or ambush attacks.",
+        "The guaranteed critical hit and knockdown allows for devastating opening shots or ambushes.",
         "Functions as a pocket sniper rifle, capable of picking off targets at medium-to-long range.",
-        "Excellent for defensive scenarios, holding down corridors, or providing overwatch."
+        "The ricochet effect on headshot kills provides a surprise multi-kill potential."
       ],
       "weaknesses": [
         "The special ability is completely useless for a mobile, run-and-gun playstyle.",
         "Has significant recoil and poor accuracy when fired on the move.",
         "Slower rate of fire compared to other top-tier revolvers.",
-        "The 1.5-second delay to activate the effect can be a liability in fast-paced combat."
+        "Possession of this weapon makes you the personal rival of the disgraced Arasaka commander, Ryota Takahashi."
       ],
       "recommendedRoles": "Designated Marksman, Sniper, Sentry, Tactical Operator.",
-      "masteryArchetype": "A 'Castle' build. A solo with a high Cool and Body attribute who treats combat like a fortress defense. The ideal user finds a defensible position, sets up with a sniper rifle or LMG, and uses the Anchor as their go-to weapon for any mid-range threats that breach their perimeter. They are a patient, methodical killer who controls the battlefield through superior positioning and flawless aim."
+      "masteryArchetype": "A 'Castle' build. A solo with a high Cool and Body attribute who treats combat like a fortress defense. The ideal user finds a defensible position, sets up with a primary weapon, and uses 'Dead-Stop' to eliminate any mid-range threats that breach their perimeter. They are a patient, methodical killer who controls the battlefield through superior positioning and flawless aim."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Uncommon, but available through military-surplus vendors. High-end weapon shops in City Center and Corpo Plaza often carry it. It's a known favorite of 6th Street veterans, who appreciate its 'hold your ground' philosophy, so it can sometimes be found in their armories.",
-      "rumoredLocation": "A master-crafted version of the Anchor, with a custom-calibrated GRN that reduces the activation time, is said to be the prize in an underground sharpshooting competition held in the Badlands. Only the city's best snipers are invited to compete."
+      "marketAvailability": "Unique. 'Dead-Stop' is a piece of Militech history and is not for sale.",
+      "rumoredLocation": "After Sgt. Miller's death, the weapon was supposed to be enshrined at the Militech academy. However, it was stolen from the memorial. Rumors suggest a 6th Street veteran, who was part of the squad that reinforced Miller, took it, believing a hero's gun should be in the hands of a soldier, not behind glass. The prize for an underground sharpshooting competition in the Badlands is said to be this very weapon, a contest designed to find a shooter worthy of Miller's legacy."
     },
-
     "fieldTestimonials": [
-      {
-        "mercName": "'Bastion' (Heavy Weapons Specialist)",
-        "role": "The Sentry / Heavy Gunner",
-        "context": "Defending a fortified position during a 'protect the client' gig against waves of Valentinos.",
-        "feedback": "'My LMG handles the crowd, but the Anchor handles the details. Between bursts, I'd brace, and this thing would turn into a sniper rifle. That gyro kicks in and it's rock solid. Some gonk with a rifle pops his head out of cover 50 meters away? *BAM*. Head gone. It's the perfect sidearm for anyone who makes their living behind a barricade. It's not a backup weapon; it's my primary solution for anything my big gun can't solve instantly.'",
-        "rating": "5/5"
-      },
-      {
-        "mercName": "'Flicker' (Kerenzikov Speed-Solo)",
-        "role": "The Breacher / Skirmisher",
-        "context": "High-speed assault on a multi-story Scavenger den.",
-        "feedback": "'Tried it once. It's like trying to aim a cannon strapped to a jackhammer while riding a unicycle. I never stop moving, so the special ability might as well not exist. The recoil is insane, the sights are useless unless you're a statue. It's a beautiful, expensive brick. I'd rather have a knife and a fast pair of legs. Sold it for a Malorian and never looked back.'",
-        "rating": "1/5 (For my style)"
-      },
-      {
-        "mercName": "'Bishop' (Tactical Crew Leader)",
-        "role": "The Shot-Caller / Tactician",
-        "context": "Executing a crossfire ambush on an Arasaka convoy in a downtown canyon.",
-        "feedback": "'This revolver isn't for everyone, but for a specific tactical role, it's unmatched. I had my heavy set up in an overwatch position with this thing. The rest of us drew the convoy into the kill box, and he just dismantled them. Every time a guard broke cover, *BAM*. One less problem. It forces you to think about positioning. It's not a run-and-gun weapon; it's a thinking merc's weapon.'",
-        "rating": "4/5 (Requires tactical discipline)"
-      }
+      
     ],
-
     "crewSynergyAssessment": {
-      "analysis": "The Anchor is a specialized but incredibly powerful asset for a crew that values tactical positioning. It is a poor choice for the crew's scout or primary breacher. Its ideal user is the team's dedicated marksman or heavy gunner—the one who establishes a 'nest' and provides overwatch. In a defensive scenario, such as protecting a netrunner or a VIP, the Anchor user becomes the lynchpin of the operation, capable of locking down an entire corridor or approach with perfectly accurate, high-damage shots. It synergizes perfectly with a crew that can control the flow of battle and funnel enemies into pre-determined kill zones."
+      "analysis": "Dead-Stop is a specialized but incredibly powerful asset for a crew that values tactical positioning. Its ideal user is the team's dedicated marksman or heavy gunner—the one who establishes a 'nest' and provides overwatch. In a defensive scenario, the Dead-Stop user becomes the lynchpin of the operation, capable of locking down an entire corridor with perfectly accurate, high-damage shots. It synergizes perfectly with a crew that can control the flow of battle and funnel enemies into pre-determined kill zones, allowing the wielder to methodically execute targets from a position of safety and power."
     }
   }
 }

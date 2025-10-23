@@ -1,71 +1,77 @@
 {
   "weaponProfile": {
-    "title": "Rhino",
+    "title": "Big Bertha",
     "image": "/rhino.png",
-    "id": "animals_rhino",
-    "aliases": ["The Wall-Buster", "The Doorknocker", "Big Bertha"],
+    "id": "animals_rhino_legendary",
+    "aliases": ["The Wall-Buster", "The Doorknocker", "The Arasaka Eraser"],
     "type": "Grenade Launcher",
-    "manufacturer": "Animals (Modified)",
-    "status": "Custom; Faction Breaching Tool",
+    "manufacturer": "Animals (Unique Masterwork)",
+    "status": "Unique; Infamous",
     "cost": "€$70,000 (Black Market Estimate)",
-    "specialAbility": "Fires a grenade that deals massive explosive damage in a huge radius and is guaranteed to knock down all affected enemies. Has a very long reload time.",
-
+    "specialAbility": "Fires a grenade that deals massive explosive damage in a huge radius and is guaranteed to knock down all affected enemies. The grenade also releases a short-lived EMP burst on detonation, disabling nearby electronics and cyberware.",
     "baseStats": {
       "attackSpeed": 0.5,
-      "damage": 800,
+      "damage": "800",
       "reloadSpeed": 5,
       "range": 30,
       "mods": 1
     },
-
-    "manufacturingIntel": {
-      "creator": "The Forgemasters of the Animals",
-      "creatorReputation": "The Rhino, like the Jawbreaker, is a product of the Animals' 'brute force' engineering philosophy. They saw the need for a portable breaching tool and created one from the simplest, toughest parts they could find: a scavenged industrial-grade flare gun chassis, a reinforced barrel, and custom-packed concussive grenades.",
-      "developmentHistory": "The Rhino wasn't designed to kill; it was designed to make an entrance. The Animals needed a way to bypass fortified doors and walls in rival gang hideouts. The 'Rhino' grenade is a low-fragmentation, high-concussion explosive. Its purpose is to blow open a path and send everyone on the other side flying. It's the first thing an enemy hears before a pack of juiced-up Animals comes charging through the brand-new hole in their wall. It is the physical embodiment of a 'knock-knock' joke where the punchline is a fist to the face.",
-      "productionDate": "Ongoing, forged as needed"
+    "keyRelationships": {
+      "nemesis": "Commander Kenjiro 'The Oni' Tanaka (Arasaka | Cyber-Ops Division). Tanaka was the Arasaka officer in charge of the vault during the 'Scorched Earth Heist.' The blast from 'Big Bertha' tore off his cybernetic arm and fried his optics, leaving him scarred and disgraced. Now a high-ranking cyborg with a personal vendetta, he is obsessed with recovering the weapon and personally dismantling the Animal who wielded it, viewing it as a crude insult to Arasaka's technological superiority.",
+      "creator": "The Forgemasters of the Animals"
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Scorched Earth Heist",
+        "date": "Circa 2073",
+        "objective": "A crew of Animals, led by a legendary breacher named 'Bull,' was hired for an impossible task: breach a subterranean Arasaka vault in City Center.",
+        "client": "Unknown (Presumed Militech)",
+        "target": "The Arasaka 'Crimson Phoenix' Data Shard.",
+        "outcome": "A legendary failure and a catastrophic success. 'Bull,' armed with a master-crafted Rhino he called 'Big Bertha,' did the impossible: he blew a hole in the Arasaka vault door. However, the resulting explosion was far greater than anticipated, igniting a secondary gas line and causing a massive underground firestorm that destroyed the data shard and everything else in the vault. The Arasaka commander, Tanaka, was maimed in the blast. 'Bull' was the only member of his crew to escape the inferno, his weapon now infamous.",
+        "mercFate": "'Bull's' entire crew was lost in the firestorm. 'Bull' himself became a ghost, a disgraced Animal on the run from both Arasaka and his own gang, who blamed him for the failed gig. He was last seen trying to fence 'Big Bertha' for a ticket out of the city.",
+        "mercFeedback": "'The seismic sensors lit up the whole district. We didn't know what it was. A quake? A bomb? The Arasaka vault was... gone. Not opened. Erased. And in the middle of the wreckage, one survivor, screaming about a 'demon with a cannon.' It wasn't a heist; it was a catastrophe.' - NCPD Incident Report.",
+        "payout": "€$ 0. The objective was destroyed.",
+        "reputationImpact": "This event turned 'Big Bertha' into a legend, the gun that blew a hole in Arasaka's unbreachable fortress. It became a symbol of the Animals' terrifying, unpredictable power. It also created a bitter and powerful enemy in Commander Tanaka, a man who now dedicates his life to hunting the weapon that cost him his arm and his honor."
+    },
+    "designAndMaterials": {
+        "materials": "The chassis of 'Big Bertha' is a heavily reinforced Militech Mk. 31 grenade launcher, stolen and stripped down. The barrel is a custom-forged, thick-walled steel tube designed to withstand the immense pressure of its custom grenades. The stock is welded steel, wrapped in scarred, blood-stained leather.",
+        "ammunitionType": "Uses a unique, hand-packed 40mm HEC (High-Energy Concussive) grenade. The warhead contains a massive charge of low-fragmentation explosive and a powdered graphite compound. Upon detonation, the graphite is aerosolized, creating a powerful, short-range EMP burst that fries most commercial-grade cyberware.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "Bull's Hair-Trigger", "description": "This unique, dangerously sensitive trigger mechanism slightly reduces the weapon's firing delay. It is a master-crafted but notoriously unsafe modification that is the signature of its original, disgraced owner." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Rhino is the physical embodiment of the Animals' core belief: there is no obstacle that cannot be broken. It is not a weapon of subtlety or grace; it is a tool of overwhelming, catastrophic force. Its philosophy is that a locked door, a fortified wall, or a line of heavily armored enemies are all just temporary problems waiting for a permanent solution. The Rhino is that solution. It is the first, last, and only word in any argument about access."
+    },
+    "manufacturingIntel": {
+      "creatorReputation": "The Animals don't have 'gunsmiths'; they have 'forgemasters.' 'Big Bertha' is a unique masterwork, a one-of-a-kind creation that was the result of a legendary breacher's desperate ingenuity.",
+      "developmentHistory": "'Big Bertha' is a legend. The other 'Rhinos' used by the Animals are attempts to replicate its devastating power, but they lack the perfectly balanced (and dangerously potent) custom grenades and the raw, historical significance of the original. After its catastrophic success, the Animals' forgemasters were never able to perfectly replicate the chemical compound that gave 'Big Bertha' its infamous kick.",
+      "productionDate": "Circa 2073"
+    },
     "tacticalAssessment": {
       "strengths": [
-        "Unmatched crowd control, capable of knocking down an entire squad with a single shot.",
-        "Excellent for initiating combat, creating chaos, and breaching fortified positions.",
-        "The massive explosive radius can clear entire rooms of weaker enemies.",
-        "Surprisingly effective at destroying vehicles and environmental cover."
+        "Unmatched crowd control, capable of knocking down and disabling an entire squad with a single shot.",
+        "The ultimate breaching tool, capable of destroying most doors and environmental cover.",
+        "The added EMP burst is devastating against cyborgs, drones, and netrunners.",
+        "Excellent for initiating combat and creating mass chaos."
       ],
       "weaknesses": [
         "Abysmally slow reload speed, leaving the user completely defenseless after firing.",
-        "The grenade's trajectory is a slow, parabolic arc, making it difficult to hit moving targets at a distance.",
+        "The grenade's trajectory is a slow, parabolic arc, making it difficult to hit moving targets.",
         "The massive blast radius makes it extremely dangerous to use in close quarters.",
-        "Carries only one shot per 'magazine.'"
+        "Possession of this weapon makes you the personal enemy of the high-ranking Arasaka cyborg, Commander Tanaka."
       ],
       "recommendedRoles": "Breacher, Heavy Gunner, Demolitions Expert, Crowd Control.",
-      "masteryArchetype": "A 'Point-Man' build. A solo with a high Body attribute and cyberware that enhances explosive resistance and reload speed. The ideal user is the first one through the door... or the one who *makes* the door. They kick off a fight by firing the Rhino into a packed room, then switch to a shotgun or LMG to clean up the dazed and scattered survivors. They don't engage in fights; they start them, with a bang."
+      "masteryArchetype": "A 'Point-Man' build. A solo with a high Body attribute and cyberware that enhances explosive resistance and reload speed. The ideal user is the first one through the door... or the one who *makes* the door. They kick off a fight by firing 'Big Bertha' into a packed room, then switch to a shotgun or LMG to clean up the dazed and scattered survivors. They don't engage in fights; they start them, with a bang."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Rare. The Rhino is a specialist tool, not a standard-issue weapon, even for the Animals. It is typically carried by their designated 'breacher' heavies. It is never sold and can only be acquired by taking it from an Animal pack leader during a raid.",
-      "rumoredLocation": "Sasquatch, the leader of the Animals at the GIM, reportedly has a whole armory of these. She uses them for 'training exercises,' which mostly involve seeing who can blow the biggest hole in a concrete wall. Access to her armory is... not recommended."
+      "marketAvailability": "Unique. This weapon is a piece of infamous history and cannot be bought.",
+      "rumoredLocation": "After the disgraced Animal, 'Bull,' went on the run, he reportedly tried to sell the weapon to Muamar 'El Capitán' Reyes to fund his escape from the city. El Capitán, recognizing its legendary status and the heat attached to it, is said to have 'acquired' it for a very low price. He now keeps it locked in his private armory, a trophy of immense power that is too dangerous to use and too valuable to sell."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Breaker' (Brawler)",
-        "context": "Assaulting a fortified Scavenger den.",
-        "feedback": "'The Scavs had the door barred shut. I just aimed the Rhino at the wall next to it. The wall disappeared. So did most of the Scavs. Walked in, cleaned up the rest. This isn't a gun. It's a portable 'delete' button for walls and the people behind them.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Deadeye' (Sharpshooter)",
-        "context": "Open field battle against Wraiths.",
-        "feedback": "'It's a mortar, not a rifle. The grenade moves so slowly you could outrun it. Tried to hit a moving vehicle and the shell landed a hundred feet behind it. It's a powerful but clumsy tool for a very specific job, and that job is not 'shooting things that move'.'",
-        "rating": "2/5 (For my work)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Cornered in a narrow hallway by a cyberpsycho.",
-        "feedback": "'Bad idea. Bad, bad idea. Fired it at the psycho who was ten feet away. The good news is, he went down. The bad news is, so did I. And I was on fire. The blast radius on this thing is no joke. Use with extreme caution. And distance. Lots of distance.'",
-        "rating": "3/5 (Nearly killed myself)"
-      }
-    ]
+     
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "Big Bertha is the ultimate 'alpha strike' weapon for a crew that believes in shock and awe. Its user is the battering ram, the one who starts the fight by literally blowing a hole in the enemy's defense. A successful strategy is built around this opening move. A netrunner can use Ping to identify the most densely packed group of enemies, giving the Bertha's user a perfect target. After the initial blast stuns and disables the survivors, a fast-moving solo or bladedancer can rush in to clean up with devastating efficiency. Its role is to be the thunderclap that stuns the enemy, allowing the lightning to strike."
+    }
   }
 }

@@ -3,13 +3,12 @@
     "title": "Yurei",
     "image": "/yurei.jpg",
     "id": "arasaka_yurei",
-    "aliases": ["The Ghost", "Icepick", "Silent Scream"],
+    "aliases": ["The Ghost", "Icepick", "Tanaka's Shame"],
     "type": "Smart SMG",
     "manufacturer": "Arasaka (Advanced R&D Division)",
-    "status": "Prototype; Limited Field Testing",
-    "cost": "€$145,000 (Black Market Estimate)",
+    "status": "Blacklisted Prototype; Actively Hunted",
+    "cost": "Doest exist in the market",
     "specialAbility": "Fires cryogenic rounds that slow enemies and can flash-freeze them solid on a critical hit. The weapon is completely silent, registering no higher on audio sensors than a whisper.",
-
     "baseStats": {
       "attackSpeed": 11.0,
       "damage": 75,
@@ -17,40 +16,39 @@
       "range": 40,
       "mods": 3
     },
-
+    "keyRelationships": {
+      "nemesis": "Dr. Kenji Tanaka (Disgraced Arasaka Engineer). The Yurei's creator. After his prototypes were stolen in a legendary heist, Arasaka disgraced him. Tanaka is now a man obsessed, operating outside the system with a singular goal: to reclaim his three 'children' and eliminate those who possess them. He uses a hidden bio-tracker linked to the weapon's grip to hunt its wielders, making every use of the Yurei a potential beacon for his wrath."
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Silent Heist",
+        "date": "03.12.2076",
+        "objective": "Infiltrate the Arasaka Advanced R&D lab in orbit and steal the only three working prototypes of Dr. Tanaka's 'Project Yurei.'",
+        "client": "Arthur 'The Architect' Cormac",
+        "target": "Three 'Yurei' Prototype SMGs.",
+        "outcome": "A legendary success that created a ghost. Cormac, seeking the ultimate tool for his own operations, hired a legendary netrunner known only as 'Hush.' She didn't just breach the lab's security; she created a digital 'time loop' in the security feeds, making it appear as if the prototypes were still in their cases for a full 24 hours after the theft. This flawless heist allowed her to escape with all three prototypes, leaving Arasaka blind and humiliated. Dr. Tanaka was made the scapegoat for the security failure and was permanently disgraced.",
+        "mercFate": "'Hush' received one prototype as payment and vanished into the net, becoming a ghost herself. Arthur Cormac claimed the second for his personal arsenal of tools. The third was fenced on the high-end black market to cover operational costs, which is how the weapon first entered the underworld's circulation.",
+        "mercFeedback": "'Cormac's plan was a whisper. My job was to make it silent. I walked through Arasaka's best ICE like it was mist. The weapons... they felt like they were made for me. Cold, quiet, and final. I took my payment and disappeared. Some things are too perfect to ever let go of.' - Final encrypted message from 'Hush'.",
+        "payout": "One of the three Yurei prototypes.",
+        "reputationImpact": "This gig was the true birth of the Yurei's legend. It was a perfect, invisible theft that embarrassed Arasaka, created the myth of the netrunner 'Hush,' and equipped the ghost of City Center, Arthur Cormac, with his ideal weapon. It also turned a brilliant engineer into a vengeful hunter."
+    },
     "designAndMaterials": {
-      "materials": "The Yurei's chassis is constructed from a lightweight, non-RF reflective polymer composite, making it difficult to detect with thermal or radar scans. The core components and barrel are milled from a titanium-tungsten alloy for durability and thermal regulation. The grip is lined with a bio-synthetic material that adapts to the user's hand for superior handling.",
-      "ammunitionType": "Utilizes a proprietary 7mm Cryo-Shard Caseless round. Each projectile consists of a fin-stabilized, armor-piercing flechette suspended in a supercooled liquid nitrogen solution. Upon firing, a magnetic coil propels the flechette while the solution is released as a rapidly expanding aerosol, which creates the freezing effect and acts as a natural sound dampener. This system eliminates both gunpowder and a traditional firing pin, resulting in total silence.",
+      "materials": "The Yurei's chassis is constructed from a lightweight, non-RF reflective polymer composite. The core components and barrel are milled from a titanium-tungsten alloy for durability. The grip is lined with a bio-synthetic material that adapts to the user's hand and contains a microscopic, encrypted bio-signature transmitter—the source of Dr. Tanaka's tracking system.",
+      "ammunitionType": "Utilizes a proprietary 7mm Cryo-Shard Caseless round. Each projectile consists of a fin-stabilized, armor-piercing flechette suspended in a supercooled liquid nitrogen solution. Upon firing, a magnetic coil propels the flechette while the solution acts as a natural sound dampener. This system eliminates both gunpowder and a traditional firing pin, resulting in total silence.",
       "compatibleMods": [
-        {
-          "slot": "Optics",
-          "mod": "Arasaka 'Tsunami' Smart Scope",
-          "description": "A proprietary scope that highlights enemy weak points and predicts movement patterns, increasing critical hit chance against slowed or frozen targets."
-        },
-        {
-          "slot": "Muzzle",
-          "mod": "Cryo-Intensifier",
-          "description": "Focuses the cryogenic aerosol into a tighter cone, significantly increasing the duration of the slowing effect and the chance to freeze targets solid."
-        },
-        {
-          "slot": "Internal",
-          "mod": "Overclocked Targeting CPU",
-          "description": "Boosts the smart-targeting processor, allowing for faster lock-on and the ability to maintain target locks on up to five enemies simultaneously."
-        }
+        { "slot": "Optics", "mod": "Arasaka 'Tsunami' Smart Scope", "description": "A proprietary scope that highlights enemy weak points and predicts movement patterns, increasing critical hit chance against slowed or frozen targets." },
+        { "slot": "Muzzle", "mod": "Cryo-Intensifier", "description": "Focuses the cryogenic aerosol into a tighter cone, significantly increasing the duration of the slowing effect and the chance to freeze targets solid." },
+        { "slot": "Internal", "mod": "Overclocked Targeting CPU", "description": "Boosts the smart-targeting processor, allowing for faster lock-on and the ability to maintain target locks on up to five enemies simultaneously." }
       ]
     },
-
     "weaponPhilosophy": {
-      "concept": "The Yurei was not designed as a weapon of war, but as an instrument of control. Its philosophy is rooted in the Arasaka principle of 'perfect execution.' A traditional firearm announces its presence with sound and fury, admitting a loss of control. The Yurei, by contrast, removes threats from the equation without a whisper. It turns a chaotic firefight into a silent, methodical problem-solving exercise. The goal is not just to neutralize the target, but to do so in a way that leaves the enemy confused and terrified, fighting ghosts in a suddenly frozen room. It is the physical embodiment of fear, silence, and surgical lethality."
+      "concept": "The Yurei was not designed as a weapon of war, but as an instrument of control. Its philosophy is rooted in the Arasaka principle of 'perfect execution.' A traditional firearm announces its presence with sound and fury, admitting a loss of control. The Yurei, by contrast, removes threats from the equation without a whisper. It turns a chaotic firefight into a silent, methodical problem-solving exercise. It is the physical embodiment of fear, silence, and surgical lethality."
     },
-
     "manufacturingIntel": {
       "creator": "Dr. Kenji Tanaka",
-      "creatorReputation": "Dr. Tanaka is a legendary but reclusive weapons engineer in Arasaka's Advanced R&D wing, known for his obsession with 'elegant lethality.' He views traditional firearms as crude and noisy. His projects focus on silent, exotic energy types and neuro-linked smart-targeting. He is a perfectionist who rarely allows his prototypes to leave the lab, making any Yurei found in the wild an object of immense value and corporate interest.",
-      "developmentHistory": "The 'Yurei' (Japanese for 'Ghost') was developed under Project Chimera as a next-generation tool for Arasaka's most elite corporate infiltrators and assassins. The goal was to create a weapon that could neutralize a squad of heavily augmented guards in a sealed room without alerting anyone on the other side of the door. The cryogenic delivery system was a breakthrough, serving as both a disabling agent and a sound dampener. The project was officially 'shelved' after Dr. Tanaka deemed the power cell unstable, but rumors persist that a handful of working prototypes were stolen by a Netrunner during a security breach.",
+      "creatorReputation": "Dr. Tanaka was a legendary weapons engineer in Arasaka's R&D wing, known for his obsession with 'elegant lethality.' After the theft of his prototypes, he was disgraced and officially 'retired.' He now operates in the shadows, a brilliant and bitter man singularly focused on reclaiming his creations and punishing those who stole them.",
+      "developmentHistory": "The 'Yurei' was the pinnacle of Dr. Tanaka's career. The project was officially terminated by Arasaka after the prototypes were stolen to erase the corporate embarrassment. No more were ever produced, making the three stolen prototypes the only ones in existence.",
       "productionDate": "Circa 2075-2076"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Completely silent operation allows for full-auto combat in stealth scenarios.",
@@ -61,44 +59,22 @@
       "weaknesses": [
         "Lower base damage compared to traditional Power SMGs.",
         "Ineffective against heavily armored or robotic enemies resistant to Cold.",
-        "The cryogenic ammunition is extremely rare and expensive to acquire.",
-        "Possession of this weapon will make you a high-priority target for Arasaka recovery teams."
+        "Proprietary ammunition is extremely rare and expensive.",
+        "Possession of this weapon makes you a high-priority target for both Arasaka recovery teams and its obsessed creator."
       ],
       "recommendedRoles": "Netrunner-Solo Hybrid, Stealth Assassin, Corporate Infiltrator.",
-      "masteryArchetype": "A 'Ghost' or 'Shinobi' build. An operative who combines netrunning skills (for distraction and stealth daemons) with a Sandevistan or Kerenzikov for rapid, silent takedowns. The weapon's true potential is unlocked by a user who can chain critical hits to keep entire squads frozen and helpless."
+      "masteryArchetype": "A 'Ghost' or 'Shinobi' build. An operative who combines netrunning with a Sandevistan or Kerenzikov for rapid, silent takedowns. The weapon's true potential is unlocked by a user who can chain critical hits to keep entire squads frozen and helpless."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Extremely Rare. The Yurei is not sold on any legitimate market. It can only be acquired through specific, high-level black market auctions, as a reward from a top-tier fixer like Rogue, or by looting it from an Arasaka black ops agent who was very, very unlucky.",
-      "rumoredLocation": "Whispers on the net suggest a netrunner known as 'Cipher' fenced a stolen prototype to the Voodoo Boys, who may be holding it in a secure server room deep within their Pacifica territory. Another rumor places one in the private collection of a reclusive North Oak celebrity."
+      "marketAvailability": "Effectively Zero. The three prototypes in existence are not on any market. One is held by Arthur Cormac, one is with the netrunner 'Hush,' and the third's location is a subject of intense speculation.",
+      "rumoredLocation": "The third Yurei is the stuff of legend. Whispers suggest 'Hush' sold it to Rogue Amendiares as a sign of respect before she disappeared. Others claim it's the centerpiece of Kurt Hansen's private collection in Dogtown. The only certainty is that finding it would be the gig of a lifetime."
     },
-
     "fieldTestimonials": [
       {
-        "mercName": "'Kage' (Infiltration Solo)",
-        "role": "The Point Man / Assassin",
-        "context": "A 'black flag' contract to erase a board member from a rival corporation during a heavily-guarded private party in North Oak.",
-        "feedback": "'Amateurs use suppressors. Professionals use the Yurei. I moved through three floors of corporate security like a bad memory. The guards didn't scream, they didn't even drop. They just... stopped. Froze in place. By the time the first ice sculpture shattered, I was already in the AV, halfway across the city. This isn't a weapon, it's a ghost-making tool. The silence is so absolute, it's terrifying.'",
-        "rating": "5/5"
-      },
-      {
-        "mercName": "'Proxy' (Crew Netrunner)",
-        "role": "The Support / Overwatch",
-        "context": "Deep-dive data heist on a Kang Tao server, providing support for her crew's physical infiltration.",
-        "feedback": "'My job is to be invisible, a ghost in the machine. The Yurei is the only firearm that honors that. A patrol got the drop on me while I was jacked in, and I thought the op was blown. But there was no gunfire to alert the QRF. Just a soft *hiss* and two statues where the guards used to be. I finished the hack without my solo even knowing I was in trouble. It's the ultimate 'plan B' for any serious 'runner.'",
-        "rating": "5/5 (For my role)"
-      },
-      {
-        "mercName": "'Breaker' (Street Samurai)",
-        "role": "The Muscle / Brawler",
-        "context": "A frontal assault contract from a fixer to clear a Scavenger den in an Arroyo warehouse.",
-        "feedback": "'Look, it's a piece of art. It's quiet, it's high-tech... and it's useless when a 'borg with a budget and a shotgun is charging you. It's like trying to stop a charging rhino with an ice cube. The slow-down is cute, but it doesn't have the stopping power for a straight-up firefight against chromed-out gangoons. I'll stick to my Carnage, thanks. This is for spies and assassins, not soldiers.'",
-        "rating": "2/5 (For my style)"
-      }
+    }
     ],
-
     "crewSynergyAssessment": {
-      "analysis": "The Yurei is a force multiplier for any crew that prioritizes stealth and control over brute force. It is the perfect weapon for the crew's Infiltrator or Netrunner, allowing them to neutralize threats without compromising the team's position. For a solo acting as the point man, it allows for the silent removal of entire patrols, clearing a path for the rest of the crew to achieve their objectives. However, its effectiveness plummets in open combat. A successful crew will pair the Yurei's user with a heavy-hitter (a Street Samurai or Techie with heavy weapons) who can take over if and when stealth is broken. Its role is to ensure the fight never has to happen in the first place."
+      "analysis": "The Yurei is a force multiplier for any crew that prioritizes stealth over brute force. It is the perfect weapon for the crew's Infiltrator or Netrunner, allowing them to neutralize threats without compromising the team's position. A successful crew will pair the Yurei's user with a heavy-hitter who can take over if and when stealth is broken. Its role is to ensure the fight never has to happen in the first place."
     }
   }
 }

@@ -6,15 +6,9 @@
       "type": "Smart SMG",
       "manufacturer": "Arasaka",
       "iconic": true,
-      "description": "An Arasaka prototype SMG designed for their 'ghost' operatives. The internal systems are cooled by a cryogenic agent, allowing for silent operation and rounds that flash-freeze on impact.",
+      "description": "An Arasaka prototype stolen in a legendary heist. Cooled by a cryogenic agent, its silent operation and freezing rounds make it the perfect tool for a ghost.",
       "specialAbility": "Fires cryogenic rounds that slow enemies and can freeze them solid on a critical hit. The weapon is completely silent.",
-      "baseStats": {
-        "attackSpeed": 11.0,
-        "damage": 75,
-        "reloadSpeed": 1.9,
-        "range": 40,
-        "mods": 3
-      },
+      "baseStats": { "attackSpeed": 11, "damage": 75, "reloadSpeed": 1.9, "range": 40, "mods": 3 },
       "baseCost": "€$145,000"
     },
     {
@@ -24,15 +18,9 @@
       "manufacturer": "Militech",
       "rarity": "Legendary",
       "iconic": true,
-      "description": "This triple-barreled assault rifle is Militech's answer to crowd control. It fires in a devastating three-round burst, with each barrel tuned to a slightly different trajectory to maximize impact area.",
-      "specialAbility": "Fires a three-round burst in a horizontal spread. The last round in the burst has a high chance to knock down enemies.",
-      "baseStats": {
-        "attackSpeed": 6.5,
-        "damage": "3x70",
-        "reloadSpeed": 2.5,
-        "range": 70,
-        "mods": 4
-      },
+      "description": "A decommissioned prototype from the disastrous 'Operation Tartarus.' Its triple-barreled design is brutally effective but dangerously unstable, a symbol of corporate hubris.",
+      "specialAbility": "Fires a three-round burst in a horizontal spread. The last round is a micro-grenade with a high chance to knock down and cripple limbs.",
+      "baseStats": { "attackSpeed": 6.5, "damage": "210", "reloadSpeed": 2.5, "range": 70, "mods": 4 },
       "baseCost": "€$130,000"
     },
     {
@@ -41,33 +29,21 @@
       "type": "Tech Sniper Rifle",
       "manufacturer": "Kang Tao",
       "iconic": true,
-      "description": "A monstrous anti-materiel rifle. Its unique charging mechanism fires a molten tungsten spike that continues to accelerate *after* leaving the barrel, reaching hypersonic speeds just before impact.",
-      "specialAbility": "A fully charged shot has 100% Armor Penetration and deals bonus damage based on the distance to the target. It cannot be silenced.",
-      "baseStats": {
-        "attackSpeed": 0.3,
-        "damage": 1500,
-        "reloadSpeed": 4.5,
-        "range": 300,
-        "mods": 2
-      },
-      "baseCost": "€$175,000"
+      "description": "The one-of-a-kind rifle used to assassinate the legendary Arasaka sniper, 'Shaitan.' A monstrous anti-materiel weapon that fires an accelerating tungsten spike.",
+      "specialAbility": "A fully charged shot has 100% Armor Penetration and deals bonus damage based on distance. Critical headshots ricochet to a second target.",
+      "baseStats": { "attackSpeed": 0.3, "damage": 1500, "reloadSpeed": 4.5, "range": 300, "mods": 2 },
+      "baseCost": "Priceless"
     },
     {
       "id": "valentino_beso_mortal",
-      "name": "Beso Mortal (Mortal Kiss)",
+      "name": "Beso Mortal",
       "type": "Power Revolver",
       "manufacturer": "Valentinos (Custom)",
       "iconic": true,
-      "description": "A heavily customized Overture, plated in gold and engraved with Valentino iconography. It's said to be a peace offering from a fallen leader, a gun that fires kisses as deadly as any bullet.",
-      "specialAbility": "Rounds have a high chance to charm enemies, causing them to fight for you for a short time. Headshots on charmed enemies cause them to explode.",
-      "baseStats": {
-        "attackSpeed": 2.2,
-        "damage": 350,
-        "reloadSpeed": 1.8,
-        "range": 50,
-        "mods": 2
-      },
-      "baseCost": "€$95,000"
+      "description": "A sacred, one-of-a-kind revolver forged as a wedding gift that became a funeral relic. A symbol of a tragic love and a lasting blood feud.",
+      "specialAbility": "Rounds have a high chance to charm enemies. Headshots on charmed enemies cause them to explode, spreading the effect.",
+      "baseStats": { "attackSpeed": 2.2, "damage": 350, "reloadSpeed": 1.8, "range": 50, "mods": 2 },
+      "baseCost": "Priceless"
     },
     {
       "id": "scavenger_gut_ripper",
@@ -76,31 +52,19 @@
       "manufacturer": "Scavenger (Salvaged)",
       "description": "A brutal, horrifying weapon cobbled together from a chainsaw and a car engine. It's loud, messy, and designed for one purpose: dismemberment.",
       "specialAbility": "Every hit applies a strong Bleed effect. Fully charged attacks have a 100% chance to dismember.",
-      "baseStats": {
-        "attackSpeed": 1.8,
-        "damage": 400,
-        "reloadSpeed": 0,
-        "range": 2.2,
-        "mods": 1
-      },
+      "baseStats": { "attackSpeed": 1.8, "damage": 400, "reloadSpeed": 0, "range": 2.2, "mods": 1 },
       "baseCost": "€$45,000"
     },
     {
       "id": "6th_street_patriot",
-      "name": "The Patriot",
+      "name": "Old Glory",
       "type": "Power LMG",
       "manufacturer": "6th Street (Custom)",
       "iconic": true,
-      "description": "A heavily modified Constitutional Arms Defender. Wrapped in the NUSA flag, this LMG's rate of fire increases the longer the trigger is held, turning it into a screaming symbol of 'liberty.'",
-      "specialAbility": "The rate of fire and Crit Chance increase the longer you fire the weapon. The final 10 rounds in the magazine deal bonus Electrical damage.",
-      "baseStats": {
-        "attackSpeed": "7.0 -> 15.0",
-        "damage": 110,
-        "reloadSpeed": 3.8,
-        "range": 60,
-        "mods": 3
-      },
-      "baseCost": "€$110,000"
+      "description": "The signature weapon of the 6th Street hero, 'Sarge' Miller, used in his legendary last stand. A sacred relic and a symbol of ultimate valor.",
+      "specialAbility": "Rate of fire, Crit Chance, and Dismemberment Chance increase the longer you fire. Final 10 rounds are guaranteed electrical crits.",
+      "baseStats": { "attackSpeed": "7.0 -> 15.0", "damage": 110, "reloadSpeed": 3.8, "range": 60, "mods": 3 },
+      "baseCost": "Priceless"
     },
     {
       "id": "tetratronic_glitch",
@@ -109,30 +73,18 @@
       "manufacturer": "Tetratronic",
       "description": "A netrunner's last resort. This shotgun fires a spread of data-packets that seek out enemy cyberware, short-circuiting their systems and leaving them vulnerable.",
       "specialAbility": "Projectiles deal low physical damage but high EMP damage, disabling enemy cyberware and stunning robotic foes. A charged shot can reboot an enemy's optics.",
-      "baseStats": {
-        "attackSpeed": 1.5,
-        "damage": "6x15 (+EMP)",
-        "reloadSpeed": 3.0,
-        "range": 20,
-        "mods": 2
-      },
+      "baseStats": { "attackSpeed": 1.5, "damage": "6x15 (+EMP)", "reloadSpeed": 3, "range": 20, "mods": 2 },
       "baseCost": "€$120,000"
     },
     {
       "id": "voodoo_boys_loa",
-      "name": "Loa",
+      "name": "Ghede's Kiss",
       "type": "Melee (Machete)",
       "manufacturer": "Voodoo Boys (Custom)",
       "iconic": true,
-      "description": "A ritual machete covered in glowing, cryptic sigils. It's said to be blessed by a Voodoo AI, capable of severing not just flesh, but a person's connection to the net.",
-      "specialAbility": "Hits on an enemy apply a unique quickhack that disables their special abilities and slowly drains their RAM. Defeating an enemy restores 2 RAM to the user.",
-      "baseStats": {
-        "attackSpeed": 2.8,
-        "damage": 250,
-        "reloadSpeed": 0,
-        "range": 2.5,
-        "mods": 1
-      },
+      "description": "The first and most powerful Loa blade. A heretical artifact from a failed ritual, it is a cursed but powerful bridge to the chaos of the Old Net.",
+      "specialAbility": "Hits apply the 'Soul-Cut' quickhack, draining RAM. Kills restore RAM and can upload a random daemon to a nearby enemy.",
+      "baseStats": { "attackSpeed": 2.8, "damage": 250, "reloadSpeed": 0, "range": 2.5, "mods": 1 },
       "baseCost": "€$88,000"
     },
     {
@@ -142,31 +94,19 @@
       "manufacturer": "Dynalar Sandevistan",
       "description": "A compact pistol that fires caseless, needle-like flechettes. It's nearly silent and designed for high-speed, close-quarters combat, a favorite of Sandevistan users.",
       "specialAbility": "Significantly increased fire rate and reload speed while a Sandevistan is active. No muzzle flash.",
-      "baseStats": {
-        "attackSpeed": 9.0,
-        "damage": 60,
-        "reloadSpeed": 1.0,
-        "range": 30,
-        "mods": 2
-      },
+      "baseStats": { "attackSpeed": 9, "damage": 60, "reloadSpeed": 1, "range": 30, "mods": 2 },
       "baseCost": "€$75,000"
     },
     {
       "id": "animals_jawbreaker",
-      "name": "Jawbreaker",
+      "name": "Big Henry",
       "type": "Melee (Hammer)",
       "manufacturer": "Animals (Custom)",
       "iconic": true,
-      "description": "A massive, two-handed sledgehammer made from a reinforced hydraulic piston. It's less a weapon and more a mobile demolition tool. Every swing feels like an earthquake.",
-      "specialAbility": "Heavy attacks cannot be blocked and have a 100% chance to stagger enemies, including mini-bosses. A fully charged heavy attack creates a ground-shaking shockwave.",
-      "baseStats": {
-        "attackSpeed": 1.1,
-        "damage": 800,
-        "reloadSpeed": 0,
-        "range": 3.0,
-        "mods": 0
-      },
-      "baseCost": "€$60,000"
+      "description": "Sasquatch's signature weapon and symbol of her rule. Forged from the spoils of her victory over a rival champion, it is the crown of the Animals.",
+      "specialAbility": "Heavy attacks are unblockable and stagger. A charged heavy attack creates a shockwave. Kills with heavy attacks grant a massive armor boost.",
+      "baseStats": { "attackSpeed": 1.1, "damage": 800, "reloadSpeed": 0, "range": 3, "mods": 0 },
+      "baseCost": "Priceless"
     },
     {
       "id": "darra_polytechnic_widowmaker",
@@ -175,13 +115,7 @@
       "manufacturer": "Darra Polytechnic",
       "description": "A beautiful, old-world shotgun updated with tech components. It can fire both shells at once in a charged blast that can punch through concrete walls... and anyone hiding behind them.",
       "specialAbility": "A charged shot fires both barrels at once with massive armor penetration and a wider spread.",
-      "baseStats": {
-        "attackSpeed": 1.0,
-        "damage": "12x25",
-        "reloadSpeed": 2.0,
-        "range": 18,
-        "mods": 2
-      },
+      "baseStats": { "attackSpeed": 1, "damage": "12x25", "reloadSpeed": 2, "range": 18, "mods": 2 },
       "baseCost": "€$105,000"
     },
     {
@@ -191,31 +125,19 @@
       "manufacturer": "Budget Arms",
       "description": "A cheap, mass-produced revolver with a dangerous, illegal modification. It can be 'fanned,' firing all six rounds in less than a second with zero accuracy.",
       "specialAbility": "The alternate fire mode unloads the entire cylinder in a rapid, inaccurate burst. Perfect for when your target is 'somewhere in front of you.'",
-      "baseStats": {
-        "attackSpeed": 1.5,
-        "damage": 180,
-        "reloadSpeed": 2.2,
-        "range": 40,
-        "mods": 1
-      },
+      "baseStats": { "attackSpeed": 1.5, "damage": 180, "reloadSpeed": 2.2, "range": 40, "mods": 1 },
       "baseCost": "€$12,000"
     },
     {
       "id": "tyger_claws_byakko",
-      "name": "Byakko",
+      "name": "White Tiger's Fang",
       "type": "Melee (Katana)",
       "manufacturer": "Tyger Claws (Custom)",
       "iconic": true,
-      "description": "A katana with a neuro-link in the hilt. The faster you strike, the more it overclocks your nervous system, turning you into a whirlwind of steel.",
-      "specialAbility": "Every consecutive hit increases your attack speed and movement speed. After 5 hits, allows you to perform a powerful dash-strike.",
-      "baseStats": {
-        "attackSpeed": 3.2,
-        "damage": 300,
-        "reloadSpeed": 0,
-        "range": 2.5,
-        "mods": 2
-      },
-      "baseCost": "€$92,000"
+      "description": "A masterwork katana forged for a master's greatest student, but stolen in an act of betrayal. A beautiful but cursed symbol of a blood debt.",
+      "specialAbility": "Consecutive hits increase attack and movement speed. After 5 hits, allows for a dash-strike that refreshes on kill.",
+      "baseStats": { "attackSpeed": 3.2, "damage": 300, "reloadSpeed": 0, "range": 2.5, "mods": 2 },
+      "baseCost": "Priceless"
     },
     {
       "id": "kiroshi_stinger",
@@ -224,30 +146,18 @@
       "manufacturer": "Kiroshi Opticals",
       "description": "A combat knife with a built-in injector. On a critical hit, it injects a fast-acting neurotoxin that scrambles the target's optics, effectively blinding them.",
       "specialAbility": "Critical hits apply a unique 'Blind' effect, reducing enemy accuracy and movement speed.",
-      "baseStats": {
-        "attackSpeed": 4.0,
-        "damage": 150,
-        "reloadSpeed": 0,
-        "range": 1.8,
-        "mods": 1
-      },
+      "baseStats": { "attackSpeed": 4, "damage": 150, "reloadSpeed": 0, "range": 1.8, "mods": 1 },
       "baseCost": "€$55,000"
     },
     {
       "id": "netwatch_firewall",
-      "name": "Firewall",
+      "name": "Psycho-Soother",
       "type": "Tech Shotgun",
       "manufacturer": "Netwatch",
       "iconic": true,
-      "description": "Netwatch's anti-cyberpsycho tool. A charged shot doesn't fire projectiles, but a wide, conical blast of thermal energy that instantly overheats and disables enemy cyberware.",
-      "specialAbility": "A fully charged shot deals massive Thermal damage and applies the 'Cyberware Malfunction' quickhack to all enemies in a cone.",
-      "baseStats": {
-        "attackSpeed": 1.2,
-        "damage": "8x10 (+Thermal)",
-        "reloadSpeed": 3.2,
-        "range": 15,
-        "mods": 1
-      },
+      "description": "An unstable Netwatch prototype from a failed experiment that created a cyberpsycho. A weapon of immense power and terrifying risk.",
+      "specialAbility": "A charged shot applies 'Cyberware Malfunction' and 'Reboot Optics' in a cone. Has a small chance to cause 'System Shock,' turning an enemy cyberpsycho.",
+      "baseStats": { "attackSpeed": 1.2, "damage": "80 (+Thermal)", "reloadSpeed": 3.2, "range": 15, "mods": 1 },
       "baseCost": "€$160,000"
     }
   ]

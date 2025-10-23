@@ -2,28 +2,104 @@
   "fixerProfile": {
     "title": "Wade Bleecker",
     "image": "/best.png",
-    "aliases": ["Mr. Hands", "The Ghost of Pacifica"],
+    "aliases": ["Mr. Hands", "The Ghost of Dogtown", "The Architect of Dogtown"],
     "status": "Active",
     "primaryTerritory": "Dogtown (formerly Pacifica)",
     "specialization": "Political Manipulation, High-Stakes Negotiations, Black Ops, Information Brokerage",
-
     "biography": {
-      "earlyLife": "Before he was a ghost, Wade Bleecker was a rising star at Petrochem. He was a ruthless corporate exec on the fast track, known for his cunning and his ability to navigate the treacherous waters of boardroom politics. However, a sudden shift in upper management left him the designated scapegoat for a deal gone bad. Betrayed and marked for death, Bleecker proved more resilient than his rivals anticipated. He survived the assassination attempt, wiped his identity, and vanished.",
-      "riseAsFixer": "He re-emerged in the lawless zone of Pacifica, not as Wade Bleecker, but as the enigmatic Mr. Hands. Using his corporate savvy and a network built from scratch, he became the district's sole information broker. When Kurt Hansen walled off Dogtown, Mr. Hands didn't flee; he saw an opportunity. He became the invisible hand guiding the district's future, the only person who could broker deals between the Voodoo Boys, Hansen's BARGHEST soldiers, and outside interests.",
-      "modusOperandi": "Mr. Hands is a grandmaster playing a city-sized game of chess. He operates exclusively through untraceable holocalls, his face and true location a complete mystery. His voice is calm, his words are precise, and his motives are always his own. He hires mercs not for simple smash-and-grabs, but as key pieces in his complex schemes to shape the political landscape of Dogtown. Every gig he offers is a calculated move in a much larger game.",
+      "earlyLife": "Before he was a ghost, Wade Bleecker was a rising star at Petrochem. He was a ruthless corporate executive on the fast track, known for his cunning and his ability to navigate the treacherous waters of boardroom politics. However, a sudden shift in upper management left him the designated scapegoat for a deal gone bad. Betrayed and marked for 'retirement,' Bleecker proved more resilient than his rivals anticipated. He survived the assassination attempt, wiped his identity, and vanished into the urban noise.",
+      "riseAsFixer": "He re-emerged in the lawless zone of Pacifica, not as Wade Bleecker, but as the enigmatic Mr. Hands. Weaving himself into the power vacuum, he used his corporate savvy to become the district's sole information broker. When Kurt Hansen walled off Dogtown, Mr. Hands didn't flee; he saw opportunity. He became the invisible hand guiding the district's future, the only person who could broker deals between the Voodoo Boys, Hansen's BARGHEST soldiers, and the most powerful outside interests.",
+      "modusOperandi": "Mr. Hands is a grandmaster playing a city-sized game of chess. He operates exclusively through untraceable, voice-modulated holocalls, his face and true location a complete mystery. His voice is calm, his words are precise, and his motives are always his own. He hires mercs not for simple smash-and-grabs, but as key pieces in his complex schemes to shape the political landscape of Dogtown. Every gig he offers is a calculated move in a much larger, unseen game.",
       "reputation": "Mr. Hands is a legend and a mystery. No one knows what he looks like, but everyone knows his name. He is considered the most intelligent and calculating fixer in Night City. Mercs who work for him know they are tools in a complex machine, but the pay is astronomical, and the work is the most impactful in the city. He is the epitome of professional reliability, but his personal motivations remain a complete enigma."
     },
-
+    "psychologicalProfile": {
+      "coreMotivation": "Strategic Immortality. Having had his identity and life nearly erased, Bleecker is now obsessed with building a legacy that is intangible and indestructible. He doesn't want power for its own sake, but to become a fundamental, controlling force within the system—a ghost in the machine that cannot be targeted or killed. His goal is to make himself so essential to the political balance of Dogtown that his influence becomes a permanent, self-sustaining entity.",
+      "disorders": "Antisocial Personality Disorder (ASPD), Alexithymia (inability to identify and process emotions, leading to a purely logical and detached worldview). His past trauma has manifested as a pathological need for control and a complete rejection of personal identity as a vulnerability.",
+      "worldview": "The world is a complex system of levers and variables. People, corporations, and governments are all just components that can be manipulated to achieve a desired outcome. Emotion is a fatal bug in the human operating system, and loyalty is a poor investment. The only thing that is real is leverage. He is a god of his own design, observing the machine and making adjustments with perfect, cold logic."
+    },
+    "keyRelationships": {
+      "nemesis": "Eleanor Vance (FIA | Director of Unconventional Operations). Vance was Wade Bleecker's partner and protégé at Petrochem. During the disastrous 'Project Chimera' acquisition, Bleecker framed her to save himself. Vance was the sole, horribly wounded survivor of the subsequent purge. The FIA rebuilt her and gave her a new purpose. She knows Mr. Hands is Wade Bleecker, and her objective is not simple revenge; it is to systematically dismantle the empire he built, proving that no ghost can outrun its past.",
+      "stateOfTheShadowWar": {
+        "currentSituation": "Strategic Stalemate. Vance has the might of the NUSA, but Hands has near-omniscience within the walls of Dogtown. Vance is the aggressor, constantly probing his defenses with deniable operations and attempts to destabilize Hansen's rule. Hands is the defender, using his superior intelligence network to counter her moves with surgical precision. It is a cold war fought with mercs as proxies.",
+        "handsResponse": "Strategic Patience & Analysis. Mr. Hands treats Vance's aggression not as a threat, but as an invaluable source of data. He allows her smaller gambits to play out, studying her methods, her assets, and her psychological triggers. He is not just reacting; he is building a perfect predictive model of his opponent, patiently waiting for the moment she overextends herself.",
+        "nextObjective": "Operation: 'Checkmate.' Hands' endgame is not to kill Vance, but to neutralize her as a piece on the board. The objective is to manipulate her into launching a major, successful operation against a BARGHEST asset that, unbeknownst to her, is secretly a Militech black site. The resulting 'blue-on-blue' incident will frame Vance as either a rogue agent or dangerously incompetent, forcing the FIA to recall her and permanently removing her from his game without him ever revealing his hand."
+      }
+    },
+    "legendaryArsenal": {
+      "rumor": "A ghost has no need for guns. Mr. Hands' arsenal is information and access. For his most critical operations, he is rumored to grant his chosen operatives a temporary key to his kingdom, a tool that makes the impossible merely difficult.",
+      "weapons": [
+        {
+          "name": "The Panopticon",
+          "description": "Not a weapon, but Mr. Hands' primary tool of power: a covert, district-wide surveillance and data-mining network integrated into Dogtown's infrastructure. It is his all-seeing eye, the source of his perfect intelligence. Its existence is a closely guarded secret, the foundation of his entire empire."
+        },
+        {
+          "name": "The 'Ghost Key'",
+          "description": "A single-use, encrypted data shard granted to his most elite operatives. It provides a temporary, untraceable connection to a partitioned section of The Panopticon, allowing a merc to see real-time security blind spots, predict guard patrols, and access localized systems. To be given the Ghost Key is to be allowed, for a brief time, to see the world as Mr. Hands does."
+        }
+      ]
+    },
+    "eliteOperatives": {
+      "overview": "Mr. Hands maintains no personal relationships. He employs a small, compartmentalized network of hyper-specialized contractors, each chosen for their unique skills and absolute professionalism. They are his scalpels, his spies, his deniable assets. They never meet, and most are unaware of the others' existence.",
+      "operatives": [
+        {
+          "alias": "'Facade' (The Infiltrator)",
+          "specialization": "Social Engineering, Impersonation, Covert Ops",
+          "profile": "A master of disguise who can blend into any environment, from a BARGHEST barracks to a corporate gala. She is the physical agent for Hands' most delicate work, the one he sends when a digital breach is not enough. Her specialty is acquiring information or planting technology without ever being noticed.",
+          "relationship": "Purely transactional. A ghost hiring a ghost. Facade values his perfect intel, which makes her impossible jobs possible. Hands values her flawless success rate and absolute discretion.",
+          "roleInTheShadowWar": "Facade is Hands' primary tool for probing Vance's real-world operations. She is the one tasked with identifying Vance's agents, planting trackers, and physically infiltrating the locations of their secret meetings."
+        },
+        {
+          "alias": "'Jenga' (The Destabilizer)",
+          "specialization": "Sabotage, Wetwork, Chaos Agent",
+          "profile": "A former corporate saboteur who specializes in creating 'accidents.' Jenga's talent is not in brute force, but in finding the single, critical point of failure in any system—a supply line, a power conduit, a key officer—and removing it with surgical precision to make the entire structure collapse.",
+          "relationship": "A tool for a specific purpose. Hands provides the target and the desired outcome; Jenga architects the downfall. There is no communication beyond the contract.",
+          "roleInTheShadowWar": "Jenga was the primary instrument in 'The Hansen Ascension,' tasked with executing the key assassinations and acts of sabotage that pushed the rival gangs into war. Now, he is used to subtly dismantle Vance's support structures within Dogtown."
+        }
+      ]
+    },
+    "legendaryGigs": [
+      {
+        "gigTitle": "The Petrochem Ghost",
+        "date": "Circa 2070",
+        "objective": "As Petrochem exec Wade Bleecker, lead a black ops team to acquire Arasaka's 'Project Chimera' geothermal energy research from a neutral-ground research outpost.",
+        "client": "Petrochem R&D",
+        "target": "'Project Chimera' Data Core",
+        "outcome": "The betrayal that created Mr. Hands. The operation was an ambush. Arasaka was waiting. Faced with annihilation, Bleecker remotely rerouted his partner Eleanor Vance's escape vehicle into the line of fire, creating a diversion that allowed him to escape. He fed Petrochem a doctored report framing Vance as an Arasaka informant, an act that saved his career but marked him for death by Vance's powerful family. This forced him to erase his identity and become the ghost known as Mr. Hands.",
+        "mercFeedback": "'The mission logs are a nightmare. One minute, Bleecker is coordinating with Vance's team. The next, he's rerouting her evac, feeding Arasaka her position, and building a cover story in real-time. He didn't just survive; he wrote an entire fiction in the middle of a firefight to save his own skin.' - Recovered Black Box Analysis.",
+        "payout": "Survival. The birth of a ghost.",
+        "reputationImpact": "This was the secret origin of Mr. Hands. It established his core philosophy: survival at any cost. It also created his most dangerous enemy, an equally brilliant and ruthless woman with the full backing of the NUSA government."
+      },
+      {
+        "gigTitle": "The Black Sapphire Gambit",
+        "date": "06.18.2077",
+        "objective": "Sabotage a secret deal between Kurt Hansen and Militech for a new generation of combat drones, a deal brokered by the FIA agent Eleanor Vance to give the NUSA a foothold in Dogtown.",
+        "client": "Self-Initiated (Maintaining Control)",
+        "target": "The Hansen-Militech Drone Contract",
+        "outcome": "A strategic draw. Mr. Hands' merc successfully infiltrated the Black Sapphire and replaced the prototype's performance data with a corrupted file, making the drone appear faulty. However, Vance, anticipating his move, had her own operative in place who secured a backup of the real data. The deal was delayed, not cancelled. Mr. Hands prevented an immediate NUSA incursion, but Vance proved she could match him move for move in his own territory. The cold war had officially begun.",
+        "mercFeedback": "'I've never had a job this quiet. Every guard rotation, every server password... Hands knew it all. But it was tense. Felt like there was another ghost in the machine, watching me. I got the job done, but I don't think I was the only merc in the building that night.' - 'Spectre' (Infiltrator)",
+        "payout": "€$ 100,000",
+        "reputationImpact": "This was the first direct, albeit silent, clash between Mr. Hands and his past. It demonstrated the new front in his war: not against the chaotic gangs of the street, but against an enemy as intelligent and resourceful as himself. His control of Dogtown was no longer absolute."
+      }
+    ],
+    "mostFamousGig": {
+      "gigTitle": "The Hansen Ascension",
+      "date": "Circa 2075",
+      "objective": "To end the chaotic gang wars of Pacifica by installing a single, predictable authority figure: Kurt Hansen. This was achieved through a series of seemingly unrelated gigs designed to make rival factions destroy each other.",
+      "client": "Self-Initiated (Strategic Goal: Order from Chaos)",
+      "target": "The entire power structure of pre-wall Pacifica.",
+      "outcome": "A flawless political gambit. Mr. Hands hired three separate merc crews to steal from, and plant evidence on, rival gangs. As the factions descended into a self-destructive war, Mr. Hands provided Kurt Hansen's BARGHEST with perfect intel on their weaknesses. Hansen swept in, crushed the remnants, and declared himself the district's new leader, believing it was his own victory.",
+      "mercFeedback": "'We weren't just stealing guns; we were the first domino. Hands didn't hire us to do a gig; he hired us to start a war he knew he could finish.' - Attributed testimony from a solo on the operation.",
+      "reputationImpact": "This operation was his masterpiece of unseen influence. He proved he could reshape an entire district with whispers and perfectly placed violence. It established him as the true puppet master of Dogtown, a ghost who didn't need a throne because he could control the king."
+    },
     "fixerRatings": {
       "overallThreat": "10/10 (Strategic)",
-      "reliability": "10/10 - A contract with Mr. Hands is a sacred pact. He provides everything needed for success and pays exceptionally well for flawless execution.",
-      "payment": "10/10 - Arguably the highest-paying fixer in Night City. His gigs shape the future, and he compensates his agents accordingly.",
-      "intelQuality": "10/10 - Perfect. His intelligence network within Dogtown is omniscient. He knows every move before it's made.",
-      "discretion": "10/10 - The ghost's primary advantage. All traces of his involvement are scrubbed clean. His mercs are deniable assets.",
-      "resourcefulness": "10/10 - Can pull strings at the highest levels of corporate and political power. If he needs it, it will be provided.",
-      "mercSurvivability": "8/10 - Very high. His plans are intricate and well-supported, but Dogtown itself is an unpredictable and extremely hostile environment."
+      "reliability": "10/10 - A contract with Mr. Hands is a sacred pact. He provides everything needed for success.",
+      "payment": "10/10 - Arguably the highest-paying fixer in Night City, with payouts reflecting the geopolitical stakes.",
+      "intelQuality": "10/10 - Perfect. His intelligence network within Dogtown is omniscient.",
+      "discretion": "10/10 - The ghost's primary advantage. All traces of his involvement are scrubbed clean.",
+      "resourcefulness": "10/10 - Can pull strings at the highest levels of corporate and political power.",
+      "mercSurvivability": "8/10 - Very high for the operator. His plans are intricate and designed for success, but Dogtown itself is an extremely hostile environment."
     },
-
     "advantages": {
       "strengths": [
         "Unrivaled strategic and political intelligence.",
@@ -35,53 +111,40 @@
         "Completely impersonal and emotionally detached; mercs are just assets.",
         "His true objectives are often hidden from his contractors.",
         "Gigs take place in Dogtown, one of the most dangerous combat zones in the world.",
-        "Failure is not an option and would likely result in being abandoned."
+        "Failure is not an option and would likely result in being abandoned or erased."
       ]
     },
-
     "recentGigDetails": [
       {
-        "gigTitle": "Save the Dogtown",
+        "gigTitle": "Gig: Run this Town",
         "date": "Late 2077",
-        "objective": "A rogue BARGHEST faction, loyal to a deceased colonel, has acquired a cache of chemical weapons and plans to deploy them to destabilize Kurt Hansen's rule. Infiltrate their base in a derelict factory and neutralize the threat.",
+        "objective": "A rogue BARGHEST faction, secretly armed and funded by Eleanor Vance, has acquired chemical weapons to destabilize Kurt Hansen's rule. Neutralize the threat.",
         "client": "The Future of Dogtown (Self-Initiated)",
-        "target": "Chemical Weapon Caches & Rogue Faction Leadership",
-        "outcome": "Successful. The merc team, 'Wraith Squad,' used stealth to bypass the factory's outer patrols and planted explosives on the chemical containers. In a coordinated assault, they eliminated the faction's leaders in their command center while the explosives detonated, incinerating the chemical agents. The incident was officially blamed on a Maelstrom raid, a narrative crafted by Mr. Hands.",
-        "mercFeedback": "'Hands plays for keeps. This wasn't just a gig; he had us preventing a full-blown war inside the wall. The intel was perfect, the pay was insane. You feel like a piece on his board, but damn, it's a hell of a game.' - 'Wraith' (Squad Leader)",
+        "target": "Chemical Weapon Caches & Vance's Destabilization Ploy",
+        "outcome": "Successful. The merc eliminated the faction and destroyed the agents. The incident was officially blamed on a Maelstrom raid, a narrative crafted by Mr. Hands to hide the truth of the internal cold war from Hansen. He successfully countered Vance's most aggressive move yet.",
+        "mercFeedback": "'Hands plays for keeps. This wasn't just a gig; he had us preventing a full-blown war inside the wall, a war started by some other ghost. You feel like a piece on his board, but damn, it's a hell of a game.' - 'V' (Mercenary)",
         "payout": "€$ 50,000"
       },
       {
-        "gigTitle": "Clear scavengers",
+        "gigTitle": "Gig: Dogtown's Saints",
         "date": "10.20.2077",
-        "objective": "A particularly vicious Scavenger cell has taken over a Dogtown clinic, harvesting chrome from the locals. Mr. Hands requires their immediate and public removal to restore a sense of order and demonstrate his influence.",
+        "objective": "A vicious Scavenger cell has taken over a Dogtown clinic. Mr. Hands requires their immediate and public removal to restore order and counter a narrative of chaos being pushed by Vance's media assets.",
         "client": "The People of Dogtown",
         "target": "Scavenger Cell Leader 'Doc Ripper'",
-        "outcome": "Successful and brutal. The solo, 'Juggernaut,' made a frontal assault on the clinic. The ensuing firefight was short and bloody. The Scavengers were eliminated to the last man, and the captives were freed. Mr. Hands ensured the story of the heroic rescue spread throughout Dogtown, solidifying his position as the district's unseen protector.",
-        "mercFeedback": "'Mr. Hands wanted a statement, so I gave him one. No sneaking, no subtlety. Just a whole lot of lead. He pointed me at the problem and told me to erase it. Easiest eddies I've made all week, and the locals are treating me like a goddamn hero.' - 'Juggernaut' (Solo)",
+        "outcome": "Successful and brutal. The solo's frontal assault eliminated the Scavengers and freed the captives. Mr. Hands ensured the story of the heroic rescue spread throughout Dogtown, a direct piece of counter-propaganda against Vance's efforts to portray the district as unstable.",
+        "mercFeedback": "'Mr. Hands wanted a statement, so I gave him one. He pointed me at the problem and told me to erase it. Easiest eddies I've made all week, and the locals are treating me like a goddamn hero, which I'm guessing was the whole point.' - 'Juggernaut' (Solo)",
         "payout": "€$ 25,000 + Local Reputation"
       },
       {
-        "gigTitle": "Hi Ho Silver Lining",
+        "gigTitle": "Gig: Hi Ho Silver Lining",
         "date": "10.12.2077",
-        "objective": "A netrunner who once worked for Mr. Hands has betrayed him and is attempting to sell a shard containing his encrypted transaction logs to an outside corporation. Track her down and retrieve the shard.",
+        "objective": "A netrunner who once worked for Mr. Hands has been turned by Eleanor Vance and is attempting to sell his encrypted transaction logs to the FIA. Retrieve the shard.",
         "client": "Self-Initiated (Internal Security)",
-        "target": "Data Shard & Rogue Netrunner 'Echo'",
-        "outcome": "Successful. The merc tracked the netrunner to a meeting point at the Black Sapphire. The operative intercepted the corporate buyers, neutralized them, and cornered the netrunner. The shard was recovered, and at Mr. Hands' instruction, the netrunner was allowed to disappear, serving as a message of both mercy and reach.",
-        "mercFeedback": "'This was different. Felt personal. I had the runner dead to rights, and Hands just told me to take the shard and let her go. He wasn't just cleaning a mess; he was sending a message to anyone else thinking of crossing him. The man doesn't miss a trick.' - 'V' (Mercenary)",
+        "target": "Data Shard & FIA Agent 'Echo'",
+        "outcome": "Successful. The merc intercepted the exchange. The shard was recovered, and at Mr. Hands' instruction, the netrunner was allowed to disappear. This was a direct message to Vance: her agents are not safe, and he is always watching.",
+        "mercFeedback": "'Felt personal. I had the runner dead to rights, and Hands just told me to take the shard and let her go. He wasn't just cleaning a mess; he was sending a message to the other ghost haunting Dogtown.' - 'V' (Mercenary)",
         "payout": "€$ 35,000 + A Favor"
       }
-    ],
-    "legendaryGig": {
-        "gigTitle": "The Hansen Ascension",
-        "date": "Pre-Dogtown Unification (Circa 2075)",
-        "objective": "To end the chaotic gang wars of Pacifica by installing a single, predictable authority figure: Kurt Hansen. This was achieved through a series of seemingly unrelated gigs designed to make rival factions destroy each other.",
-        "client": "Self-Initiated (Strategic Goal: Order from Chaos)",
-        "target": "The entire power structure of pre-wall Pacifica.",
-        "outcome": "A flawless, multi-act political gambit. Mr. Hands hired three separate merc crews for three separate jobs. Crew A stole weapon prototypes from one gang. Crew B, hired anonymously, used those prototypes in an attack on a second gang. Crew C was then hired to leak doctored evidence framing the first gang for the attack. As the two factions descended into a self-destructive war, Mr. Hands provided Kurt Hansen's ambitious BARGHEST faction with perfect intel on both of their weaknesses. Hansen swept in, crushed the remnants, and declared himself the district's new leader. He believed it was his own victory.",
-        "hiredMercs": "Multiple, compartmentalized merc crews. None knew of the others' existence.",
-        "mercFeedback": "'The job was simple: hit a Voodoo Boys arms cache. The pay was insane. A week later, all hell breaks loose in Pacifica and Hansen takes over. I never thought twice about it until months later. We weren't just stealing guns; we were the first domino. Hands didn't hire us to do a gig; he hired us to start a war he knew he could finish.' - Acknowledged testimony from 'Trigger', a solo on Crew A.",
-        "payout": "Total control of the information flow in the newly-formed Dogtown.",
-        "reputationImpact": "This operation was never traced back to Mr. Hands, which is precisely why it's his masterpiece. He proved he could reshape an entire district with nothing more than whispers, lies, and perfectly placed violence. It established him as the true puppet master of Dogtown, a ghost who didn't need a throne because he could control the king."
-    }
+    ]
   }
 }

@@ -1,71 +1,77 @@
 {
   "weaponProfile": {
-    "title": "Loa",
+    "title": "Ghede's Kiss",
     "image": "/loa.jpg",
-    "id": "voodoo_boys_loa",
-    "aliases": ["The Soul-Cutter", "Net-Cleaver", "Ghede's Kiss"],
+    "id": "voodoo_boys_loa_prime",
+    "aliases": ["The Soul-Cutter", "The First Loa", "The Key"],
     "type": "Melee (Machete)",
-    "manufacturer": "Voodoo Boys (Custom)",
-    "status": "Unique; Ritual Artifact",
-    "cost": "€$88,000 (Black Market Estimate)",
-    "specialAbility": "Hits on an enemy apply a unique quickhack that disables their special abilities and slowly drains their RAM. Defeating an enemy restores 2 RAM to the user.",
-
+    "manufacturer": "Voodoo Boys (Unique Ritual Artifact)",
+    "status": "Unique; Heretical Artifact",
+    "cost": "Priceless (A symbol of schism)",
+    "specialAbility": "Hits on an enemy apply a unique 'Soul-Cut' quickhack that disables their special abilities and drains their RAM. Defeating an enemy restores 4 RAM to the user and has a small chance to upload a random, powerful daemon to a nearby enemy.",
     "baseStats": {
       "attackSpeed": 2.8,
-      "damage": 250,
+      "damage": "250",
       "reloadSpeed": 0,
       "range": 2.5,
       "mods": 1
     },
-
-    "manufacturingIntel": {
-      "creator": "The Houngans of the Voodoo Boys",
-      "creatorReputation": "The Loa is not manufactured; it is consecrated. High-ranking Voodoo Boys priests, known as Houngans, forge these machetes in ritual ceremonies. They embed the blades with micro-circuitry and 'baptize' them in the data streams of the Old Net, inviting a low-level AI—a digital 'Loa' or spirit—to inhabit the weapon.",
-      "developmentHistory": "The Loa was created as a tool for the Voodoo Boys' holy war against Netwatch and the Blackwall. They needed a weapon that could function in both 'meatspace' and cyberspace simultaneously. The result is a blade that cuts flesh while its indwelling AI launches a parallel assault on the target's personal network, severing their connection to their own cyberware. Each Loa is unique, bearing the sigils and carrying the favor of the specific AI spirit it houses.",
-      "productionDate": "Ongoing, ritual creation"
+    "keyRelationships": {
+      "nemesis": "Rougarou (The Rougarou AI). The Rougarou is a feral, predatory AI from beyond the Blackwall that was accidentally contacted during the ritual that created 'Ghede's Kiss.' The weapon acts as a key, or an anchor, for the AI, which is constantly trying to manifest itself through the blade and its wielder. It 'bleeds' daemons into the world through the weapon's special effect and relentlessly hunts anyone who possesses it, seeing them as its only chance to fully breach the Blackwall.",
+      "creator": "Houngan 'Papa' Jacques (Excommunicated Voodoo Boy)"
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Schism of the Loa",
+        "date": "Circa 2073",
+        "objective": "A radical Voodoo Boys priest, Houngan Jacques, attempted a dangerous ritual to consecrate the first and most powerful Loa blade, hoping to create a direct bridge to the legendary Alt Cunningham.",
+        "client": "A Fanatical Sect of the Voodoo Boys",
+        "target": "The Spirit of Alt Cunningham",
+        "outcome": "A spiritual and digital disaster. The ritual was too powerful. Instead of contacting Alt, Jacques opened a brief but catastrophic tear in the Blackwall. Two entities answered. The first was a benevolent, low-level AI that successfully inhabited the blade, becoming the first 'Loa.' The second was a powerful, predatory AI, the 'Rougarou,' which latched onto the weapon's connection. In the ensuing chaos, Jacques's followers were driven cyberpsycho by the Rougarou's influence. Brigitte and the Voodoo Boys traditionalists were forced to intervene, severing the connection and excommunicating Jacques. The weapon, now seen as both blessed and cursed, was lost in the chaos.",
+        "mercFate": "Houngan Jacques became a pariah, a heretic who had endangered the entire Voodoo Boys' cause. He vanished, rumored to be seeking a way to control the power he unleashed. The weapon, 'Ghede's Kiss,' became a symbol of his heresy, a forbidden object that both factions of the Voodoo Boys now desperately seek.",
+        "mercFeedback": "'The logs from that night are... incoherent. Data-screams. Brigitte's faction claims Jacques was a fool who consorted with demons. His followers claim he was a prophet who touched God. The truth? He rang a dinner bell in the abyss, and something answered. That blade isn't just a weapon; it's a direct line to whatever is waiting on the other side.' - An anonymous Netwatch agent's report.",
+        "payout": "A schism that has split the Voodoo Boys in two.",
+        "reputationImpact": "The creation of 'Ghede's Kiss' was the Voodoo Boys' greatest triumph and their most terrible failure. It proved their theories about the Old Net were correct, but it also unleashed a new and terrifying enemy in the Rougarou. The weapon is now a holy relic to one half of the gang, a symbol of damnation to the other, and a key that a digital monster desperately wants back."
+    },
+    "designAndMaterials": {
+        "materials": "The blade is forged from the salvaged hull of a pre-Collapse deep-sea submersible, designed to withstand immense pressure. The micro-circuitry embedded within is not printed, but 'grown' through a bio-electric ritual, making it a fusion of technology and organic data. The handle is wrapped in the cyberdeck cables of a martyred Voodoo Boys netrunner.",
+        "ammunitionType": "N/A. The weapon is powered by a small, self-recharging bio-battery that feeds the indwelling AI. The RAM drain is not an attack; it is the AI 'feeding' on the target's digital life force.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "The 'Jacques' Lense'", "description": "This unique modification, left by its creator, attempts to stabilize the blade's connection to the Old Net. It reduces the chance of negative visual glitches and slightly increases the chance of uploading a beneficial, rather than harmful, daemon to enemies." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Loa was conceived as a bridge between the physical world ('meatspace') and the digital afterlife. Its philosophy is that a true warrior of the Net must be able to fight in both realms simultaneously. The blade cuts the flesh, severing the enemy's connection to the physical world, while its indwelling AI cuts the data, severing their connection to their own technology. It is a tool of 'total death,' ensuring that the target's body and their digital ghost are vanquished at the same time."
+    },
+    "manufacturingIntel": {
+      "creatorReputation": "The Houngans are the spiritual leaders of the Voodoo Boys. Houngan Jacques, the creator of 'Ghede's Kiss,' is now a whispered legend—some say a prophet, others a madman. He is the only one who knows the true secrets of the weapon's creation.",
+      "developmentHistory": "'Ghede's Kiss' is the original, the first and most powerful Loa blade ever made. The lesser Loas wielded by other Voodoo Boys are but pale imitations, housing weaker spirits and lacking the dangerous, direct connection to the Old Net. It is a unique, unstable, and immensely powerful artifact.",
+      "productionDate": "Circa 2073"
+    },
     "tacticalAssessment": {
       "strengths": [
         "Extremely effective against netrunners and enemies who rely heavily on special abilities.",
         "The RAM drain effect can cripple a high-level enemy netrunner in seconds.",
-        "Restores user's RAM on kill, allowing for a devastating synergy between physical and cyber combat.",
-        "Carries immense cultural and spiritual significance, inspiring fear and respect."
+        "Restores significant user RAM on kill, allowing for a devastating synergy between physical and cyber combat.",
+        "The random daemon upload can turn the tide of a battle by creating chaos among enemy ranks."
       ],
       "weaknesses": [
         "Lower base physical damage compared to pure combat blades like katanas.",
         "The special ability is useless against purely physical or robotic enemies with no RAM.",
-        "The indwelling AI can sometimes cause minor, unpredictable visual glitches in the user's optics.",
-        "Possession by an outsider is considered a grave desecration by the Voodoo Boys."
+        "The indwelling AI can cause unpredictable and distracting visual glitches, even with the stabilizing mod.",
+        "Possession of this weapon will make you a target for BOTH factions of the Voodoo Boys and the rogue AI, Rougarou."
       ],
       "recommendedRoles": "Netrunner-Blade Hybrid, Cyber-Exorcist, Anti-Netrunner Specialist.",
-      "masteryArchetype": "A 'Bokor' build. A netrunner who is not afraid to get their hands dirty. The ideal user initiates combat from the shadows with a powerful quickhack, then closes the distance with the Loa to finish the job, using the restored RAM from the kill to immediately target the next enemy. They are a whirlwind of digital curses and physical death."
+      "masteryArchetype": "A 'Bokor' build. A netrunner who is not afraid to get their hands dirty. The ideal user initiates combat from the shadows with a powerful quickhack, then closes the distance with 'Ghede's Kiss' to finish the job, using the restored RAM from the kill to immediately target the next enemy. They are a whirlwind of digital curses and physical death."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Effectively zero. A Loa cannot be bought. It is a sacred object granted to Voodoo Boys champions or high-ranking netrunners who have proven their devotion to the cause. An outsider would likely have to take it from a Voodoo Boys leader, an act that would bring the full, terrifying wrath of their netrunners down upon them.",
-      "rumoredLocation": "Placide, a high-ranking lieutenant of the Voodoo Boys, is said to carry a master-crafted Loa, blessed by Brigitte herself. He has been seen using it to 'cleanse' Netwatch agents who stray too far into Pacifica. It never leaves his side."
+      "marketAvailability": "Unique. This weapon is a holy relic and a symbol of heresy. It cannot be bought.",
+      "rumoredLocation": "After the schism, the weapon was lost. Mainstream Voodoo Boys believe it is hidden somewhere in Pacifica, a cursed object they seek to destroy. The followers of Jacques believe it is waiting for a worthy successor to their prophet. The most persistent rumor is that it was recovered by a Netwatch agent during the chaos and is now locked in a digital vault in their Corpo Plaza headquarters, a secret they are desperately trying to understand and contain."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Spider' (Netrunner)",
-        "context": "Netrunner duel against a high-level 6th Street decker.",
-        "feedback": "'This blade is a cheat code. The choom was trying to fry my brain with Overheat while I was closing in. Two slashes from the Loa and his deck went silent. I could feel his panic as his RAM flatlined. It cuts the body and the mind. A true netrunner's weapon.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Rhino' (Brawler)",
-        "context": "Clearing out a Militech security drone depot.",
-        "feedback": "'It's a sharp machete, I'll give it that. But all that hocus pocus RAM-drain stuff? Useless against a squad of Militech drones. They don't have brains to fry. I just needed to hit 'em hard. Should have brought my hammer.'",
-        "rating": "2/5 (Against robots)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Infiltrating the Grand Imperial Mall in Pacifica.",
-        "feedback": "'You can feel something... else in this blade. When it hits, your vision glitches for a second with Voodoo Boys' sigils. It's like the blade itself is hacking the target. It's unsettling, but damn effective. It's more than a weapon; it's a key to a whole other world.'",
-        "rating": "4/5 (Unsettling)"
-      }
-    ]
+     
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "Ghede's Kiss is the centerpiece of a cyberwarfare-focused crew. Its wielder acts as a 'RAM battery,' constantly refunding their own resources to fuel the crew's netrunner. A successful strategy involves the Loa's user and a dedicated solo focusing on the same high-threat targets, allowing for quick kills to maximize RAM regeneration. The random daemons are a wild card; a smart crew will be prepared to capitalize on the chaos or, if necessary, eliminate a friendly who has been possessed by a hostile daemon. Its role is to be the engine of the crew's digital assault."
+    }
   }
 }

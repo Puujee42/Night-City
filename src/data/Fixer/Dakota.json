@@ -2,86 +2,153 @@
   "fixerProfile": {
     "title": "Dakota Smith",
     "image": "/smith.png",
-    "aliases": ["The Oracle of the Wastes", "Badlands Mama"],
+    "aliases": ["The Oracle of the Wastes", "Badlands Mama", "The Ghost Walker"],
     "status": "Active",
     "primaryTerritory": "Badlands, Eastern Desert, Rocky Ridge",
-    "specialization": "Nomad Affairs, Smuggling, Salvage Operations, Convoy Escort & Ambush",
-
+    "specialization": "Nomad Affairs, Smuggling, Counter-Corporate Operations, Salvage",
     "biography": {
-      "earlyLife": "Dakota's history is the history of the Badlands. Born into the Pomo tribe, she found a new family with the Aldecaldos after the Unification War shattered the old world. She is a veteran of the road, having survived countless skirmishes, corporate land grabs, and the harsh realities of desert life. This experience forged her into a pragmatic and deeply respected elder. In her quieter moments, she practices old traditions, interpreting smoke signals and consulting the spirits of the desert—a trait outsiders find eccentric, but Nomads understand as a deep connection to their environment.",
-      "riseAsFixer": "Dakota never sought to be a fixer in the traditional sense; the role found her. As the Aldecaldo clan grew, so did the need for a central point of contact for outsiders looking to do business. Her reputation for fairness, unwavering loyalty to her people, and intimate knowledge of the treacherous wastes made her the natural choice. She became the gatekeeper, ensuring that any work done in her territory benefited the Nomad community and respected their code. To this day, no significant operation happens in the Badlands without her knowledge or approval.",
-      "modusOperandi": "Dakota is direct and grounded. She operates from her sprawling workshop, a hub of activity where vehicles are repaired and deals are made over the roar of engines. She eschews the encrypted holocalls of city fixers for face-to-face meetings or crackly radio transmissions. Her gigs are practical and tangible: hijacking rival gang resources, salvaging valuable tech from pre-Collapse ruins, or escorting precious cargo through Wraith territory. She values resourcefulness and respect for the land above all else, and always huffs from her personal oxygen tank, a habit picked up decades ago.",
-      "reputation": "In the Badlands, Dakota Smith's word is law. She is seen less as a crime boss and more as a chieftain. To Nomads, she is a wise mother figure who protects her family fiercely. To outsiders, she is the only authority that matters beyond the city's jurisdiction. Betraying her is unthinkable, as it means earning the enmity of every Nomad clan in the region—a guaranteed death sentence carried out by the desert itself."
+      "earlyLife": "Dakota's soul is woven from the red dust of the Badlands. Born into the Pomo tribe, she saw her people's history and sacred lands paved over by encroaching corps. She found a new family with the Aldecaldos, but her connection to the old ways never faded. Dakota is a Ghost Walker, one of the last seers who can commune with the desert's 'data ghosts'—residual bio-signatures and emotional imprints left in the sand by decades of conflict and life. Outsiders see an old woman consulting smoke signals and bone chimes; her family knows she is reading the ghosts of the past to predict the future. This gift has made her a near-mythical figure, a leader whose wisdom is whispered by the land itself.",
+      "riseAsFixer": "Dakota never chose to be a fixer; she was anointed by circumstance. As Nomad clans fractured and the Raffen Shiv threat grew, the Aldecaldos needed a leader who could see beyond the next firefight. Her uncanny ability to predict sandstorms, locate lost convoys, and anticipate Wraith attacks was seen as a sign from the desert itself. She became the clan's 'static'—an anchor point in the shifting sands, negotiating with outsiders, interpreting the omens, and ensuring every gig serves the family's survival and sovereignty.",
+      "modusOperandi": "Dakota is the desert: direct, patient, and unforgiving. She operates from her sprawling garage, preferring face-to-face meetings over the sterile detachment of holocalls. Her voice, raspy from the desert air and the hum of her oxygen tank, carries the weight of prophecy. Her gigs are tied to the pulse of the Badlands: salvaging pre-Collapse tech from forgotten ruins, liberating resources from those who disrespect the land, or ambushing corporate convoys that trespass on sacred ground. She doesn't just offer intel; she offers visions, guiding mercs through dangers she has already foreseen in the whispers of the data ghosts.",
+      "reputation": "In the Badlands, Dakota is more than a fixer; she is the Matriarch, the Oracle. Her word is scripture. To Nomads, she is the wise mother who guards their future with secrets from the past. To outsiders, she is the undisputed sovereign of the wastes. Crossing her is a death sentence, not from an Aldecaldo rifle, but from the desert itself. Legends say those who betray her are haunted by data ghosts, their cyberware glitching with the faces of the dead until they are driven mad and wander into the wastes to be claimed by the unforgiving sun and sand."
     },
-
-    "legendaryGig": {
-        "gigTitle": "The Serpent's Tooth Heist",
-        "date": "07.04.2069",
-        "objective": "Capture Militech's colossal mobile drilling platform, the 'Sand-Serpent,' which was illegally draining the last clean aquifer in the Eastern Desert, threatening every Nomad clan with extinction.",
-        "client": "The United Nomad Nations (Aldecaldos, Jodes, Snake Nation)",
-        "target": "Militech Mobile Drilling Platform 'Sand-Serpent'",
-        "outcome": "A landmark victory for the Nomad people. Dakota orchestrated a multi-clan assault timed to coincide with a massive sandstorm she predicted by reading the wind. While the storm provided cover and disabled Militech's aerial support, a small merc team infiltrated the platform to sabotage its command systems. Simultaneously, a huge convoy of Aldecaldo war-rigs and Snake Nation bikers launched a full-scale diversionary attack on the platform's perimeter defenses. With the command systems down and the guards distracted, the platform was seized with minimal Nomad casualties. The 'Sand-Serpent' was repurposed to provide clean water for the entire Nomad community.",
-        "hiredMercs": "'Nash' (Infiltration Specialist), 'Saul Navarro' (Aldecaldo Commander)",
-        "mercFeedback": "'City fixers plan jobs. Dakota plans battles. She didn't just give us a route; she gave us the storm itself as our cover. She turned the desert, Militech's greatest enemy, into our single greatest weapon. We weren't just stealing a machine; we were taking back our future. She doesn't fight for eddies; she fights for water, for family. And in the Badlands, that's the only thing worth dying for.' - 'Saul Navarro' (Aldecaldo Commander)",
-        "payout": "Control of the region's only clean water source. A lasting alliance between the major Nomad clans.",
-        "reputationImpact": "This operation transcended the world of gigs; it became the founding myth of the modern Nomad nation in the region. Dakota proved that with unity and a deep understanding of the land, Nomads could defeat the mightiest corporations. She was no longer just a fixer; she was the Matriarch of the Badlands, the one who brought water back to the people."
+    "psychologicalProfile": {
+      "coreMotivation": "Preservation. Dakota is driven by a deep, spiritual imperative to protect her chosen family (the Aldecaldos), her ancestral heritage (the Pomo ways), and the very soul of the Badlands itself, which she views as a living, conscious entity. Her conflict with Magnusson is not just a territorial dispute; it is a holy war to protect a god from a desecrater who wishes to put it in a cage.",
+      "disorders": "None diagnosed. Exhibits traits of mild agoraphobia (a profound unwillingness to enter the dense, 'noisy' city) and a unique form of synesthesia, where she perceives data streams and digital ghosts as smells (ozone, burnt sage), sounds (low chanting, humming), and tactile sensations (a chill on the skin, a pressure in the air).",
+      "worldview": "Animistic and deeply spiritual. She believes that the land, its people, and even the ghosts of technology all possess a spirit. The corporate world is a soulless, cancerous force that seeks to pave over, sanitize, and silence this vibrant, chaotic reality. She sees herself not as a player in a game, but as a guardian of a sacred, living world."
     },
-
-    "fixerRatings": {
-      "overallThreat": "8/10 (High)",
-      "reliability": "10/10 - Her word is her bond. She operates on the Nomad code of honor; deals are sacred.",
-      "payment": "8/10 - Pays fairly in eddies, but often supplements with valuable salvage rights, rare vehicle parts, or clan support.",
-      "intelQuality": "9/10 - Unmatched for the Badlands. Knows every canyon, patrol route, and secret pass. Less potent for deep corporate intel.",
-      "discretion": "8/10 - The desert keeps its secrets. While not anonymous, her operations are well-insulated from NCPD or corpo jurisdiction.",
-      "resourcefulness": "9/10 - Can source any vehicle or heavy weapon needed for the wastes and can call upon an entire Nomad clan for backup.",
-      "mercSurvivability": "9/10 - The environment is hostile, but her solid intel and potential for backup make her gigs highly survivable."
+    "keyRelationships": {
+      "nemesis": "Lars Magnusson (Petrochem | Director of Resource Reclamation). Magnusson is Dakota's antithesis. He is a man of cold, hard science who views the Badlands as a resource deposit to be strip-mined and Dakota's 'visions' as primitive, exploitable delusions. His goal has evolved from simple resource extraction to the pacification and sanitization of the Badlands for corporate exploitation, making him a direct threat to Dakota's power, her people, and the very soul of the land she protects.",
+      "stateOfTheShadowWar": {
+        "currentSituation": "Advantage: Magnusson. The scientist has begun to understand the nature of the 'data ghosts.' His 'Geist-Harvest Initiative' is no longer just about extraction; it's about control. He has deployed sophisticated 'Geosonic Dampeners' that don't just block Dakota's visions—they create a 'white noise' that causes her physical pain and spiritual disorientation. His research teams are getting bolder, pushing deeper into sacred territories, treating the spiritual heart of the Badlands like a laboratory specimen.",
+        "dakotasResponse": "Resilience and Retaliation. Dakota feels Magnusson's science as a sickness spreading through the land. The whispers of the desert are becoming screams of static. Forced onto the defensive, she has shifted her strategy from guarding territory to attacking the source of the illness. She is now using her most trusted operatives to hunt Magnusson's teams, not just to destroy their equipment, but to capture their technology and gather intel on the man himself. She is learning to fight a scientist with his own tools.",
+        "nextObjective": "Operation: 'Badlands Fever.' Dakota's next major move is a spiritual counter-assault. The objective is to capture a primary Geosonic Dampener, have her tech-shaman 'Static' corrupt it with the raw, unfiltered chaos of the Ghost Rock Scar, and then use her hunter 'Mirage' to plant the device at the heart of Magnusson's primary research outpost. The goal is not destruction, but infection. She will turn his own weapon against him, forcing the sterile mind of the scientist to experience the terrifying, maddening consciousness of the desert he seeks to control."
+      }
     },
-
-    "advantages": {
-      "strengths": [
-        "Unrivaled knowledge of the Badlands terrain and its inhabitants.",
-        "Commands the loyalty and resources of the Aldecaldo Nation.",
-        "Access to unique, heavily modified vehicles and off-road gear.",
-        "Contracts are straightforward, with clear, tangible objectives."
-      ],
-      "weaknesses": [
-        "Limited influence and contacts within Night City's corporate towers.",
-        "Gigs often draw direct, violent attention from Wraiths or Raffen Shiv.",
-        "Her judgment can sometimes be influenced by mystical beliefs.",
-        "Less interested in pure profit than in the well-being of her community."
+    "legendaryArsenal": {
+      "rumor": "Dakota's connection to the Badlands is absolute. Legends say the desert offers up its secrets to her, including powerful and unique artifacts lost to the sand and time. She is rumored to hold several legendary weapons, which she bestows upon the chosen champions who fight to protect her home.",
+      "weapons": [
+        {
+          "name": "Longinus",
+          "description": "The one-of-a-kind Kang Tao rifle that killed the legendary Arasaka sniper 'Shaitan.' It was carried into the Badlands by its final owner, who traded the weapon and its bloody history to Dakota in exchange for a new life and a clean slate—a ghost erased by a Ghost Walker. She now entrusts it to 'Mirage' for the most sacred hunts."
+        },
+        {
+          "name": "The Vindicator",
+          "description": "The signature weapon of the fallen Nomad hero, Nash. A master-crafted Widowmaker that single-handedly destroyed a Militech convoy. After Nash's betrayal and death, Dakota's Aldecaldos recovered the weapon. She keeps it not as a relic of a traitor, but as a painful reminder that even the truest warriors can lose their way on the road."
+        },
+        {
+            "name": "Pomo Dream-Catcher",
+            "description": "Not a weapon, but a unique piece of cyberware. A salvaged Pomo ritual artifact interwoven with a pre-Collapse Zetatech neural interface. It doesn't connect to the Net; it attunes the user's brain to the 'data-ghost' frequency of the Badlands. Dakota's natural connection is too powerful to use it, so she has given it to her techie, 'Static,' allowing him to translate the desert's whispers into actionable data."
+        }
       ]
     },
-
+    "eliteOperatives": {
+        "overview": "Dakota has no 'mercs,' only family. Her elite operatives are the 'Fists of the Desert,' a small circle of fiercely loyal Nomads who embody the different aspects of the Badlands' spirit. They are her children, her protectors, and the instruments of her will. To be one of them is to be a living extension of the land itself.",
+        "operatives": [
+            {
+                "alias": "'Mirage' (The Hunter)",
+                "specialization": "Guerilla Warfare, Tracking, Infiltration",
+                "profile": "A young, ferocious Aldecaldo who moves through the wastes with the silence of a sand viper. She is Dakota's spear, the one who hunts Raffen Shiv patrols for sport and sabotages corporate survey teams with ruthless efficiency. She sees the fight for the Badlands in black and white: you are either with the land, or you are a trespasser to be removed.",
+                "relationship": "Dakota sees in Mirage the righteous fire of the desert's anger. She is the protector Dakota can no longer be. Mirage, in turn, reveres Dakota as a living god, following her visions with unshakable faith. It is a bond between seer and warrior.",
+                "roleInTheShadowWar": "Mirage is Dakota's primary offensive weapon against Magnusson. She is tasked with hunting his research teams, destroying the Geosonic Dampeners, and will be the hand that plants the corrupted device during 'Operation: Badlands Fever.' She is the ghost Magnusson's men see before their equipment fails."
+            },
+            {
+                "alias": "'Static' (The Listener)",
+                "specialization": "Salvage Tech, Communications, 'Sand-Running'",
+                "profile": "A reclusive techie who lives in a converted pre-Collapse comms tower, surrounded by a scrap-heap of antennas and salvaged hardware. He is not a city netrunner; he is a 'sand-runner,' sifting through the chaotic data-streams of the Badlands. Using the 'Pomo Dream-Catcher,' he translates the data-ghosts' hum into patterns Dakota can understand.",
+                "relationship": "Static is Dakota's interpreter. He provides the technical bridge between her spiritual visions and the digital world. Dakota trusts his skill implicitly, while Static is one of the few who understands the technical reality behind Dakota's 'magic,' a secret he guards with his life.",
+                "roleInTheShadowWar": "Static is the key to Dakota's counter-offensive. He is the one analyzing Magnusson's technology, finding its weaknesses, and devising a way to turn it back on its creator. He will be the one to perform the digital ritual required to corrupt the dampener for 'Operation: Badlands Fever.'"
+            },
+            {
+                "alias": "'Road-Shaman' (The Guide)",
+                "specialization": "Master Wheelman, Mechanic, Scouting",
+                "profile": "An old-school Nomad who remembers the Long Migration. He believes every vehicle has a spirit, and he can read the story of the road in the wear of a tire or the song of an engine. He is Dakota's most trusted guide, capable of navigating the most treacherous, ghost-touched parts of the desert by instinct alone.",
+                "relationship": "Their bond is one of old souls. He is her oldest friend and confidant, the one who remembers the woman before the Oracle. He grounds her, and she gives him purpose beyond mere survival. He is the wheels, she is the vision.",
+                "roleInTheShadowWar": "As Magnusson's tech makes the desert increasingly hostile and unpredictable, the Road-Shaman's skills are more vital than ever. He is responsible for transporting operatives and sensitive cargo through 'blind spots' in Petrochem's network, creating new, untraceable smuggling routes, and getting key personnel to their targets when all other tech fails."
+            }
+        ]
+    },
+    "legendaryGigs": [
+      {
+        "gigTitle": "The Sun-Eater's Wake",
+        "date": "09.15.2074",
+        "objective": "Cripple the Raffen Shiv's regional power by ambushing their 'Sun-Eater' convoy, which was transporting a stolen Militech mobile power core.",
+        "client": "The Aldecaldo Nation (A Declaration of Dominance)",
+        "target": "The Raffen Shiv's operational capability.",
+        "outcome": "A defining victory for the Aldecaldos. Guided by Dakota's vision of a 'canyon that would drink the sun,' the clan orchestrated a perfect ambush. The captured power core was used to create a temporary 'safe zone' of light and energy in the wastes, a beacon of hope that became a Nomad legend. The gig not only broke the Wraiths' hold on the eastern desert but cemented Dakota's status as a true Matriarch who could provide for her people.",
+        "hiredMercs": "'Mirage' (Lead Scout), 'Road-Shaman' (Convoy Leader)",
+        "mercFeedback": "'Dakota didn't give us a battle plan. She told us a story of a hungry snake swallowing the sun. We just made the story real. That night, we weren't just Nomads. We were gods, and we brought the dawn to the darkest corner of the desert.' - 'Road-Shaman'"
+      },
+      {
+        "gigTitle": "The Ghost Convoy",
+        "date": "03.11.2072",
+        "objective": "A Kang Tao convoy carrying a high-value corporate asset went missing in a sandstorm. All other fixers failed to find it. Dakota was hired to locate the convoy.",
+        "client": "Kang Tao (via a proxy)",
+        "target": "The location of the lost convoy.",
+        "outcome": "A legendary display of Dakota's unique abilities. Instead of using drones or scanners, Dakota consulted the 'data ghosts' of the storm itself. She provided the client not with GPS coordinates, but with a poetic, story-like set of directions ('Follow the trail of the weeping chrome... where the wind sings a metal song'). The Kang Tao recovery team, though skeptical, followed her vision and found the convoy perfectly preserved in a previously uncharted cave system. Her reputation as a true Oracle was cemented.",
+        "mercFeedback": "'Every other fixer offered satellite scans and drone patrols. Dakota Smith sent us a poem. A fucking poem. Our analysts said it was nonsense. Our field team was desperate. They followed it. And it led them right to a billion-eddie asset. We still don't know how she did it.' - Leaked Kang Tao internal memo."
+      }
+    ],
+    "mostFamousGig": {
+      "gigTitle": "The Thirsting God's Rage",
+      "date": "07.04.2069",
+      "objective": "Seize Militech's colossal mobile drilling platform, the 'Sand-Serpent,' which was desecrating a sacred Pomo burial ground and poisoning the local data-ghosts.",
+      "client": "The Land Itself (A Debt of Blood and Spirit)",
+      "target": "Militech's 'Sand-Serpent' Drilling Platform",
+      "outcome": "A pyrrhic victory that reshaped the Badlands. The Aldecaldo assault, guided by a ghost-induced sandstorm Dakota summoned, was a success. However, the rig's geothermal core went critical, fusing with the angered data ghosts and creating the 'Ghost Rock Scar'—a permanent, unstable wound in the desert that bleeds raw data. Dakota's victory attracted the attention of a young Petrochem analyst, Lars Magnusson, who saw the phenomenon not as a tragedy, but as an energy source to be exploited, launching their long and bitter war.",
+      "hiredMercs": "'Saul Navarro' (Aldecaldo Commander)",
+      "mercFeedback": "'The sky turned red, and the wind... it howled with voices. We weren't fighting guards; we were fighting the rig itself, which was being haunted in real-time. Dakota didn't give us a plan; she gave us an exorcism for a metal god.' - 'Saul Navarro'"
+    },
+    "fixerRatings": {
+      "overallThreat": "9/10 (The Queen of the Badlands)",
+      "reliability": "10/10 - Her word is bond, sworn on the land itself.",
+      "payment": "8/10 - Pays fairly in eddies, gear, and favors, but the family always eats first.",
+      "intelQuality": "10/10 - Prophetic. Her intel sees around corners others don't know exist.",
+      "discretion": "8/10 - The desert keeps its secrets, but a clan is not a ghost.",
+      "resourcefulness": "9/10 - If it exists in the Badlands, she can find it, fix it, or steal it.",
+      "mercSurvivability": "9/10 - She sees the dangers, but the desert is never truly safe."
+    },
+    "advantages": {
+      "strengths": [
+        "Supernatural, near-precognitive understanding of the Badlands.",
+        "Commands the absolute loyalty of the Aldecaldo Nation and other allied clans.",
+        "Access to unique, heavily modified vehicles and a network of salvage operations.",
+        "Contracts are straightforward, driven by survival, community, and respect for the land."
+      ],
+      "weaknesses": [
+        "Minimal influence or understanding of the corporate politics within Night City proper.",
+        "Gigs often involve direct, brutal conflict with Raffen Shiv.",
+        "Her judgment is guided by visions which can seem irrational or dangerously vague to outsiders.",
+        "The well-being of the Nomad community always takes precedence over a client's bottom line."
+      ]
+    },
     "recentGigDetails": [
       {
-        "gigTitle": "Big in Japan",
-        "date": "10.22.2077",
-        "objective": "Locate and retrieve a specific shipping container from a Badlands junkyard and deliver its contents—a custom-tuned car.",
-        "client": "Unnamed Japantown Surgeon",
-        "target": "Custom 'Turbo-R V-Tech' Vehicle",
-        "outcome": "Successful. The merc located the container among hundreds in a sprawling scrapheap. After dealing with local scavengers, the container was opened, and the pristine vehicle was driven back to the client in Night City. Dakota facilitated the initial contact and took a finder's fee.",
-        "mercFeedback": "'Weird gig. Rich city boy loses his ride in the desert. Dakota pointed the way, I did the dirty work. Simple. She even let me keep some of the scrap I found.' - 'V' (Mercenary)",
-        "payout": "€$ 10,000 + Salvage Rights"
+        "gigTitle": "Echoes from the Scar",
+        "date": "11.20.2077",
+        "objective": "Lars Magnusson has sent a research team into the 'Ghost Rock Scar.' Escort a Pomo shaman into the Scar to perform a calming ritual and disrupt Magnusson's work.",
+        "client": "Self-Funded (Spiritual Defense)",
+        "target": "Magnusson's Research Team & Equipment",
+        "outcome": "A chaotic success. The shaman's ritual stabilized the area, causing a backlash of spectral energy that fried Petrochem's equipment. Magnusson's team was forced to retreat, but not before transmitting a significant amount of data on the phenomenon. The war for the soul of the Scar has begun.",
+        "mercFeedback": "'The air in there hums. Your tech lies to you. We weren't just protecting some old man; we were holding back a tsunami of pure, raw crazy. Magnusson isn't mining for rock; he's drilling into hell.' - 'V' (Mercenary)"
       },
       {
-        "gigTitle": "The Heisenberg Principle",
-        "date": "10.15.2077",
-        "objective": "Ambush a Wraith convoy transporting a mobile drug lab and steal their entire supply of high-grade meth.",
-        "client": "Aldecaldos (Internal)",
-        "target": "Wraith Drug Supply & Lab Equipment",
-        "outcome": "Flawless execution. Using Dakota's intel on the convoy's route through a narrow canyon, a Nomad ambush team disabled the lead vehicles, forcing a firefight. The Wraiths were overwhelmed, and the lab was captured intact. The drugs were later sold on the black market, funding the clan for months.",
-        "mercFeedback": "'Dakota knows these canyons like the back of her hand. The Wraiths drove right into our kill box. It wasn't a fight; it was a harvest.' - 'Scorpion' (Aldecaldo Warrior)",
-        "payout": "Clan Resources & Spoils"
+        "gigTitle": "The Poisoned Well",
+        "date": "11.12.2077",
+        "objective": "Petrochem has deployed 'Geosonic Dampeners' to disrupt the data ghosts, effectively blinding Dakota's visions. Find and destroy the primary dampener.",
+        "client": "Self-Funded (Counter-Espionage)",
+        "target": "Petrochem's Geosonic Dampener",
+        "outcome": "Success. A solo, guided by Dakota's last clear vision, located and destroyed the hidden facility. The 'voice' of the desert returned, but the message was clear: her enemy understands her power and is actively working to sever it. This act triggered Magnusson's escalation.",
+        "mercFeedback": "'It was quiet out there. Too quiet. Dakota said it was like the desert was holding its breath. When we blew the tower, the wind picked up and I swear my optics glitched. We didn't just restore a signal; we let a god breathe again.' - 'V' (Mercenary)"
       },
       {
-        "gigTitle": "Flying Drugs",
-        "date": "09.28.2077",
-        "objective": "A Kang Tao transport drone carrying medical supplies crashed in the desert. Recover the drone's cargo before the Wraiths or Kang Tao's recovery team arrives.",
-        "client": "Self-Initiated (for Aldecaldo Clan)",
-        "target": "Crate of Medical Supplies",
-        "outcome": "Successful. The merc tracked the drone to its crash site in a radioactive zone. After fighting off a pack of Wraiths drawn by the crash, the medical crate was secured and transported back to the Aldecaldos' camp, providing vital supplies for their medic.",
-        "mercFeedback": "'Straightforward smash and grab. Get to the drone, grab the goods, don't die. Dakota's tip was solid gold; we got there just as the Wraiths were prying the crate open.' - 'V' (Mercenary)",
-        "payout": "€$ 6,000 + Clan Reputation"
+        "gigTitle": "The Ghost Hunter",
+        "date": "10.29.2077",
+        "objective": "A Nomad named Nash, who was caught in the 'Thirsting God's Rage' incident, has become 'Ghost-Touched,' able to channel the raw data of the Scar. Magnusson has sent a capture team to retrieve him as a specimen. Find Nash first.",
+        "client": "Self-Funded (Asset Protection)",
+        "target": "Nash (The 'Ghost-Touched')",
+        "outcome": "A tense success. The merc located the half-mad Nash and fought off the first wave of the Petrochem capture team. He was successfully moved to an old Pomo cave system that shields him from the data-stream. Nash, the living proof of her power and the Scar's danger, is now her protected, volatile secret.",
+        "mercFeedback": "'Found the guy talking to rocks. He knew I was coming. The Petrochem suits were surgical, quiet. This wasn't a hit; it was a specimen collection. Dakota's protecting a man, but Magnusson is hunting a key.' - 'V' (Mercenary)"
       }
     ]
   }

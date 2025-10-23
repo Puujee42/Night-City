@@ -4,31 +4,83 @@
     "image": "/russian.png",
     "aliases": ["The Diplomat", "The Soviet Bear", "Comrade Fixer"],
     "status": "Active",
-    "primaryTerritory": "International (Operating in Night City)",
-    "specialization": "Geopolitical Espionage, Counter-Intelligence, Technology Acquisition, Asset Protection",
-
+    "primaryTerritory": "International (Operating from the Soviet Consulate, Night City)",
+    "specialization": "Geopolitical Espionage, Counter-Intelligence, Technology Acquisition, Asset Denial",
     "biography": {
-      "earlyLife": "Mikhail Akulov is a product of the new Soviet Union's intelligence services, a professional spy trained in the old-school methods of the KGB but fluent in the modern language of cyberwarfare. His official title is 'Cultural Attaché' at the Soviet Consulate in Night City, a flimsy cover for his true role as SovOil's primary field operator and talent scout in the NUSA.",
-      "riseAsFixer": "Akulov did not 'rise' through the street ranks; he was deployed. He arrived in Night City with a mission and the full backing of a nation-state. He uses the 'fixer' network as a tool to recruit deniable assets—mercs—to carry out tasks that the USSR cannot officially sanction. He doesn't need street cred; his reputation is backed by the might of the Red Army and the deep pockets of SovOil.",
-      "modusOperandi": "Akulov is the consummate professional: formal, paranoid, and meticulous. He avoids the chaotic bars of the underworld, preferring secure, discreet locations for his business. His communication is often through coded messages and dead drops. He views his mercenary contractors as foreign assets: incredibly useful for specific tasks, but ultimately expendable and not to be trusted. His gigs are less about personal gain and more about advancing the geopolitical interests of his homeland.",
-      "reputation": "Working for Akulov is a different game entirely. It's not about building a rep at the Afterlife; it's about stepping onto the international stage. He is known to be impeccably professional and his payments are backed by a state treasury, making them highly reliable. However, the stakes are immense. Failure doesn't just mean a pissed-off client; it could mean becoming the scapegoat in an international incident with no one coming to bail you out."
+      "earlyLife": "Mikhail Akulov is a living relic of the Cold War, remade for the 21st century. He is a product of the new Soviet Union's intelligence services, a professional spy trained in the old-school methods of the KGB—paranoia, patience, and ideology—but fluent in the modern language of cyberwarfare. His official title is 'Cultural Attaché' at the Soviet Consulate in Night City, a flimsy cover for his true role as SovOil's primary field operator and talent scout in the NUSA.",
+      "riseAsFixer": "Akulov did not 'rise' through the street ranks; he was deployed. He arrived in Night City with a mission and the full backing of a nation-state. He uses the 'fixer' network as a tool to recruit deniable assets—mercs—to carry out tasks that the USSR cannot officially sanction. He doesn't need street cred; his reputation is backed by the might of the Red Army and the near-limitless black budget of SovOil. He is not a part of Night City's underworld; he is a predator using it as his hunting ground.",
+      "modusOperandi": "Akulov is the consummate professional: formal, paranoid, and meticulous. He avoids the chaotic bars of the underworld, preferring secure, electronically swept locations for his business. His communication is through coded messages, dead drops, and numbered accounts. He views his mercenary contractors as foreign assets: incredibly useful for specific tasks, but ultimately expendable and never to be fully trusted. His gigs are not about personal gain or street fame; they are moves in the Great Game, advancing the geopolitical interests of his homeland.",
+      "reputation": "Working for Akulov is a different game entirely. It's not about building a rep at the Afterlife; it's about stepping onto the international stage. He is known to be impeccably professional and his payments, backed by a state treasury, are highly reliable. However, the stakes are immense. Failure doesn't just mean a pissed-off client; it means becoming the scapegoat in an international incident, a ghost disavowed by a nation that will deny you ever existed."
     },
-
-    "legendaryGig": {
+    "psychologicalProfile": {
+      "coreMotivation": "Duty and Restoration. Akulov is a true believer, a patriot driven by a deep-seated duty to restore the power and prestige of the new USSR on the world stage. His conflict with Thorton is not just a rivalry; it is an ideological war. Every victory for SovOil is a victory for the Motherland, and every humiliation at Thorton's hands is a personal and national disgrace he is duty-bound to correct.",
+      "disorders": "No clinical disorders. Exhibits 'State-Conditioned Paranoia' and 'Professional Detachment' as engineered personality traits. He is incapable of genuine trust and views relationships as a series of transactions and potential vulnerabilities. His emotional responses are suppressed and controlled, a tool of his trade.",
+      "worldview": "The world is a chessboard, and Night City is the most chaotic and valuable square on it. Akulov is a grandmaster, viewing individuals—mercs, corpos, politicians—as pieces to be positioned and sacrificed for a larger strategy. He believes in order, control, and the inevitable, logical superiority of the Soviet system over the decadent, chaotic capitalism embodied by the NUSA and its agents."
+    },
+    "keyRelationships": {
+      "nemesis": "Agent Michael Thorton (FIA | Station Chief, Night City). Thorton is Akulov's NUSA counterpart and a ghost from his past, having faced off against him in the gray zones of Eastern Europe. Thorton is a new-school intelligence cowboy—charismatic, pragmatic, and a master of using Night City's chaos as a weapon. He sees Akulov's rigid, old-school methods as a weakness to be exploited. Their conflict is the unseen cold war for Night City, a silent battle of dead drops, compromised assets, and surgical strikes fought by the city's mercs.",
+      "stateOfTheShadowWar": {
+        "currentSituation": "Advantage: Thorton. Thorton's fluid, improvisational style thrives in the chaos of Night City, while Akulov's rigid, centralized planning is a constant hindrance. Thorton has successfully disrupted several of Akulov's operations, making him appear ineffective to his superiors in Moscow. The pressure on Akulov is immense; he is a bear being outmaneuvered by a wolf in a forest the wolf knows intimately.",
+        "akulovsResponse": "Forced Adaptation. Humiliated by the Sokolova incident and hounded by Thorton's successes, Akulov is learning a painful lesson: to fight a ghost, you must become one. He is reluctantly beginning to decentralize his operations, taking greater risks, and attempting to use the city's inherent chaos as a weapon rather than an obstacle. He is moving from reacting to Thorton's moves to proactively setting his own complex, multi-layered traps.",
+        "nextObjective": "Operation: 'Trojan Bear.' Akulov's next move is a high-risk gambit to use Thorton's own methods against him. He will intentionally leak intel about a 'vulnerable' high-value SovOil convoy carrying 'prototype weapon schematics.' The data is fake, and the convoy is bait. The goal is to lure Thorton's primary merc assets into an ambush, not by Soviet forces, but by a third party—a notoriously violent Maelstrom cell that Akulov will anonymously tip off and pay. The objective is to have Thorton's best operatives wiped out in a meaningless gang war, crippling his operational capability without a single Soviet bullet being fired."
+      }
+    },
+    "legendaryArsenal": {
+      "rumor": "As the quartermaster for a superpower's black ops, Akulov doesn't offer off-the-shelf hardware. He provides his most trusted assets with state-of-the-art, off-market Soviet military technology—brutally efficient, utterly reliable, and completely untraceable.",
+      "weapons": [
+        {
+          "name": "The Tishina",
+          "description": "A prototype personal stealth device, not a suit, that projects a limited sound-dampening and thermal-masking field. It is designed for short-term, surgical infiltration. To be issued the Tishina is to be tasked with a true ghost operation, where discovery means failure and disavowal."
+        },
+        {
+          "name": "Oprichnik's Gaze",
+          "description": "A unique Kiroshi optic implant, factory-sealed but running proprietary Soviet intelligence software. It can passively scan crowds, flagging individuals who match biometric data from international intelligence watchlists and analyzing behavioral patterns for signs of counter-surveillance. It's a spy hunter's tool."
+        }
+      ]
+    },
+    "eliteOperatives": {
+      "overview": "Akulov maintains a small, highly compartmentalized list of 'foreign assets.' These are not friends or partners; they are tools, selected for their specific skills and psychological profiles. He keeps them isolated from one another, ensuring that the compromise of one asset does not jeopardize the entire network. To be in Akulov's employ is to be a ghost, known only to him.",
+      "operatives": [
+        {
+          "alias": "'The Winter Soldier' (The Cleaner)",
+          "specialization": "Wetwork, Counter-Surveillance, Asset Removal",
+          "profile": "A deep-cover operative and ex-Spetsnaz GRU, The Winter Soldier is Akulov's final solution. He is a ghost in the system, a non-person activated only for the most sensitive tasks: silencing compromised assets, eliminating rival agents, or making problems permanently disappear. He is brutally efficient and ideologically loyal.",
+          "relationship": "Akulov is The Winter Soldier's sole handler and contact in the NUSA. The relationship is one of military precision: orders are given and executed without question. He is the one tool Akulov trusts implicitly to carry out the state's will.",
+          "roleInTheShadowWar": "As Thorton's pressure mounts, The Winter Soldier is being activated more frequently to 'sanitize' operations that have been compromised, ensuring no trail leads back to the consulate. He is Akulov's eraser."
+        },
+        {
+          "alias": "'The Librarian' (The Analyst)",
+          "specialization": "Counter-Intelligence Netrunning, Data Forensics, Secure Comms",
+          "profile": "Operating from a secure, lead-lined room within the consulate, The Librarian is Akulov's eyes and ears in the Net. She does not engage in offensive hacking; her sole purpose is defense, sifting through petabytes of data for Thorton's digital fingerprints, managing Akulov's dead drops, and ensuring the absolute security of his communications.",
+          "relationship": "The Librarian is Akulov's confidant and the only person who sees the full intelligence picture. He relies on her analysis to stay one step ahead, while she depends on him for her protection and continued service to the Motherland.",
+          "roleInTheShadowWar": "She is the architect of Akulov's 'Trojan Bear' operation, responsible for creating the fake data and the secure-but-traceable leak designed to lure Thorton in. She is playing a high-stakes chess match against Thorton's netrunners."
+        }
+      ]
+    },
+    "legendaryGigs": [
+      {
         "gigTitle": "The Ghost of Shinjuku",
         "date": "11.07.2071",
         "objective": "Exfiltrate Dr. Lena Sokolova, a top Arasaka bio-technician with deep knowledge of their 'Secure Soul' program, who wished to defect to the USSR.",
         "client": "SovOil Foreign Intelligence Directorate",
         "target": "Dr. Lena Sokolova",
-        "outcome": "A flawless ghost operation. Akulov orchestrated a multi-stage exfiltration that left Arasaka hunting shadows. A merc team created a diversionary cyberattack on the local power grid, while a second solo team extracted Sokolova from her secure apartment in Japantown. She was then moved through a series of consulate-owned safe houses before being smuggled out of the city in a diplomatic convoy with full immunity. Arasaka didn't even know she was missing for 48 hours.",
-        "hiredMercs": "'Mirage' (Infiltrator), 'Karat' (Transport Specialist)",
-        "mercFeedback": "'This wasn't a job, it was a move in a chess game we couldn't see. Akulov gave us a timetable, not a plan. Every second was accounted for. We never even spoke to the target, just delivered the 'package' to the next checkpoint. He used us like scalpels—make the incision, disappear. We felt like pieces of a perfect, terrifying machine.' - 'Mirage' (Infiltrator)",
-        "payout": "€$ 450,000 + Prototype 'Tishina-class' Soviet stealth cyberware",
-        "reputationImpact": "This operation was Akulov's masterpiece. He successfully outmaneuvered Arasaka's formidable counter-intelligence on their home turf and spirited away one of their most valuable assets without a single casualty. The gig became a legend in the intelligence community, establishing Akulov as a major player in the Great Game and proving that the Soviet Bear's claws could reach deep into the heart of Night City."
+        "outcome": "A flawless ghost operation with a poisoned pill. The exfiltration was a masterpiece, spiriting Sokolova out before Arasaka knew she was gone. However, Akulov later discovered Sokolova was a deep-cover FIA asset planted by Michael Thorton. The 'Secure Soul' data she delivered was corrupted with a sophisticated NUSA virus. The defection was not a victory; it was the first move in Thorton's long game to cripple SovOil's R&D from the inside.",
+        "mercFeedback": "'This wasn't a job, it was a move in a chess game we couldn't see. Akulov gave us a timetable, not a plan. Every second was accounted for. We felt like pieces of a perfect, terrifying machine.' - 'Mirage' (Infiltrator)",
+        "reputationImpact": "In the public eye, the gig established Akulov as a major player in the Great Game. Privately, it was the beginning of his obsessive hunt for the FIA's ghost in his machine. The 'victory' shackled him to a hidden failure, forcing him to divert state resources to clean up a mess no one else knows exists."
+      }
+    ],
+    "mostFamousGig": {
+      "gigTitle": "The Berlin Gambit",
+      "date": "Circa 2068",
+      "objective": "Manipulate a high-stakes arms deal in Berlin between a Militech subsidiary and a Euro-syndicate to ensure the deal collapses and the advanced weaponry falls into Soviet hands.",
+      "client": "The Kremlin",
+      "target": "A shipment of Militech next-gen prototype rifles.",
+      "outcome": "A classic Cold War masterpiece. Akulov used a team of mercs to act as a false-flag third party, attacking the deal and making it look like an Arasaka corporate strike. In the ensuing chaos, his own deep-cover agents, posing as local law enforcement, 'seized' the weapons as evidence. The operation sowed immense distrust between Militech and the Euro-syndicates and secured a massive technological prize for the USSR. This was also the first time his operation directly clashed with a young FIA up-and-comer named Michael Thorton, who was on-site observing the deal.",
+      "mercFeedback": "'The job was to hit a convoy and make it look like Arasaka. Akulov's intel was... scary. He didn't just give us routes; he gave us Arasaka's tactical doctrine. We moved like them, fought like them. By the time the real cops showed up, we were ghosts. The whole thing was a lie inside a lie.' - Anonymous Mercenary",
+      "reputationImpact": "This operation cemented Akulov's reputation within the Soviet intelligence community as a grandmaster of misdirection. It was the true beginning of his cold war with Michael Thorton, kicking off a years-long rivalry that would eventually move from the rainy streets of Berlin to the neon glare of Night City."
     },
-
     "fixerRatings": {
-      "overallThreat": "7/10 (High Consequence)",
+      "overallThreat": "8/10 (High Consequence)",
       "reliability": "7/10 - The state pays its debts, but you are a disposable pawn. He will not hesitate to disavow you if an operation is compromised.",
       "payment": "8/10 - Well-funded by SovOil. Payments are substantial and secure, often including bonuses of rare, off-market Soviet tech.",
       "intelQuality": "8/10 - Excellent high-level political and corporate intelligence. May lack granular knowledge of Night City's more esoteric street gangs.",
@@ -36,7 +88,6 @@
       "resourcefulness": "9/10 - Has access to the resources of a superpower, including military-grade Soviet cyberware, weapons, and intelligence networks.",
       "mercSurvivability": "6/10 - The gigs are well-planned, but the political nature means there is zero margin for error. If you are caught, you are on your own."
     },
-
     "advantages": {
       "strengths": [
         "Backed by the financial and military resources of the new USSR.",
@@ -47,40 +98,39 @@
       "weaknesses": [
         "Views mercenaries as expendable foreign assets, offering no loyalty.",
         "Gigs carry the risk of massive geopolitical fallout.",
-        "Rigid, formal operational style with no flexibility for improvisation.",
+        "Rigid, formal operational style can be a weakness in Night City's chaos.",
         "Failure will result in being immediately disavowed by the Soviet government."
       ]
     },
-
     "recentGigDetails": [
       {
-        "gigTitle": "Red Tech Retrieval",
+        "gigTitle": "Gig: Greed Never Pays",
         "date": "10.19.2077",
-        "objective": "An experimental SovOil deep-scan cyber-optic prototype was stolen by a Maelstrom cell. Infiltrate their chop shop in Watson and retrieve it before they can crack the encryption.",
+        "objective": "An experimental SovOil deep-scan cyber-optic prototype was 'stolen' by a Maelstrom cell. Akulov suspects his rival, Thorton, orchestrated the theft to analyze the tech. Retrieve it before Thorton's FIA agents can.",
         "client": "SovOil Advanced Research Division",
-        "target": "Prototype 'Kestrel' Optic System",
-        "outcome": "Successful. The merc bypassed Maelstrom's chaotic defenses, located the prototype in their workshop, and eliminated the netrunner attempting to jailbreak it. The tech was recovered intact and delivered to a consulate dead drop.",
-        "mercFeedback": "'The Maelstrom psychos were a mess, but the real scary part was the tech. Felt like I was holding a state secret. The pay was good, but I got the feeling Akulov would've zeroed me if I'd even scratched it.' - 'V' (Mercenary)",
+        "target": "Prototype 'Oko' Optic System",
+        "outcome": "Successful. The merc retrieved the prototype just as a second, unknown team (confirmed FIA) was making their own move. The operation confirmed Akulov's suspicions: Thorton is actively targeting Soviet R&D assets in the city.",
+        "mercFeedback": "'The Maelstrom psychos were a mess, but the real scary part was the second team. Quiet, professional. Felt like I walked in on a spy movie. Akulov's eddies were good, but I think I'm on a new watchlist now.' - 'V' (Mercenary)",
         "payout": "€$ 20,000 + Kaukaz Bratsk-10 shotgun"
       },
       {
-        "gigTitle": "Consulate Courier",
+        "gigTitle": "Gig: Flight of the Cheetah",
         "date": "10.02.2077",
-        "objective": "An NCPD detective in possession of an encrypted shard detailing Arasaka's illegal surveillance of the Soviet consulate is planning to sell it. Acquire the shard before the transaction.",
+        "objective": "An NCPD detective, a known asset of Thorton's, is attempting to turn one of Akulov's consulate staff. Acquire the blackmail material the detective is using before the staff member breaks.",
         "client": "Soviet Counter-Intelligence",
-        "target": "NCPD Detective's Data Shard",
-        "outcome": "Successful. The operative tracked the detective to a meeting point in Japantown, neutralized him and the Arasaka buyers, and secured the shard. The data leak was contained.",
-        "mercFeedback": "'Felt like something out of an old spy braindance. Akulov gave me the target, the time, and the place. The rest was wetwork. This wasn't about eddies; it was about sending a message.' - 'Shadow' (Solo)",
+        "target": "NCPD Detective's Blackmail Shard",
+        "outcome": "Successful. The operative neutralized the detective and recovered the shard. The data confirmed it was a classic honeytrap operation orchestrated by Thorton. The leak was contained, but the attempt shows that Akulov's internal security is being actively targeted.",
+        "mercFeedback": "'Felt like something out of an old spy braindance. Akulov gave me the target, the time, and the place. This wasn't about eddies; it was about plugging a hole in a sinking ship.' - 'V' (Mercenary)",
         "payout": "€$ 18,000"
       },
       {
-        "gigTitle": "Diplomatic Incident Aversion",
+        "gigTitle": "Gig: A Man of the People",
         "date": "09.15.2077",
-        "objective": "The son of a visiting Soviet diplomat has gotten into deep gambling debt with the Tyger Claws. Extract him from their casino before they can use him for leverage.",
+        "objective": "The son of a visiting Soviet diplomat has gotten into 'gambling debt' with the Tyger Claws. Akulov identified this as a setup by Thorton to create a high-profile incident. Extract the target cleanly.",
         "client": "Soviet Diplomatic Corps",
-        "target": "Alexei Volkov",
-        "outcome": "Successful. The merc infiltrated the Tyger Claw casino, created a diversion, and extracted the target from a back room. The diplomat's son was returned to the consulate, and a major political incident was averted. The Tyger Claws were compensated financially through an anonymous third party to smooth things over.",
-        "mercFeedback": "'Had to pull some rich kid out of the fire. The pay was great, but the whole time I felt like I was on a leash. One wrong move and I'd have started World War 3.' - 'Babysitter' (Mercenary)",
+        "target": "Alexei Volkov & Thorton's Ploy",
+        "outcome": "Successful. The merc extracted the diplomat's son before Thorton's agents, who were posing as Tyger Claws, could escalate the situation into a hostage crisis. A major political incident was averted, and Thorton's gambit failed.",
+        "mercFeedback": "'Had to pull some rich kid out of the fire. The pay was great, but the whole time I felt like I was a chess piece. One wrong move and I'd have started World War 3. The 'Claws' we took down were way too disciplined...' - 'V' (Mercenary)",
         "payout": "€$ 22,000"
       }
     ]

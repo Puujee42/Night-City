@@ -1,15 +1,14 @@
 {
   "weaponProfile": {
-    "title": "Glitch",
+    "title": "System Crash",
     "image": "/glitch.jpg",
-    "id": "tetratronic_glitch",
-    "aliases": ["The ICEbreaker", "System Crash", "Decker's Delight"],
+    "id": "tetratronic_glitch_prototype_x",
+    "aliases": ["The ICEbreaker", "The Ghost Gun", "Decker's Delight"],
     "type": "Smart Shotgun",
-    "manufacturer": "Tetratronic",
-    "status": "Active; Specialist Issue",
+    "manufacturer": "Tetratronic (Custom Prototype)",
+    "status": "Unique; Stolen Prototype",
     "cost": "€$120,000 (Black Market Estimate)",
-    "specialAbility": "Projectiles deal low physical damage but high EMP damage, disabling enemy cyberware and stunning robotic foes. A charged shot can reboot an enemy's optics.",
-
+    "specialAbility": "Projectiles deal low physical damage but high EMP damage, disabling enemy cyberware and stunning robotic foes. A fully charged shot uploads a 'System Crash' quickhack on direct hit, causing a full cyberware reboot and temporary paralysis.",
     "baseStats": {
       "attackSpeed": 1.5,
       "damage": "90 (+EMP)",
@@ -17,55 +16,63 @@
       "range": 20,
       "mods": 2
     },
-
+    "keyRelationships": {
+      "nemesis": "Agent Kurtz (Netwatch | Cyber-Hunter). Kurtz was the Netwatch agent assigned to hunt the legendary netrunner 'Glitch.' The shotgun was Kurtz's personal, custom-ordered weapon, which 'Glitch' stole from him during their final confrontation. For Kurtz, the weapon is a symbol of his greatest failure and humiliation. He is now obsessed with recovering the prototype, not for its power, but to erase the ghost of the one target who ever escaped him.",
+      "creator": "Tetratronic Cyberwarfare Division"
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Ghost in the Machine",
+        "date": "Circa 2076",
+        "objective": "A mythical netrunner known only as 'Glitch' was cornered by Netwatch's top cyber-hunter, Agent Kurtz, in a Tetratronic server farm.",
+        "client": "N/A (Netwatch Operation)",
+        "target": "The Netrunner 'Glitch'",
+        "outcome": "A legendary escape that birthed a myth. Kurtz, armed with his one-of-a-kind prototype shotgun, had 'Glitch' physically trapped. But 'Glitch' was a master of the digital and physical realms. He triggered a server meltdown as a diversion, and in the ensuing chaos, he not only escaped but managed to steal Kurtz's prized shotgun from his very hands. He vanished into the Net, leaving Kurtz humiliated and empty-handed. The netrunner became known by the name of the weapon he stole, a ghost who had bested Netwatch's best.",
+        "mercFate": "'Glitch' became a legend, a netrunner bogeyman. He was never seen again, but the weapon, now bearing his name, began to circulate in the highest echelons of the black market, a trophy from an impossible heist.",
+        "mercFeedback": "'The server logs are a work of art. Kurtz had him dead to rights, physically and digitally. Then, a cascade failure across the entire server farm. By the time the ICE cooled, 'Glitch' was gone, and so was Kurtz's fancy new toy. It wasn't just an escape; it was a statement. A perfect piece of irony.' - A Netwatch analyst's report.",
+        "payout": "A legend's freedom and a hunter's shame.",
+        "reputationImpact": "This event turned a powerful prototype into a legendary artifact. The shotgun, now known as 'Glitch' or 'System Crash,' became a symbol of defiance against Netwatch and the ultimate prize for any netrunner looking to prove their worth. It also created a bitter, obsessed hunter in Agent Kurtz, who will stop at nothing to get his weapon back."
+    },
+    "designAndMaterials": {
+        "materials": "The chassis is a lightweight polymer composite, standard for Tetratronic hardware. The core innovation is the 'Packet Chamber,' where a custom cyberdeck processor converts electrical energy from the power cell into coherent, weaponized EMP packets. The barrel is a magnetic accelerator that guides the packets to their target.",
+        "ammunitionType": "Uses a proprietary 'Data-Packet' shell. Each shell fragments on impact into a cloud of micro-projectors that emit a targeted, high-intensity EMP burst. The 'System Crash' prototype shells are unique, containing a micro-shredder program that directly attacks the target's cyberware OS on a charged shot.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "ICEpick Processor", "description": "A unique modification that increases the damage dealt to enemy netrunners and bypasses a portion of their electrical resistance." },
+            { "slot": "Magazine", "mod": "Overclocked Capacitors", "description": "Allows for a faster charge time on the 'System Crash' shot but generates significant heat, slightly increasing reload time after a fully charged blast." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The 'Glitch' was designed as the physical manifestation of a netrunner's will. Its purpose is not to destroy the body, but to dismantle the chrome. It treats a heavily augmented enemy not as a person, but as a compromised network. Each shot is a denial-of-service attack, each stun is a system lag, and a fully charged blast is the equivalent of a forced reboot. It is the ultimate tool for those who see the world in terms of systems to be exploited and crashed."
+    },
     "manufacturingIntel": {
-      "creator": "Tetratronic Advanced Systems (Cyberwarfare Division)",
-      "creatorReputation": "Tetratronic is a leading manufacturer of high-end cyberdecks and netrunning software. The 'Glitch' project was a radical departure for them, an attempt to bridge the gap between virtual and physical warfare. The design team, led by a former Netwatch agent, focused on creating a weapon that a netrunner could use for self-defense without breaking their non-lethal ethos.",
-      "developmentHistory": "The 'Glitch' was developed as a less-lethal alternative for corporate security and netrunners who needed a way to deal with physical threats without resorting to lethal force. The core innovation is its 'data-packet' shell, which fragments on impact into a cloud of micro-projectors that emit a targeted, high-intensity EMP burst. This scrambles cyberware and fries robotic systems. The project was a commercial success among high-end netrunners and corporate security firms who valued asset preservation over termination.",
+      "creatorReputation": "Tetratronic is a leader in high-end cyberdecks. The 'Glitch' project was a radical attempt to bridge the gap between virtual and physical warfare. The prototype stolen by the netrunner 'Glitch' was a one-of-a-kind custom order for a high-ranking Netwatch agent, with a processor and software suite far more advanced than the commercial models.",
+      "developmentHistory": "After the prototype was stolen and Netwatch was publicly humiliated, Tetratronic released a downgraded, commercial version of the 'Glitch' to the corporate market. These versions lack the powerful 'System Crash' quickhack of the original. The stolen prototype remains the only one of its kind, a legend among deckers.",
       "productionDate": "Circa 2076"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Extremely effective against heavily chromed enemies, cyberpsychos, and robotic units.",
         "Provides excellent non-lethal crowd control, stunning multiple targets at once.",
-        "The ability to reboot enemy optics can create a crucial opening for escape or a follow-up attack.",
+        "The 'System Crash' quickhack can completely paralyze a single, high-threat target.",
         "As a Smart Weapon, it ensures that the data-packets hit their mark."
       ],
       "weaknesses": [
         "Almost completely ineffective against unaugmented or minimally-chromed targets.",
         "Very low physical damage means it cannot penetrate cover or damage the environment.",
-        "The unique ammunition is expensive and can only be purchased from specialized vendors.",
-        "Slower rate of fire and reload speed compared to conventional shotguns."
+        "The unique 'System Crash' ammunition cannot be bought and must be crafted.",
+        "Possession of this weapon will make you the primary target of the obsessed Netwatch agent, Kurtz."
       ],
       "recommendedRoles": "Netrunner, Techie, Non-lethal Operative, Corporate Security.",
       "masteryArchetype": "A 'System Shock' build. A netrunner with a high Intelligence attribute who uses quickhacks to weaken enemies from a distance before moving in with the Glitch to disable them completely. The ideal user treats combat like a puzzle, using the shotgun not to kill, but to create openings for a final, decisive hack or a non-lethal takedown."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Rare. The Glitch is a specialized, high-end piece of hardware. It can be found at Tetratronic-affiliated weapon vendors in City Center or as a potential reward from fixers who deal in high-tech solutions, like Dino Dinovic or Mr. Hands.",
-      "rumoredLocation": "Intel suggests that a shipment of Glitch shotguns was recently delivered to the Netwatch regional headquarters in Corpo Plaza. A few units have reportedly 'gone missing' from the armory, likely finding their way onto the black market through a corrupt agent."
+      "marketAvailability": "Unique. The original 'System Crash' prototype cannot be bought. It is a ghost, a legend of the Net.",
+      "rumoredLocation": "After the netrunner 'Glitch' vanished, the weapon's trail went cold. Rumors persist that it was traded to a high-level fixer for a new identity. Some say Mr. Hands holds it in his private collection, while others claim it was the entry fee for the legendary netrunner 'Hush' to join the Voodoo Boys. Finding it would mean diving into the deepest, most dangerous corners of the underworld's data streams."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Static' (Netrunner)",
-        "context": "Escaping a compromised data heist in an Arasaka facility.",
-        "feedback": "'This thing saved my life. I was cornered by two Arasaka cyborgs, full-on chrome monsters. One blast from the Glitch and they both seized up, sparking like broken toys. Didn't kill 'em, just turned 'em off. Gave me the window I needed to get to the access point. It's the perfect gun for people who'd rather not use a gun.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Juggernaut' (Brawler)",
-        "context": "Street brawl against the Valentinos.",
-        "feedback": "'It's a toy. A fancy, expensive toy. I shot a V-boy point-blank and he just stumbled back and laughed at me. This thing tickles anyone who isn't 90% metal. Useless. Give me a real shotgun that makes a real hole.'",
-        "rating": "1/5 (Against flesh)"
-      },
-      {
-        "merc": "'Regina Jones' (Fixer)",
-        "context": "Reviewing gear for her anti-cyberpsycho operations.",
-        "feedback": "'The Glitch has proven to be an invaluable tool. Its ability to disable a cyberpsycho's combat chrome without causing significant physical trauma is revolutionary. It allows my mercs to neutralize the target with a much lower risk of fatality. A truly remarkable piece of non-lethal engineering.'",
-        "rating": "4/5 (Specialized Tool)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "System Crash is the ultimate support and control weapon for a tech-focused crew. Its user is the battlefield's admin, deciding which enemy processes get to keep running. It is devastating when paired with a solo who can capitalize on the openings created by the full cyberware reboot, allowing for easy takedowns on otherwise untouchable targets. In a defensive scenario, it can be used to completely neutralize a charging cyberpsycho or heavy cyborg, buying the crew precious seconds to escape or reposition. Its role is not to win the fight with damage, but to control the fight with data."
+    }
   }
 }

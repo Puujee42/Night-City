@@ -2,86 +2,118 @@
   "fixerProfile": {
     "title": "Dexter DeShawn",
     "image": "/dexter.png",
-    "aliases": ["Dex", "Mr. Major Leagues"],
-    "status": "Deceased (as of 2077)",
-    "primaryTerritory": "City-Wide Operations (Prefers Watson, Heywood)",
-    "specialization": "High-Stakes Heists, Crew Assembly, Major League Contracts",
-
+    "aliases": ["Dex", "Mr. Major Leagues", "The Paper Tiger"],
+    "status": "Deceased (2077)",
+    "primaryTerritory": "City-Wide Operations (Preferred Watson, Heywood)",
+    "specialization": "High-Stakes Heists, Crew Assembly, Narrative Crafting, Betrayal",
     "biography": {
-      "earlyLife": "Dexter DeShawn didn't crawl up from the gutter; he walked into the game with a business plan. He was never a solo, netrunner, or techie. His talent was people—reading them, charming them, and pointing them at a target. He built his reputation not on personal grit, but on his ability to orchestrate complex operations and sell the dream of hitting the big time to up-and-coming mercs.",
-      "riseAsFixer": "For a time, Dex was one of the most talked-about fixers in Night City. He had a knack for finding talent and securing the kind of high-profile gigs that could make a merc a legend overnight. He cultivated an image of success and confidence, operating out of lavish temporary bases and always promising a life-changing score. However, a major job went south a few years back, forcing him to lay low and damaging his reputation among the city's elite.",
-      "modusOperandi": "Dex's approach was always about the 'one big score.' He specialized in assembling specialized crews for audacious heists that other fixers wouldn't touch. He was a master of the pitch, making every job sound like a guaranteed ticket to the Afterlife's VIP lounge. In practice, he was often disconnected from the ground-level details, relying on his crew's expertise to fill the gaps in his planning. His fatal flaw was a deep-seated instinct for self-preservation that overrode any sense of loyalty.",
-      "reputation": "Posthumously, Dexter DeShawn is a cautionary tale whispered among mercs. He represents the ultimate danger of the business: a fixer who will sacrifice his crew without a second thought to save his own skin. While he once represented ambition and opportunity, his name is now synonymous with betrayal. He promised the major leagues but delivered a shallow grave."
+      "earlyLife": "Dex wasn't forged in the streets; he was fired from a boardroom. Unconfirmed street intel suggests he was a mid-level marketing executive for a media corporation, a master at selling illusions. After a disastrous campaign got him blacklisted, he took his true talent—hyping up a product—to the only market that would have him: Night City's underworld. He didn't know the streets, but he knew how to sell the dream of conquering them. His product was the 'one big score,' and his customers were mercs hungry for a legend.",
+      "riseAsFixer": "For a time, the marketing worked. Dex was a phenomenon. He branded himself 'Mr. Major Leagues,' the fixer who didn't just offer gigs, but life-changing narratives. He cultivated an aura of untouchable success—the gold-plated cyberarm, the expensive cigars, the reserved table at the Afterlife. He was selling his own legend as much as the jobs, building a brand on the idea that just working with him was the first step to becoming an icon. For a while, the city bought it wholesale.",
+      "modusOperandi": "Dex's true talent was crew assembly and conceptualization. He was a master at finding the right pieces for a grand puzzle and selling them a flawless vision. He operated on hype, promising legendary status and unimaginable wealth. His plans were all 'Act One'—a perfect infiltration strategy built on good intel and the best tech. He consistently neglected 'Act Three,' the exfiltration and fallout, leaving his crews to improvise their way out of the messes he created, a fatal flaw rooted in his profound cowardice.",
+      "reputation": "Posthumously, Dexter DeShawn is a ghost that haunts every ambitious merc. He is a cautionary tale, a lesson in the difference between hype and substance. He sold the dream of legendary status because he was terrified of his own mediocrity. His name is now synonymous with the ultimate betrayal—a fixer whose ego and cowardice made him a greater threat than any corpo security. He promised his crews the world but delivered them a bullet in the back of the head to cover his tracks."
     },
-
-    "legendaryGig": {
-        "gigTitle": "The Samurai Gold Heist",
-        "date": "Circa 2074",
-        "objective": "Infiltrate the heavily fortified UMG (Universal Music Group) Tower in Corpo Plaza and steal the original, unreleased master recordings of Samurai's final album, 'Black Dog'.",
-        "client": "A reclusive, anonymous billionaire collector.",
-        "target": "Samurai 'Black Dog' Master Recordings",
-        "outcome": "A chaotic success. Dex assembled a three-person crew that bypassed UMG's state-of-the-art security to reach the vault. However, the extraction was messy, triggering a high-alert and a city-wide media frenzy. The crew escaped after a prolonged and highly public chase through the streets of City Center, becoming overnight legends. Dex, watching from a safe distance, took all the credit for orchestrating the 'impossible' heist.",
-        "hiredMercs": "'Spike' (Solo), 'Bitstream' (Netrunner), 'Ricochet' (Wheelman)",
-        "mercFeedback": "'The payout was life-changing, no doubt. Dex got us the gear and the codes to get in, and for that, he's a genius. But his escape plan? 'Drive fast and don't die.' We were on our own the second that alarm went off. He plans the perfect entrance, but you better plan your own exit. Still, what a score.' - 'Ricochet' (Wheelman)",
-        "payout": "€$ 300,000 (Split three ways)",
-        "reputationImpact": "This was the job that put Dex in the major leagues. It was loud, flashy, and aimed at a cultural icon, generating massive street cred. It proved he could assemble a top-tier crew and hit the most secure targets in the city. For years, mercs flocked to him, hoping to replicate this legendary success, conveniently ignoring the near-fatal chaos of the escape."
+    "psychologicalProfile": {
+      "coreMotivation": "Validation and self-preservation. Dex was driven by a desperate, all-consuming need to be seen as a 'major player.' His entire persona was a construct to hide a deep-seated imposter syndrome. When this facade was threatened, his only other motivation kicked in: survival at any cost. He would sacrifice anyone and anything to protect himself and the fragile legend he built.",
+      "disorders": "Narcissistic Personality Disorder (NPD), Chronic Imposter Syndrome. His grandiosity was a defense mechanism against a crippling fear of being exposed as a fraud. This created a volatile cycle: he would plan grandiose heists to prove his worth, and when faced with failure, his narcissism would shift blame and justify any betrayal to preserve his self-image.",
+      "worldview": "Life is marketing. He believed that truth was irrelevant; perception was everything. A legend wasn't born from action, but from the story told afterward. He saw people—mercs, clients, contacts—as assets to be leveraged for his own brand. Loyalty was a transaction, and when the cost of that transaction became too high, the contract was void."
     },
-
-    "fixerRatings": {
-      "overallThreat": "7/10 (Deceptive)",
-      "reliability": "1/10 - Catastrophic. Will betray and execute his own crew to cover his tracks or escape consequences. He is the single greatest threat on any of his jobs.",
-      "payment": "5/10 - Promises legendary payouts, but will withhold funds or eliminate the contractor if the job has complications.",
-      "intelQuality": "6/10 - Provides the broad strokes and can secure high-level access, but often misses critical, ground-level details that can prove fatal.",
-      "discretion": "3/10 - His flashy style and big talk attract attention. His operations are loud and tend to draw significant heat.",
-      "resourcefulness": "8/10 - Excellent at networking and acquiring high-end gear and specialized talent for his crews. His main strength.",
-      "mercSurvivability": "2/10 - Working for Dex is a gamble where the house is rigged. Survival is unlikely if the mission deviates even slightly from the plan."
+    "keyRelationships": {
+      "nemesis": "'Nyx' (Legendary Netrunner). Nyx was the technical architect of Dex's early success and the sole survivor of 'The Caspian Star' betrayal. She possesses an encrypted datashard containing the comms logs of Dex selling out his crew to Arasaka. After escaping the station, she didn't seek violent revenge. Instead, she waged a campaign of informational warfare, subtly poisoning Dex's reputation, leaking details of his untrustworthiness, and ensuring every major player in the underworld knew he was a liability. Dex's return to Night City in 2077 was a desperate gamble to score a win so big it would finally silence the ghost of Nyx.",
+      "stateOfTheShadowWar": {
+        "currentSituation": "Advantage: Nyx (Pre-Mortem). By 2077, Nyx had won. Dex's reputation was in tatters. His contacts had dried up, and the 'major league' players wouldn't touch him. He was an exile in his own city, forced to operate on the fringes and work with unproven talent because the veterans all knew the stories. He was a king without a kingdom, haunted by the whispers Nyx had spread through the Net.",
+        "dexsResponse": "Desperate Gambit. Unable to fight Nyx in the Net—her home turf—Dex's only response was to go for a 'narrative reset.' 'The Heist' was his chosen weapon. It was a job so audacious, so legendary in its potential, that its success would have completely overshadowed all past failures. He wasn't just trying to make eddies; he was trying to create a media supernova so bright it would incinerate Nyx's meticulously crafted campaign against him.",
+        "nextObjective": "Operation: 'The Resurrection.' Dex's endgame was to successfully steal the Relic, secure the payout from Evelyn, and then leverage his newfound fame and fortune to rebuild his brand from the ground up. He would have become the fixer who 'stole from Arasaka's gods and lived,' a story powerful enough to bury the ghost of the Caspian Star and brand Nyx as a jealous, forgotten relic of his past."
+      }
     },
-
-    "advantages": {
-      "strengths": [
-        "Excellent at scouting and assembling talented mercenary crews.",
-        "Has connections to secure high-end, often illegal, cyberware and weaponry.",
-        "Ambitious; the gigs he offers have the potential for massive rewards.",
-        "A charismatic and persuasive negotiator."
-      ],
-      "weaknesses": [
-        "Fundamentally untrustworthy and cowardly under pressure.",
-        "His planning often has critical intelligence gaps.",
-        "Prioritizes his own escape and survival over the success of the mission or his crew.",
-        "His high-profile jobs attract the attention of major corporations like Arasaka."
+    "legendaryArsenal": {
+      "rumor": "Dex didn't carry weapons; he curated them. As part of his brand, he was known for providing his chosen crews with high-end, ostentatious gear. These items were less about tactical advantage and more about making a statement—flashy, expensive tools for a fixer selling a flashy, expensive dream.",
+      "weapons": [
+        {
+          "name": "The Headliners",
+          "description": "A matched pair of gold-plated, custom-engraved Tsunami Nue pistols. Dex was rumored to loan these to the 'star' of his crew for high-profile jobs. They were a status symbol, a physical representation of being in the 'major leagues.' To be offered 'The Headliners' was to be cast as the lead in Dex's latest production."
+        },
+        {
+          "name": "The Marquee",
+          "description": "A one-of-a-kind Microtech 'Showrunner' cyberdeck with a garish, shimmering chrome finish. It was said to be gifted to his chosen netrunner for the duration of a gig. While powerful, old associates like Nyx claim it contained a hidden firmware partition that gave Dex a backdoor to all the runner's comms and data—the ultimate insurance policy."
+        }
       ]
     },
-
+    "eliteOperatives": {
+      "overview": "Dexter DeShawn had no loyal crew, only a Rolodex of talent he assembled like a fantasy sports team for each new gig. He was a master scout, with an eye for raw talent and exploitable ambition. His 'operatives' were temporary assets, cast for a role in his latest production, and completely disposable once the curtains fell.",
+      "operatives": [
+        {
+          "alias": "'Nyx' (The Ghostwriter)",
+          "specialization": "Creative Netrunning & Infiltration",
+          "profile": "The ghost who built Dex's kingdom. A brilliant netrunner who could craft digital keys for any lock, Nyx was the true genius behind Dex's most famous early heists. She saw the jobs as complex puzzles, while Dex saw them as marketing opportunities. Her survival of the Caspian Star betrayal turned her from his greatest asset into his most relentless enemy.",
+          "relationship": "Once a professional partnership built on mutual ambition, it became a cold war of ideals. Dex sold stories; Nyx dealt in the hard code of reality. After his betrayal, she dedicated herself to exposing the truth behind his brand, using her skills to dismantle his reputation with the same precision she once used to dismantle corporate security.",
+          "roleInTheShadowWar": "Nyx served as Dex's invisible antagonist. She was the source of the rumors, the reason for his exile. Every failed deal, every suspicious merc, every closed door Dex encountered upon his return was a result of her patient, methodical campaign. She didn't need to kill him; she just needed to tell the truth."
+        },
+        {
+          "alias": "'Orion's Belt' (The Muscle)",
+          "specialization": "Four-Person Wetwork & Breaching",
+          "profile": "Not one solo, but a legendary four-person fireteam that moved with the efficiency of a corporate tactical unit. They were the muscle for the Caspian Star heist, chosen for their flawless track record in high-threat environments. They were the best, and their price tag reflected that.",
+          "relationship": "Purely transactional. Dex hired them because their reputation added legitimacy to his own. They saw Dex as a means to an incredibly lucrative end. They trusted his plan, a fatal professional miscalculation.",
+          "roleInTheShadowWar": "In death, 'Orion's Belt' became the centerpiece of Nyx's story. They were the martyrs of Dex's cowardice. The comms log of their final moments, which Nyx selectively leaked to the right people, was the poison that killed Dex's career long before Takemura's bullet did."
+        }
+      ]
+    },
+    "mostFamousGig": {
+      "gigTitle": "The Night City Spectacle",
+      "date": "Circa 2074",
+      "objective": "Infiltrate the UMG Tower and steal the unreleased master recordings of Samurai's final album. The real goal was not the shard, but the media explosion that would come from such a public theft.",
+      "client": "A reclusive, anonymous billionaire collector.",
+      "target": "Samurai 'Black Dog' Master Recordings",
+      "outcome": "A chaotic success that defined Dex's brand. The crew he assembled, including a then-up-and-coming netrunner 'Nyx,' executed the infiltration flawlessly. But Dex's escape plan was non-existent. The crew had to improvise a frantic and destructive escape through City Center, which, ironically, is what made the heist so famous. Dex, watching safely from a penthouse miles away, edited the media feeds in real-time, taking full credit for the 'orchestrated chaos,' turning a near-disaster into his signature achievement.",
+      "hiredMercs": "'Nyx' (Netrunner), 'Spike' (Solo), 'Ricochet' (Wheelman)",
+      "mercFeedback": "'Dex got us in the door. Nyx got us through the ICE. The rest? That was pure, uncut panic. Dex called it 'The Spectacle' after the fact, but on the ground, it was a shitshow. He plans a perfect Act One, but there's no Act Three. You're on your own.' - 'Ricochet' (Wheelman)",
+      "reputationImpact": "This was the heist that built the House of Dex. It was loud, flashy, and culturally significant, earning him a reputation as a fixer who could make legends. For years, mercs chased the dream of that score, unaware that its success was a fluke built on the skill of a crew he later betrayed by omission."
+    },
+    "legendaryGigs": [
+      {
+        "gigTitle": "The Caspian Star",
+        "date": "Circa 2075",
+        "objective": "Execute a data heist on the orbital casino 'The Caspian Star,' siphoning petabytes of blackmail material on corporate and political elites. This was to be Dex's masterpiece.",
+        "client": "Anonymized Political Faction",
+        "target": "The Caspian Star's Secure Data Vault",
+        "outcome": "A legendary betrayal and catastrophic failure. The crew, led by Nyx, breached the vault, but Dex's intel missed a surprise Arasaka security audit. Trapped, the crew requested exfil. Dex, realizing the gig was a failure, cut a deal. He traded the crew's locations and escape routes to Arasaka security for a clean exit. Unbeknownst to him, Nyx had a private daemon recording all comms and managed to escape, taking the evidence with her.",
+        "hiredMercs": "'Nyx' (Netrunner), 'Orion's Belt' (Four-Person Solo Team)",
+        "mercFate": "The 'Orion's Belt' team was executed by Arasaka. Nyx survived, becoming a ghost in the net and Dex's personal boogeyman, dedicating herself to dismantling his reputation from the shadows.",
+        "reputationImpact": "This incident was the true beginning of Dex's end. The betrayal became an open secret, systematically leaked by Nyx, making him untouchable. His flight from Night City was not a vacation; it was an exile. His return in 2077 was a desperate attempt to outrun this legacy."
+      }
+    ],
+    "fixerRatings": {
+      "overallThreat": "7/10 (Deceptive)",
+      "reliability": "1/10 - His signature move is the backstab. He operates on a single principle: his own survival.",
+      "payment": "5/10 - The promise of a legendary payout is his primary lure. He will use any complication as an excuse to withhold payment or eliminate the contractor.",
+      "intelQuality": "6/10 - Provides the 'big picture'—access codes, blueprints, VIP routines. But he consistently misses or ignores the ground-level details that actually get people killed.",
+      "discretion": "3/10 - A walking contradiction. He demands secrecy from his crews while his personal style and high-profile gigs scream for attention.",
+      "resourcefulness": "8/10 - His one true talent. He is a master networker, capable of finding the perfect talent and acquiring the best gear for any given job.",
+      "mercSurvivability": "2/10 - Working for Dex is like playing Russian Roulette with a fully loaded chamber. Survival is statistically improbable if anything goes wrong."
+    },
+    "advantages": {
+      "strengths": [
+        "A master at scouting and assembling talented, specialized crews.",
+        "Exceptional connections for acquiring high-end, often illegal, cyberware and weaponry.",
+        "Unmatched ambition; the gigs he offers are genuinely of a scale that could make a legend.",
+        "A dangerously charismatic and persuasive negotiator."
+      ],
+      "weaknesses": [
+        "Pathologically untrustworthy and cowardly when his reputation or life is on the line.",
+        "His planning is a facade, full of critical gaps that his crews are expected to fill.",
+        "His own survival is always the primary, unspoken objective of any mission.",
+        "His desperation for a win makes him reckless and attracts the worst kind of corporate attention."
+      ]
+    },
     "recentGigDetails": [
       {
         "gigTitle": "The Heist",
         "date": "Mid-2077",
-        "objective": "Infiltrate Konpeki Plaza and steal the 'Relic' biochip from Yorinobu Arasaka's penthouse.",
+        "objective": "Infiltrate Konpeki Plaza and steal the 'Relic' biochip. For Dex, this was his redemption song—a chance to recreate 'The Spectacle' and erase the stain of 'The Caspian Star.'",
         "client": "Evelyn Parker (Self-Intermediary)",
         "target": "The 'Relic' Biochip (Prototype)",
-        "outcome": "Catastrophic Failure. The crew successfully infiltrated the penthouse but were trapped when Saburo Arasaka unexpectedly arrived and was subsequently murdered by his son, Yorinobu. This triggered a full Arasaka lockdown. Crew members T-Bug and Jackie Welles were killed during the operation. The surviving merc was betrayed by DeShawn, shot, and left for dead in a landfill.",
-        "mercFeedback": "'He set us up. The intel was bad, the escape plan was smoke, and when the heat came down, he put a bullet in my head. Don't walk away from this guy. Run.' - 'V' (Surviving Mercenary)",
+        "outcome": "Catastrophic Failure. The operation was a mirror of his past failures: good infiltration, no exit strategy, and a chaotic turn of events he couldn't control. When the job imploded, his core programming took over. He executed his surviving crew member to sever his connection to the failure, a desperate, pathetic attempt to save a reputation that was already dead.",
+        "mercFeedback": "'He promised us the major leagues, a ticket to the Afterlife. But the whole time, he was just trying to save himself from his own past. He wasn't building a legend; he was digging a grave and trying to pull us in with him.' - 'V' (Surviving Mercenary)",
         "payout": "€$ 0 (Betrayed and Executed)"
-      },
-      {
-        "gigTitle": "The Pickup",
-        "date": "Mid-2077",
-        "objective": "Acquire a Militech 'Flathead' combat bot from the Maelstrom gang, who had stolen it from a Militech convoy.",
-        "client": "Self (for 'The Heist')",
-        "target": "Militech 'Flathead' Droid",
-        "outcome": "Successful, but resulted in extreme violence. Dex's prior dealings with the former Maelstrom leader, Brick, were voided by the new leader, Royce, forcing a bloody confrontation. A Militech agent, Meredith Stout, was also involved, further complicating the situation. The bot was secured, but the operation escalated into a massacre.",
-        "mercFeedback": "'Dex sent us into a goddamn slaughterhouse. Said it was a simple pickup. Nothing's simple with him. We got the bot, but the body count was insane.' - Jackie Welles (Mercenary)",
-        "payout": "Rolled into 'The Heist' contract"
-      },
-      {
-        "gigTitle": "The Information",
-        "date": "Mid-2077",
-        "objective": "Meet with the client, Evelyn Parker, and use a braindance to conduct reconnaissance on Yorinobu Arasaka's penthouse.",
-        "client": "Evelyn Parker",
-        "target": "Penthouse Security Intel",
-        "outcome": "Successful. The merc, guided by T-Bug, analyzed the braindance and identified key security vulnerabilities and the location of the Relic. This provided the core intel for 'The Heist.' Dex remained hands-off, acting only as the primary coordinator.",
-        "mercFeedback": "'Standard BD recon. The client, Evelyn, seemed to know more than she was letting on. Dex was just the money man, connecting the dots.' - T-Bug (Netrunner)",
-        "payout": "Upfront payment & inclusion in 'The Heist'"
       }
     ]
   }

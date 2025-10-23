@@ -1,71 +1,77 @@
 {
   "weaponProfile": {
-    "title": "Spitfire",
+    "title": "Gonk's Gambit",
     "image": "/spitfire.jpg",
-    "id": "budget_arms_spitfire",
-    "aliases": ["The Panic Button", "Gonk's Gambit", "The Last Resort"],
+    "id": "budget_arms_spitfire_legendary",
+    "aliases": ["The Panic Button", "Wilson's Pride", "The Last Resort"],
     "type": "Power Revolver",
-    "manufacturer": "Budget Arms",
-    "status": "Common; Black Market Modification",
-    "cost": "€$12,000",
-    "specialAbility": "The alternate fire mode unloads the entire cylinder in a rapid, inaccurate burst. Perfect for when your target is 'somewhere in front of you.'",
-
+    "manufacturer": "Budget Arms (Masterwork Modification)",
+    "status": "Unique; Infamous Street Legend",
+    "cost": "€$120,000 (Black Market Estimate)",
+    "specialAbility": "The alternate fire mode unloads the entire cylinder in a rapid, inaccurate burst. This 'Gambit' mode has a significantly increased Critical Damage multiplier and a high chance to knock down enemies, but also has a small chance to jam the weapon on the final shot.",
     "baseStats": {
       "attackSpeed": 1.5,
-      "damage": 180,
+      "damage": "180",
       "reloadSpeed": 2.2,
       "range": 40,
       "mods": 1
     },
-
-    "manufacturingIntel": {
-      "creator": "Various back-alley gunsmiths",
-      "creatorReputation": "The Spitfire isn't a factory model; it's a popular and dangerous after-market modification. Techies with more guts than sense will take a standard Budget Arms revolver, file down the sear, and disable the cylinder lock. This allows the user to hold down the trigger and 'fan' the hammer, firing all six rounds in a chaotic, uncontrolled spray.",
-      "developmentHistory": "The modification was born out of desperation on the streets of Watson. Gangers and low-level mercs needed a way to counter heavily chromed solos without having the eddies for military-grade hardware. The 'Spitfire' mod was the answer: a cheap way to turn a simple revolver into a room-clearing panic weapon. It's unreliable, inaccurate, and just as likely to misfire as it is to hit its target, but in a desperate, close-quarters fight, it can be a surprisingly effective equalizer.",
-      "productionDate": "Ongoing, widely available"
+    "keyRelationships": {
+      "nemesis": "Lt. Maximillian 'Max' Payne (NCPD | Cyberpsycho Division). Payne was the lead investigator on the 'Watson Whirlwind' case. He cornered the cyberpsycho, Joe 'The Prophet,' but hesitated, believing he could talk him down. Joe used 'Gonk's Gambit' in his final moments, and a stray bullet from the chaotic burst killed Payne's rookie partner. Payne is now a bitter, obsessive cop who sees the weapon as a symbol of his failure and a chaotic menace that needs to be taken off the streets permanently.",
+      "creator": "Wilson (2nd Amendment Gunsmith)"
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Ballad of 'The Prophet'",
+        "date": "Circa 2076",
+        "objective": "A down-on-his-luck Watson local named Joe, armed with a custom Spitfire from Wilson, became an accidental folk hero by using it to defend his block from a Scavenger harvesting crew.",
+        "client": "The People of Watson",
+        "target": "A Scavenger Cell",
+        "outcome": "A tragic street legend. Joe successfully used the Spitfire's 'Gambit' to surprise and neutralize the Scavs, saving a dozen people. Hailed as a hero, he was pushed into taking on bigger and bigger threats. The constant violence and cheap chrome led him down a slow path to cyberpsychosis. His story ended in a bloody standoff with NCPD, where in his final, confused moments, he used the 'Gambit' one last time. The folk hero known as 'The Prophet' was dead.",
+        "mercFate": "Joe 'The Prophet' was killed in action. Wilson, his friend and the gun's creator, recovered the weapon from the NCPD evidence locker before it could be destroyed, keeping it as a memorial to his fallen friend.",
+        "mercFeedback": "'Joe wasn't a psycho, not at first. He was just a guy who wanted to help. That gun... it was a shortcut. It made him feel powerful, made him a hero. But every time he pulled that trigger, he lost a little piece of himself. The gun didn't kill him; the legend did.' - Wilson, owner of the 2nd Amendment store.",
+        "payout": "A temporary hero and a permanent ghost story.",
+        "reputationImpact": "This event turned 'Gonk's Gambit' from a simple mod into a legendary weapon, a symbol of the desperate, tragic heroism of the streets. It is a gun that can make you a legend, but at a terrible cost. It also put the weapon on the personal shit-list of Lt. Max Payne, a man who never forgives and never forgets."
+    },
+    "designAndMaterials": {
+        "materials": "The weapon is based on a standard Budget Arms 'Slaught-O-Matic' frame. Its master-crafted quality comes from Wilson's custom modifications: a reinforced, perfectly balanced cylinder, a hand-filed sear for a smoother 'fan,' and a custom-weighted grip to manage the brutal recoil. The barrel is adorned with a single, crudely scratched word: 'HOPE'.",
+        "ammunitionType": "Standard revolver rounds. The weapon's unreliability is a core feature, making it a true 'gambit.' High-quality ammunition can slightly reduce the chance of a jam, but it can never be fully eliminated.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "Wilson's Blessing", "description": "This unique, master-crafted modification is the heart of the weapon. It is the source of the increased Crit Damage in 'Gambit' mode, but is also what makes the weapon inherently unstable." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Spitfire is the embodiment of desperation. It is not a tool for a professional; it is a prayer for the damned. Its design philosophy is that when you are cornered, outgunned, and have nothing left to lose, accuracy and control are luxuries you can't afford. All that matters is filling the space in front of you with as much noise and lead as possible in the shortest amount of time. It is a weapon that acknowledges you are probably going to die, but gives you a puncher's chance to take your enemies with you."
+    },
+    "manufacturingIntel": {
+      "creatorReputation": "The Spitfire isn't a factory model, but a popular and dangerous after-market modification. 'Gonk's Gambit' is a one-of-a-kind masterwork, the personal creation of Wilson, the gunsmith from V's megabuilding. He built it for a friend, and it is the only one he ever made with such care.",
+      "developmentHistory": "After the death of his friend, Joe, Wilson stopped making custom Spitfire mods for customers. He considers the design cursed. The other Spitfires on the market are crude, dangerous copies. 'Gonk's Gambit' is the original, the platonic ideal of the 'panic button' philosophy, perfectly and tragically executed.",
+      "productionDate": "Circa 2076"
+    },
     "tacticalAssessment": {
       "strengths": [
-        "The fan-fire mode provides incredible burst damage at point-blank range.",
+        "The 'Gambit' mode provides the highest burst damage of any revolver at point-blank range.",
         "An excellent 'panic button' for when an enemy unexpectedly closes the distance.",
         "Cheap to acquire and its ammunition is plentiful.",
-        "Intimidating psychological effect; the roar of a fanned revolver is terrifying."
+        "High knockdown chance can create an opening against a much stronger foe."
       ],
       "weaknesses": [
-        "The fan-fire mode has virtually zero accuracy beyond a few meters.",
-        "High chance of jamming or misfiring, especially with low-quality ammunition.",
-        "The massive recoil from the fan-fire can leave the user disoriented.",
-        "Low base damage per shot compared to higher-caliber revolvers."
+        "The 'Gambit' mode has virtually zero accuracy beyond a few meters.",
+        "High chance of jamming, a potentially fatal flaw in a critical moment.",
+        "The massive recoil from the 'Gambit' can leave the user disoriented.",
+        "Possession of this weapon will attract the unwanted and hostile attention of NCPD Lt. Max Payne."
       ],
-      "recommendedRoles": "Street Ganger, Brawler, Desperate Mercenary.",
-      "masteryArchetype": "A 'Street Brawler' build. A user who lives and dies by close-quarters chaos. They don't aim; they point. The ideal user combines the Spitfire with a Berserk OS, charging into an enemy's face and using the fan-fire to turn them into a bloody mess. It's a high-risk, high-reward playstyle for those who like to live dangerously."
+      "recommendedRoles": "Street Brawler, Desperate Mercenary, Close-Quarters Chaos Agent.",
+      "masteryArchetype": "A 'Street Brawler' build. A user who lives and dies by close-quarters chaos. They don't aim; they point. The ideal user combines 'Gonk's Gambit' with a Berserk OS, charging into an enemy's face and using the fan-fire to turn them into a bloody mess. It's a high-risk, high-reward playstyle for those who like to live dangerously."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Very Common. Any shady weapon vendor in Watson or the Badlands is likely to have a Spitfire modded revolver under the counter. It's a popular choice for gangers and those just starting their merc careers.",
-      "rumoredLocation": "The 2nd Amendment store in V's megabuilding is known to have a few 'special' items in the back for trusted customers. The owner, Wilson, is rumored to have a master-crafted Spitfire with a reinforced cylinder that he keeps for himself."
+      "marketAvailability": "Unique. This specific weapon is not for sale.",
+      "rumoredLocation": "The weapon is kept in a locked case in the back room of the 2nd Amendment store in V's megabuilding. The owner, Wilson, keeps it as a memento of his dead friend, a local hero named Joe. He would never sell it, but he might be convinced to part with it for a friend in need, or for a cause he believed was worthy of its tragic legacy."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Gutter Rat' (Street Kid)",
-        "context": "Ambushed by Maelstrom in a Kabuki alley.",
-        "feedback": "'Three psychos cornered me, thought I was dead meat. Fanned the Spitfire. The noise, the kick... it was insane. When the smoke cleared, I was standing, they weren't. This piece of junk saved my life. Wouldn't trust it to hit the broad side of a barn, but up close? It's a dragon.'",
-        "rating": "4/5 (For a cheap gun)"
-      },
-      {
-        "merc": "'Deadeye' (Sharpshooter)",
-        "context": "Rooftop firefight in City Center.",
-        "feedback": "'This is an insult to firearms. The standard fire is weak, and the 'special ability' is just praying to God one of your bullets hits something other than the ceiling. It's a clumsy, inefficient, and dangerous toy. I wouldn't use it to shoot scop.'",
-        "rating": "1/5 (An abomination)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Getting cornered by a cyberpsycho.",
-        "feedback": "'He was right on top of me, my primary was empty. Pulled this thing out and just held the trigger down. The sheer force of six rounds hitting him point-blank staggered him long enough for me to get some distance. It's a terrible gun... until it's the only gun that can save your life.'",
-        "rating": "3/5 (The perfect 'oh shit' button)"
-      }
-    ]
+     
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "Gonk's Gambit is not a team weapon; it is a last resort. It has no place in a coordinated stealth or tactical operation. Its sole purpose is to solve a single, sudden, and catastrophic problem at point-blank range. Its user is likely the crew's brawler or frontline fighter, someone who is most likely to get cornered. It is best paired with a medic who can patch up the user after their insane, high-risk maneuver, and a professional who carries a real gun to clean up the mess. Its role is not to be part of the plan; its role is to be the plan when everything else has gone to hell."
+    }
   }
 }

@@ -2,85 +2,143 @@
   "fixerProfile": {
     "title": "Dino Dinovic",
     "image": "/dino.png",
-    "aliases": ["The Bandit", "Mr. Downtown"],
+    "aliases": ["The Bandit", "Mr. Downtown", "The Ghostwriter"],
     "status": "Active",
     "primaryTerritory": "City Center, Corpo Plaza, Downtown",
     "specialization": "Media Manipulation, Sabotage, Wetwork (Assassination), Luxury Acquisitions, Scandal Management",
-
     "biography": {
-      "earlyLife": "Dino's origins are split between the stage and the street. As the bassist for the infamous rockerboy band 'Gloryhole Bandits,' he got a backstage pass to the hedonistic and treacherous world of Night City's elite. He learned early that information and favors were more valuable than any record deal. He began as the guy who could 'arrange things' for fellow musicians and celebs—making rivals miss shows, leaking compromising photos to the media, or sourcing gear that 'fell off a truck.'",
-      "riseAsFixer": "His transition to a full-time fixer was seamless. He leveraged his extensive network of corpo execs, media personalities, and street-level talent to become the premier broker for gigs requiring a scalpel, not a sledgehammer. His bar became his office, a smoky, neon-lit neutral ground where a desperate corpo could hire a merc to ruin a rival's career in the booth next to a media vulture selling info on that same corpo. Dino thrives in this ecosystem of secrets and lies.",
-      "modusOperandi": "Dino is a pragmatist with a taste for style. He despises loud, messy operations that draw unwanted attention. His gigs are about precision: planting a virus, stealing a specific shard of data, or making a target disappear as if they never existed. He communicates directly and expects his mercs to be sharp, resourceful professionals who can think on their feet and, most importantly, keep quiet. He doesn't have time for gonks who solve problems by emptying a magazine.",
-      "reputation": "In City Center, Dino is the man you call when you have a problem money can't solve publicly. He's known for his reliability and his impeccable discretion. He's not a friend or a mentor; he's a service provider. As long as you're competent and follow the brief, the contract will be honored to the letter. Screw up and make a scene, and you'll find your name blacklisted from every decent gig in the district."
+      "earlyLife": "Dino's story was written on the back of a setlist. As the bassist for the infamous rockerboy band 'Gloryhole Bandits,' he lived through the highs and lows of preem-level fame. He wasn't the frontman, but he was the spine—the rhythm section that held the chaos together. He saw how the industry's machine worked: how a well-placed rumor could kill a rival's tour, or how a 'lost' data shard could land you a cover on WNS. The band's explosive end, a maelstrom of ego, addiction, and a brutal media takedown orchestrated by a rival label, was his final lesson. He realized the real power wasn't on the stage; it was in the hands of the ghostwriters, the ones who wrote the narratives from the shadows.",
+      "riseAsFixer": "Dino didn't just transition to fixing; he embraced his true calling. He traded his bass for a burn phone and used the blood money from the band's breakup to buy 'The Velvet Rope,' a dimly lit, sound-proofed bar in the heart of Downtown. It became his office and a confessional for the city's elite. He leveraged every contact he ever made, becoming the premier fixer for gigs that required surgical precision and zero publicity. He became the ghostwriter for the city's scandals, editing lives, careers, and sometimes, lifespans.",
+      "modusOperandi": "Dino is an artist whose medium is chaos. He despises the messy, gonk-brained violence of the street. His gigs are elegant, quiet masterpieces of manipulation. He'll hire a merc to swap a data shard, not blow a door down. He'll pay to have a target socially exiled, not just flatlined. He communicates with the cool, detached professionalism of a studio producer, expecting his 'session players' (mercs) to be talented, discreet, and able to improvise within the key he sets. A loud, failed gig isn't just a loss of eddies; it's a badly written song, and he has no tolerance for bad art.",
+      "reputation": "In the chrome towers of City Center, Dino is the final resort for problems that can't be solved with money or muscle alone. He's the king of plausible deniability. He's not your friend, he's your editor, and he will cut you from the final draft without a second thought if you miss your cue. Betray him, and you won't just be blacklisted; your entire life story will be rewritten into a tragedy, and he'll make sure it gets a prime-time broadcast."
     },
-    
-    "legendaryGig": {
-        "gigTitle": "The Prime Time Deconstruction",
-        "date": "08.19.2073",
-        "objective": "Publicly and permanently destroy the career of Buck Arnold, N54's top-rated and notoriously corrupt news anchor, during his own live, prime-time broadcast.",
-        "client": "The Aurelian Group (Political Lobby)",
-        "target": "Buck Arnold's Career & Credibility",
-        "outcome": "A masterpiece of psychological warfare. Dino hired a two-merc team: a netrunner to control the broadcast systems and a social infiltrator to get close to the production. The infiltrator, disguised as a production assistant, swapped Arnold's teleprompter script with a subtly altered version designed to induce paranoia. As Arnold began stumbling over his words, the netrunner used a state-of-the-art deepfake AI to manipulate his face and voice in real-time, twisting his stammers into what appeared to be a full-blown on-air confession of bribery and illegal dealings with Militech. The broadcast was unstoppable. Arnold's career was over before the show even cut to commercial.",
-        "hiredMercs": "'Echo' (Netrunner/AI Specialist), 'Masque' (Social Infiltrator)",
-        "mercFeedback": "'Dino didn't hire us to kill a man; he hired us to kill an idea. We didn't use a single bullet, but we executed him live in front of ten million people. He had us dismantle a man's entire life with nothing but whispers and corrupted data streams. That's not just a gig; it's art.' - 'Echo' (Netrunner)",
-        "payout": "€$ 250,000",
-        "reputationImpact": "This job became an urban legend in media and merc circles, the ultimate example of a 'clean' hit. It established Dino as the undisputed king of character assassination and media manipulation. After 'Prime Time,' everyone in the city's elite knew that if you needed to destroy someone powerful without leaving a single drop of blood, Dino Dinovic was the only fixer to call."
+    "psychologicalProfile": {
+      "coreMotivation": "Control and artistic integrity. Having had his life's narrative violently stolen from him, Dino is now obsessed with being the one who writes the stories. Every gig is a composition, an act of imposing his will and control over the chaotic noise of the city. His feud with Thorne is not just revenge; it's an artistic crusade to prove that subtlety and intellect will always triumph over brute force and sensationalism.",
+      "disorders": "Obsessive-Compulsive Personality Disorder (OCPD) (manifesting as a rigid adherence to his 'artistic' standards for gigs), Chronic Cynicism, mild PTSD related to his traumatic fall from fame.",
+      "worldview": "The world is a stage, and all the people are merely players with poorly written lines. Dino sees himself as the ultimate editor, the one who can step in and rewrite a scene, change a character's motivation, or cut them from the production entirely. He believes true power lies not in being the star of the show, but in controlling the script from behind the curtain."
     },
-
-    "fixerRatings": {
-      "overallThreat": "9/10 (The king of the media)",
-      "reliability": "9/10 - A true professional. He pays what he promises for a job done to his standards. No loyalty, but impeccable business sense.",
-      "payment": "8/10 - Offers very competitive rates for jobs that require more brains than brawn. Solid and consistent.",
-      "intelQuality": "8/10 - Excellent for his niche. Provides keycodes, schedules, and blackmail material. Less focused on tactical combat layouts.",
-      "discretion": "9/10 - His bread and butter. He expects silent operators and provides the tools to achieve that. A clean gig is a successful gig.",
-      "resourcefulness": "8/10 - Deeply connected in the Downtown scene. Can source anything from off-market cyberware to exclusive party invitations.",
-      "mercSurvivability": "8/10 - High. His preference for stealth and sabotage means mercs are less likely to get into open warfare, provided they're skilled enough to follow the plan."
+    "keyRelationships": {
+      "nemesis": "Marcus Thorne (Fixer | Alias: 'The Headliner'). Thorne was the Head of Security for the label that destroyed Dino's band, the man who orchestrated the original media takedown. Now a fixer himself, Thorne is Dino's opposite. Where Dino is subtle, Thorne is loud. Where Dino writes people out of the story, Thorne makes them the bloody headline. He specializes in public, brutal displays of power and sees Dino's artistic methods as weak. Their rivalry is a war for the soul of Downtown—a battle between the ghostwriter and the sensationalist.",
+      "stateOfTheShadowWar": {
+        "currentSituation": "Advantage: Dino. Thorne's loud, violent methods are effective but leave a trail. Dino has been patiently playing the long game, using Thorne's own noise against him. He has been funding anonymous journalists to 'discover' the aftermath of Thorne's gigs, commissioning netrunners to link Thorne's data-ghosts to corporate disasters, and slowly, meticulously painting a picture of his rival as a reckless, uncontrollable liability. Thorne still has the bigger clients, but his reputation is beginning to crack under the weight of his own carnage.",
+        "dinosResponse": "The Slow Fade. Dino is deconstructing Thorne's operation like a bad song. He's not attacking Thorne directly but is surgically removing his support structure. He uses his mercs to poach Thorne's informants, sabotage his logistics, and turn his clients against him with carefully planted seeds of doubt and incriminating evidence. Each gig is a single, quiet note in a composition designed to end in Thorne's utter silence.",
+        "nextObjective": "Operation: 'Fade to Black.' Dino's masterpiece. His objective is to manipulate Thorne into taking on a high-profile, public gig—a corporate assassination that Thorne will see as his magnum opus. Dino will act as a secret, third-party client, feeding Thorne a perfect plan that is, in reality, a meticulously crafted trap. Dino's own crew will be positioned not to stop Thorne, but to ensure the failure is as public and as humiliating as possible, framing Thorne not as a fixer, but as a failed terrorist, and making him radioactive to every corpo in the city. He won't kill Thorne; he'll erase him."
+      }
     },
-
-    "advantages": {
-      "strengths": [
-        "Unmatched connections in Night City's media, corporate, and entertainment circles.",
-        "Specializes in stealth, sabotage, and social engineering.",
-        "Reliable, professional, and provides clear, concise mission parameters.",
-        "Values skilled operators and pays well for clean, quiet work."
-      ],
-      "weaknesses": [
-        "Has little interest or expertise in large-scale combat operations.",
-        "Influence is heavily concentrated in the City Center area.",
-        "Intolerant of messy, loud, or failed jobs; will cut a merc loose without hesitation.",
-        "Purely transactional; offers no personal protection or backup if a job goes wrong."
+    "legendaryArsenal": {
+      "rumor": "Dino equips his 'session players' with tools as subtle and effective as his methods. He doesn't deal in heavy ordinance; he provides custom-made instruments for surgical strikes, acquired from his exclusive network of high-end techies and corporate R&D insiders.",
+      "weapons": [
+        {
+          "name": "The Ghost Note",
+          "description": "A one-of-a-kind Rostović Silencio pistol with an integrated Kiroshi optic that can tag and track targets through walls. It's perfectly silent. Dino is said to loan this out for jobs that require a single, untraceable loose end to be tied up. To be given The Ghost Note is to be trusted to remove a problem with the silence of a thought."
+        },
+        {
+          "name": "The Feedback Loop",
+          "description": "A custom-built cyberdeck, unremarkable on the outside, that contains a suite of devastating psych-warfare daemons. It doesn't just steal data; it weaponizes it, capable of inducing auditory hallucinations, sensory overloads, and paranoia in targets through their own neural links. It's the tool he gives 'Echo' to deconstruct a target's sanity."
+        }
       ]
     },
-
+    "eliteOperatives": {
+      "overview": "Dino doesn't have a crew; he has a stable of 'session players'—elite, hyper-specialized mercs he calls upon when he needs a specific instrument for his orchestra of chaos. Their relationship is strictly professional, built on mutual respect for each other's artistry. To be on Dino's call list is to be a master of your craft.",
+      "operatives": [
+        {
+          "alias": "'Echo' (The Sound Engineer)",
+          "specialization": "Psychological Netrunning, Deepfakes, Data Manipulation",
+          "profile": "A netrunner who treats the Net not as a system of data, but as a symphony of consciousness. She doesn't just breach firewalls; she manipulates the sensory data within a network, turning a target's own security feeds and comms into instruments of their downfall. She is the artist behind Dino's most mind-bending gigs.",
+          "relationship": "Dino sees Echo as his virtuoso, the lead instrument in his compositions. He provides the concept, and she performs the impossible solo. She values his creative challenges and the access he provides to cutting-edge tech.",
+          "roleInTheShadowWar": "Echo is Dino's primary weapon against Thorne's digital footprint. She is tasked with creating the false trails and deepfake evidence that discredit Thorne's operations and will be the architect of the digital trap for 'Operation: Fade to Black,' ensuring every camera in the city is watching when Thorne's masterpiece implodes."
+        },
+        {
+          "alias": "'Masque' (The Frontman)",
+          "specialization": "Social Infiltration, Impersonation, Seduction",
+          "profile": "A master of disguise and social engineering, Masque can become anyone. He can walk into a boardroom or a backstage party and leave with the secrets of everyone inside. He is the physical embodiment of Dino's philosophy: the best way to open a lock is to be given the key.",
+          "relationship": "Masque is Dino's face in the world, the performer who acts out the scripts Dino writes. Dino admires his flawless execution, while Masque depends on Dino's perfect intel to craft his identities.",
+          "roleInTheShadowWar": "Masque is Dino's agent of influence. He is the one who gets close to Thorne's clients, planting the seeds of doubt. He will play a key role in 'Operation: Fade to Black,' likely posing as the 'trusted associate' who delivers the faulty intel to Thorne, setting the stage for his rival's public failure."
+        },
+        {
+          "alias": "'The Roadie' (The Stage Hand)",
+          "specialization": "Wetwork, Cleanup, 'Disappearances'",
+          "profile": "An old-school cleaner who operates with the quiet efficiency of a roadie tearing down a stage after a show. He is Dino's tool for when subtlety fails or when a piece of the set needs to be removed permanently. A kill from The Roadie is never a murder; it's a quiet exit, an Irish goodbye, a contract terminated.",
+          "relationship": "Dino's relationship with The Roadie is purely functional. He is a necessary, if unartistic, part of the business. The Roadie respects Dino's professionalism and the high price he pays for absolute silence.",
+          "roleInTheShadowWar": "As the conflict with Thorne escalates, Thorne is likely to get more violent and direct. The Roadie will be Dino's fail-safe, tasked with silently eliminating any of Thorne's operatives who get too close to Dino's operations, ensuring the ghostwriter himself remains a ghost."
+        }
+      ]
+    },
+    "legendaryGigs": [
+      {
+        "gigTitle": "The Silent Album Drop",
+        "date": "Circa 2068",
+        "objective": "Sabotage the highly anticipated album launch of a rival rockerboy being promoted by Marcus Thorne's former record label.",
+        "client": "Anonymous Competing Record Label",
+        "target": "The career of rockerboy 'Jax Strummer' and the label's credibility.",
+        "outcome": "A masterpiece of cultural sabotage. Instead of leaking the album, Dino's netrunner, 'Echo,' hacked the global music network. At the moment of the launch, she replaced the album with a perfectly produced, but utterly soulless, compilation of corporate jingles. The real album was wiped and never released. Jax Strummer's career was destroyed by ridicule overnight, and the label suffered a massive financial and reputational blow.",
+        "mercFeedback": "'Dino told me not to steal the music, but to replace the art. He had me swap a rocker's soul with an ad for synthetic kibble. The kid didn't just bomb; he became a joke. That's Dino's style. He doesn't kill you; he edits you into a punchline.' - 'Echo' (Netrunner)",
+        "payout": "€$ 300,000",
+        "reputationImpact": "This gig established Dino's brand of 'artistic' and psychological warfare in the corporate world. It was a quiet, devastatingly effective shot across the bow at the media empire that had wronged him, proving he could now wield their own weapons against them with far greater subtlety."
+      }
+    ],
+    "mostFamousGig": {
+      "gigTitle": "The Requiem of Buck Arnold",
+      "date": "08.19.2073",
+      "objective": "Publicly and permanently dismantle the career of Buck Arnold, N54's top news anchor, during his own live, prime-time broadcast. Arnold was the public face of the media crusade that destroyed Dino's old band.",
+      "client": "Self-Initiated (A Final Encore)",
+      "target": "Buck Arnold's Sanity & Career",
+      "outcome": "A symphony of psychological warfare. Dino's crew, 'Echo' and 'Masque,' deconstructed the man's mind on live television. They made him unravel, twisting his face into a mask of guilt as he began babbling incoherently about 'ghosts in the static'—a direct reference to the band he'd buried. Arnold's public breakdown was so complete he was committed, his career erased from reality.",
+      "mercFeedback": "'We didn't just pull the plug. Dino had us deconstruct a man's mind, live on air. It wasn't about eddies. For Dino, this was the final, delayed encore for his band. It was art.' - 'Echo' (Netrunner)",
+      "reputationImpact": "This gig became a dark legend, the ultimate proof that Dino was an artist of character assassination. It was also a declaration of war. Marcus Thorne, who had originally hired Arnold for the hit piece, saw this as Dino stepping back into the ring, reigniting their oldest and most dangerous rivalry."
+    },
+    "fixerRatings": {
+      "overallThreat": "9/10 (The Ghostwriter)",
+      "reliability": "9/10 - A true professional. He pays on time, every time, for a job performed to his exacting artistic standards.",
+      "payment": "8/10 - Offers preem rates for gigs that demand more nuance than noise. Solid and consistent.",
+      "intelQuality": "8/10 - Excellent for his niche. He provides the social keys, the blackmail material, the psychological profiles. Don't ask him for convoy routes.",
+      "discretion": "10/10 - His entire business is built on silence. He expects his mercs to be ghosts and will provide the means to keep them that way.",
+      "resourcefulness": "8/10 - The most connected man in Downtown. He can get you into any party, onto any guest list, or into any secure media archive.",
+      "mercSurvivability": "8/10 - High. His gigs are designed to avoid open conflict. If you're smart and subtle, you'll never have to draw a weapon."
+    },
+    "advantages": {
+      "strengths": [
+        "An unparalleled network of contacts in media, corporate, and entertainment circles.",
+        "Master of stealth, sabotage, and social engineering gigs.",
+        "Professional and provides crystal-clear, concise mission parameters.",
+        "Pays top-dollar for intelligent, clean, and quiet operators."
+      ],
+      "weaknesses": [
+        "No interest or connections for large-scale, combat-heavy operations.",
+        "His power is concentrated in the glass towers of City Center; he's a fish out of water in the Badlands or Watson.",
+        "Completely intolerant of failure or unnecessary noise. One mistake and you're out.",
+        "Purely transactional. If a job goes sideways, he will cut you loose to protect the composition."
+      ]
+    },
     "recentGigDetails": [
       {
-        "gigTitle": "The understatement",
+        "gigTitle": "Gig: The Frolics of Frolic",
         "date": "10.25.2077",
-        "objective": "A Kiroshi Optics executive is launching a new product line. The client wants to ruin the launch party not with a bang, but with a whisper. Infiltrate the exclusive event and swap the executive's presentation shard with a doctored one provided by Dino.",
+        "objective": "An ambitious Kiroshi exec, a known client of Marcus Thorne, is launching a new product line. The client wants the launch party ruined. Infiltrate the event and swap the presentation shard with a deepfake shard provided by Dino.",
         "client": "Rival Kiroshi Executive (Anonymized)",
-        "target": "Presentation Data Shard",
-        "outcome": "Flawless execution. The merc, 'Charade,' gained entry disguised as a high-end caterer. During the pre-launch mingle, she lifted the lead engineer's access card, entered the speaker's lounge, and swapped the shards. The product launch became a PR nightmare, displaying doctored financial projections that suggested massive fraud. The merc was out before the first slide even loaded.",
-        "mercFeedback": "'Dino's gigs are like puzzles. This one wasn't about cracking skulls, it was about cracking a party. A little social engineering, a light touch... and a whole career goes up in smoke. It's an art form.' - 'Charade' (Infiltrator)",
+        "target": "Presentation Data Shard & Marcus Thorne's Reputation",
+        "outcome": "Flawless. The merc planted a doctored shard that showed a deepfake of the exec confessing to stealing tech and crediting Thorne for covering it up. The launch was a disaster, triggering a corporate investigation that made Thorne look sloppy and compromised. A perfect, indirect hit.",
+        "mercFeedback": "'Dino's gigs are chess, not checkers. This wasn't just about embarrassment; it was about making his rival's client a liability. I was a ghost planting a ghost. It's his signature.' - 'V' (Mercenary)",
         "payout": "€$ 10,000"
       },
       {
-        "gigTitle": "Serial killer",
+        "gigTitle": "Gig: Dead Air",
         "date": "10.11.2077",
-        "objective": "An investigative journalist working on a story about a corporate 'wetwork' specialist was found dead, ruled a 'suicide.' Retrieve the raw, unedited CCTV footage from the Militech-secured metro station where she died to prove it was murder.",
-        "client": "[REDACTED MEDIA CONTACT]",
+        "objective": "An investigative journalist was found 'suicided.' She was working on a story linking Marcus Thorne to a string of corporate 'disappearances.' Retrieve the raw CCTV footage from a Militech-secured metro station to prove it was a hit.",
+        "client": "Unnamed Media Contact",
         "target": "CCTV Server at Memorial Park Station",
-        "outcome": "Successful. The netrunner, 'Glitch,' used Dino's authorization codes to get inside the station's security hub. While inside, he bypassed internal ICE to access the archived, uncompressed footage, revealing a third figure on the platform—a known corporate assassin—who administered a neurotoxin before the 'jump.' The data was delivered, exposing the killer.",
-        "mercFeedback": "'Going up against Militech security is never smart, but Dino's connect got me through the front door. The data was buried deep. Without his lead, that journalist would've just been another statistic. Dino pays well to hunt the real monsters in this city.' - 'Glitch' (Netrunner)",
+        "outcome": "Successful. The netrunner found the footage of the murder and the digital ghost of the remote network intrusion used to cover it up—Thorne's signature, heavy-handed netrunner. The data not only exposed a killer but gave Dino concrete proof of his rival's current methods.",
+        "mercFeedback": "'You could feel this one was personal for Dino. He pays well to dig up the city's dead, especially when his enemies are the ones who buried them.' - 'V' (Mercenary)",
         "payout": "€$ 12,000"
       },
       {
-        "gigTitle": "The Frolics of Power",
+        "gigTitle": "Gig: Encore",
         "date": "09.29.2077",
-        "objective": "Steal an incriminating braindance shard from the private collection of a corrupt NCPD Deputy Chief, stored in a safe in his penthouse, during one of his exclusive, hedonistic parties.",
+        "objective": "Steal an incriminating braindance shard from the private collection of a corrupt media mogul, a known associate of Marcus Thorne, during one of his exclusive parties.",
         "client": "NCPD Internal Affairs (Anonymized)",
         "target": "Encrypted Braindance Shard",
-        "outcome": "Successful. The operative, 'Silencer,' blended in with the party guests, lifted the keycard from a distracted security guard, and accessed the chief's private chambers. He bypassed the safe's simple electronic lock and extracted the evidence without alerting the target or his powerful guests, who were otherwise engaged.",
-        "mercFeedback": "'Had to blend in with a bunch of corpo-scum and politicians. Found the BD, slipped out the back while they were all enjoying the party. Dino's gigs are more about brains than bullets. I dig it.' - 'Silencer' (Solo)",
+        "outcome": "Successful. The operative lifted a BD containing footage of the mogul coercing a young rockerboy into signing away his life's work—the exact same predatory tactic Thorne's label used on Dino's band. The evidence was extracted, giving Dino leverage over one of Thorne's oldest allies.",
+        "mercFeedback": "'The party was full of the kind of scum that feed on dreams. Dino pointed me at the biggest shark in the tank and told me to pull his teeth. These aren't just gigs; they're chess moves in a game that's been playing for years.' - 'V' (Mercenary)",
         "payout": "€$ 8,500"
       }
     ]

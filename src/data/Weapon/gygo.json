@@ -1,71 +1,77 @@
 {
   "weaponProfile": {
-    "title": "Gyges",
+    "title": "The Anatomist",
     "image": "/gyges.png",
-    "id": "kang_tao_gyges",
-    "aliases": ["The Anatomist", "The Trinity Rifle", "The Executive Eraser"],
+    "id": "kang_tao_gyges_prototype_alpha",
+    "aliases": ["The Trinity Rifle", "Zero-Error", "The AI's Chosen"],
     "type": "Smart Precision Rifle",
-    "manufacturer": "Kang Tao",
-    "status": "Restricted; Corporate Hitman Issue",
-    "cost": "€$165,000",
-    "specialAbility": "While aiming at a single target, the smart-targeting system automatically highlights up to 3 weak points (head, chest, cyberware). A charged shot fires a burst that hits all tagged points simultaneously.",
-
+    "manufacturer": "Kang Tao (AI-Designed Prototype)",
+    "status": "Unique Prototype; Stolen Asset",
+    "cost": "€$165,000 (Black Market Estimate)",
+    "specialAbility": "While aiming at a single target, the smart-targeting system automatically highlights 3 vital weak points (head, chest, cyberware). A fully charged shot fires a near-simultaneous burst that hits all tagged points, dealing massive critical damage and applying a unique 'System Shock' effect that disables the target's cyberware for a short duration.",
     "baseStats": {
       "attackSpeed": 2.5,
-      "damage": 300,
+      "damage": "300",
       "reloadSpeed": 2.2,
       "range": 120,
       "mods": 3
     },
-
+    "keyRelationships": {
+      "nemesis": "Dr. Liang Wei (Kang Tao | Disgraced Chief Engineer). Dr. Wei was Kang Tao's brilliant lead weapons designer until his life's work was surpassed by the AI that created the Gyges. Bitter and obsolete, he stole the 'Anatomist' prototype to prevent it from entering mass production and proving his irrelevance. He is now a rogue agent, obsessed with destroying the weapon and proving that human intuition is superior to machine calculation. He will hunt down anyone who wields the weapon that ruined his life."
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Turing Test",
+        "date": "03.14.2076",
+        "objective": "A live-fire field test to compare the new AI-designed Gyges prototype against Kang Tao's best human sniper, armed with a traditional, master-crafted rifle.",
+        "client": "Kang Tao Board of Directors",
+        "target": "A heavily fortified Militech outpost in the Badlands.",
+        "outcome": "A chilling victory for the machine. While the human sniper, using traditional tactics, managed three confirmed kills in ten minutes, the operative wielding 'The Anatomist' neutralized the entire twelve-man garrison in under two minutes. The AI's ability to instantly analyze and target multiple weak points simultaneously proved overwhelmingly superior. The test was declared a flawless success for the AI program, leading directly to the disgrace and eventual defection of Dr. Wei.",
+        "mercFate": "The operative who wielded 'The Anatomist' during the test was a Kang Tao cyborg with minimal human empathy. They reportedly described the experience not as combat, but as 'data entry.'",
+        "mercFeedback": "'I didn't aim. I didn't think. I just pointed, and the weapon solved the equation. It identified the flaws in their armor, their chrome, their very biology. It didn't feel like killing; it felt like editing a file. Cold. Efficient. Perfect.' - Recovered test log from Operative 734.",
+        "payout": "The future of Kang Tao's weapons division.",
+        "reputationImpact": "This event marked a turning point in corporate warfare, proving the deadly efficiency of AI-designed weaponry. 'The Anatomist' became a legend, a symbol of cold, calculating perfection. It also created a bitter, brilliant enemy in Dr. Wei, a man with intimate knowledge of the weapon's only potential flaws."
+    },
+    "designAndMaterials": {
+        "materials": "The Anatomist is a marvel of automated manufacturing. Its chassis is a single piece of printed, high-density polymer, devoid of any human aesthetic touches. The internal components are miniaturized and perfectly balanced by the AI's design. The scope is a direct feed to the weapon's onboard targeting computer, overlaying complex data analytics onto the user's vision.",
+        "ammunitionType": "Uses standard Smart Rifle ammunition, but the onboard 'Multi-Vector Targeting System' (MVTS) is what makes it unique. It micro-adjusts the trajectory of each round in the three-shot burst, ensuring they hit different, specific weak points simultaneously, maximizing systemic shock to the target.",
+        "compatibleMods": [
+            { "slot": "Optics", "mod": "The AI's Eye", "description": "This unique, prototype scope provides an unmatched level of data on the target, including real-time cyberware diagnostics and stress point analysis, increasing the critical damage of the three-shot burst." },
+            { "slot": "Internal", "mod": "Zero-Latency Processor", "description": "A master-grade smart-link processor that reduces the lock-on time for the three weak points to near-instantaneous levels." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Gyges embodies the cold, unfeeling perfection of an artificial intelligence. It does not care about honor, or skill, or courage. It sees a target only as a collection of biological and mechanical systems to be dismantled in the most efficient way possible. Its philosophy is that every enemy is a solvable problem, and the Gyges is the universal solution. It represents the terrifying future of warfare: precise, emotionless, and absolutely lethal."
+    },
     "manufacturingIntel": {
-      "creator": "Kang Tao Smart Solutions R&D",
-      "creatorReputation": "The Gyges is the brainchild of a Kang Tao AI, a weapons-designing algorithm tasked with creating the 'most efficient single-target neutralization platform.' The human engineers simply built what the AI designed. The name is a reference to a mythological king who could become invisible—a nod to the weapon's ability to eliminate a target from a distance with unseen precision.",
-      "developmentHistory": "The Gyges was developed for Kang Tao's internal security and elite corporate assassins. The problem they sought to solve was the 'bullet sponge'—heavily augmented solos and cyborgs who could soak up dozens of hits. The Gyges's 'Multi-Vector Targeting System' was the solution. It doesn't just aim for center mass; it analyzes a target's cyberware, armor, and biological signs, then calculates the three most devastating impact points. A single trigger pull unleashes a micro-burst of three rounds that strike these points simultaneously, ensuring a catastrophic system shock and immediate neutralization. It's not just a gun; it's a guided kill-package.",
+      "creatorReputation": "The Gyges is the brainchild of 'Unit 734,' a Kang Tao weapons-designing AI. The human engineers simply built what the AI designed. 'The Anatomist' is the original prototype, the physical manifestation of the AI's perfect theoretical model.",
+      "developmentHistory": "After the 'Turing Test' proved its superiority, 'The Anatomist' was slated for disassembly to study its performance data. Dr. Wei, in a final act of defiance, stole the weapon and fled. The production models of the Gyges are excellent, but they lack the raw, unfettered processing power and the unique 'System Shock' capability of the original AI-designed prototype.",
       "productionDate": "Circa 2076"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Unrivaled for quickly eliminating a single, high-threat enemy.",
         "The simultaneous multi-point impact is devastating against heavily armored or cybernetically enhanced targets.",
-        "As a Smart Weapon, it has exceptional accuracy, even at long range.",
-        "Rewards a tactical, patient playstyle focused on prioritizing and eliminating key threats."
+        "The unique 'System Shock' effect can instantly neutralize even the most dangerous cyberpsychos.",
+        "As a Smart Weapon, it has exceptional accuracy, even at long range."
       ],
       "weaknesses": [
         "Highly ineffective against crowds or multiple, fast-moving targets.",
         "The charge time for the multi-shot burst leaves the user exposed.",
-        "Requires a high-end Smart Link cyberware to function at its full potential.",
-        "Each burst consumes three rounds, leading to high ammo usage."
+        "Each burst consumes three rounds, leading to high ammo usage.",
+        "Possession of this weapon makes you the primary target of the brilliant and resourceful Dr. Liang Wei."
       ],
       "recommendedRoles": "Corporate Assassin, Designated Marksman, Anti-Cyborg Specialist.",
-      "masteryArchetype": "A 'Surgeon' build. A netrunner-solo hybrid with a high Intelligence and Cool attribute. The ideal user is an information-gatherer who uses Ping and other recon quickhacks to identify the most dangerous enemy on the field. They then find a secure position, take aim with the Gyges, and eliminate that threat with a single, perfectly calculated burst before the firefight even begins. They dismantle enemy squads piece by piece, starting with the strongest."
+      "masteryArchetype": "A 'Surgeon' build. A netrunner-solo hybrid with a high Intelligence and Cool attribute. The ideal user is an information-gatherer who uses Ping and other recon quickhacks to identify the most dangerous enemy. They then use 'The Anatomist' to eliminate that threat with a single, perfectly calculated burst before the firefight even begins. They dismantle enemy squads piece by piece, starting with the strongest."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Extremely Rare. The Gyges is a restricted piece of Kang Tao's corporate arsenal. It is never sold legally. The only ways to acquire one are through a top-tier fixer with Kang Tao connections (like Arthur Cormac or Mr. Hands) for an exorbitant price, or by looting it from an elite Kang Tao corporate agent.",
-      "rumoredLocation": "Intel suggests that a Kang Tao executive's personal bodyguard, stationed at the Kang Tao headquarters in Corpo Plaza, is one of the few individuals in Night City authorized to carry a Gyges. Security is, needless to say, extreme."
+      "marketAvailability": "Unique. This weapon is a stolen corporate prototype and a symbol of an AI's superiority. It cannot be bought.",
+      "rumoredLocation": "After stealing the weapon, Dr. Wei went into hiding. Rumors suggest he was last seen in Kabuki, trying to find a fixer who could help him smuggle the weapon out of Night City. It is likely currently in the possession of a high-level fixer or merc who intercepted him, or perhaps hidden in one of Wei's old safehouses, waiting for someone smart enough to find it."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Ghost' (Infiltrator)",
-        "context": "Assassination of a heavily armored Militech cyborg.",
-        "feedback": "'The target was a walking tank, shrugging off my pistol rounds. Switched to the Gyges. Took aim, saw the three red dots appear on his head, optic, and heart-pump. One trigger pull, three simultaneous impacts. He just... switched off. It's the most brutally efficient weapon I've ever seen.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Rhino' (Brawler)",
-        "context": "Ambushed by a swarm of Scavengers in a tight corridor.",
-        "feedback": "'This thing is useless when you're being rushed. By the time I aimed at one scav and charged the shot, three more were already on top of me. It's too slow, too focused. You need something that can spray and pray, not this... calculator with a trigger.'",
-        "rating": "1/5 (For crowd control)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Taking on a cyberpsycho.",
-        "feedback": "'Fighting a psycho is all about taking them down fast. The Gyges is perfect for that. I waited for an opening, aimed, and let the multi-shot do its work. One burst, and he was staggered and vulnerable. It's not a gun for a firefight; it's a gun for ending a fight before it starts.'",
-        "rating": "4/5 (Precision matters)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Anatomist is the ultimate tool for a crew's designated 'boss killer.' Its user is not a generalist; they are a specialist who waits for the high-value target to appear. A successful crew will build their strategy around protecting this user until that moment arrives. A netrunner can use 'Cripple Movement' to hold a cyberpsycho in place, while a solo draws their fire. This gives the Anatomist's user the precious seconds needed to achieve a full lock-on and deliver the single, devastating burst that ends the encounter. Its role is to turn the crew's most difficult problem into a simple, mathematical solution."
+    }
   }
 }

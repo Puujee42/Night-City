@@ -1,71 +1,77 @@
 {
   "weaponProfile": {
-    "title": "Pain-Drill",
+    "title": "The Dentist",
     "image": "/pain-drill.png",
-    "id": "maelstrom_pain_drill",
-    "aliases": ["The Auger", "Chrome-Ripper", "The Dentist"],
+    "id": "maelstrom_pain_drill_legendary",
+    "aliases": ["The Auger", "Brick's Folly", "The Chrome-Ripper"],
     "type": "Melee (Brutal Arms)",
-    "manufacturer": "Maelstrom (Modified)",
-    "status": "Custom; Faction Signature Weapon",
+    "manufacturer": "Maelstrom (Unique Masterwork)",
+    "status": "Unique; Infamous Artifact",
     "cost": "€$78,000 (Black Market Estimate)",
-    "specialAbility": "A fully charged heavy attack causes the drill to spin at supersonic speeds, instantly destroying enemy armor and applying a devastating Bleed effect.",
-
+    "specialAbility": "A fully charged heavy attack causes the drill to spin at supersonic speeds, instantly destroying enemy armor and applying a devastating Bleed. The overclocked engine has a high chance to ignite the wielder, granting bonus Melee Damage but dealing Thermal damage over time.",
     "baseStats": {
       "attackSpeed": 1.5,
-      "damage": 550,
+      "damage": "550",
       "reloadSpeed": 0,
       "range": 2.8,
       "mods": 1
     },
-
-    "manufacturingIntel": {
-      "creator": "Maelstrom 'Chrome-Barons'",
-      "creatorReputation": "The Pain-Drill isn't forged; it's desecrated. Maelstrom's tech-priests—high-ranking members with a twisted genius for engineering—create these weapons in their chop shops. They take industrial-grade rock drills, salvaged from abandoned mines, and weld them to overclocked rocket engines. The result is a weapon that is barely controllable, dangerously unstable, and utterly terrifying.",
-      "developmentHistory": "The weapon was born from Maelstrom's eternal war against heavily armored MAX-TAC and Militech forces. Katanas glanced off, and bullets were often ineffective. They needed something that didn't just hit armor but *erased* it. The Pain-Drill was the solution. Its spinning, diamond-tipped head doesn't cut; it grinds, pulverizes, and bores through plated steel and bone with equal, horrifying efficiency. It quickly became a symbol of a Maelstrom heavy, a statement of their contempt for all forms of defense.",
-      "productionDate": "Ongoing, chaotic creation"
+    "keyRelationships": {
+      "nemesis": "Officer Zander 'The Surgeon' Williams (NCPD | MAX-TAC). Williams is a decorated MAX-TAC officer and the sole survivor of the 'Siege of All Foods,' where his entire squad was torn apart by the first Pain-Drill. He is a man who believes in clean, surgical takedowns and sees 'The Dentist' as an abhorrent, chaotic perversion of combat. He is obsessed with tracking down and destroying the weapon, viewing it as a personal insult to his profession and a ghost from his greatest failure.",
+      "creator": "Brick (Former Maelstrom Leader)"
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Siege of All Foods",
+        "date": "Circa 2073",
+        "objective": "A then-lieutenant named Brick and his Maelstrom crew were cornered in the All Foods plant during a full-scale MAX-TAC raid led by Officer Zander Williams.",
+        "client": "N/A (Territorial Defense)",
+        "target": "The MAX-TAC Siege Line",
+        "outcome": "A legendary, desperate innovation. Pinned down and unable to breach the MAX-TAC armor line, Brick, in a fit of brutal genius, bolted an industrial rock drill to an overclocked vehicle engine. The resulting weapon, 'The Dentist,' was uncontrollable and terrifying. Brick used it to charge the MAX-TAC line, the drill tearing through shields and armor with horrifying ease. The assault was a success, breaking the siege, but the weapon's chaotic nature caused significant friendly fire casualties. Williams' squad was wiped out, and he was left as the sole, traumatized survivor.",
+        "mercFate": "N/A. This was a pivotal event in Maelstrom's history.",
+        "mercFeedback": "'They had us pinned. Armor was too thick. Bullets were just sparks. So I made something that didn't care about armor. Something that just... digs. It was loud, it was angry, and it screamed. We lost good people in the chaos. But we won. That's Maelstrom.' - Brick, reflecting on the weapon's creation.",
+        "payout": "Survival, and the birth of a legend.",
+        "reputationImpact": "This event cemented Brick's reputation and eventual rise to leader of Maelstrom. 'The Dentist' became his signature weapon, a symbol of their philosophy that flesh, chrome, and armor are all just meat for the grinder. It also created a lifelong, obsessive enemy in Officer Williams, who would dedicate his career to hunting the weapon and its creator."
+    },
+    "designAndMaterials": {
+        "materials": "The core of 'The Dentist' is a diamond-tipped industrial rock drill, scarred and pitted from its first use. It is crudely but securely welded to the engine block of a Quadra Type-66, its internal governors disabled. The entire weapon is covered in scorch marks and the faded Maelstrom graffiti of Brick's old crew.",
+        "ammunitionType": "N/A. It runs on a volatile, high-octane CHOOH2 mixture that frequently leaks and ignites, a 'feature' that Maelstrom gangers have come to embrace.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "Brick's Unstable Engine", "description": "This unique, master-crafted engine is the heart of the weapon. It provides unparalleled armor-shredding power but is the source of the self-igniting flaw, making every charged attack a dangerous gamble." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Pain-Drill is the ultimate expression of Maelstrom's nihilistic philosophy: if it's chromed, it's a cage, and all cages must be broken. It rejects the elegance of blades and the cowardice of bullets. Its purpose is singular and absolute: to unmake. The deafening scream of the engine and the grinding of the drill are not side effects; they are the point. It is a weapon designed to inflict maximum terror and to prove that no amount of armor, no matter how expensive, can protect you from raw, chaotic, and painful deconstruction."
+    },
+    "manufacturingIntel": {
+      "creatorReputation": "The Pain-Drill isn't forged; it's desecrated. 'The Dentist' is the original, the masterwork created by Brick himself in a moment of desperate inspiration. The other Pain-Drills used by Maelstrom are attempts to replicate its brutal genius, but they lack the raw, unstable power of the original.",
+      "developmentHistory": "After Royce's coup, Brick was imprisoned and 'The Dentist' was claimed by Royce as a trophy, a symbol of his new leadership. It represents the 'old ways' of Maelstrom, a relic of a time before Royce's more calculated paranoia. The weapon is a constant, humming reminder of the leader he overthrew.",
+      "productionDate": "Circa 2073"
+    },
     "tacticalAssessment": {
       "strengths": [
         "Unmatched armor-shredding capability, capable of neutralizing heavily armored targets in a single charged attack.",
-        "The Bleed effect from a charged attack is one of the strongest in the game, ensuring a kill.",
+        "The self-ignite feature provides a high-risk, high-reward damage boost for berserker playstyles.",
         "High base damage and stagger chance on light attacks.",
         "Immense psychological impact; the high-pitched scream of the drill can cause panic."
       ],
       "weaknesses": [
         "The slowest melee weapon in its class, with a long, telegraphed wind-up on heavy attacks.",
-        "Extremely loud, alerting every enemy in the vicinity.",
-        "The repurposed rocket engine is prone to overheating, occasionally dealing Thermal damage to the wielder.",
-        "Has zero defensive or parrying capability; it is a tool of pure, relentless offense."
+        "The self-ignite effect can be fatal without significant investment in thermal resistance.",
+        "Has zero defensive or parrying capability; it is a tool of pure, relentless offense.",
+        "Possession of this weapon will make you a priority target for MAX-TAC, specifically Officer Williams's squad."
       ],
       "recommendedRoles": "Berserker, Juggernaut, Armor-Shredder, Psycho-Brawler.",
-      "masteryArchetype": "A 'Maelstrom Juggernaut' build. A user who has embraced the abyss, with a high Body attribute, a Berserk OS, and cyberware that grants immunity to their own status effects (like the self-inflicted burns). The ideal user is a chrome-addicted monster who charges headfirst into the most heavily armored enemy on the field, using the Pain-Drill to open them up like a tin can so the rest of the squad can pour in."
+      "masteryArchetype": "A 'Maelstrom Juggernaut' build. A user who has embraced the abyss, with a high Body attribute, a Berserk OS, and cyberware that grants immunity to their own status effects. The ideal user charges headfirst into the most heavily armored enemy on the field, using 'The Dentist' to open them up like a tin can so the rest of the squad can pour in."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Extremely Rare. A Pain-Drill is a Maelstrom status symbol and is never sold. It is typically wielded by the gang's 'Berserker' champions. To get one, a merc would have to venture deep into Maelstrom territory—like the All Foods plant—and take it from its former owner.",
-      "rumoredLocation": "Royce, the current de-facto leader of Maelstrom at the All Foods plant, is said to keep a collection of these weapons. He reportedly awards them to gangers who survive a direct confrontation with MAX-TAC. It's rumored he has a master-crafted version, with a perpetual motion engine, locked away in his personal armory."
+      "marketAvailability": "Unique. This weapon is a symbol of Maelstrom leadership and cannot be bought.",
+      "rumoredLocation": "It is currently held as a personal trophy by Royce, the de-facto leader of Maelstrom. It is kept in his private command center within the All Foods plant, a reminder of the man he overthrew. It is said he sometimes uses it to 'discipline' members who fail him. The only way to acquire it is to confront Royce himself."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Brick' (Ex-Maelstrom Leader)",
-        "context": "Reflecting on his time leading the gang.",
-        "feedback": "'That thing... it's not a weapon. It's a scream. A promise. A promise that nothing you wear, nothing you hide behind, is gonna save you. We built it to show the corps that their armor was just a suggestion. And it worked.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Spectre' (Solo Infiltrator)",
-        "context": "Attempting a stealth mission in a Maelstrom den.",
-        "feedback": "'Picked one up, thought it might be useful. The moment I activated it, it sounded like a jet engine taking off inside a tin can. Every psycho in the building knew exactly where I was. This is the loudest, most unsubtle object ever created by man. It's the opposite of stealth.'",
-        "rating": "1/5 (For my purposes)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Confronting a Militech Crusader mech.",
-        "feedback": "'My bullets were just bouncing off this thing. Switched to the Pain-Drill, charged it up, and hit the leg joint. The sound was deafening. It tore right through the armor plating, showering sparks everywhere. It brought the whole damn mech to its knees. Terrifying... and beautiful.'",
-        "rating": "4/5 (The ultimate can opener)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Dentist is the crew's living siege engine. Its wielder has one job: identify the single most armored, most dangerous target on the field and erase them. They are not a defender; they are a guided missile of pure destruction. A successful crew will support this role. A netrunner can use quickhacks like Cripple Movement or Cyberware Malfunction to hold the target in place for the Pain-Drill's slow, devastating charged attack. A sharpshooter can eliminate ranged threats, allowing the wielder to focus on their primary target without being kited. Its role is to be the answer to the question, 'how do we crack the uncrackable?'"
+    }
   }
 }

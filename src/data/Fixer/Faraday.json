@@ -2,85 +2,125 @@
   "fixerProfile": {
     "title": "Faraday",
     "image": "/friday.png",
-    "aliases": ["The Militech Leash", "The Suit"],
-    "status": "Deceased (as of 2076)",
+    "aliases": ["The Militech Leash", "The Asset Burner", "The Kingmaker"],
+    "status": "Deceased (2076)",
     "primaryTerritory": "Santo Domingo, Corpo Plaza",
     "specialization": "Corporate Espionage, Prototype Acquisition, Black Ops, Asset Denial",
-
     "biography": {
-      "earlyLife": "Faraday was a product of the Militech corporate machine. A junior executive in the R&D acquisitions department, he was known for his cold ambition and a complete lack of empathy. He saw the chaotic underworld of Night City not as a danger, but as an untapped resource—a way to climb the corporate ladder by using deniable assets (mercs) to achieve off-the-books objectives for his superiors.",
-      "riseAsFixer": "He never operated like a traditional fixer. He was an internal corporate agent given a long leash. Militech provided him with access to cutting-edge prototypes and a hefty budget to run black ops against Arasaka. He built a reputation for having the shiniest new chrome and the biggest payouts, which attracted skilled but desperate crews like the one led by Maine, and later, David Martinez.",
-      "modusOperandi": "Faraday's method was simple: dangle an irresistible prize—a piece of military-grade tech or a life-changing sum of eddies—and push his crew to their absolute limits. He was a micromanager, demanding constant updates and showing no tolerance for failure. He viewed his mercs not as people, but as investments. If an investment went bad, he would cut his losses without a moment's hesitation, often by selling out the crew to save himself.",
-      "reputation": "Faraday is remembered as a cautionary tale about the dangers of corpo gigs. He was a user, a man who burned through one of the most promising crews in Santo Domingo to fuel his own career. To veteran mercs, his name is a byword for betrayal. Working for him was a fast track to either a penthouse or a shallow grave, with the odds heavily favouring the latter."
+      "earlyLife": "Faraday wasn't born into the corporate elite; he was a gutter rat who clawed his way into a Militech internship. Surrounded by old-money executives who saw him as disposable, he developed a pathological ambition fueled by a deep-seated fear of being sent back to the streets. He saw the corporate ladder not as a path, but as a bloody cage match. His 'talent' was recognizing that the mercs of Night City were just like him—desperate, hungry, and willing to burn brightly if it meant escaping the gutter, making them the perfect fuel for his own ascent.",
+      "riseAsFixer": "Faraday was never a true fixer; he was a lab rat with a corporate expense account. He was put in charge of Militech's unofficial 'Asset-Driven R&D'—a deniable black-ops division designed to field-test experimental tech by giving it to mercenary crews and pointing them at Arasaka. He didn't build a network; he curated a stable of disposable assets. He became known as the man who could give you tomorrow's chrome today, for a price that was rarely paid in just eddies.",
+      "modusOperandi": "Faraday was a master of weaponized ambition. He didn't just offer gigs; he offered a taste of the life he craved—power, respect, and bleeding-edge chrome. He saw his crews as scalpels: incredibly sharp, effective, and meant to be discarded after one use. He was a meticulous planner on paper but had zero understanding of human limits, viewing cyberpsychosis not as a tragedy, but as a failed experiment. His primary directive was always to ensure that when an asset burned out, his own fingerprints were nowhere on the ashes.",
+      "reputation": "In the Afterlife, Faraday's name is a ghost story told to chrome-happy rookies. He is the ultimate example of a corpo leash that strangles you the moment you stop pulling. He didn't just use crews; he consumed them, burning through Maine's legendary team and David Martinez's potential to power his own meteoric, and ultimately fatal, rise. Working for Faraday was a deal with the devil where the fine print was written in your own blood."
     },
-
-    "legendaryGig": {
-        "gigTitle": "The Kestrel Heist",
-        "date": "Circa 2075",
-        "objective": "Steal the Zetatech 'Kestrel' prototype, an experimental combat hovercar, directly from its exhibition lap during the annual Night City Grand Prix.",
-        "client": "Militech R&D (Deniable Operations)",
-        "target": "Zetatech 'Kestrel' Prototype",
-        "outcome": "A spectacular and violent success. Faraday provided Maine's crew with a Militech Basilisk APC equipped with a prototype EMP cannon. They used it to disable the Kestrel mid-race, leading to a massive pile-up and a running battle with Zetatech security on the Grand Prix track itself. The crew successfully hijacked the prototype and escaped through the storm drains, leaving a trail of destruction. Militech got their prize, and Faraday got his promotion.",
-        "hiredMercs": "'Maine' (Crew Leader), 'Dorio' (Enforcer), 'Pilar' (Techie)",
-        "mercFeedback": "'Faraday gave us a fucking tank and told us to crash a party. It was chaos. We almost bought it a dozen times, but the chrome was top-shelf, and the payout... Jesus. With that kind of gear, you feel like you can do anything. That's the hook. He makes you feel invincible right before he gets you killed.' - 'Maine' (Crew Leader)",
-        "payout": "€$ 400,000 + Rights to keep the (heavily damaged) EMP cannon.",
-        "reputationImpact": "This heist defined Faraday's modus operandi. It proved he could provide mercs with military-grade hardware for high-risk, high-reward operations. It cemented his reputation as the fixer who offered the best toys and the biggest paychecks, attracting ambitious, chrome-hungry crews and establishing his pattern of using them as live-fire test subjects for Militech's newest weapons."
+    "psychologicalProfile": {
+      "coreMotivation": "Fear of Irrelevance. Faraday's ambition wasn't for power itself, but to build a wall of success and status so high it would forever separate him from the poverty of his youth. Every promotion was another brick in the wall. He was terrified of being seen as the street kid he once was, leading him to take increasingly reckless risks to prove his worth in the corporate world.",
+      "disorders": "Malignant Narcissism, Severe Inferiority Complex (masked by grandiosity), Antisocial Personality Disorder. He lacked empathy, viewing people as tools. His entire self-worth was tied to external validation (promotions, successful operations), making him pathologically incapable of accepting failure.",
+      "worldview": "The world is a hierarchy of predators and prey. He believed he was a predator who had earned his place, and mercs were a lower form of predator to be used and discarded. He saw loyalty as a weakness and sentiment as a fatal flaw. The only things that mattered were results and plausible deniability."
     },
-
-    "fixerRatings": {
-      "overallThreat": "9/10 (Extreme)",
-      "reliability": "2/10 - Highly Unstable. He honors the payment if a job is a clean success, but will immediately betray his crew to corporate forces to cover his tracks or mitigate failure.",
-      "payment": "9/10 - Backed by Militech's deep pockets, his payouts were among the highest in the city, a necessary lure for the extreme risks involved.",
-      "intelQuality": "7/10 - Provides excellent corporate-level data, but often overlooks or ignores on-the-ground human factors, leading to deadly surprises.",
-      "discretion": "4/10 - His operations are flashy and tend to attract massive heat. He is skilled at erasing his own connection, but leaves his mercs to take the fall.",
-      "resourcefulness": "9/10 - His primary advantage. Can source military-grade prototypes and experimental cyberware that no other fixer can get.",
-      "mercSurvivability": "1/10 - Abysmal. Working for Faraday was a near-certain death sentence. His crews had one of the shortest life expectancies in the business."
+    "keyRelationships": {
+      "nemesis": "Director Whitley (Militech | Head of Official Acquisitions). Whitley is everything Faraday is not: old-money, cautious, and a believer in 'proper channels.' Faraday's career was built on the ashes of Whitley's failures, a fact Whitley never forgot. After being publicly humiliated by Faraday in the 'Grand Prix Gambit,' Whitley ceased to be a simple rival and became a predator waiting in the long grass, using bureaucracy and corporate procedure as his weapons.",
+      "stateOfTheShadowWar": {
+        "currentSituation": "Advantage: Whitley (Pre-Mortem). Whitley was winning by playing the long game. He used his influence to subtly deny Faraday's crews support, red-flag his budgets, and leak anonymous tips to Arasaka about 'rogue Militech assets.' He was building a case, patiently waiting for Faraday's recklessness to create a big enough mess for him to step in, clean up, and claim the ultimate prize.",
+        "faradaysResponse": "Aggressive Escalation. Faraday knew he couldn't win a political battle against Whitley. His only move was to generate results so spectacular and profitable that the board would have to overlook his methods. This forced him to push his assets (Maine, then David) to their absolute limits, using more unstable prototypes and taking on increasingly suicidal missions. He was trying to outrun the consequences.",
+        "nextObjective": "Operation: 'Kingmaker.' The Cyberskeleton gig was Faraday's endgame. His objective was not just to strike Arasaka, but to create a 'shock and awe' event that would be so undeniably successful it would force the Militech board to promote him over Whitley. He was betting everything on one final, desperate roll of the dice, using David Martinez as his chip."
+      }
     },
-
-    "advantages": {
-      "strengths": [
-        "Unprecedented access to Militech's experimental and military-grade technology.",
-        "Offers exceptionally high payouts for successful missions.",
-        "Ambitious, high-stakes gigs that could make a merc a legend.",
-        "Direct line to a major corporation's resources."
-      ],
-      "weaknesses": [
-        "Views mercenaries as completely disposable assets.",
-        "High probability of betrayal at the first sign of trouble.",
-        "Gigs are extremely dangerous and often pit crews against Arasaka's elite forces.",
-        "Lack of street-level common sense in his planning."
+    "legendaryArsenal": {
+      "rumor": "Faraday didn't just provide gear; he provided unstable, bleeding-edge prototypes directly from Militech's black labs. To be equipped by Faraday was to become a field test for weapons and chrome that could win a war or tear you apart from the inside. The price for this power was being the guinea pig.",
+      "weapons": [
+        {
+          "name": "The Haywire Cannon",
+          "description": "The prototype vehicle-mounted EMP cannon used in 'The Grand Prix Gambit.' It was a divisional-level weapon that Faraday 'lost' in the paperwork and diverted to Maine's crew. Its unstable power core was known to cause massive collateral damage, a feature Faraday saw as a bonus for creating media-worthy chaos."
+        },
+        {
+          "name": "The 'Berserker' Protocol",
+          "description": "A series of unregistered, combat-stimulant injectors and a Sandevistan accelerator designed to be paired. It pushed a user's chrome to its absolute redline, offering god-like speed and strength at the cost of massive neural strain and accelerated cyberpsychosis. Faraday gave this to Maine, viewing his eventual breakdown as 'valuable performance data.'"
+        }
       ]
     },
-
+    "eliteOperatives": {
+      "overview": "Faraday had no friends or partners, only a curated portfolio of 'assets.' These were the mercenary crews he identified as having the perfect blend of high ambition and low self-preservation. He invested in them, chromed them up, and burned them for fuel. To be chosen by Faraday was to be marked for a spectacular, but brief, career.",
+      "operatives": [
+        {
+          "alias": "'Maine' (The Prototype)",
+          "specialization": "Crew Leader, Heavy Assault",
+          "profile": "A powerful solo who led a legendary crew. Maine was Faraday's proof of concept—a merc ambitious enough to take on any risk for a taste of the major leagues. He was the perfect asset: effective, loyal (at first), and willing to chrome up past the point of no return.",
+          "relationship": "Faraday saw Maine as his prize bull, a tool to be honed and aimed. He fed Maine's ego and his hunger for chrome, creating a dependent relationship. For Maine, Faraday was the ticket to the top; he was tragically unaware he was just the first stage of the rocket.",
+          "roleInTheShadowWar": "Maine's success in the 'Grand Prix Gambit' and other early gigs is what put Faraday on the map and truly ignited the war with Whitley. His eventual death from cyberpsychosis provided Faraday with the 'data' he needed to justify the next, more extreme project: the Cyberskeleton."
+        },
+        {
+          "alias": "'David Martinez' (The Singularity)",
+          "specialization": "High-Tolerance Edgerunner, Sandevistan Ace",
+          "profile": "A kid from the gutter with an impossible tolerance for cyberware. Faraday saw David not as a person, but as the perfect vessel for his ultimate weapon, the Cyberskeleton. David's desperation to prove himself and his unique biology made him, in Faraday's eyes, the key to his final victory.",
+          "relationship": "Purely predatory. Faraday groomed David, manipulating his grief and his ambitions, promising him the world while seeing him as a disposable component. He was the scientist, and David was the experiment he was willing to push until it exploded.",
+          "roleInTheShadowWar": "David was the weapon Faraday intended to use to destroy Whitley's career. The 'Final Ascent' was meant to be his crowning achievement. Instead, David's uncontrollable rampage became the very disaster Whitley was waiting for, giving him the ammunition to have Faraday permanently 'downsized.'"
+        }
+      ]
+    },
+    "legendaryGigs": [
+      {
+        "gigTitle": "The Grand Prix Gambit",
+        "date": "Circa 2075",
+        "objective": "Steal the Zetatech 'Kestrel' combat hovercar prototype during its exhibition lap at the Night City Grand Prix to publicly humiliate Faraday's internal rival, Director Whitley.",
+        "client": "Militech R&D (Deniable Operations)",
+        "target": "Zetatech 'Kestrel' Prototype & Director Whitley's Career",
+        "outcome": "A spectacular success. He provided Maine's crew with a Basilisk armed with a prototype EMP cannon. The crew disabled the Kestrel mid-race, causing a televised bloodbath. Faraday didn't just deliver the Kestrel; he proved his high-risk methods were more effective. He got the promotion; Whitley got a formal reprimand and a burning hatred.",
+        "mercFeedback": "'Faraday gave us a fucking tank and told us to burn down the biggest party in the city. He made us feel like gods. Looking back, we were just the delivery system for his private corporate war.' - 'Maine' (Crew Leader)",
+        "reputationImpact": "This heist made Faraday a kingmaker for chrome-hungry crews and created his most dangerous enemy. It proved he could provide military-grade hardware for impossible jobs, but it also put him in the crosshairs of a powerful, patient rival within his own corporation."
+      }
+    ],
+    "mostFamousGig": {
+      "gigTitle": "The Final Ascent",
+      "date": "Late 2076",
+      "objective": "Use the Militech 'Cyberskeleton' prototype to crush Arasaka's elite guard. For Faraday, this was his final move to unseat his rival, Whitley, and claim a seat on the board.",
+      "client": "Militech (Self-Authorized Black Op)",
+      "target": "Arasaka Tower Security Forces & Faraday's Promotion",
+      "outcome": "Catastrophic Annihilation. David Martinez became a cyberpsycho, causing a PR disaster. Director Whitley presented the board with a dossier on Faraday's recklessness. In his final act, Faraday attempted to sell out David to Arasaka, but Militech, under Whitley's advisement, had already decided to 'retire the failed project.' They eliminated Faraday to erase their connection to the disaster he orchestrated.",
+      "mercFeedback": "'Log Analysis: Faraday's ambition created a singularity of failure from which no light escaped. He saw the Cyberskeleton as his crown and Martinez as the head that would wear it. When both shattered, his only remaining protocol was betrayal.' - Post-Incident Report",
+      "reputationImpact": "The spectacular, televised failure of the Cyberskeleton project was the final nail in Faraday's coffin. It gave his rival, Whitley, all the ammunition he needed to have Faraday erased from Militech's books permanently. The gig that was meant to make him a king instead made him a ghost."
+    },
+    "fixerRatings": {
+      "overallThreat": "9/10 (Extreme)",
+      "reliability": "2/10 - A ticking time bomb. Will honor a contract only as long as it benefits him. The moment it becomes a liability, he will personally sell you out.",
+      "payment": "9/10 - His one reliable trait. Backed by a Militech black budget, the payouts were legendary, the bait in his trap.",
+      "intelQuality": "7/10 - Provides impeccable corporate data (schematics, schedules) but is dangerously ignorant of street-level variables and the human element.",
+      "discretion": "4/10 - His operations are spectacles. He is a master at scrubbing his own name from the wreckage but leaves his crews standing in the spotlight.",
+      "resourcefulness": "10/10 - Unmatched. Could source military prototypes and black-ops cyberware that technically didn't exist yet.",
+      "mercSurvivability": "1/10 - A statistical black hole. Working for Faraday was a terminal diagnosis with a massive payout."
+    },
+    "advantages": {
+      "strengths": [
+        "Unprecedented access to Militech's bleeding-edge, experimental technology.",
+        "Offers life-altering payouts that can make a merc rich overnight.",
+        "Provides the opportunity to run legendary, high-stakes gigs.",
+        "Has the full, deniable backing of a major corporation's resources."
+      ],
+      "weaknesses": [
+        "Views mercenaries as ammunition to be fired at a target.",
+        "Betrayal is not a risk; it is a certainty if the mission fails.",
+        "Gigs are suicidal, often pitting crews against elite Arasaka forces with no real exit strategy.",
+        "His ambition makes him reckless, and he will sacrifice anyone for his own advancement."
+      ]
+    },
     "recentGigDetails": [
       {
-        "gigTitle": "Project Cyberskeleton",
-        "date": "Late 2076",
-        "objective": "Field-test and secure the Militech 'Cyberskeleton' prototype by eliminating Arasaka forces during a high-profile corporate confrontation.",
-        "client": "Militech Upper Management",
-        "target": "Arasaka Tower Security Forces",
-        "outcome": "Catastrophic Failure. The operative, David Martinez, successfully utilized the Cyberskeleton but suffered a full-blown cyberpsychotic breakdown. The resulting rampage through City Center triggered a maximum-level MAX-TAC response. Faraday attempted to flee but was ultimately eliminated by Militech's own internal affairs agents for his failure to control the asset.",
-        "mercFeedback": "'Log Analysis: Faraday pushed the operative past all known human limits for a piece of hardware. When the asset went rogue, Faraday's only protocol was self-preservation. A complete operational and ethical failure.' - Post-Incident Report",
-        "payout": "€$ 0 (Operator and Fixer Eliminated)"
-      },
-      {
-        "gigTitle": "The Tanaka Extraction",
+        "gigTitle": "The Tanaka Leverage",
         "date": "Mid-2076",
-        "objective": "Intercept an Arasaka limo and forcibly extract navigational data from corporate executive Kenichi Tanaka.",
+        "objective": "Intercept Arasaka exec Kenichi Tanaka and retrieve data Faraday knew his rival, Whitley, desperately needed.",
         "client": "Militech Counter-Intelligence",
-        "target": "Kenichi Tanaka's Data",
-        "outcome": "Partially Successful with Severe Complications. The crew successfully stopped the limo, but the operation devolved into a chaotic firefight, resulting in Tanaka's death. The data was retrieved, but the unsanctioned killing of a high-level Arasaka exec put immense heat on the crew and made them a priority target for corporate retaliation.",
-        "mercFeedback": "'The job went sideways fast. It was supposed to be a snatch and grab, but it turned into a murder. Faraday didn't care how it got done, only that he got his data. That's when the real trouble started.' - Crew Survivor Testimony",
+        "target": "Kenichi Tanaka's Data & Director Whitley's Operations",
+        "outcome": "Tactical disaster. The crew got the data but killed Tanaka, creating an international incident and putting an Arasaka kill order on them. Faraday delivered the data to Whitley's department, effectively handing his rival a poisoned chalice: the intel he needed, but with a blood feud attached. This chaos was designed to make Whitley look incompetent.",
+        "mercFeedback": "'The job was supposed to be a simple snatch and grab. It turned into a murder and put us on Arasaka's most wanted list. We were a weapon, and he was pulling the trigger until it broke.' - Crew Survivor Testimony",
         "payout": "€$ 40,000"
       },
       {
-        "gigTitle": "The Kuznetsov Extraction",
+        "gigTitle": "The First Sin",
         "date": "Early 2076",
-        "objective": "Acquire sensitive information from a rival Arasaka netrunner, Maxim Kuznetsov, regarding Arasaka's deep-net security protocols.",
+        "objective": "Acquire the private encryption keys from an Arasaka netrunner, Maxim Kuznetsov, giving Militech a backdoor into Arasaka's R&D network.",
         "client": "Militech Cyber-Warfare Division",
-        "target": "Maxim Kuznetsov",
-        "outcome": "Successful. The crew, led by Maine, cornered the target and forcibly extracted the required data. The operation was clean by Faraday's standards, reinforcing his trust in the crew for more high-stakes operations.",
-        "mercFeedback": "'Standard corpo-on-corpo shit. Faraday pointed, we bit. The pay was good, so we didn't ask too many questions. Maybe we should have.' - Maine (Crew Leader)",
+        "target": "Maxim Kuznetsov's Encryption Keys",
+        "outcome": "A clean success. This was the gig that convinced Faraday that Maine's crew was the perfect tool: efficient, professional, and not yet aware of how disposable they were. This success made Faraday overconfident, setting the stage for the increasingly reckless operations that followed.",
+        "mercFeedback": "'Standard corpo-on-corpo shit. Faraday pointed, we bit. We thought we'd finally hit the major leagues. Turns out we were just the opening act for our own funeral.' - Maine (Crew Leader)",
         "payout": "€$ 35,000"
       }
     ]

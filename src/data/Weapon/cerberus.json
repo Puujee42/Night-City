@@ -3,13 +3,12 @@
     "title": "Cerberus",
     "image": "/cerberus.jpg",
     "id": "militech_cerberus",
-    "aliases": ["The Gatekeeper", "Triple Threat", "Hellhound"],
+    "aliases": ["The Gatekeeper", "Kane's Folly", "The Meat Grinder"],
     "type": "Power Assault Rifle",
-    "manufacturer": "Militech",
-    "status": "Active; Special Forces Issue",
+    "manufacturer": "Militech (Skunkworks Division)",
+    "status": "Decommissioned; Officially Scrubbed from Records",
     "cost": "€$130,000 (Black Market Estimate)",
-    "specialAbility": "Fires a three-round burst in a horizontal spread. The last round in the burst has a high chance to knock down enemies.",
-
+    "specialAbility": "Fires a three-round burst in a horizontal spread. The last round in the burst is a micro-grenade with a high chance to knock down and cripple the limbs of enemies.",
     "baseStats": {
       "attackSpeed": 6.5,
       "damage": "210",
@@ -17,55 +16,65 @@
       "range": 70,
       "mods": 4
     },
-
-    "manufacturingIntel": {
-      "creator": "Militech Skunkworks (Weapons Division)",
-      "creatorReputation": "The Cerberus was designed by a team led by Dr. Aris Kane, a notorious weapons engineer known for his 'overwhelming force' doctrine. Kane believes that enemy morale is a resource to be depleted, and his designs prioritize psychological impact—loud, terrifying weapons that dominate the battlefield and sow chaos among enemy ranks.",
-      "developmentHistory": "Developed in the wake of the Fourth Corporate War, the Cerberus was conceived as the ultimate room-clearer for Militech's urban assault squads. Standard assault rifles were deemed insufficient for suppressing multiple, heavily augmented targets in tight corridors. The triple-barrel design was a radical solution, creating a 'wall of lead' that could pin down an entire squad at once. It proved exceptionally effective in clearing fortified gang hideouts and corporate bunkers, quickly becoming a favored tool of Militech's elite.",
-      "productionDate": "Circa 2074-2076"
+    "keyRelationships": {
+      "nemesis": "Major Isaac Graves (Militech Internal Affairs | Asset Reclamation). Graves was the sole survivor of the disastrous 'Operation Tartarus' where the Cerberus prototypes first failed. He sees the weapon not as a tool, but as a cursed object and a symbol of corporate hubris that cost him his entire squad. He now leads a deniable black-ops team tasked with 'reclaiming' all surviving Cerberus units and silencing anyone who possesses them, viewing each recovery as a personal act of vengeance."
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "Operation Tartarus",
+        "date": "11.04.2075",
+        "objective": "A Militech special forces squad, led by Major Isaac Graves, was tasked with the first field test of the Cerberus prototypes: a full-frontal assault on a heavily fortified Arasaka research outpost.",
+        "client": "Militech R&D (Dr. Aris Kane)",
+        "target": "Arasaka 'Project Ammit' Research Outpost",
+        "outcome": "A catastrophic failure that led to the weapon's decommissioning. The Cerberus rifles performed brutally well in the initial breach, but their radical design had a fatal flaw: under sustained fire, the triple-barrel assembly would overheat and suffer catastrophic, explosive malfunctions. Graves' entire squad was wiped out, either by Arasaka forces or by their own weapons detonating in their hands. Graves, horribly wounded by his own exploding rifle, was the only survivor. Dr. Kane used him as a scapegoat, blaming the failure on 'operator error.'",
+        "mercFate": "The entire Militech squad, except for Major Graves, was KIA. The incident was scrubbed from all official records, and the Cerberus project was officially terminated. The surviving, non-exploding prototypes were scheduled for destruction but were stolen from the transport by a Nomad crew hired by a then-unknown fixer: Muamar 'El Capitán' Reyes.",
+        "mercFeedback": "'The after-action report is a bloodbath. Audio logs are just screaming and the sound of metal tearing apart. Kane's design was a meat grinder, but it had no safety controls. He sent those men to their graves. The weapon wasn't just a failure; it was a betrayal.' - Leaked Internal Affairs memo.",
+        "payout": "The end of a project and the birth of a vendetta.",
+        "reputationImpact": "This operation turned a promising weapon into a corporate ghost. It created the legend of 'Kane's Folly' and set Major Graves on his obsessive crusade. The theft of the surviving prototypes by El Capitán is how the weapon first entered the black market, each one a piece of a dark, buried history that Militech—and Graves—desperately wants to erase."
+    },
+    "designAndMaterials": {
+        "materials": "The Cerberus is built around a heavy, reinforced titanium frame to handle the recoil of its three barrels. The outer casing is a heat-resistant ceramic composite, a failed attempt to mitigate the weapon's severe overheating issues. The stock contains a powerful gyroscopic stabilizer.",
+        "ammunitionType": "Chambered for Militech 6.5mm caseless rounds. The final round in each burst is a proprietary MKE (Micro Kinetic Explosive) shell that fragments on impact, creating a powerful concussive blast designed to shatter cyberlimbs and knock targets off their feet.",
+        "compatibleMods": [
+            { "slot": "Optics", "mod": "Militech 'Ares' Holo-Sight", "description": "A ruggedized holographic sight designed for close-quarters combat, providing a wide field of view and highlighting staggered targets." },
+            { "slot": "Muzzle", "mod": "Goliath Muzzle Brake", "description": "A heavy, vented brake that significantly tames the weapon's brutal recoil at the cost of even louder report and muzzle flash." },
+            { "slot": "Internal", "mod": "Experimental Heat Sink", "description": "An aftermarket modification that attempts to solve the weapon's original design flaw, reducing the chance of catastrophic malfunction under sustained fire." },
+            { "slot": "Magazine", "mod": "Extended Drum Magazine", "description": "A 90-round drum magazine to feed the weapon's insatiable appetite for ammunition." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Cerberus was designed under Dr. Aris Kane's 'overwhelming force' doctrine. Its purpose is not just to kill, but to dominate. The thunderous roar of the triple-barrel burst, the concussive blast of the final round, and the sight of a chromed-out enemy being thrown to the ground are all intended to shatter enemy morale. It is a weapon of psychological warfare, designed to make the enemy feel helpless and insignificant before a wave of pure, unstoppable force."
+    },
+    "manufacturingIntel": {
+      "creator": "Dr. Aris Kane",
+      "creatorReputation": "Kane is a notorious Militech engineer known for his 'overwhelming force' doctrine. He successfully blamed the Cerberus failure on 'operator error' and was promoted. He is now a high-level executive who wants all evidence of his flawed, original design buried forever, making him a silent partner in Major Graves's crusade.",
+      "developmentHistory": "The 'Cerberus' project was officially terminated after the 'Operation Tartarus' disaster. All schematics were classified, and the project was scrubbed from Militech's public history. The few units in circulation are all from the original, flawed batch stolen before their scheduled destruction.",
+      "productionDate": "Circa 2074-2075"
+    },
     "tacticalAssessment": {
       "strengths": [
         "Unmatched suppression and crowd control at short to medium range.",
         "High knockdown chance can incapacitate even heavily armored enemies.",
-        "Devastating stopping power makes it ideal for breaching and clearing operations.",
+        "Devastating stopping power makes it ideal for breaching operations.",
         "Psychological impact can cause less determined enemies to break cover or retreat."
       ],
       "weaknesses": [
-        "Extremely high ammo consumption.",
-        "Significant recoil and a wide spread make it highly ineffective at long range.",
+        "Extremely high ammo consumption and significant recoil.",
+        "Wide spread makes it highly ineffective at long range.",
         "The loud, distinctive firing sound instantly alerts all enemies in the area.",
-        "Heavy and cumbersome, reducing user mobility."
+        "Possession of this weapon will make you a primary target for Major Graves's Militech recovery squad."
       ],
       "recommendedRoles": "Pointman, Breacher, Juggernaut, Urban Assault Specialist.",
       "masteryArchetype": "A 'Juggernaut' build. An operative with a high Body attribute, recoil control perks, and cyberware that enhances armor and reload speed. The ideal user is a walking tank who kicks down the door, uses the Cerberus to flatten everything inside, and doesn't care who hears them coming."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Rare. As a special forces weapon, the Cerberus is not available on the open market. It is typically acquired from high-tier fixers with military contacts (like Muamar or Rogue), black market arms dealers in Watson, or by taking it from the cold, dead hands of a Militech Heavy Trooper.",
-      "rumoredLocation": "Street chatter suggests a recent shipment of Cerberus rifles, bound for a Militech black site, was 'lost' during a Maelstrom ambush in the Northside Industrial District. Rumor has it the Maelstrom leader, 'Stitch,' now uses a heavily modified Cerberus as his personal weapon."
+      "marketAvailability": "Extremely Rare. Officially, this weapon does not exist. It can only be acquired from top-tier fixers with deep black market ties like Muamar Reyes, who orchestrated the original theft. It is highly sought after by collectors and certain Maelstrom factions for its sheer brutality.",
+      "rumoredLocation": "El Capitán is known to keep the best of the stolen batch for his most trusted operatives. Another is rumored to be the signature weapon of the Maelstrom boss, 'Stitch,' a gift he received for a particularly bloody favor. Major Graves is said to use a heavily reinforced and customized version himself, a constant reminder of the failure he is sworn to erase."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Rhino' (Enforcer)",
-        "context": "Clearing a Scavenger den in a megabuilding.",
-        "feedback": "'This thing doesn't just drop gonks, it pushes them back. Cleared a whole hallway of scavs in two bursts. The last guy flew back ten feet. It's not subtle, but when did subtlety ever win a real firefight? This is my new door-knocker.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Whisper' (Infiltrator)",
-        "context": "Corporate data heist, stealth required.",
-        "feedback": "'Tried using it for a quiet gig. Big mistake. The first burst blew my cover, shredded three terminals, and brought the whole damn building down on me. It's a sledgehammer, not a scalpel. It's loud, it's messy, and it's everything I'm not. Sold it the next day.'",
-        "rating": "1/5 (Not for stealth)"
-      },
-      {
-        "merc": "'Sparks' (Techie)",
-        "context": "Convoy ambush in Santo Domingo.",
-        "feedback": "'The engineering is brutal but effective. The staggered barrel alignment is a smart solution for suppression. But man, it chews through ammo like nothing else. I burned through 300 rounds in under a minute. You need deep pockets and a strong back to keep this beast fed.'",
-        "rating": "4/5 (High Upkeep)"
-      }
-    ]
+     
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Cerberus is the alpha weapon for any crew that favors a 'loud' approach. It is the perfect tool for a Pointman or Juggernaut whose job is to breach, suppress, and create an overwhelming opening for the rest of the crew. Its user is the eye of the storm. A successful crew will pair the Cerberus wielder with a marksman who can handle long-range threats and a netrunner who can disrupt enemy comms, as the weapon's deafening report will draw every enemy on the map to their position. Its role is to start the fight on your terms and end it before the enemy has a chance to react."
+    }
   }
 }

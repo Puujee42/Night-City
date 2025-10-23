@@ -1,71 +1,76 @@
 {
   "weaponProfile": {
-    "title": "Stinger",
+    "title": "Iris",
     "image": "/stinger.jpg",
-    "id": "kiroshi_stinger",
-    "aliases": ["The Optic Scrambler", "The Blinder", "Surgeon's Blade"],
+    "id": "kiroshi_stinger_prototype_01",
+    "aliases": ["The Optic Scrambler", "The Surgeon's Blade", "The Ghost's Kiss"],
     "type": "Power Knife",
-    "manufacturer": "Kiroshi Opticals",
-    "status": "Active; Corporate Security Issue",
-    "cost": "€$55,000",
-    "specialAbility": "Critical hits apply a unique 'Blind' effect, reducing enemy accuracy and movement speed.",
-
+    "manufacturer": "Kiroshi Opticals (Special Projects Division)",
+    "status": "Unique; Stolen Prototype",
+    "cost": "€$550,000 (Black Market Estimate)",
+    "specialAbility": "Critical hits apply a unique 'System Blind' effect, disabling enemy optics, scrambling their HUD, and reducing their accuracy and movement speed. Non-lethal takedowns on blinded enemies are faster and completely silent.",
     "baseStats": {
       "attackSpeed": 4,
-      "damage": 150,
+      "damage": "150",
       "reloadSpeed": 0,
       "range": 1.8,
       "mods": 1
     },
-
+    "keyRelationships": {
+      "nemesis": "Dr. Alistair Finch (Zetatech | Head of Ocular R&D). Finch is the genius engineer whose life's work—the 'Argus' predictive targeting system—was stolen in the heist where 'Iris' was first used. The blade was used on Finch himself, temporarily frying his priceless, custom-made optics and allowing the thief to escape. Professionally humiliated and personally violated, Finch is now obsessed with recovering the prototype, believing it holds the key to perfecting his own security systems and avenging his defeat."
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Blind Eye Heist",
+        "date": "10.21.2075",
+        "objective": "Infiltrate the Zetatech R&D Tower and steal the source code for their revolutionary 'Argus' predictive targeting system, a project that threatened to make Kiroshi optics obsolete. The data was stored on a single, isolated server in the lead developer's personal lab.",
+        "client": "Arthur 'The Architect' Cormac (on behalf of Kiroshi)",
+        "target": "The 'Argus' Project Source Code",
+        "outcome": "A legendary act of surgical infiltration. Cormac's chosen solo, a ghost known only as 'Spectre,' was given the sole 'Iris' prototype. 'Spectre' bypassed all conventional security, but was cornered in the lab by the project lead, Dr. Alistair Finch. Instead of engaging the alerted security, 'Spectre' used the Iris on Finch himself, blinding him and causing his own security systems to go haywire. In the chaos, 'Spectre' jacked into Finch's personal terminal, stole the data, and walked out the front door as security was trying to help their blinded boss.",
+        "mercFate": "The solo 'Spectre' was paid a fortune and vanished, their reputation as a top-tier infiltrator cemented. The 'Iris' prototype vanished with them, becoming a ghost story in the corporate espionage world.",
+        "mercFeedback": "'Cormac's plan was insane. He didn't give me a plan to beat the security system; he gave me a tool to beat the man who built it. I didn't fight a single guard. I just turned off the lights on the smartest man in the room. It wasn't a heist; it was a checkmate.' - Last known transmission from 'Spectre'.",
+        "payout": "A corporate empire's future.",
+        "reputationImpact": "This event turned 'Iris' into a legend, the weapon that outsmarted a genius. It proved that the most sophisticated security system in the world is worthless if you can disable the person who holds the keys. It also created a powerful, bitter enemy in Dr. Finch, a man who now hunts the blade that represents his greatest humiliation."
+    },
+    "designAndMaterials": {
+        "materials": "The 'Iris' blade is crafted from a non-conductive, ceramic-composite alloy, making it invisible to most scanners. The hilt contains a high-pressure, cryogenic injector system. The tip of the blade features a microscopic, diamond-hard needle that delivers the payload.",
+        "ammunitionType": "Uses a proprietary, fast-acting neurotoxin known as 'Stinger-7'. This prototype version is far more potent than the commercial variant, designed to not only attack the optic nerve but also to send a feedback surge that temporarily scrambles the target's entire personal area network, disabling their HUD and any linked cyberware.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "Spectre's Kiss", "description": "This unique, non-replicable modification is the heart of the weapon. It contains a refined version of the neurotoxin that increases the duration of the 'System Blind' effect and makes non-lethal takedowns on affected targets almost instantaneous." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Stinger was designed not to end a life, but to end a conflict. Its philosophy is rooted in the Kiroshi principle of 'control over chaos.' A lethal weapon creates a bloody mess; the Stinger creates an opportunity. By temporarily removing an opponent's primary sense—their sight—it grants the user absolute control over the engagement. They can choose to escape, to subdue, or to bypass the threat entirely. It is a tool for those who see violence not as the answer, but as a clumsy, inefficient question."
+    },
     "manufacturingIntel": {
-      "creator": "Kiroshi Opticals (Special Projects Division)",
-      "creatorReputation": "Kiroshi is the undisputed leader in ocular cyberware. The Stinger was a skunkworks project developed by their internal security division. The team's lead, a former Arasaka agent, believed that the most effective way to neutralize a modern opponent was to attack their primary interface with the world: their optics.",
-      "developmentHistory": "The Stinger was designed as a defensive tool for Kiroshi's corporate agents and researchers. It's not meant to win a duel, but to end a confrontation before it begins. The 'sting' is delivered by a microscopic, auto-injecting needle in the blade's tip, which deploys a fast-acting neurotoxin that specifically targets the optic nerve and any connected cyberware. The resulting sensory overload causes temporary blindness and disorientation, allowing the user to escape or perform a non-lethal takedown. It is standard issue for high-level Kiroshi personnel traveling in unsecured zones.",
+      "creatorReputation": "Kiroshi is the undisputed leader in ocular cyberware. 'Iris' was a one-of-a-kind prototype built by their most elite security R&D team. After its legendary theft and the subsequent corporate fallout, Kiroshi developed the less-potent, commercial 'Stinger' for their corporate clients, a pale imitation of the original.",
+      "developmentHistory": "'Iris' is a unique artifact. The commercial 'Stinger' knives lack the refined neurotoxin and the powerful HUD-scrambling effect of the prototype. The schematics for 'Iris' were classified and archived after the theft, making it a one-of-a-kind weapon, a ghost in Kiroshi's own machine.",
       "productionDate": "Circa 2074"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Excellent for creating tactical openings and disabling dangerous enemies without killing them.",
-        "The Blind effect is devastating against snipers, netrunners, and other ranged threats.",
+        "The 'System Blind' effect is devastating against snipers, netrunners, and other high-tech threats.",
         "Extremely fast attack speed allows for multiple chances to land a critical hit.",
         "Completely silent, making it an ideal tool for stealth and infiltration."
       ],
       "weaknesses": [
         "Very low base damage; not an effective primary weapon for lethal combat.",
         "The neurotoxin is less effective against enemies with basic or no optical cyberware.",
-        "Short range requires the user to be at point-blank distance to be effective.",
-        "The toxin reservoir has a limited number of charges and must be refilled."
+        "The toxin reservoir has a limited number of charges and must be refilled.",
+        "Possession of this weapon makes you a priority target for Zetatech's corporate recovery division, personally overseen by Dr. Finch."
       ],
       "recommendedRoles": "Infiltrator, Spy, Non-lethal Operative, Netrunner (Self-Defense).",
-      "masteryArchetype": "A 'Surgeon' build. An operative with a high Cool and Reflexes attribute who specializes in surgical strikes. The ideal user combines the Stinger with a high critical chance build and a Kerenzikov. They dodge an enemy's attack, trigger time dilation, and land a precise, critical strike to the target's head, blinding them. This creates the perfect opportunity to perform a non-lethal takedown or simply walk away."
+      "masteryArchetype": "A 'Surgeon' build. An operative with a high Cool and Reflexes attribute who specializes in surgical strikes. The ideal user combines 'Iris' with a high critical chance build and a Kerenzikov. They dodge an enemy's attack, trigger time dilation, and land a precise, critical strike to the target's head, blinding them. This creates the perfect opportunity to perform a non-lethal takedown or simply walk away."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Uncommon. The Stinger is not sold on the open market but can be acquired from ripperdocs with Kiroshi corporate contacts. It is also occasionally found on the black market after being 'lost' by a corporate agent. Some high-end weapon vendors in Japantown may carry it for a premium.",
-      "rumoredLocation": "A recent deal between Kiroshi and the Tyger Claws for 'security consulting' has resulted in a number of Stingers making their way into the hands of the gang's elite assassins. The Tyger Claw boss at the Cherry Blossom Market is rumored to carry a gold-plated Stinger as a sign of his new corporate partnership."
+      "marketAvailability": "Unique. This weapon is a corporate ghost and cannot be bought on any market.",
+      "rumoredLocation": "After the legendary infiltrator 'Spectre' vanished, the fate of 'Iris' became a top-tier secret in the corporate espionage world. Some say it was returned to its true owner, Arthur Cormac, and now sits in his private collection. Others claim 'Spectre' traded it to Mr. Hands for a clean slate and a new life in Dogtown. The only certainty is that Dr. Finch has a standing, seven-figure bounty on the black market for any information leading to its recovery."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Ghost' (Infiltrator)",
-        "context": "Bypassing a heavily augmented Arasaka guard.",
-        "feedback": "'The guard was a chrome monster, would have been a hell of a fight. Instead, I slipped past his patrol, got behind him, and put the Stinger in his neck. His optics went haywire, he started firing blind. I just walked past him while he was shooting at ghosts. A beautiful tool for a quiet professional.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Animal' (Brawler)",
-        "context": "Pit fight against a rival.",
-        "feedback": "'This little toothpick is a joke. I stabbed the guy and he just got madder. No power, no impact. It's a glorified needle. My fists are more effective. This is for spies and cowards, not for a real fight.'",
-        "rating": "1/5"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Dealing with a cyberpsycho sniper.",
-        "feedback": "'The psycho was perched on a rooftop, taking out NCPD one by one. I couldn't get a clean shot. So I snuck up, hit him with the Stinger, and his rifle went silent. Found him stumbling around, completely blind. Made the non-lethal takedown a breeze. Regina would love this thing.'",
-        "rating": "4/5 (Extremely effective in its niche)"
-      }
-    ]
+     
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "Iris is the ultimate enabler for a stealth-oriented crew. Its user is the ghost who creates openings where none exist. Their role is to silently neutralize key threats—watchful snipers, alert netrunners, or heavily armored guards blocking a path—allowing the rest of the crew to proceed undetected. It pairs perfectly with a netrunner who can use remote camera control to guide the Iris wielder to their target, and a solo who can provide a 'loud' exit strategy if the silent approach fails. Its purpose is not to win fights, but to ensure they never have to happen."
+    }
   }
 }

@@ -1,71 +1,77 @@
 {
   "weaponProfile": {
-    "title": "Jawbreaker",
+    "title": "Big Henry",
     "image": "/breaker.jpg",
-    "id": "animals_jawbreaker",
-    "aliases": ["The Tenderizer", "Big Henry", "The Attitude Adjuster"],
+    "id": "animals_jawbreaker_legendary",
+    "aliases": ["The Tenderizer", "The Alpha's Scepter", "The Attitude Adjuster"],
     "type": "Melee (Hammer)",
-    "manufacturer": "Animals (Custom)",
-    "status": "Custom; Faction Signature Weapon",
-    "cost": "€$60,000 (Black Market Estimate)",
-    "specialAbility": "Heavy attacks cannot be blocked and have a 100% chance to stagger enemies, including mini-bosses. A fully charged heavy attack creates a ground-shaking shockwave.",
-
+    "manufacturer": "Animals (Unique Masterwork)",
+    "status": "Unique; Symbol of Leadership",
+    "cost": "Priceless (Can only be won in combat)",
+    "specialAbility": "Heavy attacks cannot be blocked and have a 100% chance to stagger enemies, including mini-bosses. A fully charged heavy attack creates a ground-shaking shockwave that can knock down nearby enemies. Defeating an enemy with a heavy attack grants a temporary, massive boost to armor and damage resistance.",
     "baseStats": {
       "attackSpeed": 1.1,
-      "damage": 800,
+      "damage": "800",
       "reloadSpeed": 0,
       "range": 3,
       "mods": 0
     },
-
-    "manufacturingIntel": {
-      "creator": "The Forgemasters of the Animals",
-      "creatorReputation": "The Animals don't have 'gunsmiths'; they have 'forgemasters.' These are the strongest members of the pack, who create weapons in grueling sessions of metalwork and rage. The Jawbreaker is their signature creation, a test of strength to both build and wield. Each one is forged in the fires of a stolen foundry and 'christened' in a sparring match.",
-      "developmentHistory": "The Jawbreaker was designed for a simple purpose: to break things. Specifically, to break through the reinforced riot shields of NCPD MAX-TAC units and the armor of rival gang heavies. The design incorporates a repurposed industrial hydraulic piston as the core, giving it an immense, unbalanced weight. The result is a weapon that is slow and clumsy, but lands with the force of a car crash, capable of shattering chrome and bone with a single, devastating impact.",
-      "productionDate": "Ongoing, forged as needed"
+    "keyRelationships": {
+      "nemesis": "Gunnar 'The Razor' Hansen (Wraiths | Pit Champion). Gunnar is a Badlands pit-fighting legend and one of the few brawlers to have ever fought Sasquatch to a standstill in his prime. He was the original owner of the industrial hammer's core component before she defeated him and claimed it. He sees 'Big Henry' not just as a weapon, but as a stolen part of his own legend and a symbol of his only defeat. He is obsessed with a rematch and reclaiming the hammer to prove he is the true alpha.",
+      "creator": "Sasquatch (Leader of the Animals)"
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Forging of the Alpha",
+        "date": "Circa 2070",
+        "objective": "A young, ambitious Animal champion known as Sasquatch challenged the then-reigning Badlands pit-fighter, Gunnar 'The Razor' Hansen, for his title and his prized weapon—a massive, industrial hydraulic hammer.",
+        "client": "The Animal Gang (A bid for dominance)",
+        "target": "The title of 'Apex Predator'",
+        "outcome": "A legendary, bare-knuckle brawl that became the founding myth of the modern Animals. After a brutal, hour-long fight that shattered bones and broke chrome, Sasquatch emerged victorious. She didn't just take Gunnar's title; she claimed his hammer as a trophy. She then reforged it, adding the serrated plating and the internal piston, transforming it from a simple tool into 'Big Henry'—the signature weapon that would become her scepter.",
+        "mercFate": "N/A. This was a defining event in the history of the Animals, not a mercenary gig. Gunnar Hansen was disgraced but survived, his rage and desire for a rematch festering for years.",
+        "mercFeedback": "'They say you could hear the impacts from a mile away. Not a fight between two people, but two forces of nature. When Sasquatch lifted that hammer, she wasn't just a champion anymore; she was a queen. She didn't just win a fight; she forged a crown.' - An old Animals legend.",
+        "payout": "The leadership of the Animals and the creation of a legend.",
+        "reputationImpact": "This event established Sasquatch as the undisputed alpha of the Animals and turned 'Big Henry' into a symbol of her power. It is more than a weapon; it is her crown, a constant reminder to all that her rule was earned through blood, sweat, and sheer, unadulterated strength. It also created a bitter and powerful rival in Gunnar, who waits for the day he can claim it back."
+    },
+    "designAndMaterials": {
+        "materials": "The core of 'Big Henry' is a repurposed hydraulic press piston from a scrapped Militech 'Behemoth' combat mech, giving it its immense weight and devastating impact force. The head is encased in serrated, scavenged armor plating. The haft is a reinforced steel girder, wrapped in synth-leather for grip.",
+        "ammunitionType": "N/A. The weapon's only fuel is the raw, untamed strength of its wielder.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "Sasquatch's Pride", "description": "This unique, non-replicable modification is the source of the weapon's legendary status. The perfectly balanced, master-forged construction allows for a more powerful shockwave and a longer-lasting armor bonus on kill." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Jawbreaker is the physical embodiment of the Animals' philosophy: might makes right. It is a weapon that rejects subtlety, speed, and technology in favor of pure, unadulterated kinetic force. Its purpose is not to wound, but to shatter. It solves every problem—armor, shields, cover, cyberware—with the same brutal, simple answer. It is a statement that in a world of complex chrome and digital ghosts, nothing is more absolute than a ton of angry steel crashing down on your enemy."
+    },
+    "manufacturingIntel": {
+      "creatorReputation": "The Forgemasters of the Animals are the strongest members of the pack. Sasquatch, as the Alpha, is the ultimate Forgemaster. 'Big Henry' is her personal creation, a unique masterwork that she forged herself from the spoils of her greatest victory.",
+      "developmentHistory": "'Big Henry' is a one-of-a-kind legendary weapon. The other 'Jawbreakers' used by Animal heavies are crude imitations, powerful but lacking the perfect balance, raw power, and historical significance of the original. Sasquatch's hammer is not just the best; it's the first.",
+      "productionDate": "Circa 2070"
+    },
     "tacticalAssessment": {
       "strengths": [
         "Incredible single-hit damage, capable of neutralizing most enemies in one blow.",
-        "Guaranteed stagger effect on heavy attacks makes it excellent for breaking through an enemy's guard.",
-        "The area-of-effect shockwave can create space and disrupt entire groups of enemies.",
+        "Guaranteed stagger effect on heavy attacks makes it excellent for breaking an enemy's guard.",
+        "The area-of-effect shockwave and armor bonus on kill make it ideal for solo crowd control.",
         "Extremely durable and requires almost no maintenance."
       ],
       "weaknesses": [
         "Painfully slow attack speed leaves the user wide open for long periods.",
         "Extremely heavy, significantly reducing movement speed and stamina regeneration.",
         "Has zero utility for stealth or any situation that doesn't involve direct, brutal confrontation.",
-        "Its sheer size can make it difficult to use in tight corridors."
+        "Possession of this weapon will make you the sworn enemy of Gunnar Hansen and his Wraith pit-fighters."
       ],
       "recommendedRoles": "Juggernaut, Brawler, Tank, Crowd Control Specialist.",
-      "masteryArchetype": "An 'Alpha Predator' build. A user who has completely forgone speed and subtlety for pure, unadulterated strength and resilience. Paired with a Berserk OS, Gorilla Arms (for the Body bonus), and cyberware that enhances health and armor, the ideal user doesn't block or dodge. They wade into the thick of a fight, soak up damage, and answer every problem with a single, earth-shattering swing."
+      "masteryArchetype": "An 'Alpha Predator' build. A user who has completely forgone speed for pure strength and resilience. Paired with a Berserk OS, Gorilla Arms, and cyberware that enhances health and armor, the ideal user doesn't block or dodge. They wade into the thick of a fight, soak up damage, and answer every problem with a single, earth-shattering swing."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Rare. A true Jawbreaker is a badge of honor and is never sold. It is typically awarded to the champion of the Animals' fighting pits. A merc would have to either challenge and defeat an Animal champion in single combat or 'liberate' it from a high-ranking Animal leader.",
-      "rumoredLocation": "Sasquatch, the leader of the Animals' pack at the Grand Imperial Mall, is said to wield the original Jawbreaker. It is rumored to be forged from the hydraulic leg of a Militech combat mech she personally tore apart. She uses it both as a weapon and a symbol of her authority."
+      "marketAvailability": "Unique. 'Big Henry' is a crown, not a commodity. It cannot be sold.",
+      "rumoredLocation": "It is the signature weapon and symbol of office for Sasquatch, the leader of the Animals. It never leaves her side. The only way to acquire this weapon is to challenge her for the leadership of the Animals in a one-on-one fight to the death and win. To hold 'Big Henry' is to be the Alpha."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Rhino' (Brawler)",
-        "context": "Pit fight against a chromed-out Maelstrom ganger.",
-        "feedback": "'He had a shield, thought he was tough. One swing from the Jawbreaker turned his shield into confetti and his chrome arm into scrap metal. This hammer doesn't negotiate. It just... ends the conversation. Permanently.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Blur' (Speed Solo)",
-        "context": "Attempting to use it during a high-speed firefight.",
-        "feedback": "'Tried to swing this thing and almost threw my back out. By the time I'd lifted it for a second swing, I'd already taken a dozen bullets. It's like trying to fight with a damn anchor. It's slow, it's clumsy, and it gets you killed if you're not built like a brick wall.'",
-        "rating": "1/5 (If you value speed)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Assaulting the Grand Imperial Mall.",
-        "feedback": "'The moment you pick this thing up, you feel it. It's not just heavy; it's angry. Every swing is a commitment. You hit the ground and everyone stumbles. You hit a person and they just... pop. It's the most unsubtle and satisfying weapon I've ever used.'",
-        "rating": "4/5 (Brutally effective)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "Big Henry is not a team weapon; it is the team's anchor. Its wielder is the unkillable center of the firefight, drawing all enemy aggression. Their role is to be the ultimate 'tank,' soaking up damage and creating chaos with the shockwave and stagger effects. A successful crew will support this living bastion. A netrunner can use quickhacks like Cyberware Malfunction and Cripple Movement to make enemies easier targets for the hammer, while a sniper or gunslinger can pick off the enemies that are scattered by the shockwave. Its role is to be the immovable wall against which the enemy breaks."
+    }
   }
 }

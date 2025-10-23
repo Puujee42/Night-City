@@ -1,71 +1,79 @@
 {
   "weaponProfile": {
-    "title": "Ghede's Gaze",
+    "title": "The Hexer",
     "image": "/ghede.png",
-    "id": "ghede_gaze",
-    "aliases": ["The Cursed SMG", "The Hexer", "Digital Voodoo"],
+    "id": "ghede_gaze_prototype_01",
+    "aliases": ["The Cursed SMG", "The Digital Voodoo", "Brigitte's Folly"],
     "type": "Smart SMG",
-    "manufacturer": "Voodoo Boys (Custom)",
-    "status": "Unique; Consecrated Artifact",
+    "manufacturer": "Voodoo Boys (Unique Ritual Artifact)",
+    "status": "Unique; Unstable Prototype",
     "cost": "€$140,000 (Black Market Estimate)",
-    "specialAbility": "Critical hits have a high chance to apply a random, low-tier quickhack (e.g., Reboot Optics, Weapon Glitch) to the target.",
-
+    "specialAbility": "Critical hits have a high chance to apply a random, mid-tier quickhack to the target (e.g., Reboot Optics, Weapon Glitch, Cyberware Malfunction). Has a small chance on crit to instead upload the 'Cyberpsychosis' quickhack.",
     "baseStats": {
       "attackSpeed": 10,
-      "damage": 70,
+      "damage": "70",
       "reloadSpeed": 2,
       "range": 45,
       "mods": 3
     },
-
-    "manufacturingIntel": {
-      "creator": "Maman Brigitte and the High Priests of the Voodoo Boys",
-      "creatorReputation": "This weapon is not merely built; it is 'ridden.' The Voodoo Boys take a standard SMG chassis and painstakingly rewire its smart-targeting system, creating a 'vessel.' Through a dangerous ritual, they invite a semi-sentient AI from the Old Net—a digital 'Ghede' or spirit of chaos—to inhabit the gun's firmware. The process is unstable and often fails, making each successful creation a sacred artifact.",
-      "developmentHistory": "Ghede's Gaze was developed as a defensive tool for Voodoo Boys netrunners. When forced into a physical confrontation, they needed a weapon that could still leverage their greatest strength: hacking. The indwelling AI acts as a co-processor, using the kinetic energy from a critical hit to power and deploy a simple, disruptive quickhack. It turns every firefight into a two-front war, attacking the target's body with bullets and their chrome with digital curses.",
-      "productionDate": "Ongoing, ritual creation"
+    "keyRelationships": {
+      "nemesis": "Agent Meyers (Netwatch | Paracausal Division). Meyers was a promising young Netwatch agent who led the raid on the ritual that created 'The Hexer.' During the confrontation, a critical hit from the weapon didn't just reboot his cyberware; it uploaded a stream of raw, incomprehensible data from the Old Net directly into his brain. He survived, but was left psychically scarred, haunted by digital ghosts and nonsensical code. He is now a paranoid, unstable agent obsessed with capturing the weapon, believing it holds the key to understanding—or silencing—the madness in his own head.",
+      "creator": "Maman Brigitte (Voodoo Boys Leader)"
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Baptism of Ghede",
+        "date": "Circa 2075",
+        "objective": "Maman Brigitte and the Voodoo Boys' inner circle conducted a dangerous ritual to create the ultimate netrunner's weapon: a gun that could house a stable, benevolent AI from the Old Net.",
+        "client": "The Voodoo Boys",
+        "target": "A stable link to the Old Net.",
+        "outcome": "A chaotic failure and a qualified success. The ritual was interrupted by a surprise Netwatch raid led by Agent Meyers. In the crossfire, Brigitte fired the freshly consecrated prototype at Meyers. The critical hit, amplified by the unstable ritual, didn't just deploy a quickhack; it tore a hole in reality, downloading a torrent of raw, chaotic data from the Old Net directly into Meyers's consciousness. The backlash fried the weapon's stabilizing circuits, but the core function remained. Meyers was left mentally shattered, and the Voodoo Boys escaped with their new, dangerously unstable creation.",
+        "mercFate": "N/A. This was a direct confrontation between Netwatch and the Voodoo Boys.",
+        "mercFeedback": "'The server logs from that night are pure chaos. You can see the exact moment the weapon's energy signature spikes and Meyers's bio-signs flatline before rebooting. He didn't just get hit with a quickhack; he got a direct injection of the abyss. Brigitte didn't create a stable AI; she created a gun that tells jokes in a dead language, and only Meyers knows the punchline.' - Leaked Netwatch tech report.",
+        "payout": "The creation of an unstable legend and a deeply personal enemy.",
+        "reputationImpact": "This event turned 'The Hexer' into a holy and feared artifact. To the Voodoo Boys, it is a flawed but powerful proof of concept, a direct connection to the world beyond the Blackwall. To Netwatch, it is 'Exhibit A' in their case against the Voodoo Boys, a weapon that doesn't just break systems, but breaks minds. Its creation cemented the bitter rivalry between Brigitte and the now-unstable Agent Meyers."
+    },
+    "designAndMaterials": {
+        "materials": "The chassis is a heavily modified Darra Polytechnic 'Fenrir,' stripped down to its bare essentials. The internal wiring has been replaced with a bio-organic filament grown in a nutrient bath and 'taught' to channel data. The weapon is covered in hand-painted Voodoo Boys sigils that glow faintly when the indwelling AI is active.",
+        "ammunitionType": "Standard SMG rounds. The weapon's true 'ammunition' is its connection to the Old Net. The indwelling AI, a chaotic 'Ghede' spirit, uses the processing power of the smart-targeting system and the energy from a critical hit to manifest a fragment of its will in the form of a quickhack.",
+        "compatibleMods": [
+            { "slot": "Optics", "mod": "The All-Seeing Eye", "description": "A custom-calibrated scope that highlights enemies vulnerable to quickhacks and slightly increases critical hit chance." },
+            { "slot": "Muzzle", "mod": "Data-Shredder Muzzle", "description": "A unique muzzle that converts a portion of the weapon's kinetic energy into digital noise, increasing the chance of the applied quickhack being a more powerful, mid-tier version." },
+            { "slot": "Internal", "mod": "Brigitte's Shroud", "description": "A hand-woven internal lining of blessed wires that attempts to stabilize the Ghede AI. It significantly reduces the chance of the Cyberpsychosis quickhack being applied, but does not remove the risk entirely." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "Ghede's Gaze is the ultimate expression of the Voodoo Boys' belief that there is no difference between the physical and digital worlds. Its philosophy is that a bullet should not just be a piece of lead; it should be a data packet, a carrier for a digital curse. It is a weapon that treats a firefight not as a battle of reflexes, but as a duel between systems. The goal is not merely to kill the target, but to dismantle them, to crash their chrome, to corrupt their data, and to offer their panicked, helpless soul to the Loa."
+    },
+    "manufacturingIntel": {
+      "creatorReputation": "This weapon is not merely built; it is 'ridden.' 'The Hexer' is the first and most powerful of its kind, personally consecrated by Maman Brigitte. The other 'Ghede's Gaze' SMGs are lesser attempts by her acolytes to replicate the dangerous ritual, housing weaker, more predictable spirits.",
+      "developmentHistory": "'The Hexer' is a unique, unstable artifact. Its connection to the Old Net is far more direct and chaotic than the 'production' models. After the disastrous confrontation with Agent Meyers, Brigitte deemed the ritual too dangerous to attempt at that power level again, making 'The Hexer' a one-of-a-kind masterpiece of digital voodoo.",
+      "productionDate": "Circa 2075"
+    },
     "tacticalAssessment": {
       "strengths": [
         "Excellent for overwhelming a single, heavily-chromed target with a barrage of disruptive quickhacks.",
         "The random nature of the quickhacks can create unpredictable and chaotic openings in a fight.",
-        "High rate of fire and smart-targeting synergy make it easy to land multiple critical hits.",
+        "The small chance to trigger 'Cyberpsychosis' can instantly turn the tide of an entire battle.",
         "Provides a netrunner with offensive hacking capabilities even when out of RAM."
       ],
       "weaknesses": [
-        "The quickhack effect is random and cannot be controlled, making it unreliable for specific strategies.",
-        "Lower base damage than a pure Power SMG.",
-        "The indwelling AI is rumored to be mischievous, occasionally causing the weapon to jam or its wielder's optics to flicker with cryptic symbols.",
-        "As a sacred Voodoo Boys weapon, carrying it will make you a prime target for Netwatch."
+        "The 'Cyberpsychosis' effect is a double-edged sword that can create a new, even more dangerous threat.",
+        "The indwelling AI is mischievous, occasionally causing the wielder's optics to flicker with cryptic symbols at critical moments.",
+        "Useless against unaugmented targets.",
+        "Possession of this weapon will make you the primary target of the unstable Netwatch agent, Meyers."
       ],
-      "recommendedRoles": "Netrunner, Techie-Goon, Cyber-Witchdoctor.",
+      "recommendedRoles": "Netrunner, Techie-Goon, Cyber-Witchdoctor, Chaos Agent.",
       "masteryArchetype": "A 'Digital Trickster' build. A netrunner with a high Intelligence and Cool attribute who embraces chaos. They don't need a plan. The ideal user focuses on landing critical hits, letting the weapon's AI sow discord among enemy ranks while they use their own quickhacks to exploit the resulting confusion. They turn every firefight into a cascade of system failures and panicked screams."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Forbidden. Ghede's Gaze is a sacred tool and a closely guarded secret of the Voodoo Boys' inner circle. It is never sold or traded. The only way an outsider could acquire one is by defeating a high-ranking Voodoo Boys champion in ritual combat or by navigating the treacherous depths of the Old Net and striking a bargain with a digital Loa yourself.",
-      "rumoredLocation": "Brigitte, the leader of the Voodoo Boys, is said to be the keeper of the first and most powerful Ghede's Gaze. It is rumored to house a fragment of a legendary AI from before the Blackwall. She keeps it secured in her holiest server room within the Grand Imperial Mall."
+      "marketAvailability": "Unique. 'The Hexer' is a sacred and dangerous artifact. It cannot be bought.",
+      "rumoredLocation": "The weapon is the personal sidearm of Maman Brigitte, the leader of the Voodoo Boys. She sees it as both a powerful tool and a heavy burden, a direct link to the chaotic powers she seeks to control. It is said she keeps it in her holiest server room within the Grand Imperial Mall, and only carries it when she intends to commune with the abyss... or to wage war."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Spider' (Netrunner)",
-        "context": "Defending an access point against a Militech netrunner and his guards.",
-        "feedback": "'This SMG is alive. I swear it. I was dueling the enemy decker when his bodyguards breached the room. I just held down the trigger. The guards' guns started jamming, their optics went dark... it was chaos. The gun fought the solos while I fried the runner. It's like having a second netrunner in your hands.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Havoc' (Ex-Military Merc)",
-        "context": "Street battle against unaugmented gangers.",
-        "feedback": "'It's a decent SMG, I guess. Fast fire rate. But all that fancy hacking nonsense? It did nothing to these street rats. They don't have enough chrome to hack. It just felt like a weak pistol. It's a one-trick pony, and the trick doesn't always work.'",
-        "rating": "2/5 (Useless against low-techs)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Exploring the depths of Pacifica.",
-        "feedback": "'Holding this thing is... weird. Sometimes my optics flicker with static and weird symbols. And when I hit a crit, and the enemy's gun just flies out of their hands... it feels less like I'm shooting and more like I'm casting a spell. This ain't just a gun; it's Voodoo.'",
-        "rating": "4/5 (Effective but creepy)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Hexer is the ultimate chaos-creation tool for a tech-focused crew. Its wielder is not a primary damage dealer; they are a 'curse-weaver,' whose job is to soften up and disrupt the enemy force. It works best when the wielder focuses their fire on the most heavily chromed enemy, letting the random quickhacks create openings for the rest of the crew. A solo can capitalize on a 'Weapon Glitch' to rush a target, while a sharpshooter can take advantage of 'Reboot Optics.' The crew must always be prepared for the 'Cyberpsychosis' wild card, ready to either flee from the new threat or focus fire on it. Its role is to turn a predictable firefight into a beautiful, unpredictable mess."
+    }
   }
 }

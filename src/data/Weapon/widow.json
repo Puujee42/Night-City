@@ -1,15 +1,14 @@
 {
   "weaponProfile": {
-    "title": "Widowmaker",
+    "title": "The Vindicator",
     "image": "/widowmaker.jpg",
-    "id": "darra_polytechnic_widowmaker",
-    "aliases": ["The Wall-Breaker", "Boomer's Friend", "Double Trouble"],
+    "id": "darra_polytechnic_widowmaker_legendary",
+    "aliases": ["Nash's Vindicator", "The Wall-Breaker", "The Ghost of '76"],
     "type": "Tech Double-Barrel Shotgun",
-    "manufacturer": "Darra Polytechnic",
-    "status": "Active; Specialist Market",
-    "cost": "€$105,000",
-    "specialAbility": "A charged shot fires both barrels at once with massive armor penetration and a wider spread.",
-
+    "manufacturer": "Darra Polytechnic (Custom Masterwork)",
+    "status": "Unique; Legendary Nomad Relic",
+    "cost": "Priceless (Symbol of a Fallen Hero)",
+    "specialAbility": "A charged shot fires both barrels at once with massive armor penetration and a wider spread, applying a powerful Burn effect. Kills on burning enemies cause them to explode.",
     "baseStats": {
       "attackSpeed": 1,
       "damage": "300",
@@ -17,55 +16,71 @@
       "range": 18,
       "mods": 2
     },
-
-    "manufacturingIntel": {
-      "creator": "Darra Polytechnic (Artisan Division)",
-      "creatorReputation": "Darra Polytechnic is known for producing reliable, no-frills firearms. The 'Widowmaker' line was an experimental passion project, an attempt to fuse classic, handcrafted shotgun design with modern tech weaponry. They wanted to create a gun for the discerning merc who appreciates the feel of polished wood and engraved steel but demands the performance of a cutting-edge railgun.",
-      "developmentHistory": "The design is based on a classic over-under shotgun, prized for its balance and reliability. The innovation came from replacing the standard firing mechanism with a compact, electromagnetic charging system. This allows the user to fire standard shells or to hold the trigger, charging both barrels to launch the projectiles at hypersonic speeds. The result is a weapon that functions as a reliable CQC tool and a devastating, short-range anti-cover weapon. It became a cult favorite among tech-savvy solos and collectors.",
-      "productionDate": "Circa 2070"
+    "keyRelationships": {
+      "nemesis": "Captain Marcus Cole (Militech | 7th Cavalry, Badlands Division). Cole was the sole survivor of the 'Highway 101 Ambush' where his entire armored squad was wiped out by the Nomad legend, Nash, and 'The Vindicator.' Disgraced and demoted for the loss of a high-value corporate asset, Cole is now a bitter and relentless hunter. He is obsessed with recovering the weapon, not for Militech, but for his own personal vengeance, viewing it as the key to restoring his lost honor.",
+      "creator": "Darra Polytechnic (Artisan Division)"
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Highway 101 Ambush",
+        "date": "04.16.2076",
+        "objective": "A legendary Aldecaldo road warrior named Nash was hired to single-handedly stop a Militech convoy transporting a high-ranking Arasaka defector through the Badlands.",
+        "client": "Rogue Amendiares (on behalf of Arasaka)",
+        "target": "The Militech Convoy & The Arasaka Defector",
+        "outcome": "A legendary display of tactical brilliance and brutal efficiency. Nash, armed with his custom-ordered Widowmaker, 'The Vindicator,' used his knowledge of the terrain to his advantage. He triggered a rockslide to halt the convoy in a narrow canyon. He then used the shotgun's charged shots to systematically punch through the light armor of the escort vehicles from behind cover, cooking the troopers inside. The entire convoy was disabled without Nash ever exposing himself. It was a perfect, devastating ambush.",
+        "mercFate": "Nash became a folk hero to the Nomads, a symbol of defiance against corporate overreach. He was later betrayed and killed by his own Raffen Shiv clan, who coveted his weapon and reputation. His death turned 'The Vindicator' into the relic of a fallen hero.",
+        "mercFeedback": "'The dashcam footage is terrifying. One minute, it's a standard escort op. The next, the canyon walls are spitting fire. You don't see the shooter, not once. You just see the holes appearing in the APCs, followed by the screams. It wasn't a fight; it was an execution.' - Analysis from Captain Cole's debrief.",
+        "payout": "A legend that would echo through the Nomad nations for years.",
+        "reputationImpact": "This event turned 'The Vindicator' into a legendary weapon, a symbol of Nomad ingenuity and resistance. It established the Widowmaker's reputation as the ultimate ambush tool. It also created a bitter, lifelong enemy in Captain Cole, the disgraced survivor who has dedicated his life to hunting the ghost that destroyed his world."
+    },
+    "designAndMaterials": {
+        "materials": "The Vindicator is a master-crafted version of the standard Widowmaker. Its barrels are forged from a proprietary, heat-resistant alloy that allows for a more powerful charging system. The wooden stock is hand-carved from the petrified wood of a pre-Collapse desert tree and is inlaid with the Aldecaldo clan sigil in silver.",
+        "ammunitionType": "Uses custom-loaded 12-gauge shells packed with thermite pellets. The electromagnetic charge not only propels the shot but also ignites the thermite, creating the powerful burning effect on impact. This modification was a personal touch added by Nash.",
+        "compatibleMods": [
+            { "slot": "Muzzle", "mod": "Javelin Breach-Brake", "description": "A unique, heavy muzzle brake that focuses the charged shot into a slightly tighter cone, increasing its effective range and penetration power." },
+            { "slot": "Internal", "mod": "Nash's Overcharge Coil", "description": "The original, dangerously overclocked charging coil built for Nash. It significantly increases the power and burn intensity of the charged shot but puts immense stress on the weapon's frame." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Widowmaker was designed for the 'thinking person's brawler.' Its philosophy is not to win through brute force, but through superior tactics and positioning. It rewards patience and environmental awareness. A standard shotgun asks, 'how can I survive this fight?' The Widowmaker asks, 'how can I end this fight before the enemy even knows they're in it?' It is the ultimate tool for turning an enemy's cover into their coffin."
+    },
+    "manufacturingIntel": {
+      "creatorReputation": "Darra Polytechnic is known for reliable, no-frills firearms. 'The Vindicator' was a one-off, custom-ordered piece for a high-value client (Nash), built by their top artisan. It is the platonic ideal of the Widowmaker design, perfectly balanced and tuned.",
+      "developmentHistory": "After the 'Highway 101 Ambush' became a legend in the underworld, Darra Polytechnic used the publicity to launch the mass-market version of the Widowmaker. These production models are effective, but they lack the master-crafting, custom coil, and historical significance of the one-of-a-kind original.",
+      "productionDate": "Circa 2075"
+    },
     "tacticalAssessment": {
       "strengths": [
-        "Extremely versatile; functions as both a standard Power shotgun and a cover-penetrating Tech weapon.",
-        "The charged shot is capable of eliminating multiple, tightly-packed enemies through thin walls.",
-        "High burst damage makes it devastating in close-quarters ambushes.",
-        "Faster reload speed than most pump-action or drum-fed shotguns."
+        "Extremely versatile; functions as both a Power shotgun and a cover-penetrating Tech weapon.",
+        "The charged shot's burn effect is devastating for area denial and against unarmored targets.",
+        "Exploding enemies can create a chain reaction of chaos in tightly packed groups.",
+        "Faster reload speed than most high-damage shotguns."
       ],
       "weaknesses": [
         "Limited to two shots before a mandatory reload, punishing missed shots.",
         "The charged shot has a significant delay, requiring a pre-calculated attack.",
-        "The wider spread on the charged shot makes it less effective against single targets at medium range.",
-        "Loud and flashy, making it unsuitable for stealth."
+        "The wider spread on the charged shot is less effective against single targets at medium range.",
+        "Possession of this weapon will make you a priority target for Militech's 7th Cavalry, led by the vengeful Captain Cole."
       ],
-      "recommendedRoles": "Techie-Solo Hybrid, Breacher, Combat Engineer.",
-      "masteryArchetype": "A 'Combat Tactician' build. A merc with a high Technical Ability attribute who uses their knowledge of the environment to their advantage. The ideal user doesn't charge into a room; they ping their enemies, see them through the walls, and use the Widowmaker's charged shot to eliminate them before the fight even begins. They are a master of ambush and surprise."
+      "recommendedRoles": "Techie-Solo Hybrid, Breacher, Combat Engineer, Ambush Specialist.",
+      "masteryArchetype": "A 'Combat Tactician' build. A merc with a high Technical Ability attribute who uses their knowledge of the environment to their advantage. The ideal user doesn't charge into a room; they ping their enemies, see them through the walls, and use The Vindicator's charged shot to eliminate them before the fight even begins. They are a master of ambush and surprise."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Rare, but obtainable. The Widowmaker is a high-end, specialist weapon. It can be found at upscale weapon vendors in City Center and Japantown. It is also a known favorite of combat-oriented Nomads, and can sometimes be purchased from their traveling caravans.",
-      "rumoredLocation": "Nash, a high-ranking member of the Raffen Shiv, is said to carry a heavily modified Widowmaker with a custom stock and an overclocked charging coil. He was last seen running a smuggling operation out of a cave system in the eastern Badlands."
+      "marketAvailability": "Unique. This weapon is a legendary Nomad relic and cannot be bought.",
+      "rumoredLocation": "After the Nomad hero Nash was betrayed and killed by his own Raffen Shiv clan, his second-in-command, who was also named Nash, took possession of the weapon. He now leads a splinter group of the Raffen Shiv and carries 'The Vindicator' as a symbol of his stolen legacy. He was last seen running a smuggling operation out of a cave system in the eastern Badlands."
     },
-
     "fieldTestimonials": [
       {
-        "merc": "'Boomer' (Techie)",
-        "context": "Clearing a Valentino-held apartment complex.",
-        "feedback": "'This gun is just plain smart. Ping the floor above me, see three Valentinos hiding behind a sofa. Charge up the Widowmaker, aim at the floor, and... *thump-thump*. Problem solved. No need to even kick down the door. It's the most efficient tool I own.'",
-        "rating": "5/5"
+        "mercName": "'Boomer' (Techie)", "role": "Combat Engineer", "context": "Clearing a Valentino-held apartment complex.", "feedback": "'This gun is just plain smart. Ping the floor above me, see three V-boys hiding behind a sofa. Charge up this beauty, aim at the floor, and... *FWOOSH*. Problem solved. This isn't just a Widowmaker; it's THE Widowmaker. Nash's. The burn is a hell of an upgrade.'", "rating": "5/5"
       },
       {
-        "merc": "'Havoc' (Ex-Military Merc)",
-        "context": "Open firefight in an Arasaka plaza.",
-        "feedback": "'It's a beautiful gun, but two shots is just not enough. By the time I've reloaded, I've already taken a face full of lead from some corpo with a standard assault rifle. It's a great ambush weapon, but in a straight-up, prolonged fight, it leaves you hanging.'",
-        "rating": "3/5 (Needs a bigger magazine)"
+        "mercName": "'Havoc' (Ex-Military Merc)", "role": "Soldier", "context": "Open firefight in an Arasaka plaza.", "feedback": "'It's a beautiful gun, but two shots is just not enough. By the time I've reloaded, I've already taken a face full of lead from some corpo with a standard AR. It's a great ambush weapon, but in a straight-up, prolonged fight, it leaves you hanging.'", "rating": "3/5 (Needs a bigger magazine)"
       },
       {
-        "merc": "'V' (Mercenary)",
-        "context": "Ambushing a Raffen Shiv camp.",
-        "feedback": "'I got this from Nash. It's a work of art. The kick is satisfying, and the sound of a charged shot punching through a shipping container to flatline the guy on the other side... it never gets old. It's a thinking person's shotgun.'",
-        "rating": "4/5 (Highly satisfying)"
+        "mercName": "'V' (Mercenary)", "role": "Operator", "context": "Ambushing a Raffen Shiv camp.", "feedback": "'I got this from Nash. It's a work of art. The kick is satisfying, and the sound of a charged shot punching through a shipping container to flash-fry the guy on the other side... it never gets old. It's a thinking person's shotgun.'", "rating": "4/5 (Highly satisfying)"
       }
-    ]
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Vindicator is the ultimate ambush and breaching tool for a tactical crew. Its user excels at initiating combat on their own terms. A successful strategy involves a netrunner using Ping to reveal enemy positions, allowing the Vindicator's user to eliminate multiple targets through cover with a single, devastating charged shot. It pairs perfectly with a solo or speed-demon who can rush in and capitalize on the chaos caused by the initial blast and subsequent explosions. Its role is to be the thunderclap that announces the start of a very one-sided storm."
+    }
   }
 }

@@ -1,71 +1,78 @@
 {
   "weaponProfile": {
-    "title": "Wasp",
+    "title": "The Hummingbird",
     "image": "/wasp.jpg",
-    "id": "dynalar_wasp",
-    "aliases": ["The Stinger", "Sandy's Friend", "Hummingbird"],
+    "id": "dynalar_wasp_prototype_01",
+    "aliases": ["Zane's Stinger", "The Ghost of '74", "The Red Blur"],
     "type": "Power Pistol",
-    "manufacturer": "Dynalar Sandevistan",
-    "status": "Active; Specialist Market",
-    "cost": "€$75,000",
-    "specialAbility": "Significantly increased fire rate and reload speed while a Sandevistan is active. No muzzle flash.",
-
+    "manufacturer": "Dynalar Sandevistan (Custom Prototype)",
+    "status": "Unique; Infamous Prototype",
+    "cost": "€$75,000 (Black Market Estimate)",
+    "specialAbility": "Significantly increased fire rate, reload speed, and Critical Damage while a Sandevistan is active. No muzzle flash or firing sound is audible to enemies while Sandevistan is active.",
     "baseStats": {
       "attackSpeed": 9,
-      "damage": 60,
+      "damage": "60",
       "reloadSpeed": 1,
       "range": 30,
       "mods": 2
     },
-
+    "keyRelationships": {
+      "nemesis": "Commander McCoy (Zetatech | Head of Internal Security). McCoy was the security chief on duty during the 'Zetatech Massacre.' He lost his left eye to a flechette from 'The Hummingbird' in a firefight that lasted less than a second of real time. He is now a bitter, cybernetically-enhanced hunter, obsessed with tracking down the weapon and the legend of the solo who wielded it. He sees the pistol not as a tool, but as a personal insult that cost him his eye and his reputation."
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Zetatech Massacre of '74",
+        "date": "08.11.2074",
+        "objective": "A legendary speed-solo known only as 'Zane' was hired to infiltrate Zetatech Tower and 'erase' their entire executive board during a private meeting.",
+        "client": "Anonymized (Presumed Dynalar)",
+        "target": "The Zetatech Board of Directors.",
+        "outcome": "A horrifying legend of corporate assassination. Zane, armed with the first and only Wasp prototype—'The Hummingbird'—and a military-grade Sandevistan, cleared three floors of Zetatech's best security in under ten seconds of real time. Security footage is a blur of motion and bodies dropping. He eliminated the entire board and vanished before the first alarm was successfully triggered. The only survivor of the encounter was a young security chief named McCoy, who was left with a single flechette wound through his optic nerve.",
+        "mercFate": "Zane became a ghost story, a cautionary tale corpo execs tell their kids. He was never seen again. 'The Hummingbird,' his signature weapon, was reportedly lost when he was finally cornered and zeroed by a Militech kill squad months later, a contract many believe was paid for by a vengeful McCoy.",
+        "mercFeedback": "'The security logs are corrupted, but the audio is... clean. Too clean. There's no gunfire. Just the soft *thump* of flechettes and the sound of bodies hitting the floor, all compressed into a few seconds. It wasn't a firefight; it was a whisper. A red blur in the hallway, and then silence. Zane wasn't a man; he was a glitch in reality.' - Internal Affairs report from McCoy's debrief.",
+        "payout": "A legend that still terrifies the corporate elite.",
+        "reputationImpact": "This event turned 'The Hummingbird' into a mythical weapon, the ultimate tool for the perfect speed-based assassination. It cemented the deadly synergy of a Sandevistan and a weapon built to match it. It also created a relentless hunter in Commander McCoy, a man who has dedicated his life to finding the gun that took his eye and the ghost of the man who fired it."
+    },
+    "designAndMaterials": {
+        "materials": "The Hummingbird's frame is a unique polymer composite infused with carbon nanotubes, making it significantly lighter and more durable than the commercial models. The electronic trigger mechanism is a masterwork, tuned for a near-instantaneous response time that can only be perceived by an overclocked nervous system. The slide is engraved with a single, stylized hummingbird.",
+        "ammunitionType": "Uses a proprietary 5mm caseless flechette round, designed for minimal recoil and maximum velocity. The lack of muzzle flash is due to a unique chemical propellant that burns completely within the chamber, leaving no visible trace.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "Zane's Neuro-Link", "description": "This unique, hardwired modification directly syncs the pistol's firing mechanism to the user's Sandevistan, providing a greater boost to fire rate and reload speed than any commercial model." },
+            { "slot": "Magazine", "mod": "Featherlight Magazine", "description": "A custom-built, lightweight magazine that further increases reload speed, allowing for near-continuous fire during time dilation." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Wasp was designed around a single, elegant philosophy: to be a weapon that operates not in the real world, but in the spaces between seconds. For a normal user, it is a mediocre pistol. For a Sandevistan user, it becomes an extension of their will. Its purpose is not to engage in a firefight, but to end the fight before the enemy's neurons have even registered that it has begun. It is a tool for those who live life in the red, a paintbrush for an artist whose canvas is the blur of time itself."
+    },
     "manufacturingIntel": {
       "creator": "Dynalar Sandevistan (Integrated Systems Division)",
-      "creatorReputation": "Dynalar is a market leader in high-end reflex co-processors. The 'Wasp' was a side project, born from a simple question: 'What kind of gun would someone moving at 10x normal speed actually want to use?' The design team focused on creating a weapon that could keep up with a Sandevistan user's overclocked neurology.",
-      "developmentHistory": "The Wasp was designed in parallel with Dynalar's Mk.4 Sandevistan. They realized that traditional firearms felt sluggish and clumsy during time dilation. The Wasp's lightweight polymer frame, electronic trigger, and caseless flechette ammunition were all engineered for maximum handling speed. The 'active-sync' feature, which overclocks the firing mechanism when it detects a Sandevistan is active, was the final breakthrough. It's not sold as a weapon, but as an 'accessory' to their premium cyberware.",
-      "productionDate": "Circa 2075"
+      "creatorReputation": "Dynalar is a market leader in high-end reflex co-processors. 'The Hummingbird' was their original, cost-no-object prototype. After it was 'lost' in the Zane incident, Dynalar used the recovered data to create the less powerful, mass-market 'Wasp' models.",
+      "developmentHistory": "'The Hummingbird' is a one-of-a-kind legend. The commercial 'Wasp' pistols are effective, but they lack the master-crafting and the unique neuro-link of the original. The prototype's schematics were officially destroyed by Dynalar to prevent a rival from replicating their top-tier tech, making 'The Hummingbird' a truly unique artifact.",
+      "productionDate": "Circa 2074"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Unbelievable rate of fire and reload speed when paired with a Sandevistan.",
-        "The lack of muzzle flash preserves the user's vision during time dilation.",
+        "The complete lack of muzzle flash or sound during time dilation makes the user a true ghost.",
         "Extremely lightweight, with near-zero recoil, allowing for perfect accuracy while moving at high speeds.",
-        "Excellent for overwhelming a single target with a rapid volley of precise shots."
+        "Exceptional for overwhelming a single target with a rapid volley of precise shots."
       ],
       "weaknesses": [
-        "Very low base damage per shot; relies on landing multiple hits.",
-        "Ineffective outside of its intended Sandevistan synergy.",
-        "Caseless flechette ammo is less common and more expensive than standard rounds.",
-        "Poor performance against heavily armored targets."
+        "Very low base damage per shot; relies on landing multiple critical hits.",
+        "Almost completely ineffective outside of its intended Sandevistan synergy.",
+        "Poor performance against heavily armored targets without precise headshots.",
+        "Possession of this weapon will make you a personal target for the vengeful Zetatech security chief, Commander McCoy."
       ],
       "recommendedRoles": "Speed Solo, Blade/Gun Hybrid, High-Reflex Assassin.",
       "masteryArchetype": "A 'Hummingbird' build. A user with a top-tier Sandevistan and cyberware that enhances movement speed and critical chance. The ideal user activates their Sandy, closes the distance to an enemy, and unloads the entire magazine into their head before time returns to normal. They are a blur of motion, dealing death in a thousand tiny cuts."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Niche, but available. The Wasp is sold at high-end weapon vendors in City Center and Japantown. It is often marketed as a package deal with Dynalar's Sandevistan implants. Some ripperdocs with connections to Dynalar may also carry it in their private stock.",
-      "rumoredLocation": "It's said that the leader of the 'WRAITHS' speed-demon Nomad pack, a former Dynalar test subject, carries a pair of master-crafted Wasps. He's known to challenge city racers to deadly contests in the Badlands, using the pistols to 'puncture' the competition."
+      "marketAvailability": "Unique. This weapon is a ghost story and cannot be bought.",
+      "rumoredLocation": "After Zane was reportedly zeroed, the fate of 'The Hummingbird' became a mystery. Some say the Militech squad that killed him took it as a trophy, and it's now locked in a black site armory. Others claim Zane faked his death and traded the gun to a Badlands fixer for a new life. The most persistent rumor is that the leader of the 'Wraiths' speed-demon Nomad pack, a former Dynalar test subject who idolized Zane, recovered it from his body and now uses it to dominate the desert highways."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Blur' (Speed Solo)",
-        "context": "Clearing the Arasaka Waterfront warehouse.",
-        "feedback": "'This gun is the only thing that can keep up with my Sandy. Click the switch, and it's like time stops. I can empty the clip, reload, and empty it again before the first body hits the ground. It feels like an extension of my chrome. Perfect.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Juggernaut' (Brawler)",
-        "context": "Fistfight with Animals.",
-        "feedback": "'Tried using this peashooter without any speedware. It's like throwing angry bees at someone. The damage is pathetic. It just pissed them off. My fists hit harder. This is a toy for chrome-addicted speed-freaks, not a real gun.'",
-        "rating": "1/5 (Without Sandevistan)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Assault on a Kang Tao facility.",
-        "feedback": "'It's a very specialized tool. When the Sandy is on, you feel like a god, a blur of motion just deleting enemies. But the second it runs out, you're holding a glorified pop gun. It's all or nothing, which is pretty much Night City in a nutshell, right?'",
-        "rating": "4/5 (High Synergy)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Hummingbird is a hyper-specialized weapon for a crew's designated 'alpha strike' operative. Its user is not meant for sustained firefights; they are a living scalpel, designed to enter combat, eliminate the single highest-priority target (a netrunner, a commander, a sniper) before the enemy can react, and then reposition. It pairs perfectly with a netrunner who can use Ping to identify the HVT and a heavy gunner who can provide covering fire for the Hummingbird's user to disengage and prepare for their next surgical strike. Its role is to decapitate the enemy command structure in the opening moments of a conflict."
+    }
   }
 }

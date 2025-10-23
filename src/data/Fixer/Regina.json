@@ -6,36 +6,89 @@
     "status": "Active",
     "primaryTerritory": "Watson (Kabuki, Little China, Northside)",
     "specialization": "Cyberpsycho Neutralization, Investigative Work, Missing Persons, Social Justice",
-
     "biography": {
-      "earlyLife": "Regina's story began behind a microphone, not a gun. She was a star investigative reporter for FTF Radio, known for her tenacity and her unwavering commitment to exposing the truth, no matter how dangerous. When the independent station was devoured by the corporate giant News 54, Regina refused to become a soulless talking head. She quit, taking her most valuable asset with her: an unparalleled network of contacts that spanned every level of Watson's society.",
-      "riseAsFixer": "For Regina, becoming a fixer wasn't a career change; it was a change in method. She realized she could do more to help the people of Watson with a good merc than with a news story. She leveraged her contacts to connect people in need with skilled operators, quickly becoming the district's most reliable and respected fixer. She traded headlines for contracts, but her mission remained the same: to fight for the little guy in a city that had forgotten them.",
-      "modusOperandi": "Regina operates with a rare and dangerous commodity in Night City: a moral compass. She specializes in jobs that other fixers won't touch—not because they're too difficult, but because they don't pay enough or are too morally complex. Her most famous work involves tracking and neutralizing cyberpsychos, where she uniquely insists on non-lethal methods. She believes many are victims who can be saved, a stark contrast to the city's usual 'shoot on sight' policy.",
+      "earlyLife": "Regina's story began behind a microphone, not a gun. She was a star investigative reporter for the independent FTF Radio, known for her tenacity and her unwavering commitment to exposing the truth, no matter how dangerous. When the station was devoured by the corporate media giant News 54, Regina refused to become a soulless talking head reading from a teleprompter. She quit, taking her most valuable asset with her: an unparalleled network of contacts that spanned every level of Watson's society, from street vendors to NCPD informants.",
+      "riseAsFixer": "For Regina, becoming a fixer wasn't a career change; it was a change in method. She realized she could do more to help the people of Watson with a good merc than with a news story that would be buried by morning. She leveraged her contacts to connect people in need with skilled operators, quickly becoming the district's most reliable and respected fixer. She traded headlines for contracts, but her mission remained the same: to fight for the little guy in a city that had forgotten them.",
+      "modusOperandi": "Regina operates with a rare and dangerous commodity in Night City: a moral compass. She specializes in jobs that other fixers won't touch—not because they're too difficult, but because they don't pay enough or are too morally complex. Her most famous work involves tracking and neutralizing cyberpsychos, where she uniquely insists on non-lethal methods. She believes many are victims who can be saved, a stark contrast to the city's usual 'shoot on sight' policy. For Regina, every gig is a case file, and every merc is her field agent.",
       "reputation": "Regina Jones is a beacon in the neon-drenched slum of Watson. The locals trust her, the gangs respect her, and mercs know that a contract from her is always on the level. She is known for her fairness, her compassion, and her fierce protectiveness of both her clients and her contractors. While her payouts might not rival the corporate gigs in City Center, working for Regina earns a different kind of currency: respect and the knowledge that you're fighting on the right side of the line."
     },
-
+    "psychologicalProfile": {
+      "coreMotivation": "Justice and Restoration. Regina is driven by the conviction that the system is not just broken, but corrupt. Having seen how corporations and power brokers bury the truth, her work as a fixer is a crusade to enact the justice that her reporting could only expose. She is obsessed with treating the disease of Night City—corporate malpractice, illegal experiments, faulty tech—of which she believes cyberpsychosis is merely the most tragic symptom.",
+      "disorders": "No clinical disorders. Exhibits traits of 'Pathological Idealism,' a stubborn refusal to accept the cynicism of Night City, and 'Vicarious Trauma' from her constant exposure to the city's most tragic and violent cases. Her calm demeanor is a professional necessity, masking a deep-seated anger at the injustices she witnesses daily.",
+      "worldview": "Night City is a crime scene, and she is its last honest detective. She sees every cyberpsycho as a victim, every missing person as a loose thread, and every corporate cover-up as a conspiracy waiting to be unraveled. She believes that information is still the most powerful weapon, but that it's useless without people of action willing to wield it for the right reasons."
+    },
+    "keyRelationships": {
+      "nemesis": "Commander Melissa Rory (NCPD | MaxTac). Rory is the embodiment of the system Regina fights. A brutally efficient MaxTac commander and former cyberpsycho herself, Rory sees the afflicted not as victims, but as rabid animals to be put down. She views Regina's non-lethal approach as dangerous, sentimental interference that puts civilian lives at risk. Their rivalry is a constant, tense race for the souls of the afflicted.",
+      "stateOfTheShadowWar": {
+        "currentSituation": "Advantage: Rory. MaxTac's methods are brutal but fast, and in a city terrified of cyberpsychos, they are seen as a necessary evil. Rory's 'kill count' is a metric of success for the NCPD, making Regina's slower, preservation-focused approach look inefficient and naive. Rory is actively working to cut off Regina's access to official channels, branding her operatives as vigilantes and obstructing her investigations.",
+        "reginasResponse": "The Information War. Regina knows she can't beat MaxTac's firepower, so she's fighting a different war. She treats every cyberpsycho gig as an evidence-gathering operation, meticulously building a dossier that links these tragedies back to their source: faulty military tech, illegal ripperdocs, corporate experiments. She is fighting to prove that Rory isn't a peacekeeper; she's a janitor, cleaning up the bloody messes the corps leave behind.",
+        "nextObjective": "Operation: 'The Watchdog's Dossier.' Regina's endgame is to win not in the streets, but in the court of public opinion. The objective is to gather irrefutable proof from three key cyberpsycho cases, linking them all to a single, protected source—a black-market cyberware supplier with deep ties to a MaxTac-aligned corporation. Her plan is to compile the data into a single, un-redactable news report and leak it to every independent media outlet in the NUSA, bypassing N54 entirely. The goal is to trigger a scandal so massive it forces an internal affairs investigation into Rory's command and exposes the truth she's been trying to bury."
+      }
+    },
+    "legendaryArsenal": {
+      "rumor": "Regina doesn't deal in instruments of death. Her legendary 'arsenal' consists of custom-made, non-lethal technology and advanced investigative tools. She equips her operatives to save lives, not take them, providing the best non-lethal options eddies can buy.",
+      "weapons": [
+        {
+          "name": "The Gavel",
+          "description": "A heavily modified L-69 Zhuo shotgun that cannot chamber lethal rounds. It is custom-built to fire a variety of PAX-charge, EMP, and tranquilizer shells with unparalleled accuracy and stopping power. It is the signature tool for her cyberpsycho interventions, designed to end a fight without ending a life."
+        },
+        {
+          "name": "The Empathy Lens",
+          "description": "A unique Kiroshi 'Oracle' Mk.3 optic implant running Regina's proprietary forensic software. It doesn't just scan for blood and ballistics; it analyzes residual data-ghosts and bio-signatures to reconstruct the emotional state of individuals at a crime scene. It's an investigative tool that helps her understand the 'why' behind a tragedy, not just the 'who.'"
+        }
+      ]
+    },
+    "eliteOperatives": {
+      "overview": "Regina's crew is less a gang of mercs and more an independent investigative unit. She refers to them as her 'field agents,' a team of specialists chosen for their unique skills and shared commitment to her cause. Their relationship is built on deep mutual trust and a shared desire to make a real difference in Watson.",
+      "operatives": [
+        {
+          "alias": "'The Paramedic'",
+          "specialization": "Non-Lethal Takedowns, Combat Medicine, Extraction",
+          "profile": "A former Trauma Team tactical medic who quit after becoming disillusioned with their 'client-first' morality. He is a master of incapacitating targets without killing them and keeping them stable until help can arrive. He is the heart of Regina's cyberpsycho operations.",
+          "relationship": "He is Regina's most trusted agent in the field, the one she relies on to bring her targets back alive. He sees her as the only person in the city truly trying to save lives, not just bill for them.",
+          "roleInTheShadowWar": "The Paramedic is the direct counter to MaxTac's lethality. He will be the lead on the ground for the final evidence-gathering missions for 'The Watchdog's Dossier,' tasked with neutralizing the cyberpsycho targets while simultaneously securing the incriminating cyberware from their bodies before Rory's teams can arrive and 'sanitize' the scene."
+        },
+        {
+          "alias": "'The Archivist'",
+          "specialization": "Data Forensics, Netrunning, Information Brokering",
+          "profile": "A quiet, meticulous netrunner who operates out of a server-filled room in the back of a Kabuki bookstore. She doesn't crack corporate fortresses for eddies; she digs through data graveyards for the truth. She is the one who pieces together the digital ghosts of Regina's cases.",
+          "relationship": "The Archivist is Regina's lead analyst. Regina provides the leads, and she provides the proof. They share a deep, intellectual respect for the power of information.",
+          "roleInTheShadowWar": "She is the architect of 'The Watchdog's Dossier.' She will be the one to decrypt the recovered data, cross-reference the shipping manifests, and build the unbreakable chain of evidence that links the cyberpsychos to the corporate source and, ultimately, to Rory's negligence or complicity."
+        }
+      ]
+    },
+    "legendaryGigs": [
+      {
+        "gigTitle": "The Final Broadcast",
+        "date": "Circa 2069",
+        "objective": "As a reporter for N54, expose a conspiracy by the manufacturer 'AllFoods' to cover up a contaminated protein batch that was causing severe neurological damage in Watson's poorest residents.",
+        "client": "Self-Initiated (Investigative Journalism)",
+        "target": "AllFoods Corporation's Public Image",
+        "outcome": "A pyrrhic victory. Regina broke the story, using her network of street-level informants to bypass official channels. The report caused a massive public outcry and forced a product recall. However, N54, under pressure from its corporate advertisers (including AllFoods), buried the story within a day, discredited her sources, and forced Regina out. She exposed the truth but learned that, in the corporate world, the truth has a price she was no longer willing to pay.",
+        "mercFeedback": "'Regina was a force of nature. She wasn't a fixer then, just a reporter who wouldn't quit. I fed her info, just a street kid trying to help. She put it all on the line to save us. The corps tried to erase her, but they just made her stronger. That's when the Watchdog was born.' - An anonymous Watson resident.",
+        "payout": "The end of one career and the beginning of another.",
+        "reputationImpact": "This was the single act that destroyed 'Regina the Reporter' and created 'Regina the Fixer.' It severed her ties with the corporate media machine but solidified her reputation in Watson as a true champion of the people, giving her the street-level trust she would need for her next chapter."
+      }
+    ],
+    "mostFamousGig": {
+      "gigTitle": "The Carver Confessions",
+      "date": "02.14.2074",
+      "objective": "Prove a series of cyberpsycho attacks were induced by faulty, malicious cyberware from a single ripperdoc, and expose him.",
+      "client": "The Kabuki Market Protection Guild",
+      "target": "The ripperdoc 'Doc Carver' and his illegal cyberware operation.",
+      "outcome": "Flawless. Regina's mercs gathered evidence and leaked it to every dataterm in Watson just as MaxTac, led by Melissa Rory, was preparing to raid the lab. The community, armed with the truth, descended on the clinic. Rory's squad was forced to apprehend Carver to prevent a riot, denying them a clean, lethal resolution. Rory saw Regina's work as orchestrating a mob; Regina saw it as the day the people held the system accountable.",
+      "mercFeedback": "'Regina didn't send us to kill a monster; she sent us to perform an autopsy on his crimes. We gathered evidence, not just bodies. It was the first time a job felt like it was actually cleaning up the streets, not just making them bloodier.' - 'Witness' (Solo)",
+      "reputationImpact": "This case defined Regina's legacy as a fixer, proving that cyberpsychosis could be manufactured and that its victims could be understood. It also marked the beginning of her cold war with Melissa Rory. She became the guardian of Watson who sought justice, not just profit, while Rory became the hardened enforcer who saw Regina's idealism as a direct threat to order."
+    },
     "fixerRatings": {
-      "overallThreat": "8/10 (High)",
-      "reliability": "10/10 - Arguably the most trustworthy fixer in Night City. Her word is her bond, and she genuinely cares for her people.",
-      "payment": "7/10 - The pay is fair and always delivered, but focused more on consistency than on massive one-time scores. Often provides unique cyberware as a bonus.",
-      "intelQuality": "9/10 - As a former reporter, her investigative skills are second to none. Her intel on Watson's gangs and street-level events is impeccable.",
-      "discretion": "8/10 - While her cyberpsycho gigs can be messy, she is an expert at managing NCPD response and keeping her mercs' records clean.",
-      "resourcefulness": "8/10 - Her vast network allows her to find people, information, and tech that are otherwise lost in the city's noise.",
-      "mercSurvivability": "9/10 - Excellent. She provides solid support, prioritizes non-lethal options, and wants her contractors to come back in one piece."
+      "overallThreat": "8/10 (Ideological)",
+      "reliability": "10/10 - Arguably the most trustworthy fixer in Night City. Her word is her bond.",
+      "payment": "7/10 - The pay is fair and always delivered, but focused on consistency over massive scores.",
+      "intelQuality": "9/10 - As a former reporter, her investigative skills are second to none. Her intel on Watson is impeccable.",
+      "discretion": "8/10 - An expert at managing NCPD response and keeping her mercs' records clean.",
+      "resourcefulness": "8/10 - Her vast network allows her to find people and information lost in the city's noise.",
+      "mercSurvivability": "9/10 - Excellent. She provides solid support and wants her contractors to come back alive."
     },
-     "legendaryGig": {
-        "gigTitle": "The Tin Man's Heart",
-        "date": "02.14.2074",
-        "objective": "A series of identical cyberpsycho attacks were plaguing Kabuki, all linked to victims who received cheap chrome from the same back-alley clinic. Regina's objective was to prove the attacks were not random but were induced by faulty, malicious cyberware, and to expose the ripperdoc responsible.",
-        "client": "The Kabuki Market Protection Guild",
-        "target": "The ripperdoc 'Doc Carver' and his illegal cyberware operation.",
-        "outcome": "Flawless. Regina's hired merc, a solo named 'Witness,' gathered testimony and located Carver's hidden lab. A netrunner then infiltrated the lab's network, finding data proving Carver was intentionally installing defective chrome with a hidden psychosis-inducing malware for a twisted research project. Instead of just killing him, Regina leaked the unredacted evidence to every dataterm in Watson and tipped off the NCPD. The community, armed with the truth, descended on the clinic. Carver was apprehended by MaxTac, and the data became the foundational research for Regina's lifelong project to understand and treat cyberpsychosis.",
-        "hiredMercs": "'Witness' (Recon Solo), 'Cipher' (Netrunner)",
-        "mercFeedback": "'Regina didn't send us to kill a monster; she sent us to perform an autopsy on his crimes. We gathered evidence, not just bodies. It was the first time a job felt like it was actually cleaning up the streets, not just making them bloodier. She paid us, sure, but the real reward was seeing that bastard dragged out in cuffs.' - 'Witness' (Solo)",
-        "payout": "€$ 50,000 + The complete, unredacted research data from the ripperdoc's lab.",
-        "reputationImpact": "This case defined Regina's legacy. She proved that cyberpsychosis could have external triggers and that its victims weren't just monsters to be put down. She became the guardian of Watson, a fixer who sought justice, not just profit, and established the network of trust that makes her the district's most reliable operator."
-    },
-
     "advantages": {
       "strengths": [
         "Unwavering reliability and a strong moral code.",
@@ -50,36 +103,35 @@
         "Refuses to take on jobs she deems immoral, limiting her scope."
       ]
     },
-
     "recentGigDetails": [
       {
         "gigTitle": "Cyberpsycho Sighting: Bloody Ritual",
         "date": "10.22.2077",
-        "objective": "Track and neutralize a cyberpsycho who has been staging ritualistic murders in the Northside industrial district. Non-lethal force is required.",
+        "objective": "Track and neutralize a Maelstrom cyberpsycho. Non-lethal force is required before Commander Rory's MaxTac squad arrives on scene.",
         "client": "Self-Initiated (Cyberpsycho Research)",
         "target": "Maelstrom Cultist Zaria Hughes",
-        "outcome": "Successful. The merc tracked the cyberpsycho to her lair, engaged her in a difficult fight, and successfully incapacitated her without killing her. The data from the encounter was sent to Regina for her research into treating cyberpsychosis.",
-        "mercFeedback": "'It's always a trip with Regi's psycho gigs. You gotta fight for your life but pull your punches at the last second. The pay is decent, and I guess we're helping people... maybe.' - 'V' (Mercenary)",
+        "outcome": "A tense success. The merc incapacitated her just minutes before MaxTac AVs descended. Regina's team extracted the unconscious psycho for treatment, leaving Rory's squad with an empty, blood-soaked scene. A direct win for Regina's ideology.",
+        "mercFeedback": "'It's always a race with Regi's psycho gigs. You're not just fighting the psycho, you're fighting the clock. We got her out, but just barely. Regina's saving lives; MaxTac's just taking them.' - 'V' (Mercenary)",
         "payout": "€$ 5,000 + Reputation"
       },
       {
-        "gigTitle": "The Ripperdoc",
+        "gigTitle": "Gig: The Ripperdoc",
         "date": "10.18.2077",
-        "objective": "A ripperdoc in Kabuki is being held hostage by Maelstrom gangers. Infiltrate the clinic, eliminate the gangers, and rescue the doc.",
+        "objective": "A ripperdoc in Kabuki is being held hostage by Maelstrom gangers who were supplied with faulty chrome that MaxTac has ignored. Rescue the doc.",
         "client": "Local Kabuki Community",
         "target": "Ripperdoc Charles Bucks",
-        "outcome": "Successful. The operative infiltrated the clinic through a side entrance, neutralized the Maelstrom gangers, and freed the ripperdoc. The clinic was able to resume its essential services for the community.",
-        "mercFeedback": "'Straightforward rescue op. Regina pointed me at some gangoons who were shaking down a good man. Cleaned house, got paid. Good work for a good cause.' - 'V' (Mercenary)",
+        "outcome": "Successful. The operative rescued the ripperdoc and recovered a shard detailing their supplier—a corporation Rory has a 'non-aggression' understanding with. The evidence was another piece in Regina's growing case file against MaxTac's selective enforcement.",
+        "mercFeedback": "'Straightforward rescue, but the chrome on the gangoons was glitching bad. We didn't just save a doc; we pulled a thread on a bigger conspiracy.' - 'V' (Mercenary)",
         "payout": "€$ 4,500"
       },
       {
-        "gigTitle": "Last Login",
+        "gigTitle": "Gig: Last Login",
         "date": "10.10.2077",
-        "objective": "A local netrunner has gone missing. Investigate his last known location, find his computer, and discover what happened to him.",
+        "objective": "A local netrunner has gone missing after researching a bad batch of military cyberware that led to a cyberpsycho incident MaxTac covered up. Find out what he discovered.",
         "client": "Concerned Family Member",
         "target": "Alois Daquin's Computer",
-        "outcome": "Successful. The merc located the missing runner's apartment, now occupied by Scavengers. After clearing the apartment, the computer was accessed, revealing that the runner had died during a dangerous netrun. The information provided closure for his family.",
-        "mercFeedback": "'Felt like one of Regina's old reporter gigs. Follow the clues, find the truth. It's a nice change of pace from just zeroing everyone in sight.' - 'T-Bug' (Netrunner)",
+        "outcome": "Successful. The merc accessed the computer, revealing that the runner had been zeroed by a corporate netrunner after he uncovered shipping manifests linking the faulty cyberware to a MaxTac supplier. The data provided another crucial link for Regina.",
+        "mercFeedback": "'Felt like one of Regina's old reporter gigs. Follow the clues, find the truth. The kid found something that got him killed because he poked his nose in MaxTac's business. Regina's making sure he didn't die for nothing.' - 'V' (Mercenary)",
         "payout": "€$ 4,000"
       }
     ]

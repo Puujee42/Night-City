@@ -1,71 +1,78 @@
 {
   "weaponProfile": {
-    "title": "Seeker",
+    "title": "The Corner-Cutter",
     "image": "/seeker.png",
-    "id": "tsunami_seeker",
-    "aliases": ["The Corner-Cutter", "The Trick Shot", "Tag and Bag"],
+    "id": "tsunami_seeker_prototype_x",
+    "aliases": ["The Trick Shot", "The Ghost's Finger", "Tag and Bag"],
     "type": "Tech Pistol",
-    "manufacturer": "Tsunami",
-    "status": "Active; Specialist Market",
-    "cost": "€$90,000",
-    "specialAbility": "Alt-fire shoots a non-damaging tracer dart. All primary fire shots will home in on the active tracer, even around corners. Tracers last for 10 seconds.",
-
+    "manufacturer": "Tsunami (Custom Prototype)",
+    "status": "Unique; Stolen Prototype",
+    "cost": "€$90,000 (Black Market Estimate)",
+    "specialAbility": "Alt-fire shoots a non-damaging tracer dart that can ricochet once. All primary fire shots will home in on the active tracer with increased speed and ricochet potential. Critical hits on a traced target bypass a portion of armor.",
     "baseStats": {
       "attackSpeed": 4,
-      "damage": 120,
+      "damage": "120",
       "reloadSpeed": 1.4,
       "range": 50,
       "mods": 3
     },
-
+    "keyRelationships": {
+      "nemesis": "Commander 'Stonewall' Jackson (Militech | Heavy Infantry Division). Jackson is a heavily augmented Militech cyborg and the sole survivor of the 'Labyrinth' incident. He and his entire elite squad were systematically dismantled in a sealed bunker by a single operative with 'The Corner-Cutter,' without ever seeing the attacker. The humiliation shattered his career. He is now obsessed with finding the weapon, viewing it as a perversion of honorable combat and a ghost from his past that must be exorcised.",
+      "creator": "Tsunami Urban Solutions Division"
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Labyrinth Heist",
+        "date": "08.22.2074",
+        "objective": "A legendary corporate spy known only as 'The Ghost' was hired to retrieve sensitive data from a secure Militech bunker defended by Commander Jackson's elite 'Stonewall' squad.",
+        "client": "Arthur 'The Architect' Cormac",
+        "target": "Militech 'Project Chimera' Deployment Roster",
+        "outcome": "A legendary display of indirect warfare. 'The Ghost,' armed with the sole Seeker prototype, never entered a single room. Using the bunker's ventilation shafts and service corridors, they fired ricocheting tracer darts to tag the guards. They then used the weapon's homing bullets to eliminate the entire squad from impossible angles, firing through vents and around corners. Jackson was the last one left, trapped in a room with the screams of his men on the comms, unable to find an enemy to shoot back at. 'The Ghost' retrieved the data and vanished, leaving a traumatized and humiliated commander in their wake.",
+        "mercFate": "'The Ghost' became an almost mythical figure in the world of corporate espionage, their reputation for impossible infiltrations cemented by this single, audacious gig. The Corner-Cutter became their calling card.",
+        "mercFeedback": "'The security footage is useless. It just shows Jackson's squad getting picked apart by bullets coming from nowhere. The ballistics report is a joke; trajectories are impossible. It's not a firefight; it's a geometry problem from hell. The target wasn't a man; he was a ghost with a trick gun.' - Militech Internal Affairs report.",
+        "payout": "A priceless piece of Militech intelligence.",
+        "reputationImpact": "This event turned 'The Corner-Cutter' into a legend, the ultimate tool for a thinking person's firefight. It proved that in the dense urban jungle of Night City, the deadliest angle is the one you can't see. It also created a bitter and obsessed enemy in Commander Jackson, a man who now hunts the weapon that made him a laughingstock."
+    },
+    "designAndMaterials": {
+        "materials": "The frame of 'The Corner-Cutter' is a lightweight magnesium alloy, designed for speed and handling. The internal components are master-crafted, featuring a more powerful magnetic-pulse generator for the tracer darts and a refined projectile magnetization system. The grip is custom-molded and contains an integrated micro-gyroscope that assists with calculating ricochet angles.",
+        "ammunitionType": "Uses a proprietary 'Seeker' flechette round. The prototype version used by 'The Ghost' is lighter and faster, allowing for more aggressive ricochets. The tracer dart is also a custom model with a more powerful adhesive and a longer-lasting pulse.",
+        "compatibleMods": [
+            { "slot": "Optics", "mod": "Ghost's Eye Kiroshi", "description": "A custom-calibrated Kiroshi optic that directly interfaces with the weapon's trajectory software, highlighting potential ricochet paths in real-time." },
+            { "slot": "Internal", "mod": "The 'Trick Shot' Gyro", "description": "This unique, prototype gyroscope is the heart of the weapon. It provides enhanced ricochet calculation, allowing the tracer dart itself to bounce once before tagging a target." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Seeker was designed to rewrite the rules of urban combat. Its philosophy is that cover is not a defense; it is a puzzle to be solved. It rejects the idea of direct confrontation in favor of superior angles and tactical creativity. The weapon forces its user to see the battlefield not as a flat plane, but as a three-dimensional geometric space filled with possibilities. It is a tool for the artist of the ricochet, the merc who understands that the deadliest shot is the one that never travels in a straight line."
+    },
     "manufacturingIntel": {
-      "creator": "Tsunami Defense Systems (Urban Solutions Division)",
-      "creatorReputation": "Tsunami is known for its reliable, if somewhat uninspired, firearms. The Seeker was a rare and brilliant exception, born from a project to create the ultimate weapon for dense, urban environments. The design team was led by a former NCPD SWAT officer who was tired of losing squad members to enemies hunkered down behind impossible cover.",
-      "developmentHistory": "The Seeker's innovation is the 'Magnetic-Pulse Tagging System.' The alt-fire launches a silent, adhesive dart that emits a low-frequency magnetic pulse. The primary-fire projectiles are then micro-magnetized as they leave the barrel, causing them to aggressively seek out the active pulse tag. This allows the user to 'tag' a target and then fire into a nearby wall or ceiling, letting the ricocheting, homing bullets do the work. It was deemed 'too complex' for standard NCPD issue but became a high-demand item for elite solos and tech-savvy mercs.",
+      "creatorReputation": "Tsunami is known for reliable, if uninspired, firearms. 'The Corner-Cutter' was the prototype for their most innovative design, a project led by a former NCPD SWAT officer who was tired of losing squad members to enemies hunkered down behind impossible cover.",
+      "developmentHistory": "After 'The Ghost' used the prototype to publicly humiliate Militech, Tsunami, fearing a lawsuit, officially 'canceled' the project. They then released a less powerful, commercially available 'Seeker' with a weaker tagging system and no ricochet capability for the tracer dart. 'The Corner-Cutter' is the one-of-a-kind original, a weapon that Tsunami officially denies ever existed.",
       "productionDate": "Circa 2073"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Unparalleled ability to eliminate enemies behind cover without exposing the user.",
-        "Excellent for flushing out entrenched snipers, netrunners, or heavy gunners.",
-        "The tracer dart is silent, allowing for a stealthy 'tag' before initiating combat.",
-        "Rewards creative thinking and use of the environment."
+        "The ricocheting tracer dart allows for tagging targets that are themselves in cover.",
+        "The armor penetration on crits makes it surprisingly effective against armored targets.",
+        "Rewards creative thinking and a deep, tactical understanding of the environment."
       ],
       "weaknesses": [
         "Requires a two-step process to use effectively, making it slower in a direct firefight.",
-        "The homing projectiles can be unreliable in open areas with no surfaces to ricochet from.",
+        "The homing projectiles can be unreliable in wide-open areas with no surfaces to ricochet from.",
         "Lower base damage per shot compared to a heavy revolver or tech rifle.",
-        "Missing the tracer dart can leave you vulnerable while you reload it."
+        "Possession of this weapon makes you the personal target of the disgraced Militech cyborg, Commander 'Stonewall' Jackson."
       ],
-      "recommendedRoles": "Tactical Solo, Combat Techie, Urban Combat Specialist.",
-      "masteryArchetype": "A 'Bank Shot' build. A merc with a high Intelligence and Cool attribute who excels at battlefield geometry. The ideal user combines the Seeker with the 'Ricochet Eyeballs' cyberware to visualize the perfect shot. They don't engage in direct firefights; they win them from the safety of another room, peppering a tagged target with a volley of impossible, ricocheting shots. They are masters of indirect warfare."
+      "recommendedRoles": "Tactical Solo, Combat Techie, Urban Combat Specialist, Infiltrator.",
+      "masteryArchetype": "A 'Bank Shot' build. A merc with a high Intelligence and Cool attribute who excels at battlefield geometry. The ideal user combines 'The Corner-Cutter' with a Ping quickhack or a high-end Kiroshi optic to see enemies through walls. They don't engage in direct firefights; they win them from the safety of another room, peppering a tagged target with a volley of impossible, ricocheting shots."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Uncommon but available. The Seeker is a specialist weapon and can be found at high-end weapon vendors in Japantown and City Center. Tech-focused ripperdocs and weapon dealers, like the one in Arroyo, are also known to carry it.",
-      "rumoredLocation": "The NCPD's lead cyberpsycho-squad commander, a woman known for her creative tactics, is said to carry a heavily modified Seeker with an extended tracer duration. She reportedly uses it to tag and neutralize cyberpsychos without ever entering their direct line of sight."
+      "marketAvailability": "Unique. This weapon is a stolen prototype and a piece of corporate ghost-lore. It cannot be bought.",
+      "rumoredLocation": "After 'The Labyrinth Heist,' the weapon's creator, 'The Ghost,' vanished. Its current location is a high-value secret. Some whisper that 'The Ghost' was an alias for a legendary netrunner who has since retired, hiding the gun in a digital dead-drop for a worthy successor. Others claim it was traded to Mr. Hands as payment for a new identity. The only certainty is that Militech and Commander Jackson have a standing, seven-figure bounty for any information leading to its recovery."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Ricochet' (Solo)",
-        "context": "Clearing a 6th Street-held fortified position.",
-        "feedback": "'They were all dug in, heavy cover, impossible to get a clean shot. I just tagged the lead heavy, took a step back, and emptied my clip into the wall next to the doorway. Heard a whole lot of screaming. It's not a gun; it's a solution to the problem of cover. An elegant, beautiful solution.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Juggernaut' (Brawler)",
-        "context": "Ambushed in an open plaza by Valentinos.",
-        "feedback": "'This pea-shooter is too complicated. Tag 'em, then shoot 'em? Why not just shoot 'em in the first place? And in the open, the bullets just fly off into space. It's a gimmick. Give me something that hits hard and straight.'",
-        "rating": "2/5 (Too much thinking)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Data heist from a guarded server room.",
-        "feedback": "'The guards were in a room with only one entrance. I wasn't about to stick my head in there. I just bounced the tracer dart off the back wall, tagged the netrunner, and then filled the room with hot lead from the hallway. Felt like I was cheating. It was great.'",
-        "rating": "4/5 (Makes you feel smart)"
-      }
-    ]
+     
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Corner-Cutter is the ultimate tool for a crew's tactician or combat techie. Its user is not the primary damage dealer, but the problem solver. Their role is to use the weapon's unique properties to dismantle heavily fortified enemy positions that the rest of the crew cannot safely approach. It synergizes perfectly with a netrunner using 'Ping' to reveal enemy locations, and a heavy-hitter or solo who can provide cover fire and deal with any enemies that rush the Corner-Cutter's position. Its purpose is to turn an impossible defensive stronghold into a deathtrap for its own defenders."
+    }
   }
 }

@@ -2,38 +2,99 @@
   "fixerProfile": {
     "title": "Muamar 'El Capitán' Reyes",
     "image": "/choom.png",
-    "aliases": ["El Capitán", "The Captain", "King of the Racetrack"],
+    "aliases": ["El Capitán", "The Captain", "King of the Concrete Jungle"],
     "status": "Active",
     "primaryTerritory": "Santo Domingo (Arroyo, Rancho Coronado)",
     "specialization": "Vehicle Acquisition & Theft, Corporate Sabotage, Street Justice, Smuggling",
-
     "biography": {
-      "earlyLife": "Muamar Reyes wasn't born into power; he earned it. He started as a logistics specialist for a mid-level corporation, a corpo rat stuck in the endless grind of Santo Domingo's industrial sector. He saw firsthand how the corps squeezed every last drop of life from the district and its people. Deciding he'd rather be the one doing the squeezing, he quit, cashed in his pension, and used his insider knowledge of shipping routes and corporate security to start his own 'logistics' business.",
-      "riseAsFixer": "He adopted the moniker 'El Capitán' and quickly became the go-to fixer for Santo Domingo. His edge was his unique blend of corpo professionalism and street-level empathy. He understood both the language of the boardroom and the struggles of the factory worker. He built a reputation as a fair, if demanding, boss. He's a self-made king who rules from the driver's seat of his armored limo, with a network of spies in every garage and warehouse in the district.",
-      "modusOperandi": "El Capitán's true passion is cars. Any gig involving rare, fast, or armored vehicles will immediately get his attention. His primary business is a high-end vehicle acquisition service for wealthy clients, but he also handles a wide range of jobs, from sabotaging rival corporate facilities to dispensing a bit of vigilante justice on gangs that prey on the locals. He's pragmatic and business-minded, but he has a soft spot for Santo Domingo and will often commission gigs that, while profitable, also serve to protect his community.",
+      "earlyLife": "Muamar Reyes wasn't born into power; he earned it with grease on his hands and corporate dust on his lungs. He started as a logistics specialist for a mid-level corporation, a corpo rat stuck in the endless grind of Santo Domingo's industrial sector. He saw firsthand how the corps squeezed every last drop of life from the district and its people. Deciding he'd rather be the one doing the squeezing, he quit, cashed in his pension, and used his insider knowledge of shipping routes and corporate security to start his own, far more profitable, 'logistics' business.",
+      "riseAsFixer": "He adopted the moniker 'El Capitán' and quickly became the go-to fixer for Santo Domingo. His edge was his unique blend of corpo professionalism and street-level empathy. He understood the language of the boardroom and the struggles of the factory worker. He built a reputation as a fair, if demanding, boss who ruled from the driver's seat of his armored limo. He is a self-made king with a network of spies in every garage and warehouse in the district he calls home.",
+      "modusOperandi": "El Capitán's true passion is horsepower. Any gig involving rare, fast, or armored vehicles will immediately get his attention. His primary business is a high-end vehicle acquisition service, but he also handles a wide range of jobs, from sabotaging rival corporate facilities to dispensing vigilante justice on gangs that prey on the locals. He's pragmatic and business-minded, but he has a fierce, paternal loyalty to Santo Domingo and will often commission gigs that, while profitable, also serve to protect his community.",
       "reputation": "In Santo Domingo, El Capitán's authority is absolute. The NCPD turns a blind eye, and the corps pay him for 'security consulting' that's little more than protection money. To mercs, he is a top-tier employer: demanding, but fair. He provides solid intel, pays what he promises, and values results above all. He's a man who respects hard work and horsepower, and if you can deliver both, you'll always have a place on his payroll."
     },
-
-    "fixerRatings": {
-      "overallThreat": "9/10 (High)",
-      "reliability": "9/10 - A man of his word. His reputation is his most valuable asset, and he protects it fiercely. Payment is prompt and fair.",
-      "payment": "9/10 - Excellent. Offers top-tier eddies and often includes performance-based bonuses, especially for vehicle-related jobs.",
-      "intelQuality": "9/10 - Superb for his territory. Has eyes and ears in every factory and garage in Santo Domingo. His corporate intel is also surprisingly solid.",
-      "discretion": "7/10 - His operations can be loud, but he's an expert at covering tracks and managing the fallout. He controls the narrative in his district.",
-      "resourcefulness": "10/10 - Unmatched in his field. Can source any vehicle in Night City, from scrap heaps to military-grade APCs. His network is vast and loyal.",
-      "mercSurvivability": "8/10 - High. While his gigs can be dangerous, his intel is solid and his objectives are clear, reducing the chance of nasty surprises."
+    "psychologicalProfile": {
+      "coreMotivation": "Sovereignty and Protection. Having escaped the corporate machine, El Capitán is driven to maintain his self-made kingdom of Santo Domingo as a bastion against the very exploitation he suffered. He is fiercely protective of his territory and its people. His rivalry with Welles is not just about personal pride; it's a war to prove that the will of the street will always triumph over corporate control.",
+      "disorders": "None diagnosed. Exhibits traits of 'Benevolent Warlord' syndrome—a paternalistic and controlling demeanor driven by a genuine desire to protect his chosen community. Possesses a mild obsession with high-performance vehicles, viewing them as symbols of freedom and power.",
+      "worldview": "The world is divided into two groups: those who build and those who take. He was a builder who got taken from, so he became the most efficient taker of all. He believes in earned respect, tangible results, and the simple justice of the street. A contract is a promise, and a promise is sacred. A fast car is not a luxury; it's an escape hatch."
     },
-     "legendaryGig": {
+    "keyRelationships": {
+      "nemesis": "Gideon Welles (Director of R&D, Archer). Welles was Muamar's tyrannical former boss, a man who believed workers were disposable parts in a machine. After El Capitán humiliated him in 'The Great Concession Heist,' Welles was fired. He resurfaced years later at Archer, where his department now develops the most advanced anti-theft and convoy security systems in the world. Their rivalry is a high-speed chess match played across the highways of Night City.",
+      "stateOfTheShadowWar": {
+        "currentSituation": "Advantage: Welles. Welles' new 'Cerberus' anti-hijacking AI and his advanced security convoys are making El Capitán's work harder and more expensive. Archer vehicles are becoming the gold standard in security, and Welles is using this technological superiority to slowly choke El Capitán's operational freedom. Every new successful convoy is a win for Welles' logic over El Capitán's grit.",
+        "reyesResponse": "Asymmetrical Warfare. El Capitán knows he can't out-tech Welles. Instead, he's doubling down on his greatest asset: the streets. He is using his vast network of local informants to find weaknesses in Welles' logistics—human error, maintenance schedules, driver routines. He is fighting an AI with an army of people, proving that no code can account for the unpredictability of the human element.",
+        "nextObjective": "Operation: 'Ghost in the Machine.' El Capitán's next move is to steal not just a vehicle, but the very key to Welles' kingdom. His objective is to acquire the master source code for the next iteration of the 'Cerberus' AI. The plan is to orchestrate a multi-stage heist that forces Welles to transport the master shard via a decoy, low-security convoy. El Capitán will sacrifice several of his own crews in loud, failed attacks on the high-security convoys to build Welles' confidence, before using his top operative, 'La Fantasma,' to silently lift the real prize from the one vehicle Welles thinks is safe."
+      }
+    },
+    "legendaryArsenal": {
+      "rumor": "El Capitán's garage is a legend in itself. He's said to have a collection of one-of-a-kind vehicles and custom tech designed for the perfect car heist. For his most important jobs, he doesn't just give you a gun; he gives you the keys to a monster.",
+      "weapons": [
+        {
+          "name": "The Matador",
+          "description": "A heavily modified Herrera Outlaw GTS, believed to be El Capitán's personal vehicle. It's rumored to be equipped with a military-grade sensor jammer, oil slicks, and a unique Zetatech cyberware interface that allows for split-second remote control. He is said to loan it only to 'La Fantasma' for jobs where failure is not an option."
+        },
+        {
+          "name": "The 'Skeleton Key' Chip",
+          "description": "A piece of custom hardware, not software. It's a Militech-grade vehicle interface spike that can physically bypass most electronic locks and ignition systems by creating a hardwired bridge. It's an ugly, brutal solution for a digital problem, embodying El Capitán's pragmatic philosophy. It's his go-to tool for cracking Welles' Archer security."
+        }
+      ]
+    },
+    "eliteOperatives": {
+      "overview": "El Capitán's 'familia' is a small circle of operators who have proven their loyalty and skill time and again. He treats them with the respect of a demanding but fair patriarch. They are the gears in his logistical machine, the best drivers, mechanics, and enforcers in Santo Domingo.",
+      "operatives": [
+        {
+          "alias": "'La Fantasma' (The Ghost)",
+          "specialization": "Master Wheelwoman, Infiltration, Evasion",
+          "profile": "A legendary driver who can make a car dance through traffic like a ghost. She specializes in high-speed extractions and silent acquisitions, capable of stealing a car from a secure garage without a single alarm. She is the precision instrument to his brute force.",
+          "relationship": "She is his most trusted lieutenant and protégé. He sees in her the same passion for the road that he has. She, in turn, is fiercely loyal, viewing him as the man who gave her a kingdom to race in.",
+          "roleInTheShadowWar": "La Fantasma is the tip of the spear in the war against Welles. She is the only one El Capitán trusts to test the limits of Archer's new security systems and will be the lead operative for the final, surgical strike in 'Operation: Ghost in the Machine.'"
+        },
+        {
+          "alias": "'El Martillo' (The Hammer)",
+          "specialization": "Convoy Assault, Heavy Weapons, Demolitions",
+          "profile": "A mountain of a man and a master of vehicular combat. While La Fantasma is the scalpel, El Martillo is the sledgehammer. He specializes in the loud, brutal work of stopping armored convoys in their tracks, using everything from heavy machine guns to calculated demolitions.",
+          "relationship": "A simple, professional respect. El Capitán provides the target and the tools; El Martillo provides the firepower. He is El Capitán's solution for problems that can't be out-driven.",
+          "roleInTheShadowWar": "El Martillo will lead the diversionary attacks on Welles' high-security convoys. His job is to be loud, destructive, and convincing enough to make Welles believe his primary assets are safe, creating the opening La Fantasma needs."
+        },
+        {
+          "alias": "'El Ingeniero' (The Engineer)",
+          "specialization": "Master Techie, Vehicle Modification, Logistics Hacking",
+          "profile": "A former corpo logistics tech, just like El Capitán. He is a genius mechanic and a savvy hacker who can find the exploitable flaws in any supply chain or security protocol. He builds the custom tools and finds the hidden routes that make El Capitán's heists possible.",
+          "relationship": "El Capitán sees a younger version of himself in El Ingeniero. He is the brains of the operation, the one who translates El Capitán's grand plans into actionable data. Their relationship is one of mutual, intellectual respect.",
+          "roleInTheShadowWar": "He is the architect of El Capitán's counter-offensive. He analyzes the data from every failed and successful heist against Archer vehicles, reverse-engineering Welles' tech and finding the cracks in his armor. He will be the one to identify the target for 'Operation: Ghost in the Machine.'"
+        }
+      ]
+    },
+    "legendaryGigs": [
+      {
         "gigTitle": "The Great Concession Heist",
         "date": "05.10.2070",
-        "objective": "When the struggling corporation ConAg announced it was closing its Santo Domingo factory and moving all assets, El Capitán was hired to prevent the move and force them to pay their workers. His plan: hijack their entire fleet of 50 cargo haulers in a single night.",
+        "objective": "When the corporation ConAg, under Gideon Welles, announced it was closing its Santo Domingo factory without paying severance, El Capitán was hired to prevent the asset move and force them to pay their workers.",
         "client": "The Workers' Union of Arroyo",
-        "target": "ConAg's entire Santo Domingo transport fleet and assets.",
-        "outcome": "A logistical masterpiece. El Capitán mobilized dozens of mercs and local wheelmen. Using his insider knowledge, he orchestrated a perfectly timed, district-wide series of 'traffic accidents,' roadblocks, and precision EMP strikes that crippled the entire convoy simultaneously. His crews then systematically commandeered every truck, driving them into a network of hidden warehouses. By sunrise, ConAg's fleet had vanished. Faced with total asset loss, the corporation was forced to the negotiating table. El Capitán brokered a deal where the workers received massive severance packages, and he acquired the entire 'stolen' fleet for a fraction of its value.",
-        "hiredMercs": "A coalition of mercs and Santo Domingo locals, led by the legendary wheelwoman 'La Fantasma'.",
-        "mercFeedback": "'It wasn't a heist, it was a revolution on wheels. The Captain turned the entire district into a mousetrap. We were hitting trucks on a dozen different streets, all at the same time, all on his signal. He didn't just steal some trucks; he flexed and made a corpo bend the knee. He's not the King of Santo Domingo for nothing.' - 'La Fantasma'",
-        "payout": "Full ownership of the ConAg transport fleet, cementing his logistics empire.",
-        "reputationImpact": "This single operation elevated El Capitán from a simple fixer to a king. He proved that his power wasn't just in hiring solos, but in his ability to command the very streets and infrastructure of his district. He became a legend to the working class and a terrifying reality to any corporation operating in Santo Domingo."
+        "target": "ConAg's entire Santo Domingo transport fleet.",
+        "outcome": "A logistical masterpiece. El Capitán mobilized dozens of mercs and locals. Using his insider knowledge, he crippled the entire convoy simultaneously. Faced with total asset loss, Welles was fired and the corporation was forced to negotiate. The workers received massive severance packages, and El Capitán acquired the entire 'stolen' fleet, cementing his logistics empire.",
+        "mercFeedback": "'It wasn't a heist, it was a revolution on wheels. The Captain turned the entire district into a mousetrap. He didn't just steal some trucks; he flexed and made a corpo bend the knee. He's the King of Santo Domingo for a reason.' - 'La Fantasma'",
+        "reputationImpact": "This single operation elevated El Capitán from a simple fixer to a king and created his arch-nemesis. He proved his power to command the streets of his district, becoming a legend to the working class. For Gideon Welles, it was the start of a deep, personal vendetta."
+      }
+    ],
+    "mostFamousGig": {
+      "gigTitle": "The Midnight Derby",
+      "date": "Circa 2074",
+      "objective": "Steal the one-of-a-kind 'Medusa' hypercar, owned by an Arasaka executive, from the heavily guarded penthouse of a City Center tower during a private party.",
+      "client": "An anonymous Euro-billionaire car collector.",
+      "target": "The Rayfield 'Medusa' Prototype",
+      "outcome": "A legendary display of audacity and skill. Instead of a quiet infiltration, El Capitán's crew, led by 'La Fantasma,' staged a fake street race as a diversion. While NCPD was distracted, they used a hijacked Kang Tao heavy-lift AV to rip the entire display platform, car and all, from the side of the skyscraper. The 'heist' was a televised spectacle that made El Capitán a legend in the world of high-end vehicle acquisition.",
+      "mercFeedback": "'The plan was insane. We were the noisy distraction while an AV was committing grand larceny fifty floors up. Capitán didn't just plan a theft; he produced a goddamn action movie. The whole city was watching, and they still didn't see the real show.' - A wheelman from the diversion crew.",
+      "payout": "€$ 500,000 + Exclusive access to the Medusa's illegal performance mods.",
+      "reputationImpact": "This gig cemented El Capitán's reputation as the undisputed king of car thieves. It was a loud, public declaration of his skill and resources, proving that no vehicle, no matter how secure, was safe from his grasp. It also put him on the radar of every major corporate security force in the city."
+    },
+    "fixerRatings": {
+      "overallThreat": "9/10 (High)",
+      "reliability": "9/10 - A man of his word. His reputation is his most valuable asset, and he protects it fiercely.",
+      "payment": "9/10 - Excellent. Offers top-tier eddies and often includes performance-based bonuses.",
+      "intelQuality": "9/10 - Superb for his territory. Has eyes and ears in every factory and garage in Santo Domingo.",
+      "discretion": "7/10 - His operations can be loud, but he's an expert at covering tracks and managing the fallout.",
+      "resourcefulness": "10/10 - Unmatched in his field. Can source any vehicle in Night City, from scrap heaps to military-grade APCs.",
+      "mercSurvivability": "8/10 - High. His intel is solid and his objectives are clear, reducing the chance of nasty surprises."
     },
     "advantages": {
       "strengths": [
@@ -45,40 +106,39 @@
       "weaknesses": [
         "His influence wanes significantly outside of Santo Domingo.",
         "Has a strong rivalry with other vehicle-focused factions and fixers.",
-        "Gigs often involve direct, heavy combat against corporate security or organized gangs.",
+        "Gigs often involve direct, heavy combat against corporate security.",
         "Less interested in subtle espionage than in loud, impactful results."
       ]
     },
-
- "recentGigDetails": [
+    "recentGigDetails": [
       {
-        "gigTitle": "Assassination of the corpo rat",
+        "gigTitle": "Gig: Sparring Partner",
         "date": "10.28.2077",
-        "objective": "A mid-level manager at the Kiroshi factory in Arroyo has been selling out union leaders to corporate enforcers. El Capitán wants him gone as a message. Make it look like a street robbery gone wrong.",
-        "client": "Self-Initiated (Community Protection)",
-        "target": "Luka Volkov, Kiroshi Manager",
-        "outcome": "Successful. The solo, 'Grim,' tracked the target's routine. Using a beat-up car to block the manager's path in a quiet industrial street, Grim staged a carjacking. The target was eliminated, his personal effects stolen, and the vehicle abandoned a few blocks away. NCPD ruled it a random act of street violence, and corpo retaliation against the union ceased.",
-        "mercFeedback": "'El Capitán looks out for his people. This wasn't for some corpo client; this was for the chooms on the factory floor. He gave me the target's whole life on a shard. Made the job simple. He pays well to protect his own.' - 'Grim' (Solo)",
+        "objective": "A Kiroshi manager in Arroyo has been feeding intel on El Capitán's operations to Gideon Welles. El Capitán wants him gone as a message. Make it look like a street robbery gone wrong.",
+        "client": "Self-Initiated (Counter-Intelligence)",
+        "target": "Luka Volkov, Kiroshi Manager & Welles' Informant",
+        "outcome": "Successful. The solo staged a carjacking, eliminating the target and taking his datapad. The pad contained encrypted messages confirming he was on Welles' payroll. NCPD ruled it a random act of violence, and Welles' intelligence pipeline in Santo Domingo was severed.",
+        "mercFeedback": "'El Capitán looks out for his people, and he buries his rats. This was a message for his rival. He gave me the target's whole life on a shard. Made the job simple. He pays well to protect his kingdom.' - 'V' (Mercenary)",
         "payout": "€$ 15,000"
       },
       {
-        "gigTitle": "The rescue of the reporter",
+        "gigTitle": "Gig: Race to the Top",
         "date": "10.12.2077",
-        "objective": "The N54 reporter, Ted Fox, got too close to a 6th Street smuggling operation and has been taken hostage in a warehouse in Rancho Coronado. El Capitán needs him rescued before he's zeroed.",
+        "objective": "The reporter Ted Fox, a useful media asset, was captured by 6th Street while investigating their ties to Archer. El Capitán needs him rescued before Welles' private security can 'silence' him.",
         "client": "Self-Initiated (Asset Protection)",
         "target": "Ted Fox",
-        "outcome": "Successful. A two-merc team hit the warehouse hard and fast. One provided overwatch with a sniper rifle while the other breached the main floor. After a loud and violent firefight with over a dozen 6th Street gangers, the reporter was located, shaken but unharmed, in a storage locker. He was successfully extracted.",
-        "mercFeedback": "'The Captain said the reporter was a useful asset, so he wanted him back. Didn't say he had to be happy about it. Lots of lead flew. The pay was good, and now I guess I've got a reporter who owes me a favor.' - 'Havoc' (Mercenary)",
+        "outcome": "Successful. A two-merc team hit the 6th Street warehouse hard. They found the reporter just as a second, unmarked team of corporate operators (presumed Welles' men) arrived. After a three-way firefight, the mercs extracted Fox.",
+        "mercFeedback": "'The Captain said the reporter was a useful asset. Didn't say he was bait in a corpo war. Fought 6th Street on the way in, fought some corpo ghosts on the way out. The pay was good, and now that reporter owes El Capitán his life.' - 'V' (Mercenary)",
         "payout": "€$ 12,500"
       },
       {
-        "gigTitle": "Heist: Arroyo",
+        "gigTitle": "Gig: The Union Strikes Back",
         "date": "09.25.2077",
-        "objective": "A shipment of advanced cybernetic components is being moved from a Kang Tao warehouse to the spaceport. El Capitán wants it. Intercept the armored convoy and 'liberate' the cargo.",
+        "objective": "Gideon Welles is personally overseeing a convoy carrying the prototype chipset for Archer's new 'Cerberus' anti-hijacking AI. El Capitán wants it as both a prize and a personal insult to his rival.",
         "client": "Unnamed Black Market Buyer",
-        "target": "Kang Tao Cybernetics Shipment",
-        "outcome": "Successful. The team used a heavy-duty EMP charge, provided by El Capitán, to disable the convoy's lead escort vehicle on a highway overpass. The stalled traffic allowed the team to breach the main transport truck with thermal charges. After a short, intense firefight with the convoy guards, the cargo was transferred to the mercs' truck and driven to a drop-off point in the sewers.",
-        "mercFeedback": "'You want to hit a Kang Tao convoy, you call El Capitán. He got us the EMP, the route, the manifest... everything but the ammo. It was loud, it was messy, it was beautiful. The payout was legendary.' - 'Boomer' (Techie)",
+        "target": "Archer 'Cerberus' AI Prototype",
+        "outcome": "Successful. The team used a heavy-duty EMP to disable the convoy's lead escort. After a brutal firefight against Welles' elite private guard, the cargo was secured. The theft was a direct, personal humiliation for Welles, stealing his pet project from under his nose.",
+        "mercFeedback": "'You want to hit Archer, you call El Capitán. He didn't just want the tech; he wanted the satisfaction. That wasn't just a gig; it was a personal 'fuck you' from one king to another.' - 'V' (Mercenary)",
         "payout": "€$ 30,000"
       }
     ]

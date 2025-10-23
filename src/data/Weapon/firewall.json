@@ -1,15 +1,14 @@
 {
   "weaponProfile": {
-    "title": "Firewall",
+    "title": "Psycho-Soother",
     "image": "/firewall.jpg",
-    "id": "netwatch_firewall",
-    "aliases": ["The System Rebooter", "ICE Breaker", "Psycho-Soother"],
+    "id": "netwatch_firewall_prototype_01",
+    "aliases": ["The System Rebooter", "ICE Breaker", "Kurtz's Folly"],
     "type": "Tech Shotgun",
     "manufacturer": "Netwatch (Commissioned from Tetratronic)",
-    "status": "Restricted; Netwatch Agent Issue Only",
+    "status": "Unique Prototype; Blacklisted & Hunted",
     "cost": "€$160,000 (Black Market Estimate)",
-    "specialAbility": "A fully charged shot deals massive Thermal damage and applies the 'Cyberware Malfunction' quickhack to all enemies in a cone.",
-
+    "specialAbility": "A fully charged shot deals massive Thermal damage and applies the 'Cyberware Malfunction' and 'Reboot Optics' quickhacks to all enemies in a cone. Enemies affected have their cyberware temporarily disabled and are blinded. Has a small chance to cause a 'System Shock' feedback loop, turning a target permanently cyberpsycho.",
     "baseStats": {
       "attackSpeed": 1.2,
       "damage": "80 (+Thermal)",
@@ -17,55 +16,62 @@
       "range": 15,
       "mods": 1
     },
-
+    "keyRelationships": {
+      "nemesis": "Ellis 'Virus' Carter (Cyberpsycho). Ellis was a low-level netrunner and the first human test subject of the 'Psycho-Soother' prototype during a botched field test. The weapon's feedback loop didn't just reboot his cyberware; it shattered his mind, turning him into a high-functioning, tech-worshipping cyberpsycho. He is now obsessed with the weapon, viewing it as the tool of his 'ascension.' He hunts it relentlessly, believing it is a holy relic that can 'bless' others with the same 'gift' he received.",
+      "creator": "Netwatch Agent Kurtz (Cyber-Warfare R&D Division)"
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Kurtz Field Test",
+        "date": "01.19.2076",
+        "objective": "The ambitious Netwatch agent, Kurtz, took his 'Psycho-Soother' prototype into the field for its first live-fire test, against his superiors' orders. His target was a small-time netrunner, Ellis Carter, who had breached a low-level corporate server.",
+        "client": "Netwatch (Unsanctioned Operation)",
+        "target": "Ellis 'Glitch' Carter",
+        "outcome": "A catastrophic success that created a monster. The weapon worked perfectly, disabling the netrunner's cyberware. However, the prototype's unstable energy wave created a feedback loop with the target's neural link, not only crashing his systems but permanently fracturing his psyche. Ellis Carter became a cyberpsycho. In the ensuing chaos, Carter escaped. Kurtz, facing a court-martial, wiped the data logs, reported the prototype as 'lost in action,' and began a desperate, off-the-books hunt for both the weapon and the monster he had created.",
+        "mercFate": "N/A. Ellis Carter became a persistent and dangerous cyberpsycho. Agent Kurtz was demoted but avoided a full court-martial, a fact that has made him a bitter and ruthless hunter.",
+        "mercFeedback": "'The incident report is a work of fiction. Kurtz claimed he was ambushed by a cyberpsycho and lost the prototype. The corrupted data fragments tell a different story. The energy signature of the weapon *is* the catalyst for the psycho break. He didn't fight a monster; he created one. And now he's trying to bury his sin.' - Leaked Tetratronic internal memo.",
+        "payout": "A career-ending failure and a city-wide manhunt.",
+        "reputationImpact": "This event turned the 'Psycho-Soother' into a dark legend, a weapon of immense power and terrifying risk. It became a symbol of Netwatch's hubris and the centerpiece of two obsessive hunts: one by the agent trying to erase his mistake, and one by the monster who believes it is a sacred tool of enlightenment."
+    },
+    "designAndMaterials": {
+        "materials": "The chassis is a reinforced, heat-shielded polymer. The core is a dangerously unstable, experimental microwave emitter, far more powerful than the commercial models. The barrel is a series of magnetic lenses that focus the energy into a conical blast. The weapon hums with a barely-contained energy that causes minor visual static in the user's optics.",
+        "ammunitionType": "N/A. The weapon is powered by a high-capacity, internal power cell. It does not fire projectiles. Instead, a fully charged shot releases a focused, conical blast of high-intensity microwaves and thermal energy, designed to instantly overwhelm and reboot most commercial cyberware.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "Kurtz's Regulator", "description": "This unique, non-replicable modification is a desperate attempt to stabilize the weapon's energy output. It slightly reduces the chance of the 'System Shock' feedback loop occurring, but does not eliminate it entirely." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Firewall was designed as the ultimate de-escalation tool. Its philosophy is that a modern, heavily-augmented threat is not a person, but a walking network of systems. And any system can be crashed. It is a weapon that attacks the chrome, not the person. The 'Psycho-Soother' prototype, however, took this philosophy to a dangerous extreme, blurring the line between crashing a system and crashing a mind. It asks a terrifying question: if you reboot a person, do they come back the same?"
+    },
     "manufacturingIntel": {
-      "creator": "Netwatch Cyber-Warfare R&D Division",
-      "creatorReputation": "Netwatch doesn't build weapons; they define threats. The Firewall was a solution commissioned from Tetratronic to a specific problem: how to non-lethally neutralize a high-threat, cybernetically-enhanced individual without blowing them to pieces. The project lead was a former cyberpsycho-squad survivor who believed that a 'system crash' was more effective than a bullet.",
-      "developmentHistory": "The Firewall was developed as Netwatch's primary tool for dealing with rogue netrunners and early-stage cyberpsychos. It's not a shotgun in the traditional sense. It doesn't fire projectiles. Instead, a fully charged shot releases a focused, conical blast of high-intensity microwaves and thermal energy. This 'firewall' of energy is designed to instantly overwhelm and reboot most commercial cyberware, effectively flash-frying implants and causing a system-wide malfunction. It's a weapon that attacks the chrome, not the person.",
+      "creatorReputation": "Netwatch doesn't build weapons; they define threats. The 'Psycho-Soother' was a secret, unsanctioned prototype commissioned by Agent Kurtz from Tetratronic. His goal was to create the ultimate non-lethal weapon to fast-track his career.",
+      "developmentHistory": "The 'Psycho-Soother' is a one-of-a-kind, unstable prototype. After the disastrous field test, Netwatch and Tetratronic collaborated on the commercial 'Firewall' model, a significantly less powerful and more stable version. The original prototype was reported as destroyed, a lie to cover up Kurtz's catastrophic failure. It is the only one of its kind.",
       "productionDate": "Circa 2075"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "The ultimate anti-cyberware weapon, capable of disabling entire groups of heavily chromed enemies.",
-        "Applies a powerful quickhack without requiring a cyberdeck or RAM.",
+        "Applies multiple, powerful quickhacks without requiring a cyberdeck or RAM.",
         "Exceptional for crowd control and creating tactical openings in a firefight.",
-        "Provides a reliable, area-of-effect method for non-lethal neutralization."
+        "The ultimate tool for a cyberpsycho hunter... if they are willing to take the risk."
       ],
       "weaknesses": [
-        "Almost zero physical damage, making it completely useless against unaugmented targets or environmental objects.",
-        "The charge-up mechanic makes it slow and difficult to use in fast-paced, reactive combat.",
-        "Extremely short effective range.",
-        "Possession of this weapon is highly illegal and will be treated as stolen Netwatch property by the NCPD."
+        "Almost zero physical damage, making it completely useless against unaugmented targets.",
+        "The charge-up mechanic makes it slow and difficult to use in reactive combat.",
+        "The 'System Shock' feedback loop can create a new, even more dangerous problem.",
+        "Possession of this weapon makes you the primary target of both the obsessive Netwatch agent, Kurtz, and the cyberpsycho, Ellis Carter."
       ],
       "recommendedRoles": "Cyberpsycho Hunter, Non-lethal Specialist, Techie, Field Control.",
-      "masteryArchetype": "A 'System Administrator' build. An operative focused on Intelligence and Technical Ability who views combat as a series of systems to be controlled and exploited. The ideal user combines the Firewall with debilitating quickhacks, using the shotgun to 'crash' a group of enemies before picking them apart with precision attacks or non-lethal takedowns. They don't win firefights; they de-escalate them, forcefully."
+      "masteryArchetype": "A 'System Administrator' build. An operative focused on Intelligence and Technical Ability who views combat as a series of systems to be controlled. The ideal user combines the Psycho-Soother with debilitating quickhacks, using the shotgun to 'crash' a group of enemies before picking them apart. They don't win firefights; they de-escalate them, forcefully."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Effectively zero. This is a restricted, proprietary tool issued exclusively to Netwatch field agents. It is never sold, legally or otherwise. The only way to acquire one is to take it from a Netwatch agent—a move that will put you at the top of their most-wanted list.",
-      "rumoredLocation": "A Netwatch agent went dark while investigating rogue AI activity in Pacifica. It's rumored the Voodoo Boys captured him and are currently attempting to reverse-engineer his Firewall in their main server hub, deep within the Grand Imperial Mall. They would see its anti-cyberware tech as a profound threat."
+      "marketAvailability": "Unique. This weapon is a classified Netwatch failure and a ghost. It cannot be bought.",
+      "rumoredLocation": "After the cyberpsycho Ellis Carter escaped, the 'Psycho-Soother' vanished. Some say Carter hid it in a digital dead-drop, a prize for any netrunner skilled enough to find it. Others believe it was recovered by the Voodoo Boys after a failed Netwatch raid in Pacifica. They would see its mind-altering tech as a holy relic. Agent Kurtz is known to have a standing, off-the-books bounty with top-tier fixers for any intel on its location."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Regina Jones' (Fixer)",
-        "context": "Reviewing after-action report from a cyberpsycho gig.",
-        "feedback": "'The operative used a Firewall. The target, a Maelstrom ganger with 80% chrome conversion, was neutralized without a single fatal wound. His combat implants were slagged, but his organic systems were stable. This weapon is a miracle of de-escalation technology. I need more of them.'",
-        "rating": "5/5 (For my work)"
-      },
-      {
-        "merc": "'Havoc' (Ex-Military Merc)",
-        "context": "Street shootout with Valentinos.",
-        "feedback": "'I tried to use this fancy light-show against some V-boys. The ones with chrome arms and fancy eyes went down twitching, sure. But the guys with just a pistol and a bad attitude? It barely tickled them. This isn't a weapon; it's a very expensive and very specific can opener. Not for a real soldier.'",
-        "rating": "2/5 (Too situational)"
-      },
-      {
-        "merc": "'Glitch' (Netrunner)",
-        "context": "Testing the weapon's capabilities.",
-        "feedback": "'This... this is beautiful. It's a quickhack that you can hold in your hands. It doesn't just damage; it communicates with their chrome on a fundamental level and tells it to *stop*. It's the ultimate expression of a netrunner's philosophy: why break the body when you can simply crash the system?'",
-        "rating": "5/5"
-      }
-    ]
+     
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Psycho-Soother is the ultimate 'control' weapon, but it is a wild card. Its user is the crew's emergency brake, capable of stopping a full-blown assault in its tracks. A successful crew will use it to neutralize high-threat clusters of chromed-out enemies, allowing solos and sharpshooters to pick off the unaffected targets. Its greatest strength is against cyberpsychos, but this is also its greatest risk. The crew must have a contingency plan in place for the moment the weapon doesn't just 'soothe' the psycho, but creates a new one from a lesser enemy. Its role is to be the high-risk, high-reward gambit that can either save the day or make it infinitely worse."
+    }
   }
 }

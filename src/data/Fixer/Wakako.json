@@ -2,28 +2,94 @@
   "fixerProfile": {
     "title": "Wakako Okada",
     "image": "/okada.png",
-    "aliases": ["The Lioness of Japantown", "Ma Okada"],
+    "aliases": ["The Lioness of Japantown", "Ma Okada", "The Spider of Jig-Jig Street"],
     "status": "Active",
     "primaryTerritory": "Westbrook (Japantown, Charter Hill, North Oak)",
     "specialization": "Tyger Claw Relations, Wetwork (Assassination), Information Brokerage, High-Stakes Negotiations",
-
     "biography": {
-      "earlyLife": "Wakako's past is a tapestry of whispers and rumors, each more deadly than the last. She has outlived five husbands, a fact that is always mentioned but never questioned. She established her pachinko parlor on the infamous Jig-Jig Street decades ago, transforming it from a simple gambling den into the nerve center of Westbrook's underworld. She navigated the treacherous currents of gang politics and corporate interests with a patience and cunning that saw all her rivals eventually disappear.",
-      "riseAsFixer": "Her rise was not meteoric; it was a slow, deliberate consolidation of power. She became the indispensable intermediary for anyone wanting to do serious business in Westbrook, especially if it involved the Tyger Claws. She earned their respect not through violence, but through her unerring business acumen and her ability to generate immense profits. She proved that the sharpest weapon in Night City is not a katana, but a well-structured contract.",
-      "modusOperandi": "Wakako is the epitome of efficiency and control. She operates from her office in the back of the pachinko parlor, a calm oasis in a sea of chaos. She speaks politely, almost gently, but her words carry the weight of an executioner's judgment. Her gigs are always clear, concise, and come with zero margin for error. She provides what is necessary for success and expects her mercs to handle the rest with professional competence. Failure is not just an unacceptable outcome; it is a personal insult.",
+      "earlyLife": "Wakako's past is a tapestry of whispers, each more deadly than the last. She has outlived five husbands, a fact that is always mentioned but never questioned. She established her pachinko parlor on the infamous Jig-Jig Street decades ago, transforming it from a simple gambling den into the nerve center of Westbrook's underworld. She navigated the treacherous currents of gang politics and corporate interests with a patience and cunning that saw all her rivals eventually, and quietly, disappear.",
+      "riseAsFixer": "Her rise was not meteoric; it was a slow, deliberate consolidation of power, like a game of Go played over decades. She became the indispensable intermediary for anyone wanting to do serious business in Westbrook, especially involving the Tyger Claws. She earned their respect not through overt violence, but through her unerring business acumen and her ability to generate immense profits. She proved that the sharpest weapon in Night City is not a katana, but a well-structured contract.",
+      "modusOperandi": "Wakako is the epitome of efficiency and control. She operates from her office in the back of the pachinko parlor, a calm oasis in a sea of chaos. She speaks politely, almost gently, but her words carry the weight of an executioner's judgment. Her gigs are always clear, concise, and come with zero margin for error. She provides what is necessary for success and expects her mercs to handle the rest with professional competence. Failure is not just an unacceptable outcome; it is a personal insult, and she does not suffer insults well.",
       "reputation": "Every serious player in Night City respects Wakako Okada. To meet with her is to be judged by a master of the game. She is seen as a force of nature—calm, patient, and absolutely lethal when provoked. Mercs know that a job from Wakako is a guarantee of good pay and a test of their professionalism. You do the job flawlessly, you get paid. You fail, you end up as another ghost haunting Jig-Jig Street."
     },
-
-    "fixerRatings": {
-      "overallThreat": "9/10 (High)",
-      "reliability": "9/10 - Impeccable business conduct. She honors every contract to the letter, but offers zero leeway for mistakes or excuses.",
-      "payment": "9/10 - Excellent. Her payouts are prompt and substantial, reflecting the high standards she demands.",
-      "intelQuality": "9/10 - Superb for Westbrook. Her network within the Tyger Claws and the local corpo scene is flawless.",
-      "discretion": "9/10 - Prefers silent, invisible operations. A clean job is a Wakako job.",
-      "resourcefulness": "9/10 - Can mobilize Tyger Claw assets and call upon a vast network of favors. If it's in Westbrook, she can get it.",
-      "mercSurvivability": "7/10 - High, but unforgiving. Her plans are solid, but the consequences for failure are absolute and often fatal."
+    "psychologicalProfile": {
+      "coreMotivation": "Order and Legacy. Having meticulously built a stable, profitable, and controlled ecosystem in Westbrook from the chaos of her youth, Wakako is driven by a fierce need to preserve it. Her empire is her life's work, a perfectly balanced bonsai tree. Kaito and other chaotic elements are not just rivals; they are pests that threaten to undo decades of careful cultivation. Her actions are those of a master gardener, ruthlessly pruning any branch that threatens the health of the whole.",
+      "disorders": "No clinical disorders. Exhibits traits of 'Pathological Patience,' a willingness to wait years or even decades to see a plan come to fruition. Possesses a profound emotional detachment, viewing people and events as pieces on a Go board, to be moved or sacrificed for strategic advantage. Her politeness is a practiced, weaponized form of control.",
+      "worldview": "The world is a complex game of strategy, and the winner is the one who makes the fewest mistakes. She believes honor and tradition are valuable tools for managing the passionate, but business and profit are the true foundations of power. Sentiment is a fatal flaw, and loyalty is a commodity to be cultivated and, if necessary, harvested."
     },
-
+    "keyRelationships": {
+      "nemesis": "Kaito 'The Oni' Tanaka (Tyger Claws | Usurper). Kaito is a young, ambitious, and brutally chromed Tyger Claw boss who views Wakako's methods as outdated. He believes the Tygers should rule Westbrook through fear and steel, not contracts and profit margins. After a failed coup years ago, he was exiled by Wakako but has since returned, waging a guerilla war against her control. He represents the chaotic, violent future she has spent decades holding at bay.",
+      "stateOfTheShadowWar": {
+        "currentSituation": "Advantage: Wakako. Wakako controls the money, the corporate contracts, and the loyalty of the Tyger Claw leadership. However, Kaito's ideology of violence and tradition appeals to the younger, disenfranchised gangers. He is an insurgency, a cancer growing within her perfectly ordered system. He cannot win a direct war, so he resorts to terrorism and chaos to make her control appear weak.",
+        "wakakosResponse": "Strategic Strangulation. Wakako refuses to engage Kaito in open warfare, as that would be playing his game and disrupting her business. Instead, she is systematically dismantling his operation from the shadows. She uses her mercs to intercept his funding, eliminate his key suppliers, and turn his own lieutenants against him with promises of money and power. She is not trying to kill the man; she is trying to bankrupt his philosophy.",
+        "nextObjective": "Operation: 'The Empty Kago.' Wakako's next major move is a calculated piece of economic warfare. She will leak information about a massive, high-value illegal cyberware shipment she is brokering. When Kaito inevitably musters all his remaining resources to attack the convoy, his forces will be met by Wakako's elite solos. The true objective is not to defend the cargo—the containers are empty—but to bleed Kaito's forces and finances dry in a single, decisive engagement. The goal is to humiliate him and prove to the rest of the Tygers that his path leads only to ruin."
+      }
+    },
+    "legendaryArsenal": {
+      "rumor": "The Lioness of Japantown has no need for a personal armory. Her weapons are far more subtle and dangerous. She provides her most trusted agents with tools that grant access and influence, the true keys to power in her world.",
+      "weapons": [
+        {
+          "name": "The Five Rings",
+          "description": "Not a weapon, but a set of five untraceable, antique data shards, one supposedly taken from each of her late husbands. Each shard is a master key to a different aspect of Westbrook's underworld: one for Tyger Claw logistics, one for black market finance, etc. To be given temporary access to one of the 'Five Rings' is to be granted a sliver of Wakako's own authority for a critical mission."
+        },
+        {
+          "name": "The Go Board",
+          "description": "The ornate Go board in her office is her true terminal. It's rumored to be a one-of-a-kind interface, where the placement and removal of stones correspond to assets and targets in her network. A game of Go with Wakako is not a pastime; it's a briefing for an operation where the stakes are life and death."
+        }
+      ]
+    },
+    "eliteOperatives": {
+      "overview": "Wakako maintains a small, exclusive circle of operatives she refers to as her 'Tsume' (Claws). These are not common mercs; they are masters of their craft, chosen for their efficiency, discretion, and absolute professionalism. Their relationship with her is built on a foundation of fear, respect, and immense profit.",
+      "operatives": [
+        {
+          "alias": "'Kage' (The Shadow)",
+          "specialization": "Solo, Infiltration & Assassination",
+          "profile": "The legendary solo who single-handedly crushed 'The Cherry Blossom Purge.' Kage is a ghost who specializes in silent, high-profile eliminations. He is Wakako's scalpel, the instrument she uses when a problem needs to be removed with surgical precision and zero collateral damage.",
+          "relationship": "A bond of perfect, professional symbiosis. Wakako provides flawless intel and astronomical pay; Kage provides flawless, silent results. No words are wasted between them.",
+          "roleInTheShadowWar": "Kage is Wakako's ultimate deterrent against Kaito. He is the one tasked with eliminating Kaito's most dangerous lieutenants and will be the hidden blade waiting to spring the trap during 'Operation: The Empty Kago.'"
+        },
+        {
+          "alias": "'The Weaver'",
+          "specialization": "Netrunner, Information & Financial Warfare",
+          "profile": "A reclusive netrunner who operates from the deep web, The Weaver is the spider at the center of Wakako's information network. She doesn't just steal data; she manipulates markets, launders fortunes, and can erase a person's existence from the global financial system with a few keystrokes.",
+          "relationship": "Wakako's Minister of Finance. The Weaver manages the vast, complex flow of eddies that is the lifeblood of Wakako's empire. Their relationship is built on a shared appreciation for the power of numbers.",
+          "roleInTheShadowWar": "The Weaver is the architect of Wakako's economic war against Kaito. She tracks his money, sabotages his deals, and will be the one who creates the false financial trails for the phantom shipment in 'Operation: The Empty Kago.'"
+        }
+      ]
+    },
+    "legendaryGigs": [
+      {
+        "gigTitle": "The Widow's Consolidation",
+        "date": "Spanning several years, culminating circa 2055",
+        "objective": "To absorb the criminal empires of her five powerful, ambitious, and mutually hostile husbands, consolidating all of Westbrook's underworld under her sole control.",
+        "client": "Self-Initiated (The Long Game)",
+        "target": "The entire power structure of Westbrook.",
+        "outcome": "A masterclass in patient manipulation. Over several years, Wakako used a network of mercs for seemingly unrelated gigs: leaking data from one husband's operation to another, funding one's rivals, and sabotaging peace talks she herself had arranged. She orchestrated a cascading series of betrayals that saw her husbands systematically eliminate each other. In the end, with her rivals gone, she stepped into the power vacuum, consolidating their assets into a single, unified empire.",
+        "mercFeedback": "'My contract was to plant a bug. Six months later, I read that bug was at the center of a bloodbath that took out Kenji Okada, Wakako's third husband. I was just a pebble, but she used me to start an avalanche. Terrifying.' - Unnamed Infiltrator",
+        "payout": "The entire criminal infrastructure of Westbrook.",
+        "reputationImpact": "This series of events became the foundation of her legend. It wasn't a single heist; it was a slow, deliberate conquest. It proved her cunning was more dangerous than any army and established her as the undisputed matriarch of her domain."
+      }
+    ],
+    "mostFamousGig": {
+      "gigTitle": "The Cherry Blossom Purge",
+      "date": "Circa 2071",
+      "objective": "Crush a violent coup attempted by the ambitious Tyger Claw captain, Kaito Tanaka, during the sacred Cherry Blossom Festival.",
+      "client": "Self-Initiated (Maintaining Order)",
+      "target": "Kaito Tanaka's radical faction.",
+      "outcome": "A flawless, surgical counter-attack. Wakako, having anticipated the betrayal, hired a single elite solo. As Kaito's fanatics launched their chaotic assault on the festival, Wakako's agent, armed with perfect intel, moved through the chaos and systematically eliminated Kaito's lieutenants and disabled his communication network. Instead of a bloody civil war, the coup imploded in less than an hour, making Kaito look incompetent and weak. Wakako had him publicly disgraced and exiled rather than killed, a far greater punishment in their culture.",
+      "mercFeedback": "'The city was on fire, and my job was to walk through the flames and whisper 'no.' Wakako's intel was like a prophecy. I knew where every target would be before they did. I wasn't a solo; I was a ghost trimming the dead branches off a bonsai tree. She didn't want a war; she wanted to teach a lesson.' - Attributed to the solo 'Kage' (Shadow).",
+      "payout": "The continued loyalty of the Tyger Claws and the exile of her greatest rival.",
+      "reputationImpact": "This event solidified Wakako's absolute control and demonstrated her philosophy: she doesn't just win, she out-thinks, out-maneuvers, and completely dismantles her opponents. The exile of Kaito created a persistent, personal enemy who now works from the shadows to undo the order she has so carefully built."
+    },
+    "fixerRatings": {
+      "overallThreat": "9/10 (Calculated)",
+      "reliability": "9/10 - Impeccable business conduct. She honors every contract to the letter.",
+      "payment": "9/10 - Excellent. Her payouts are prompt and substantial.",
+      "intelQuality": "9/10 - Superb for Westbrook. Her network within the Tyger Claws and local corpo scene is flawless.",
+      "discretion": "9/10 - Prefers silent, invisible operations. A clean job is a Wakako job.",
+      "resourcefulness": "9/10 - Can mobilize Tyger Claw assets and call upon a vast network of favors.",
+      "mercSurvivability": "7/10 - High, but unforgiving. Her plans are perfect, but the consequences for failure are absolute and often fatal."
+    },
     "advantages": {
       "strengths": [
         "Unwavering professionalism and ruthless efficiency.",
@@ -33,52 +99,40 @@
       ],
       "weaknesses": [
         "Completely unforgiving of failure or unprofessional conduct.",
-        "Purely transactional; offers no personal loyalty or protection.",
+        "Purely transactional; offers no personal loyalty or protection beyond the contract.",
         "Influence is heavily concentrated in Westbrook.",
-        "Her politeness can be deceptive, masking lethal intentions."
+        "Her politeness is a mask for lethal intentions."
       ]
-    },
- "legendaryGig": {
-        "gigTitle": "The Widow's Consolidation",
-        "date": "Spanning several years, culminating circa 2055",
-        "objective": "To absorb the criminal empires of her five powerful, ambitious, and mutually hostile husbands, consolidating all of Westbrook's underworld under her sole control.",
-        "client": "Self-Initiated",
-        "target": "The entire power structure of Westbrook.",
-        "outcome": "A masterclass in patient manipulation. Over several years, Wakako used a network of compartmentalized mercs for seemingly unrelated, minor gigs: leaking incriminating data from one husband's operation to another, anonymously funding one's rivals against a third, and sabotaging peace talks she herself had arranged. She orchestrated a cascading series of betrayals and gang wars that saw her husbands systematically eliminate each other. In the end, with her rivals gone, she stepped into the power vacuum, consolidating their assets into a single, unified empire under her command.",
-        "hiredMercs": "A network of anonymous, specialized mercs. None knew the true objective.",
-        "mercFeedback": "'My contract was simple: plant a bug in a Tyger Claw captain's car. Seemed like a milk run. Six months later, I read that captain was at the center of a bloodbath that took out Kenji Okada, Wakako's third husband. I was just a pebble, but she used me to start an avalanche. Terrifying.' - Unnamed Infiltrator",
-        "payout": "The entire criminal infrastructure of Westbrook.",
-        "reputationImpact": "This series of events became the foundation of her legend. It wasn't a single heist; it was a slow, deliberate conquest. It proved her cunning was more dangerous than any army and established her as the patient, terrifying, and undisputed matriarch of her domain. The 'five dead husbands' story became a chilling warning to all who would dare challenge her."
     },
     "recentGigDetails": [
       {
-        "gigTitle": "The Gig",
+        "gigTitle": "Gig: Olive Branch",
         "date": "10.29.2077",
-        "objective": "A simple pickup and delivery. A client needs a specific piece of cyberware—a prototype Sandevistan—retrieved from a ripperdoc who defaulted on a payment. Non-lethal approach requested by the client.",
-        "client": "Sandra Dorsett (Netrunner)",
-        "target": "Prototype 'David' Sandevistan",
-        "outcome": "Successful. The merc, V, infiltrated the ripperdoc's clinic, which had been taken over by Scavengers. After neutralizing the Scavs, V found the prototype. Despite the client's request, the situation's complexity allowed for lethal force, which Wakako deemed an acceptable escalation. The cyberware was delivered, and Wakako handled the final, discreet payment.",
-        "mercFeedback": "'Wakako said it was a simple in-and-out. Turned out the place was crawling with Scavs. Handled it. She didn't care about the body count, only that the package was secure. All business, that one. The eddies were good.' - 'V' (Mercenary)",
+        "objective": "Retrieve a prototype Sandevistan from a clinic taken over by Scavengers hired by Kaito Tanaka to create chaos on Jig-Jig street, a direct challenge to Wakako's authority.",
+        "client": "Sandra Dorsett (Anonymized)",
+        "target": "Prototype Sandevistan & Kaito's Scavenger pawns.",
+        "outcome": "Successful. The merc retrieved the cyberware. Wakako's true objective was met: she swiftly and efficiently crushed Kaito's attempt to disrupt the peace on her turf, restoring order before the situation could escalate.",
+        "mercFeedback": "'Wakako said it was a simple in-and-out. She didn't care about the body count, only that order was restored. She was putting out a fire her rival started.' - 'V' (Mercenary)",
         "payout": "€$ 7,000"
       },
       {
-        "gigTitle": "The Liar",
+        "gigTitle": "Gig: Getting Warmer...",
         "date": "10.18.2077",
-        "objective": "A fence in Japantown named Leah Gladen attempted to betray Wakako by selling a 'CorpCracker' lockbreaker device to the Tyger Claws behind her back. Investigate Leah's apartment, find out what happened, and retrieve the device.",
+        "objective": "A fence, Leah Gladen, attempted to sell a 'CorpCracker' device to Kaito Tanaka's faction behind Wakako's back. Retrieve the device.",
         "client": "Self-Initiated (Business Dispute)",
         "target": "CorpCracker Device",
-        "outcome": "Successful, and a lesson was taught. The operative found evidence in the apartment leading to a Tyger Claw braindance club. The merc infiltrated the club, recovered the device, and discovered Leah Gladen's body in a back room—a clear message from the Tygers about loyalty. Wakako's objective was completed, and her reputation was reinforced.",
-        "mercFeedback": "'This wasn't a job, it was Wakako cleaning her house. The fence tried to play her and the Tygers, and ended up with a datashard for a tombstone. Wakako just wanted her property back. A reminder: you don't cross the queen.' - 'Ronin' (Solo)",
+        "outcome": "Successful. The operative recovered the device and discovered Leah Gladen's body. The Tygers loyal to Kaito had eliminated her after the deal. A supply line to Wakako's rival was cut.",
+        "mercFeedback": "'This wasn't a job, it was Wakako cleaning her house. The fence tried to play her and Kaito's crew and ended up with a datashard for a tombstone. A reminder: you don't cross the queen.' - 'Ronin' (Solo)",
         "payout": "€$ 9,500"
       },
       {
-        "gigTitle": "A Shrine Defiled",
+        "gigTitle": "Gig: A Shrine Defiled",
         "date": "10.05.2077",
-        "objective": "A group of Maelstrom gangers have defiled a historic shrine in Japantown, a deep insult to the community and the Tyger Claws. Wakako requires them to be removed, permanently and publicly, as a message.",
+        "objective": "Maelstrom gangers, paid by Kaito Tanaka, have defiled a historic shrine in Japantown to undermine Wakako's standing. Remove them, permanently and publicly.",
         "client": "The People of Japantown / Tyger Claws",
         "target": "Maelstrom Desecrators",
-        "outcome": "Successful. The operative launched a swift and brutal assault on the Maelstrom position at the shrine. The gangers were completely eliminated. The public and violent nature of the retaliation was a calculated move by Wakako to restore honor and demonstrate that insults to her territory would be met with overwhelming force.",
-        "mercFeedback": "'Wakako wanted a message sent, so I delivered it with a shotgun. No stealth, no subtlety. Just a pile of Maelstrom chrome and steel left on the temple steps. Sometimes, business has to be loud. Wakako understands that better than anyone.' - 'Oni' (Mercenary)",
+        "outcome": "Successful. The operative's brutal assault on the Maelstrom position was a calculated move by Wakako to restore honor and send a clear, violent message directly to Kaito: his chaotic methods will be met with overwhelming force.",
+        "mercFeedback": "'Wakako wanted a message sent, so I delivered it with a shotgun. No stealth. Just a pile of Maelstrom chrome on the temple steps. This was an answer in a conversation I wasn't privy to.' - 'Oni' (Mercenary)",
         "payout": "€$ 11,000 + Tyger Claw Respect"
       }
     ]

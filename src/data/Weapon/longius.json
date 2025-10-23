@@ -2,32 +2,55 @@
   "weaponProfile": {
     "title": "Longinus",
     "image": "/longinus.jpg",
-    "id": "kang_tao_longinus",
-    "aliases": ["The God-Killer", "Railgun", "Can Opener"],
+    "id": "kang_tao_longinus_prototype_01",
+    "aliases": ["The God-Killer", "The Kingmaker", "Arasaka's Ghost"],
     "type": "Tech Sniper Rifle",
-    "manufacturer": "Kang Tao",
-    "status": "Military Prototype; Highly Restricted",
-    "cost": "€$175,000 (Black Market Estimate)",
-    "specialAbility": "A fully charged shot has 100% Armor Penetration and deals bonus damage based on the distance to the target. It cannot be silenced.",
-
+    "manufacturer": "Kang Tao (Ballistics Division)",
+    "status": "Unique Prototype; Blacklisted",
+    "cost": "Priceless (Acquisition by contract only)",
+    "specialAbility": "A fully charged shot has 100% Armor Penetration and deals bonus damage based on the distance to the target. It cannot be silenced. Critical hits on enemy heads will overpenetrate and ricochet to a second nearby target.",
     "baseStats": {
       "attackSpeed": 0.3,
-      "damage": 1500,
+      "damage": "1500",
       "reloadSpeed": 4.5,
       "range": 300,
       "mods": 2
     },
-
-    "manufacturingIntel": {
-      "creator": "Lin Junjie (Kang Tao Ballistics Division)",
-      "creatorReputation": "Lin Junjie is a 'brute-force' theorist, a direct rival to the elegant, stealth-focused engineers at Arasaka. He believes that no problem exists that cannot be solved with a sufficiently large application of kinetic energy. His designs are infamous for their massive power consumption, deafening sound profiles, and unparalleled destructive capability.",
-      "developmentHistory": "The Longinus was Kang Tao's answer to the heavily armored 'Behemoth'-class cyborgs deployed by Militech during the Fourth Corporate War. The primary innovation is the 'Magnetic Final Stage Acceleration' (MFSA) system. The molten tungsten spike is fired conventionally, but a series of magnetic coils along the barrel accelerate it further *after* it has already left, ensuring maximum velocity at extreme ranges. The project was deemed too power-intensive and slow for standard infantry, relegating it to a highly specialized, anti-materiel role. Only a handful of prototypes were ever field-tested.",
-      "productionDate": "Circa 2073-2075"
+    "keyRelationships": {
+      "nemesis": "Shaitan squad(The Disciples of Shaitan ). 'Shaitan' was the callsign of Kenjiro Takeda, Arasaka's legendary master sniper and Adam Smasher's only rival in terms of confirmed kills. After his assassination by the Longinus, his most loyal apprentices formed a zealous splinter group. They hunt the Longinus not for its power, but to destroy it, viewing it as a dishonorable weapon that killed their master from a distance he could not counter. They are patient, elite, and will stop at nothing to avenge their sensei."
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Mile-High Coup",
+        "date": "09.12.2075",
+        "objective": "Assassinate Kenjiro 'Shaitan' Takeda, Arasaka's top sniper, during his security detail at a neutral-ground corporate summit in City Center.",
+        "client": "Rogue Amendiares (on behalf of Kang Tao)",
+        "target": "Kenjiro 'Shaitan' Takeda",
+        "outcome": "A legendary, impossible shot that reshaped the corporate landscape. Rogue's chosen merc, a legendary sniper known only as 'Nomad,' was given the sole Longinus prototype. From a skyscraper rooftop over a mile away, 'Nomad' fired a single, fully charged shot. The tungsten spike traveled through the target's chest, overpenetrated, and ricocheted off a bulkhead to kill a Kang Tao executive who was secretly a rival of the one who ordered the hit. The assassination of Shaitan created a power vacuum in Arasaka's elite ranks, while the 'accidental' death of the executive allowed Rogue's client to seize control. The shot was so perfect, so impossible, that it was officially ruled a catastrophic industrial accident.",
+        "mercFate": "The sniper 'Nomad' was paid a king's ransom and vanished into the Badlands, wisely choosing to disappear after making an enemy of both Arasaka and his own client. The Longinus was part of his payment, a weapon too valuable and too dangerous to ever sell.",
+        "mercFeedback": "'Rogue didn't give me a rifle; she gave me the hand of God. The scope felt like it could see into tomorrow. The charge hummed and the world went silent. When I pulled the trigger, it wasn't a bang... it was a thunderclap. One shot, two kings dead. A weapon like that... it shouldn't exist. It's not for soldiers. It's for ending wars.' - Last known transmission from 'Nomad'.",
+        "payout": "€$ 2,000,000 + The Longinus Prototype",
+        "reputationImpact": "This single shot became a ghost story in the merc world, the ultimate example of a high-level corporate hit. It made the Longinus a legend, the 'gun that killed the devil.' It also created the 'Disciples of Shaitan,' a fanatical group of Arasaka assassins dedicated to hunting down the weapon and its wielder."
+    },
+    "designAndMaterials": {
+        "materials": "The Longinus is built around a massive, cryo-cooled magnetic rail assembly. The chassis is a skeletal frame of carbon fiber and tungsten to minimize weight without sacrificing structural integrity. The stock is integrated with a sophisticated recoil-dampening system that vents superheated air after each shot.",
+        "ammunitionType": "Uses a proprietary 14mm Depleted Uranium Spike encased in a molten tungsten shell. The 'Magnetic Final Stage Acceleration' (MFSA) system fires the spike conventionally, then uses a series of magnetic coils to accelerate it further *after* it has already left the barrel, ensuring maximum velocity and devastation at extreme ranges.",
+        "compatibleMods": [
+            { "slot": "Optics", "mod": "Kang Tao 'Dragon's Eye' Scope", "description": "A military-grade optic with 20x zoom and a built-in ballistics computer that calculates for windage, distance, and even Coriolis effect, drastically increasing accuracy at extreme ranges." },
+            { "slot": "Internal", "mod": "Overcharged Capacitor Bank", "description": "A dangerously unstable modification that reduces charge time for a full-power shot but has a small chance to temporarily disable the user's cyber-optics on firing." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Longinus is the physical embodiment of Kang Tao's 'brute-force' doctrine. It was designed by Lin Junjie not as a rifle, but as an artillery piece scaled for a single operator. Its philosophy is simple: there is no defense, no cover, and no distance that can protect you. It is not a weapon for engaging in a fight. It is a weapon for declaring that the fight is over, fired from a location the enemy will never see, with a result they will never comprehend. It is the final word in any conflict."
+    },
+    "manufacturingIntel": {
+      "creator": "Lin Junjie",
+      "creatorReputation": "A 'brute-force' theorist who believes no problem exists that cannot be solved with a sufficiently large application of kinetic energy. His designs are infamous for their massive power, deafening sound, and unparalleled destructive capability. The Longinus was his magnum opus.",
+      "developmentHistory": "The Longinus was a one-off prototype created for a single, specific purpose: the assassination of Kenjiro 'Shaitan' Takeda. After the successful operation, the project was deemed too expensive and too specialized for mass production. All schematics were 'deleted,' and the project was officially denied ever existing. The weapon 'Nomad' carried into the Badlands is the only one ever made.",
+      "productionDate": "Circa 2075"
+    },
     "tacticalAssessment": {
       "strengths": [
-        "Unrivaled single-shot damage, capable of one-shotting most targets.",
+        "Unrivaled single-shot damage, capable of one-shotting almost any target.",
         "A fully charged shot ignores all armor, making it the ultimate tank-killer.",
         "Exceptional performance at extreme ranges, with damage increasing over distance.",
         "Devastating against vehicles, mechs, and heavily armored cyborgs."
@@ -36,36 +59,20 @@
         "Cannot be silenced, making it a 'one shot, one alert' weapon.",
         "Extremely slow rate of fire and a lengthy reload leave the user vulnerable.",
         "The charge time makes hitting fast-moving targets incredibly difficult.",
-        "Unique ammunition is nearly impossible to find on the open market."
+        "Possession of this weapon makes you the primary target of the 'Disciples of Shaitan,' an elite Arasaka assassin cult."
       ],
       "recommendedRoles": "Anti-Materiel Sniper, Designated Marksman, Heavy Asset Neutralizer.",
-      "masteryArchetype": "A 'Patient Hunter' build. A solo with a high Cool attribute who finds a perch and waits for the perfect shot. They don't engage in firefights; they end them before they begin. Cyberware that enhances optical zoom, stability, and battlefield awareness is essential to unlock its true, city-block-spanning potential."
+      "masteryArchetype": "A 'Patient Hunter' build. A solo with a high Cool attribute who finds a perch and waits for the perfect shot. They don't engage in firefights; they end them before they begin. Cyberware that enhances optical zoom, stability, and battlefield awareness is essential to unlock its true potential."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Effectively zero. The Longinus is a state secret. It cannot be bought. It can only be 'acquired' as the ultimate reward from a legendary fixer for an impossible job, or pried from the hands of a Kang Tao black ops commander.",
-      "rumoredLocation": "Intel suggests a Kang Tao convoy transporting a Longinus prototype was ambushed by Wraiths in the eastern Badlands. The Wraiths, lacking the skill to use it, are rumored to be keeping the weapon as a trophy in their main fortress, the 'Sun-Scorched Overlook,' under the personal guard of their leader."
+      "marketAvailability": "Unique. This weapon does not exist on any market. It is a ghost, a one-of-a-kind legend.",
+      "rumoredLocation": "After the legendary sniper 'Nomad' vanished, the fate of the Longinus became one of the underworld's greatest mysteries. Some say it is buried with him in an unmarked grave in the Badlands. Others claim he traded it to Dakota Smith for safe passage and a new life. The most persistent rumor is that the Wraiths, after killing 'Nomad' in a chance ambush, now hold the weapon as a trophy in their fortress, unaware of its true history or the deadly shadow it casts."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Eagle-Eye' (Nomad Sniper)",
-        "context": "Neutralizing a Militech Behemoth cyborg during a convoy escort.",
-        "feedback": "'Saw the Behemoth crest the ridge and thought we were done for. One charged shot from the Longinus, right through the cockpit. It didn't just stop it; it turned the whole damn chassis into a molten slag heap. This thing doesn't just kill, it erases.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Breaker' (Close-Quarters Brawler)",
-        "context": "Clearing a Maelstrom den in a tight corridor.",
-        "feedback": "'Tried to use it indoors. BIG mistake. By the time I'd charged one shot, three psychos were already chewing on my face. This thing is like trying to swat a fly with a sledgehammer. It's useless if your target is anywhere in the same zip code as you. Sold it for a shotgun.'",
-        "rating": "2/5 (For the wrong job)"
-      },
-      {
-        "merc": "'Fuse' (Tech Specialist)",
-        "context": "Corporate assassination from a rooftop in City Center.",
-        "feedback": "'The engineering is insane. The power draw dims the lights in your apartment. The shot sounds like a thunderclap. It's not a rifle; it's a controlled catastrophe. It does one thing, and one thing only, perfectly. Just make sure you're a long, long way away when you pull the trigger.'",
-        "rating": "4/5 (Highly Specialized)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Longinus is a weapon of singular, overwhelming purpose. It is the ultimate tool for a dedicated sniper in a crew that can support them. Its user is not a frontline combatant; they are an executioner who operates from a different map. A successful crew will build their entire strategy around the Longinus's opening shot. A netrunner might disable a target's vehicle, a solo might draw out the primary threat, and the sniper ends the conflict before it can truly begin. Its role is not to participate in the fight, but to deliver the final judgment from the heavens."
+    }
   }
 }

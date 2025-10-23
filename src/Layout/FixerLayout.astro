@@ -6,18 +6,11 @@ import MainLayout from "./MainLayout.astro";
 // Correctly access the main profile object from the JSON
 const profile = data.fixerProfile;
 
-// Destructure all the necessary data for easier use in the template
+// Destructure ALL the necessary data for easier use in the template
 const {
-    title,
-    image,
-    aliases,
-    status,
-    primaryTerritory,
-    biography,
-    fixerRatings,
-    advantages,
-    legendaryGig,
-    recentGigDetails
+    title, image, aliases, status, primaryTerritory, specialization,
+    biography, psychologicalProfile, keyRelationships, legendaryArsenal,
+    eliteOperatives, fixerRatings, advantages, legendaryGigs, mostFamousGig, recentGigDetails
 } = profile;
 
 // Determine status class for dynamic styling
@@ -25,371 +18,299 @@ const statusClass = status.toLowerCase().includes('deceased') ? 'status-deceased
 ---
 
 <MainLayout>
-    <div class="dossier-container">
-        <!-- Holographic Grid Overlay -->
-        <div class="grid-overlay"></div>
+    <div class="dossier-wrapper">
+        <div class="dossier-container">
+            <!-- Aesthetic Overlays -->
+            <div class="hex-background"></div>
+            <div class="scanline-overlay"></div>
+            <div class="glitch-overlay"></div>
+            <div class="hud-frame top-left"></div>
+            <div class="hud-frame top-right"></div>
+            <div class="hud-frame bottom-left"></div>
+            <div class="hud-frame bottom-right"></div>
 
-        <!-- Main Header -->
-        <header class="dossier-main-header">
-            <div class="glitch-wrapper">
-                <h1 class="glitch" data-text={title}>{title}</h1>
-            </div>
-            <div class="header-sub-details">
-                <span class="detail-tag"><strong>ALIASES:</strong> {aliases.join(' // ')}</span>
-                <span class="detail-tag"><strong>STATUS:</strong> <span class={`status-tag ${statusClass}`}>{status}</span></span>
-                <span class="detail-tag"><strong>TERRITORY:</strong> {primaryTerritory}</span>
-            </div>
-        </header>
-
-        <!-- Main Content Grid -->
-        <div class="dossier-grid">
-            <!-- Left Column: At-a-Glance Data -->
-            <aside class="left-column">
-                <div class="fixer-image-container">
-                    <img src={image} alt={`Dossier photo of ${title}`} />
+            <!-- Main Header -->
+            <header class="dossier-main-header">
+                <h1 data-text={title}>{title}</h1>
+                <div class="aliases">{aliases.join(' // ')}</div>
+                <div class="header-sub-details">
+                    <div class="detail-item"><span>STATUS</span><span class={`status-tag ${statusClass}`}>{status}</span></div>
+                    <div class="detail-item"><span>TERRITORY</span>{primaryTerritory}</div>
+                    <div class="detail-item"><span>SPECIALIZATION</span>{specialization}</div>
                 </div>
+            </header>
 
-                <div class="data-block">
-                    <h2 class="block-title"> FIXER_RATINGS</h2>
-                    <div class="ratings-container">
-                        {Object.entries(fixerRatings).map(([key, value]) => {
-                            const [rating] = value.match(/\d+/) || [0];
-                            const label = key.replace(/([A-Z])/g, ' $1').toUpperCase();
-                            const percentage = (parseInt(rating) / 10) * 100;
-                            return (
-                                <div class="rating-item">
-                                    <span class="rating-label">{label}</span>
-                                    <div class="rating-bar-bg">
-                                        <div class="rating-bar-fill" style={`width: ${percentage}%`}></div>
-                                    </div>
-                                    <span class="rating-value">{value.split(' ')[0]}</span>
-                                </div>
-                            )
-                        })}
+            <!-- Main Content Grid -->
+            <div class="dossier-grid">
+                <!-- Left Column -->
+                <aside class="left-column">
+                    <div class="fixer-image-container">
+                        <img src={image} alt={`Dossier photo of ${title}`} />
                     </div>
-                </div>
 
-                <div class="data-block">
-                    <h2 class="block-title"> ADVANTAGES</h2>
-                    <ul class="advantages-list strengths">
-                        {advantages.strengths.map(strength => <li>{strength}</li>)}
-                    </ul>
-                    <h2 class="block-title weaknesses-title">WEAKNESSES</h2>
-                    <ul class="advantages-list weaknesses">
-                        {advantages.weaknesses.map(weakness => <li>{weakness}</li>)}
-                    </ul>
-                </div>
-            </aside>
-
-            <!-- Right Column: Detailed Intel -->
-            <section class="right-column">
-                <div class="data-block">
-                    <h2 class="block-title"> BIOGRAPHICAL_INTEL_STREAM</h2>
-                    <div class="biography-text">
-                        <h3>// ORIGINS</h3>
-                        <p>{biography.earlyLife}</p>
-                        <h3>// RISE_TO_PROMINENCE</h3>
-                        <p>{biography.riseAsFixer}</p>
-                        <h3>// MODUS_OPERANDI</h3>
-                        <p>{biography.modusOperandi}</p>
-                    </div>
-                </div>
-
-                <!-- LEGENDARY GIG SECTION -->
-                {legendaryGig && (
-                    <div class="data-block">
-                        <h2 class="block-title legendary-title"> LEGENDARY_GIG_RECORD</h2>
-                        <div class="legendary-gig-entry">
-                            <div class="log-header">
-                                <h3>{legendaryGig.gigTitle}</h3>
-                                <span class="log-date">// DATE: {legendaryGig.date}</span>
-                            </div>
-                            <div class="log-body">
-                                <p><strong>OBJECTIVE:</strong> {legendaryGig.objective}</p>
-                                <p><strong>OUTCOME:</strong> {legendaryGig.outcome}</p>
-                                <p><strong>REPUTATION_IMPACT:</strong> {legendaryGig.reputationImpact}</p>
-                                <blockquote class="merc-feedback">
-                                    <span class="feedback-label">// MERC_TESTIMONIAL</span>
-                                    {legendaryGig.mercFeedback}
-                                </blockquote>
-                                <div class="log-footer">
-                                    <span class="client-info"><strong>HIRED_ASSETS:</strong> {Array.isArray(legendaryGig.hiredMercs) ? legendaryGig.hiredMercs.join(', ') : legendaryGig.hiredMercs}</span>
-                                    <span class="payout-info legendary-payout"><strong>PAYOUT:</strong> {legendaryGig.payout}</span>
+                    {keyRelationships && (
+                        <div class="data-block nemesis-block">
+                            <h2 class="block-title">THREAT_ANALYSIS</h2>
+                            <h4>{keyRelationships.nemesis.split('(')[0]}</h4>
+                            <p>{keyRelationships.nemesis.split('). ')[1]}</p>
+                            
+                            {keyRelationships.stateOfTheShadowWar && (
+                                <div class="shadow-war-block">
+                                    <h5>// STATE OF THE SHADOW WAR</h5>
+                                    <p><strong>STATUS:</strong> {keyRelationships.stateOfTheShadowWar.currentSituation}</p>
+                                    <p><strong>SUBJECT'S RESPONSE:</strong> {keyRelationships.stateOfTheShadowWar.cormacsResponse}</p>
+                                    <p><strong>NEXT OBJECTIVE:</strong> {keyRelationships.stateOfTheShadowWar.nextObjective}</p>
                                 </div>
+                            )}
+                        </div>
+                    )}
+
+                    {psychologicalProfile && (
+                        <div class="data-block">
+                            <h2 class="block-title">PSYCH_EVALUATION</h2>
+                            <div class="psych-content">
+                                <h5>CORE MOTIVATION</h5><p>{psychologicalProfile.coreMotivation}</p>
+                                <h5>DIAGNOSTIC IMPRESSION</h5><p>{psychologicalProfile.disorders}</p>
+                                <h5>WORLDVIEW</h5><p>{psychologicalProfile.worldview}</p>
                             </div>
                         </div>
+                    )}
+
+                    <div class="data-block">
+                        <h2 class="block-title">PERFORMANCE_METRICS</h2>
+                        <div class="ratings-container">
+                            {Object.entries(fixerRatings).map(([key, value]) => {
+                                const [rating] = value.match(/\d+/) || [0];
+                                return (
+                                    <div class="rating-item">
+                                        <span class="rating-label">{key.replace(/([A-Z])/g, ' $1')}</span>
+                                        <div class="rating-bar-bg"><div class="rating-bar-fill" style={`width: ${(parseInt(rating) / 10) * 100}%`}></div></div>
+                                        <span class="rating-value">{value.split(' ')[0]}</span>
+                                    </div>
+                                )
+                            })}
+                        </div>
                     </div>
-                )}
-                
-                <div class="data-block">
-                    <h2 class="block-title"> RECENT_GIG_LOG</h2>
-                    <div class="gig-log">
+                     
+                    {advantages && (
+                        <div class="data-block">
+                            <h2 class="block-title">OPERATIONAL_PROFILE</h2>
+                            <h3 class="advantages-sub-title strengths">STRENGTHS</h3>
+                            <ul class="advantages-list strengths">
+                                {advantages.strengths.map(strength => <li>{strength}</li>)}
+                            </ul>
+                            <h3 class="advantages-sub-title weaknesses">WEAKNESSES</h3>
+                            <ul class="advantages-list weaknesses">
+                                {advantages.weaknesses.map(weakness => <li>{weakness}</li>)}
+                            </ul>
+                        </div>
+                    )}
+                </aside>
+
+                <!-- Right Column -->
+                <section class="right-column">
+                    <div class="data-block">
+                        <h2 class="block-title">// BIOGRAPHICAL_DATA</h2>
+                        <div class="biography-text">
+                            <h3>ORIGINS</h3><p>{biography.earlyLife}</p>
+                            <h3>RISE_AS_FIXER</h3><p>{biography.riseAsFixer}</p>
+                            <h3>MODUS_OPERANDI</h3><p>{biography.modusOperandi}</p>
+                        </div>
+                    </div>
+
+                     {eliteOperatives && (
+                        <div class="data-block operatives-block">
+                            <h2 class="block-title">// ELITE_OPERATIVES</h2>
+                            <p class="overview-text">{eliteOperatives.overview}</p>
+                            <div class="operatives-list">
+                                {eliteOperatives.operatives.map(op => (
+                                    <div class="operative-item">
+                                        <h4>{op.alias} <span>// {op.specialization}</span></h4>
+                                        <p><strong>PROFILE:</strong> {op.profile}</p>
+                                        <p><strong>RELATIONSHIP:</strong> {op.relationship}</p>
+                                        <p class="war-role"><strong>ROLE IN SHADOW WAR:</strong> {op.roleInTheShadowWar}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {legendaryArsenal && (
+                         <div class="data-block arsenal-block">
+                            <h2 class="block-title">// LEGENDARY_ARSENAL</h2>
+                            <p class="rumor-text">{legendaryArsenal.rumor}</p>
+                            <div class="arsenal-items">
+                                {legendaryArsenal.weapons.map(weapon => (
+                                    <div class="weapon-item">
+                                        <h4>{weapon.name}</h4>
+                                        <p>{weapon.description}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+                    
+                    {mostFamousGig && (
+                        <div class="data-block famous-gig-block">
+                            <h3 class="block-title">// DEFINING_OPERATION</h3>
+                            <div class="log-header"><h3>{mostFamousGig.gigTitle}</h3><span class="log-date">{mostFamousGig.date}</span></div>
+                            <div class="log-body">
+                                <p><strong>OBJECTIVE:</strong> {mostFamousGig.objective}</p>
+                                <p><strong>CLIENT:</strong> {mostFamousGig.client}</p>
+                                <p><strong>OUTCOME:</strong> {mostFamousGig.outcome}</p>
+                                <blockquote class="merc-feedback"><span class="feedback-label">// DECRYPTED_TESTIMONIAL</span>{mostFamousGig.mercFeedback}</blockquote>
+                            </div>
+                        </div>
+                    )}
+
+                    {legendaryGigs && (
+                        <div class="data-block">
+                            <h2 class="block-title legendary-title">// LEGENDARY_OPERATIONS</h2>
+                            {legendaryGigs.map(gig => (
+                                <div class="legendary-gig-entry">
+                                    <div class="log-header"><h3>{gig.gigTitle}</h3><span class="log-date">{gig.date}</span></div>
+                                     <div class="log-body">
+                                        <p><strong>OBJECTIVE:</strong> {gig.objective}</p>
+                                        <p><strong>OUTCOME:</strong> {gig.outcome}</p>
+                                        <blockquote class="merc-feedback"><span class="feedback-label">// DECRYPTED_TESTIMONIAL</span>{gig.mercFeedback}</blockquote>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+
+                    <div class="data-block">
+                        <h2 class="block-title">// RECENT_GIG_LOG</h2>
                         {recentGigDetails.map(gig => (
                             <div class="gig-log-entry">
-                                <div class="log-header">
-                                    <h3>{gig.gigTitle}</h3>
-                                    <span class="log-date">// {gig.date}</span>
-                                </div>
+                                <div class="log-header"><h3>{gig.gigTitle}</h3><span class="log-date">{gig.date}</span></div>
                                 <div class="log-body">
                                     <p><strong>OBJECTIVE:</strong> {gig.objective}</p>
                                     <p><strong>OUTCOME:</strong> {gig.outcome}</p>
-                                    <blockquote class="merc-feedback">
-                                        <span class="feedback-label">// MERC_FEEDBACK</span>
-                                        {gig.mercFeedback}
-                                    </blockquote>
-                                    <div class="log-footer">
-                                        <span class="client-info"><strong>CLIENT:</strong> [ENCRYPTED]</span>
-                                        <span class="payout-info"><strong>PAYOUT:</strong> {gig.payout}</span>
-                                    </div>
+                                    <blockquote class="merc-feedback"><span class="feedback-label">// OPERATOR_FEEDBACK</span>{gig.mercFeedback}</blockquote>
                                 </div>
                             </div>
                         ))}
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </div>
 </MainLayout>
 
 <style is:global>
-    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&family=Orbitron:wght@700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Orbitron:wght@900&display=swap');
 
     :root {
-        --color-background: #0a0a14;
-        --color-text: #c0c8e0;
-        --color-text-dark: #687394;
-        --color-border: #2a3457;
-        --color-primary: #00f0ff; /* Cyan */
-        --color-secondary: #fcee0a; /* Yellow */
-        --color-accent: #ff0054; /* Magenta */
-        --color-success: #00ff85; /* Green */
-        --color-danger: #ef4444; /* Red */
-        --font-primary: 'Orbitron', sans-serif;
-        --font-secondary: 'Rajdhani', sans-serif;
+        --color-bg: #0C0A1D;
+        --color-surface: rgba(18, 16, 40, 0.8);
+        --color-cyan: #00F0FF;
+        --color-magenta: #FF00E6;
+        --color-yellow: #FCEE0A;
+        --color-red: #FF3B3B;
+        --color-green: #00FF85;
+        --color-text-primary: #EAEAEA;
+        --color-text-secondary: #9B9B9B;
+        --border-color: rgba(0, 240, 255, 0.3);
+        --font-main: 'Rajdhani', sans-serif;
+        --font-header: 'Orbitron', sans-serif;
     }
 
-    .dossier-container {
-        width: 100%;
-        background-color: black;
-        border: 2px solid var(--color-border);
-        padding: 2rem 3rem;
-        position: relative;
-        overflow: hidden;
-        font-family: var(--font-secondary);
-        color: var(--color-text);
-        box-shadow: 0 0 40px rgba(0, 240, 255, 0.2);
-    }
+    /* --- BASE & AESTHETICS --- */
+    .dossier-wrapper { font-family: var(--font-main); background: var(--color-bg); padding: 2rem; }
+    .dossier-container { border: 1px solid var(--border-color); background: var(--color-surface); backdrop-filter: blur(10px); position: relative; overflow: hidden; animation: fadeIn 1s ease-out; }
+    .hex-background, .scanline-overlay, .glitch-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: -1; }
+    .hex-background { background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="46.188" viewBox="0 0 40 46.188"><path fill="rgba(0, 240, 255, 0.05)" d="M20 0l20 11.547v23.094L20 46.188 0 34.641V11.547z"/></svg>'); animation: pan 40s linear infinite; }
+    .scanline-overlay { background: linear-gradient(0deg, transparent 50%, rgba(0,0,0,0.5) 50%); background-size: 100% 4px; opacity: 0.3; }
+    .glitch-overlay { animation: glitch-scanline 15s linear infinite; }
+    .hud-frame { position: absolute; width: 25px; height: 25px; border-color: var(--color-cyan); opacity: 0.5; }
+    .top-left { top: 1rem; left: 1rem; border-top: 2px solid; border-left: 2px solid; }
+    .top-right { top: 1rem; right: 1rem; border-top: 2px solid; border-right: 2px solid; }
+    .bottom-left { bottom: 1rem; left: 1rem; border-bottom: 2px solid; border-left: 2px solid; }
+    .bottom-right { bottom: 1rem; right: 1rem; border-bottom: 2px solid; border-right: 2px solid; }
     
-    .grid-overlay {
-        position: absolute;
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        background-image: 
-            linear-gradient(var(--color-border) 1px, transparent 1px), 
-            linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
-        background-size: 50px 50px;
-        opacity: 0.1;
-        animation: pan-grid 60s linear infinite;
-        pointer-events: none;
-    }
-    @keyframes pan-grid {
-        0% { background-position: 0 0; }
-        100% { background-position: 500px 500px; }
-    }
+    @keyframes pan { to { background-position: 200% 0; } }
+    @keyframes fadeIn { from { opacity: 0; transform: scale(0.98); } to { opacity: 1; transform: scale(1); } }
+    @keyframes glitch-scanline { 20% { clip-path: inset(0 0 0 0); } 20.1% { clip-path: inset(20% 0 78% 0); } 20.2% { clip-path: inset(0 0 0 0); } 45% { clip-path: inset(0 0 0 0); } 45.1% { clip-path: inset(80% 0 10% 0); } 45.2% { clip-path: inset(0 0 0 0); } 70% { clip-path: inset(0 0 0 0); } 70.1% { clip-path: inset(50% 0 45% 0); } 70.2% { clip-path: inset(0 0 0 0); } }
 
     /* --- HEADER --- */
-    .dossier-main-header {
-        border-bottom: 2px solid var(--color-primary);
-        padding-bottom: 1.5rem;
-        margin-bottom: 3rem;
-        text-align: center;
-    }
-    .glitch-wrapper {
-        position: relative;
-        margin: 0 auto;
-        display: inline-block;
-    }
-    .glitch {
-        font-family: var(--font-primary);
-        font-size: 5rem;
-        font-weight: 900;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        color: var(--color-secondary);
-        text-shadow: 0 0 10px var(--color-secondary), 0 0 20px var(--color-secondary);
-        position: relative;
-        animation: glitch-scan 8s infinite linear;
-    }
-    .glitch:before, .glitch:after {
-        content: attr(data-text);
-        position: absolute;
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        background: var(--color-background);
-        overflow: hidden;
-        clip: rect(0, 900px, 0, 0);
-    }
-    .glitch:before {
-        left: 2px;
-        text-shadow: -2px 0 var(--color-accent);
-        animation: glitch-anim-1 2s infinite linear alternate-reverse;
-    }
-    .glitch:after {
-        left: -2px;
-        text-shadow: -2px 0 var(--color-primary), 2px 2px var(--color-accent);
-        animation: glitch-anim-2 3s infinite linear alternate-reverse;
-    }
-
-    @keyframes glitch-anim-1 { 0%, 100% { clip: rect(44px, 9999px, 45px, 0); } 50% { clip: rect(23px, 9999px, 92px, 0); } }
-    @keyframes glitch-anim-2 { 0%, 100% { clip: rect(65px, 9999px, 100px, 0); } 50% { clip: rect(35px, 9999px, 80px, 0); } }
-    @keyframes glitch-scan { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-
-    .header-sub-details { display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 1.5rem; justify-content: center; }
-    .detail-tag {
-        font-size: 1.1rem; text-transform: uppercase;
-        letter-spacing: 1.5px;
-        color: var(--color-text-dark);
-    }
-    .detail-tag strong { color: var(--color-text); font-weight: 700; }
-    
-    .status-tag {
-        font-weight: 700;
-        padding: 0.2rem 0.5rem;
-        text-shadow: 0 0 5px;
-    }
-    .status-active { color: var(--color-success); animation: pulse-green 2s infinite; }
-    .status-deceased { color: var(--color-danger); animation: pulse-red 2s infinite; }
-    @keyframes pulse-green { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
-    @keyframes pulse-red { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+    .dossier-main-header { padding: 2rem 3rem; text-align: center; }
+    .dossier-main-header h1 { font-family: var(--font-header); font-size: 6rem; color: var(--color-text-primary); text-transform: uppercase; text-shadow: 0 0 15px var(--color-cyan), 0 0 25px var(--color-magenta); margin: 0; position: relative; }
+    .dossier-main-header h1::before, .dossier-main-header h1::after { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; }
+    .dossier-main-header h1::before { left: 2px; text-shadow: -2px 0 var(--color-magenta); clip-path: inset(50% 0 50% 0); animation: glitch-anim 3s infinite linear alternate-reverse; }
+    .dossier-main-header h1::after { left: -2px; text-shadow: -2px 0 var(--color-cyan); clip-path: inset(50% 0 50% 0); animation: glitch-anim 4s infinite linear alternate-reverse; }
+    @keyframes glitch-anim { 0% { clip-path: inset(80% 0 10% 0); } 25% { clip-path: inset(10% 0 85% 0); } 50% { clip-path: inset(40% 0 40% 0); } 75% { clip-path: inset(90% 0 2% 0); } 100% { clip-path: inset(2% 0 90% 0); } }
+    .aliases { font-family: var(--font-main); font-weight: 700; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 4px; margin-top: 1rem; }
+    .header-sub-details { display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2rem; justify-content: center; border-top: 1px solid var(--border-color); padding-top: 2rem; }
+    .detail-item { text-transform: uppercase; }
+    .detail-item span { display: block; font-size: 0.8rem; color: var(--color-text-secondary); margin-bottom: 0.25rem; }
+    .status-tag { color: var(--color-green); font-weight: 700; }
+    .status-deceased { color: var(--color-danger); }
 
     /* --- LAYOUT & COLUMNS --- */
-    .dossier-grid { display: grid; grid-template-columns: 380px 1fr; gap: 3rem; }
+    .dossier-grid { display: grid; grid-template-columns: 400px 1fr; gap: 2rem; padding: 3rem; }
+    .data-block { background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); padding: 1.5rem; margin-bottom: 2rem; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%); }
+    .block-title { font-family: var(--font-header); font-size: 1.3rem; text-transform: uppercase; color: var(--color-cyan); margin: 0 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-color); }
 
-    .fixer-image-container {
-        width: 100%; margin-bottom: 2rem;
-        border: 2px solid var(--color-primary);
-        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%);
-        position: relative;
-        background: var(--color-primary);
-    }
-    .fixer-image-container img {
-        width: 100%; display: block; filter: grayscale(80%) contrast(120%) brightness(0.9);
-        transition: filter 0.3s ease;
-    }
-    .fixer-image-container:hover img { filter: grayscale(0%) contrast(100%) brightness(1); }
-
-    .data-block { margin-bottom: 2.5rem; }
-    .block-title {
-        font-family: var(--font-primary);
-        font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px;
-        color: var(--color-primary);
-        text-shadow: 0 0 8px var(--color-primary);
-        margin-bottom: 1.5rem;
-    }
-
-    /* --- RATINGS & ADVANTAGES --- */
+    /* --- LEFT COLUMN --- */
+    .fixer-image-container { border: 1px solid var(--border-color); }
+    .fixer-image-container img { width: 100%; display: block; filter: grayscale(100%) contrast(1.3) brightness(0.8); }
+    .nemesis-block { border-color: var(--color-red); box-shadow: 0 0 20px rgba(255, 59, 59, 0.3); animation: pulse-red 3s infinite; }
+    .nemesis-block .block-title { color: var(--color-red); border-color: var(--color-red); }
+    .nemesis-block h4 { font-size: 1.2rem; color: var(--color-text-primary); margin: 0 0 0.5rem 0; }
+    .nemesis-block p { margin: 0; line-height: 1.6; font-size: 0.95rem; color: var(--color-text-secondary); }
+    .shadow-war-block { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px dashed rgba(255, 59, 59, 0.3); }
+    .shadow-war-block h5 { color: var(--color-red); margin-bottom: 1rem; }
+    .shadow-war-block p { margin-bottom: 0.5rem; }
+    .shadow-war-block strong { color: var(--color-text-primary); }
+    @keyframes pulse-red { 0%, 100% { background: rgba(255,59,59,0.05); } 50% { background: rgba(255,59,59,0.15); } }
+    .psych-content h5 { color: var(--color-cyan); font-size: 1rem; margin: 1rem 0 0.5rem 0; text-transform: uppercase; }
+    .psych-content p { margin: 0; font-size: 0.95rem; color: var(--color-text-secondary); }
     .ratings-container { display: flex; flex-direction: column; gap: 1rem; }
-    .rating-item { display: grid; grid-template-columns: 120px 1fr auto; align-items: center; gap: 1rem; }
-    .rating-label { font-size: 0.9rem; color: var(--color-text-dark); text-transform: uppercase; white-space: nowrap; }
-    .rating-bar-bg { background: rgba(42, 52, 87, 0.5); height: 10px; clip-path: polygon(0 0, 100% 0, 100% 100%, 5px 100%, 0 100%); }
-    .rating-bar-fill {
-        background: var(--color-primary); height: 100%; box-shadow: 0 0 8px var(--color-primary);
-        transition: width 0.5s ease;
-    }
-    .rating-item:hover .rating-bar-fill { background: var(--color-secondary); box-shadow: 0 0 8px var(--color-secondary); }
-    .rating-value { font-size: 1rem; font-weight: 700; color: var(--color-text); }
+    .rating-item { display: grid; grid-template-columns: 120px 1fr 40px; align-items: center; gap: 1rem; text-transform: uppercase; }
+    .rating-label { font-size: 0.9rem; color: var(--color-text-secondary); }
+    .rating-bar-bg { background: rgba(0,0,0,0.4); border: 1px solid var(--border-color); height: 8px; }
+    .rating-bar-fill { background: linear-gradient(90deg, var(--color-cyan), var(--color-magenta)); height: 100%; box-shadow: 0 0 8px var(--color-cyan); }
+    .advantages-sub-title { font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; margin: 1.5rem 0 1rem 0; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-color); }
+    .advantages-sub-title.strengths { color: var(--color-green); }
+    .advantages-sub-title.weaknesses { color: var(--color-red); }
+    .advantages-list { list-style: none; padding-left: 0; margin: 0; }
+    .advantages-list li { margin-bottom: 0.75rem; position: relative; padding-left: 1.5rem; }
+    .advantages-list li::before { position: absolute; left: 0; top: 2px; font-weight: 700; font-size: 1.2rem; }
+    .strengths li::before { content: '++'; color: var(--color-green); }
+    .weaknesses li::before { content: '--'; color: var(--color-red); }
 
-    .advantages-list { list-style: none; padding-left: 1rem; margin: 0; }
-    .advantages-list li {
-        margin-bottom: 0.75rem; position: relative;
-        padding-left: 1.5rem;
-    }
-    .advantages-list li::before {
-        position: absolute; left: 0; top: 2px;
-        font-weight: 700; font-size: 1.2rem;
-        transition: transform 0.2s, text-shadow 0.2s;
-    }
-    .strengths li::before { content: '++'; color: var(--color-success); }
-    .weaknesses li::before { content: '--'; color: var(--color-danger); }
-    .weaknesses-title { margin-top: 2rem; color: var(--color-accent); text-shadow: 0 0 8px var(--color-accent); }
-    .advantages-list li:hover::before { transform: translateX(5px); text-shadow: 0 0 8px; }
-
-    /* --- RIGHT COLUMN & LOGS --- */
-    .biography-text h3 {
-        font-size: 1.1rem; text-transform: uppercase;
-        color: var(--color-primary); letter-spacing: 1px;
-        margin: 2rem 0 0.5rem 0; font-weight: 700;
-    }
-    .biography-text p { margin: 0; line-height: 1.7; color: var(--color-text-dark); }
-    .biography-text p:first-of-type { color: var(--color-text); }
-
-    .gig-log-entry, .legendary-gig-entry {
-        border-left: 2px solid var(--color-border);
-        padding-left: 2rem; margin-bottom: 3rem;
-        position: relative;
-    }
-    .gig-log-entry::before {
-        content: ''; position: absolute; left: -7px; top: 8px;
-        width: 12px; height: 12px; background: var(--color-border);
-        border: 2px solid var(--color-primary);
-        border-radius: 50%; transition: background-color 0.3s;
-    }
-    .gig-log-entry:hover::before { background: var(--color-secondary); border-color: var(--color-secondary); }
-
-    .log-header h3 {
-        font-family: var(--font-secondary);
-        font-size: 1.6rem; color: var(--color-text); margin: 0 0 0.5rem 0; font-weight: 700;
-    }
-    .log-date { color: var(--color-text-dark); font-family: monospace; }
+    /* --- RIGHT COLUMN --- */
+    .biography-text h3 { font-family: var(--font-main); font-weight: 700; font-size: 1.1rem; text-transform: uppercase; color: var(--color-cyan); letter-spacing: 1px; margin: 1.5rem 0 0.5rem 0; }
+    .biography-text p { margin: 0; line-height: 1.7; color: var(--color-text-secondary); }
+    .operatives-block { border-color: var(--color-cyan); }
+    .overview-text { font-style: italic; color: var(--color-text-secondary); margin-bottom: 1.5rem; }
+    .operative-item { margin-bottom: 1.5rem; border-left: 2px solid var(--border-color); padding-left: 1rem; }
+    .operative-item h4 { font-size: 1.2rem; margin: 0 0 0.5rem 0; }
+    .operative-item h4 span { font-size: 1rem; color: var(--color-text-secondary); }
+    .operative-item p { margin: 0.25rem 0; }
+    .war-role { color: var(--color-cyan); }
+    .arsenal-block { border-color: var(--color-yellow); }
+    .arsenal-block .block-title { color: var(--color-yellow); border-color: var(--color-yellow); }
+    .rumor-text { font-style: italic; color: var(--color-text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;}
+    .arsenal-items { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .weapon-item h4 { color: var(--color-text-primary); margin: 0 0 0.5rem 0; font-size: 1.2rem; }
+    .weapon-item p { margin: 0; font-size: 0.95rem; color: var(--color-text-secondary); }
+    .famous-gig-block { border-color: var(--color-accent); }
+    .famous-gig-block .block-title, .famous-gig-block h3 { color: var(--color-accent); border-color: var(--color-accent); }
+    .legendary-title { color: var(--color-yellow); border-color: var(--color-yellow); }
+    .legendary-gig-entry { margin-bottom: 1.5rem; border-left: 2px solid var(--color-yellow); padding-left: 1.5rem; }
+    .legendary-gig-entry h3 { color: var(--color-yellow); }
+    .gig-log-entry { border-left: 2px solid var(--border-color); padding-left: 1.5rem; margin-bottom: 1.5rem; }
+    .log-header { display: flex; justify-content: space-between; align-items: baseline; }
+    .log-header h3 { font-size: 1.4rem; color: var(--color-text-primary); margin: 0; }
+    .log-date { font-size: 0.8rem; color: var(--color-text-secondary); font-family: monospace; }
     .log-body p { margin: 0.75rem 0; }
-    .log-body strong { color: var(--color-primary); font-weight: 700; }
-    
-    .merc-feedback {
-        margin: 1.5rem 0;
-        background: rgba(42, 52, 87, 0.3);
-        border-left: 3px solid var(--color-accent);
-        padding: 1rem 1.5rem;
-        font-style: italic;
-        color: var(--color-text-dark);
-    }
-    .merc-feedback .feedback-label {
-        display: block;
-        font-style: normal;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: var(--color-accent);
-        margin-bottom: 0.5rem;
-    }
-    .log-footer {
-        display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
-        margin-top: 1.5rem; padding-top: 1rem;
-        border-top: 1px dashed var(--color-border);
-    }
-    .payout-info { font-weight: 700; color: var(--color-success); text-shadow: 0 0 5px var(--color-success); }
-    .client-info { color: var(--color-text-dark); }
-
-    .legendary-title { color: var(--color-secondary); text-shadow: 0 0 8px var(--color-secondary); }
-    .legendary-gig-entry {
-        border: 2px solid var(--color-secondary);
-        padding: 2rem;
-        background: radial-gradient(circle, rgba(252, 238, 10, 0.08) 0%, rgba(252, 238, 10, 0) 70%);
-        margin-top: 1.5rem;
-    }
-    .legendary-gig-entry .log-header h3 { color: var(--color-secondary); font-size: 2rem; }
-    .legendary-payout { font-size: 1.5rem; }
+    .log-body strong { color: var(--color-cyan); font-weight: 600; }
+    .merc-feedback { margin-top: 1rem; padding: 1rem; background: rgba(0,0,0,0.2); border-left: 2px solid var(--color-accent); font-style: italic; color: var(--color-text-secondary); }
+    .merc-feedback .feedback-label { display: block; font-style: normal; font-weight: 700; color: var(--color-accent); margin-bottom: 0.5rem; text-transform: uppercase; }
 
     /* --- RESPONSIVE --- */
-    @media (max-width: 1200px) {
-        .dossier-grid { grid-template-columns: 1fr; }
-        .left-column {
-            display: grid; grid-template-columns: 1fr 1fr;
-            gap: 3rem; align-items: start;
-        }
-        .fixer-image-container { grid-column: 1 / -1; }
-    }
-    @media (max-width: 768px) {
-        .dossier-container { padding: 1.5rem; }
-        .glitch { font-size: 3rem; }
-        .left-column { grid-template-columns: 1fr; }
-    }
+    @media (max-width: 1200px) { .dossier-grid { grid-template-columns: 1fr; } .left-column { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; } .fixer-image-container { grid-column: 1 / -1; } }
+    @media (max-width: 768px) { .dossier-wrapper { padding: 0.5rem; } .dossier-grid { padding: 1rem; } .dossier-main-header { padding: 1.5rem; } .dossier-main-header h1 { font-size: 4rem; } .left-column { grid-template-columns: 1fr; } }
 </style>

@@ -1,71 +1,77 @@
 {
   "weaponProfile": {
-    "title": "Warden",
+    "title": "The Shepherd's Crook",
     "image": "/warden.png",
-    "id": "kang_tao_warden",
-    "aliases": ["The Shepherd's Crook", "The Pacifier", "The HR Special"],
+    "id": "kang_tao_warden_legendary",
+    "aliases": ["The Pacifier", "The HR Special", "The Unmovable Object"],
     "type": "Melee (Stun Staff)",
-    "manufacturer": "Kang Tao",
-    "status": "Active; Corporate Security Issue",
-    "cost": "€$85,000",
-    "specialAbility": "Non-lethal. Blocking incoming attacks builds up a charge. A heavy attack expends the charge to release a powerful electrical blast that can chain to nearby enemies.",
-
+    "manufacturer": "Kang Tao (Masterwork Prototype)",
+    "status": "Unique; Legendary Artifact",
+    "cost": "Priceless (Symbol of Mastery)",
+    "specialAbility": "Non-lethal. Blocking incoming attacks builds up a charge. A heavy attack expends the charge to release a powerful electrical blast that can chain to nearby enemies, disabling their cyberware. Perfectly timed blocks will instantly build a full charge.",
     "baseStats": {
       "attackSpeed": 2.5,
-      "damage": 180,
+      "damage": "180",
       "reloadSpeed": 0,
       "range": 3.5,
       "mods": 1
     },
-
+    "keyRelationships": {
+      "nemesis": "'Dum Dum' (Maelstrom | Lieutenant). Dum Dum and his Maelstrom crew were the ones humiliated in the 'Corpo Plaza Standoff.' He was made to look like a fool, his entire chromed-out squad disabled without a single casualty by a 'glorified walking stick.' He is now fanatically obsessed with finding 'The Shepherd's Crook' and its wielder, determined to prove that pure, chaotic violence can overcome any 'fancy corpo martial arts.'",
+      "creator": "Kang Tao Non-Lethal Enforcement Division"
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Corpo Plaza Standoff",
+        "date": "05.12.2075",
+        "objective": "A legendary bodyguard, 'The Shepherd,' was tasked with protecting a Kang Tao executive during a hostile negotiation with a Maelstrom crew in a Corpo Plaza lobby.",
+        "client": "Kang Tao Executive Protection",
+        "target": "The safety of Director Chen.",
+        "outcome": "A legendary display of non-lethal mastery. When the negotiations broke down, Dum Dum and his Maelstrom crew drew their weapons. 'The Shepherd,' armed with his custom Warden, stood his ground. For three minutes, he single-handedly blocked every incoming attack, from bullets to blades. The staff, glowing with stored energy, was then discharged in a single, massive electrical blast that incapacitated the entire Maelstrom squad simultaneously. The event was captured on security cameras and became a viral sensation, a perfect piece of Kang Tao marketing.",
+        "mercFate": "'The Shepherd' became a living legend, the most sought-after bodyguard in the world, and the public face of Kang Tao's non-lethal philosophy. His weapon, 'The Shepherd's Crook,' became as famous as he was.",
+        "mercFeedback": "'The footage is textbook. He doesn't move more than three feet. He's a rock in the storm. Block, block, parry... the staff is humming. Then, one swing, and it's over. A dozen Maelstrom gangers, all twitching on the floor. He didn't just defeat them; he embarrassed them. He won a firefight without firing a shot.' - NCPD Training Analysis.",
+        "payout": "A priceless marketing victory and a legend.",
+        "reputationImpact": "This event turned 'The Shepherd's Crook' into a legendary weapon, the ultimate symbol of defensive mastery. It proved the effectiveness of Kang Tao's non-lethal doctrine and became the most sought-after weapon for elite bodyguards worldwide. It also created a bitter and deeply personal rivalry with Dum Dum, a man who would never live down the humiliation."
+    },
+    "designAndMaterials": {
+        "materials": "The shaft of 'The Shepherd's Crook' is a unique, carbon-fiber weave that is both incredibly light and unbelievably durable. The head contains a master-crafted, high-capacity capacitor, far superior to the commercial models. The entire weapon is inlaid with a golden, non-conductive filament, and the grip is wrapped in the hide of a rare, synth-leather stingray.",
+        "ammunitionType": "N/A. The weapon's 'Kinetic-to-Capacitor' conversion system is a prototype model that is 30% more efficient than the standard Warden, allowing it to build a full charge from fewer blocked attacks.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "The Shepherd's Calm", "description": "This unique, master-crafted modification is the heart of the weapon. It contains a predictive algorithm that provides haptic feedback to the user, making it significantly easier to achieve perfectly timed blocks and instantly build a full charge." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Warden embodies the philosophy of the unshakable guardian. It is a weapon that rejects the very premise of offense. Its purpose is not to attack, but to endure, to absorb the enemy's rage and turn it back on them. The charge mechanic is a test of the wielder's discipline and courage. It is a tool for the warrior who understands that true power lies not in the force of your own blow, but in your ability to withstand the blows of your enemies and remain standing."
+    },
     "manufacturingIntel": {
-      "creator": "Kang Tao Non-Lethal Enforcement Division",
-      "creatorReputation": "Kang Tao's reputation is built on smart guns that think. The Warden comes from a different philosophy: a smart weapon that *defends*. The project was led by a former martial arts master who believed that the best way to win a fight was to control your opponent's energy and use it against them.",
-      "developmentHistory": "The Warden was designed as a crowd control and VIP protection tool for Kang Tao's elite corporate sentinels. The core technology is its 'Kinetic-to-Capacitor' conversion system. The staff's frame absorbs the kinetic energy of blocked impacts—melee or ballistic—and stores it in a high-capacity capacitor in the head. A heavy attack discharges this capacitor in a targeted, chain-lightning blast. It's a weapon that grows stronger the more aggressively it is attacked, making it the perfect tool for a defensive operator facing overwhelming numbers.",
+      "creatorReputation": "The Warden was designed by a former martial arts master in Kang Tao's Non-Lethal division. 'The Shepherd's Crook' was the original, master-crafted prototype he created for his star pupil and personal friend, the man who would become 'The Shepherd.'",
+      "developmentHistory": "After the 'Corpo Plaza Standoff' made the weapon famous, Kang Tao rushed the commercial 'Warden' into production. These models are effective, but they lack the perfectly tuned capacitor and the predictive blocking software of the one-of-a-kind original. 'The Shepherd's Crook' is not just a prototype; it is a master's gift to his greatest student.",
       "productionDate": "Circa 2074"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Excellent for crowd control and managing multiple opponents in a non-lethal manner.",
-        "Rewards a defensive, patient, and skilled playstyle.",
+        "The ability to instantly charge on a perfect block rewards a high-skill, defensive playstyle.",
         "The chain lightning effect can incapacitate an entire squad with a single, well-timed discharge.",
         "Longer reach than most one-handed melee weapons."
       ],
       "weaknesses": [
         "Deals purely non-lethal electrical damage, making it useless for assassination gigs.",
         "Low base damage; relies on the charged blast to be effective.",
-        "Ineffective if the user cannot successfully block incoming attacks to build a charge.",
-        "Vulnerable to high-damage, unblockable heavy attacks."
+        "Ineffective if the user is not skilled at timing blocks.",
+        "Possession of this weapon will make you the personal target of the humiliated and rage-filled Maelstrom lieutenant, Dum Dum."
       ],
-      "recommendedRoles": "Bodyguard, Corporate Sentinel, Peacekeeper, Martial Artist.",
-      "masteryArchetype": "A 'Guardian' build. A merc with high Reflexes and Cool attributes who specializes in counter-attacks and defense. The ideal user combines the Warden with a Kerenzikov or Sandevistan, using time dilation to perfectly block a flurry of incoming attacks, instantly building a full charge. They then unleash the electrical blast to neutralize the entire group before finishing them with non-lethal takedowns. They are an untouchable, elegant master of control."
+      "recommendedRoles": "Bodyguard, Corporate Sentinel, Peacekeeper, Martial Artist, Tank.",
+      "masteryArchetype": "A 'Guardian' build. A merc with high Reflexes and Cool attributes who specializes in counter-attacks. The ideal user combines 'The Shepherd's Crook' with a Kerenzikov or Sandevistan, using time dilation to perfectly block a flurry of attacks, instantly building a full charge. They then unleash the electrical blast to neutralize the entire group. They are an untouchable, elegant master of control."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Uncommon. As a corporate security weapon, the Warden is not sold in most street-level gun shops. It can be purchased from high-end, corporate-affiliated weapon vendors in Corpo Plaza. It is also a rare drop from high-level Kang Tao corporate guards.",
-      "rumoredLocation": "The head of security for the Kang Tao orbital launch facility is a renowned martial artist who is said to wield a master-crafted Warden with a gold-inlaid frame and an overclocked capacitor. He has reportedly never been defeated in a sparring match."
+      "marketAvailability": "Unique. This weapon is a legendary artifact and cannot be bought.",
+      "rumoredLocation": "After years of service, the legendary bodyguard 'The Shepherd' retired. As a final act, he gifted his signature weapon to his most trusted client, a high-ranking Kang Tao executive, as a symbol of his protection. The executive is rumored to keep the staff on display in his penthouse apartment in Corpo Plaza, a priceless piece of art and a reminder of the day he walked away from a Maelstrom execution unscathed."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Aegis' (Bodyguard)",
-        "context": "Protecting a corpo exec during a shareholder riot.",
-        "feedback": "'They came at us with pipes and bats. I just stood my ground, blocked every swing. The staff was humming, fully charged in seconds. One heavy swing, and the whole front line dropped, twitching. The rest scattered. I didn't have to kill a soul. This thing is the ultimate de-escalation tool.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Breaker' (Brawler)",
-        "context": "One-on-one cage match against an Animal.",
-        "feedback": "'Blocking? Who has time for blocking? I just wanted to hit him. This thing feels like a wet noodle until it's charged up, and you can't charge it if you're the one throwing all the punches. It's a reactive weapon for people who are afraid to just go in and break some chrome.'",
-        "rating": "2/5 (Too defensive)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Regina Jones gig: neutralize a cyberpsycho non-lethally.",
-        "feedback": "'The psycho was fast, all blades and fury. I just kept blocking, letting the Warden soak up his rage. When it was glowing, I unleashed the blast. He went down like a sack of potatoes, system rebooted. It's an elegant weapon for a more civilized merc. Regina was very happy.'",
-        "rating": "4/5 (A perfect tool for specific jobs)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Shepherd's Crook is the ultimate defensive tool for a crew's designated 'tank' or bodyguard. Their role is to be the immovable object, drawing enemy fire and protecting high-value assets, like a netrunner jacked into a system or a VIP. A successful crew will use this user as the anchor of their formation. A solo can flank enemies who are focused on trying to break the staff-wielder's guard, while a netrunner can use quickhacks to further weaken the clustered, frustrated attackers. Its purpose is not to win the fight, but to ensure the enemy cannot win, creating the perfect opening for the rest of the crew to strike."
+    }
   }
 }

@@ -2,85 +2,157 @@
   "fixerProfile": {
     "title": "Arthur Cormac",
     "image": "/arthur.webp",
-    "aliases": ["The Suit", "Corpo's Ghost"],
-    "status": "Active",
+    "aliases": ["The Architect", "Corpo's Ghost", "The King of Glass"],
+    "status": "Active (Presumed)",
     "primaryTerritory": "City Center, Corpo Plaza",
-    "specialization": "Corporate Espionage, Data Theft, Executive Extraction, Sabotage",
-
+    "specialization": "Corporate Espionage, Data Theft, Psychological Warfare, Sabotage",
     "biography": {
-      "earlyLife": "Arthur Cormac's early records are heavily scrubbed, a sign of a high-level corporate background. Street intel suggests he was a mid-level counter-intelligence analyst for a lesser corporation that was forcibly acquired by Kang Tao. Rather than being integrated, Cormac was 'retired' with a generous severance and a non-disclosure agreement thicker than a phone book. He saw this not as an end, but as an opportunity to monetize his unique skill set from the other side of the table.",
-      "riseAsFixer": "Cormac didn't rise from the streets; he descended from the towers. He leveraged his old contacts and intimate knowledge of corporate security protocols to carve out a niche as the go-to fixer for 'internal affairs.' He understood that the biggest wars in Night City weren't fought with guns in the streets, but with data packets in the boardrooms. He built his reputation on discretion, efficiency, and an uncanny ability to predict corporate responses, making his gigs surgical strikes rather than messy brawls.",
-      "modusOperandi": "Cormac is a strategist above all. He treats every gig like a chess match, providing his mercs with meticulously detailed intel—building layouts, security patrol routes, and psychological profiles of key targets. He communicates exclusively through encrypted channels and never meets his contractors in person. He detests unnecessary violence and collateral damage, viewing it as a sign of amateurism. His philosophy is simple: get in, get the asset, and get out before the target even knows they've been hit.",
-      "reputation": "Among the elite mercs of Night City, Cormac is known as a high-risk, high-reward professional. He's considered cold and detached, viewing his mercs as highly-skilled tools for a specific job. There's no loyalty or friendship, only a contract. However, his intel is second to none, and his payouts are consistently in the top percentile. Working for Cormac is a mark of prestige, a sign that you're skilled enough to operate in the corporate big leagues."
+      "earlyLife": "Before the ghost, there was a man. Arthur Cormac was a lead architect contracted by Militech to design the 'Elysian Fields' residential tower. He poured his soul into it, a monument to human-centric design. He lived there with his family. But the project was a front. During a hostile takeover by Arasaka, Militech activated a hidden protocol, turning the tower into a defense grid. The ensuing corporate skirmish wasn't fought in the streets; it was fought in the walls of his home. A targeted EMP, meant for Arasaka forces, wiped the tower's residential data, including the digital consciousnesses of his wife and daughter. They were erased. Cormac survived, but his life did not.",
+      "riseAsFixer": "Officially, Arthur Cormac died in the 'Elysian Fields Incident.' What remained was a ghost animated by cold, calculated rage. He weaponized his intimate knowledge of corporate architecture—both physical and digital—to become a fixer. His first clients were the grieving families of the incident. He dismantled the careers of the executives responsible, not with bullets, but with surgical strikes of data and blackmail. His reputation grew in the shadows: a phantom who could walk through walls and tear a corporation down from the inside.",
+      "modusOperandi": "Cormac is a ghost playing with a city of glass houses. Every gig is an echo of his loss. He provides his mercs with intel-shards that feel like architectural blueprints of reality itself. He communicates through encrypted, untraceable channels—a disembodied voice in the net. He detests overt violence, seeing it as an admission of failure. Why fire a bullet when you can alter a building's environmental controls to trigger a fatal cardiac arrest in a target with a known heart condition? His philosophy is not just 'get in, get out.' It's 'leave a scar that reminds them of what they took.'",
+      "reputation": "Among Night City's elite, Cormac is more myth than man. They call him the 'King of Glass' because he sees the fragility in everything—every system, every person, every skyscraper. His gigs are high-risk, high-reward gambles against the gods of the corporate world. He is cold and distant because he is no longer truly alive. His intel is perfect because he designed the very systems his mercs are paid to break. Landing a gig from Cormac means you are skilled enough to be a ghost's scalpel."
     },
-
-    "legendaryGig": {
-        "gigTitle": "The Petrochem-SovOil Ghost Exchange",
-        "date": "03.11.2072",
-        "objective": "Simultaneously steal Petrochem's proprietary geological survey data for the entire North American sector and plant fabricated evidence framing their chief rival, SovOil, for the theft. The operation was timed to coincide with the Global Energy Summit in Night City to maximize market impact.",
-        "client": "Consolidated Energies (Anonymized European Conglomerate)",
-        "target": "Petrochem Geological Archive & SovOil's Reputation",
-        "outcome": "A masterpiece of corporate warfare. Cormac hired a two-person crew: 'Cipher,' a legendary netrunner, and 'Wraith,' a solo specializing in deep-cover infiltration. Using Cormac's intel, Wraith, disguised as a senior data archivist with flawless biometric credentials, gained physical access to a supposedly 'air-gapped' server terminal in Petrochem Tower. This allowed Cipher to bypass the external ICE and perform the 'ghost exchange.' The real data was siphoned to a secure dead drop, while a carefully crafted data-worm containing SovOil's digital signature was unleashed. The 'theft' was discovered mid-summit. Petrochem's stock crashed by 40% in two hours. SovOil was buried in legal challenges and sanctions. The client acquired Petrochem's devalued stock and secured key drilling rights.",
-        "hiredMercs": "'Cipher' (Netrunner), 'Wraith' (Infiltration Solo)",
-        "mercFeedback": "'It was the quietest half-a-million I ever made. Arthur didn't give us a plan; he gave us a script. Every password, every guard rotation, every psychological tick of the floor manager was in the briefing. I was in their most secure server room for twenty minutes, and my heart rate never went above 80. We weren't mercs; we were ghosts executing a prophecy. That's the Cormac difference.' - 'Wraith' (Solo)",
-        "payout": "€$ 500,000",
-        "reputationImpact": "This single operation cemented Cormac's status as a kingmaker. He proved he could do more than just steal secrets; he could manipulate the very fabric of the corporate world, collapsing a giant and elevating a rival without a single shot fired. After the Ghost Exchange, working for Cormac wasn't just lucrative—it was the ultimate validation of a merc's skill in the world of espionage."
+    "psychologicalProfile": {
+      "coreMotivation": "Vengeance, transitioning to a dark, obsessive hope. Initially driven by a pure, cold need to make the architects of his loss feel the same void he does, his discovery of the 'Data-Wraith' has twisted his mission. He now believes, perhaps delusionally, that a fragment of his family's consciousness might be recoverable from the digital chaos. His actions are no longer just about causing pain; they are about a desperate, terrifying attempt at resurrection.",
+      "disorders": "Post-Traumatic Stress Disorder (manifesting as emotional detachment and obsessive behavior), Complicated Grief Disorder, Alexithymia (inability to identify and describe emotions).",
+      "worldview": "Sees the corporate world as a series of flawed, interconnected systems waiting to be broken. He views people not as individuals, but as variables in a complex equation. He is a god in his own machine, and he has lost all respect for the gods of the corporate pantheon."
     },
-
+    "keyRelationships": {
+      "nemesis": "Commander Kaiya Nakano (Arasaka | Head of Incident Resolution Division). A brilliant and relentless investigator, Nakano was promoted specifically to deal with the 'anomalous' security breaches plaguing Arasaka. She sees Cormac not as a tragic figure, but as a dangerous terrorist. She studies his 'art' – the symbolic nature of his attacks – to predict his movements. For Nakano, this isn't business; it's a chess match against a ghost, and she is determined to prove that nothing is truly untraceable.",
+      "stateOfTheShadowWar": {
+          "currentSituation": "Advantage: Nakano. Cormac's recent, increasingly personal gigs have provided Nakano with a psychological baseline. Her predictive models are no longer theoretical; they are becoming accurate. She has begun 'haunting the ghost,' anticipating his moves and laying digital traps. Her division is actively monitoring high-end mercs and black-market tech that fit Cormac's profile, attempting to intercept his operations before they begin. The net is closing.",
+          "cormacsResponse": "Awareness and Escalation. Cormac has detected Nakano's patterns in the Net—a ghost recognizing another ghost's trail. He has shifted from merely avoiding her to actively targeting her. He has begun a counter-investigation, using his own mercs to probe the vulnerabilities of her division, identify her key assets, and build a psychological profile of Nakano herself. He is deconstructing her operation as he would any building, looking for the single, critical flaw that will bring it all down.",
+          "nextObjective": "Operation: 'The Architect's Blueprint.' Cormac's next major move is not to evade Nakano, but to neutralize her. His plan is to orchestrate a 'perfect' false-flag operation. He will design a gig so perfectly tailored to Nakano's predictive model that she will solve it, leading her to a conclusion that frames one of her ambitious Arasaka rivals. The goal is to discredit her, shatter her reputation, and make her superiors believe her obsession has turned her into a liability. He will not kill her; he will make her the architect of her own professional demise."
+      }
+    },
+    "legendaryArsenal": {
+        "rumor": "Cormac doesn't just hire the best; he is rumored to equip them with one-of-a-kind, legendary tools for his most critical operations. These weapons, acquired through his own impossible heists, are as silent, precise, and terrifying as he is.",
+        "weapons": [
+            {
+                "name": "Yurei",
+                "description": "One of the three original prototypes of this silent, cryogenic Arasaka SMG. Cormac was the client for the legendary 'Silent Heist' that liberated them from an orbital lab. He is said to keep one for his personal use and to loan it out to his most trusted infiltrators. To be offered the Yurei is to be asked to become a ghost."
+            },
+            {
+                "name": "Iris",
+                "description": "The one-of-a-kind Kiroshi prototype knife that can disable an enemy's optics with a single touch. Cormac was the architect of 'The Blind Eye Heist' where this weapon was used to humiliate Zetatech. He is believed to have recovered it from his operative, 'Spectre,' holding it as the ultimate key for bypassing high-level, bio-linked security systems."
+            }
+        ]
+    },
+    "eliteOperatives": {
+        "overview": "Cormac has no friends or partners, only a small, curated circle of hyper-specialized mercenaries he refers to as his 'instruments.' These are the few operatives in Night City who meet his impossible standards of professionalism, discretion, and skill. Their relationship is purely transactional, but built on a foundation of mutual, cold respect. To be one of Cormac's chosen is to be a master of your craft.",
+        "operatives": [
+            {
+                "alias": "'Spectre' (The Ghost)",
+                "specialization": "Infiltration & Social Stealth",
+                "profile": "A solo who has elevated infiltration to an art form. Spectre is a master of non-lethal takedowns and social engineering, capable of walking into a secure facility and walking out with the target without a single alarm being raised. She is Cormac's scalpel for his most delicate work.",
+                "relationship": "Spectre is Cormac's most trusted instrument for physical operations. He values her perfect execution and absolute silence. She, in turn, values his flawless intel that makes her impossible jobs possible. It is a symbiotic relationship of two masters at the top of their game.",
+                "roleInTheShadowWar": "As Nakano's investigation intensifies, Spectre will be tasked with Cormac's most audacious and risky jobs. She will be the one sent to plant false evidence, to extract Nakano's informants, and to physically infiltrate Arasaka's Incident Resolution Division headquarters. She is Cormac's queen on the chessboard, the piece he will use to put Nakano herself in check."
+            },
+            {
+                "alias": "'Cipher' (The Codebreaker)",
+                "specialization": "Creative Netrunning & Data Manipulation",
+                "profile": "Cipher is not just a netrunner; he is a digital architect of chaos. He doesn't just steal data; he rewrites it, corrupts it, and turns an enemy's own network into a weapon against them. He specializes in the kind of elegant, psychological hacks that Cormac favors.",
+                "relationship": "Cormac sees a kindred spirit in Cipher's methods. He is the digital equivalent of Cormac's own architectural philosophy. Cormac trusts him with the most complex netruns, the ones that require more than just a powerful cyberdeck, but a truly creative and twisted mind.",
+                "roleInTheShadowWar": "Cipher is Cormac's primary weapon against Nakano's digital infrastructure. He will be tasked with breaching her secure servers, creating digital ghosts and false trails to mislead her predictive models, and, most importantly, building the core of the false-flag 'Architect's Blueprint' operation. He is the ghost in Nakano's machine, the one who will write the code for her downfall."
+            },
+            {
+                "alias": "'The Janitor' (The Cleaner)",
+                "specialization": "Wetwork & Disappearance",
+                "profile": "An old, ex-corpo cleaner who specializes in making problems—and people—disappear, permanently and silently. He is Cormac's necessary evil, the tool he uses when his elegant, bloodless methods are not enough. A kill from The Janitor is never a murder; it's a quiet retirement, a sudden disappearance, a tragic accident.",
+                "relationship": "Cormac's relationship with The Janitor is the most detached of all. He is a weapon of last resort, a concession to the messy reality of the world. Cormac contacts him rarely, and only for jobs that require a body to drop with the silence of a falling leaf. The Janitor, for his part, is loyal only to the eddies, which Cormac pays in abundance for his unique and dirty services.",
+                "roleInTheShadowWar": "As Nakano's net closes, Cormac may be forced to become something he despises: loud. If one of his operations is compromised, and an operative is captured, Cormac will deploy The Janitor not to rescue them, but to silence them, and anyone they might have talked to. The Janitor is Cormac's ultimate fail-safe, the eraser he will use to scrub any of his mistakes from the board, no matter how brutal the cost."
+            }
+        ]
+    },
+    "legendaryGigs": [
+      {
+        "gigTitle": "The Elysian Echo",
+        "date": "07.04.2070",
+        "objective": "Execute a simultaneous, two-pronged psychological assault on Arasaka Tower and the Militech Building as a requiem for his lost family.",
+        "client": "Self-Funded (A Vow Carved in Grief)",
+        "target": "The illusion of corporate invulnerability.",
+        "outcome": "A horrifying masterpiece of architectural warfare that birthed three legends. The gig was a success, but the massive energy surge from the attack coalesced the digital ghosts of the Elysian Fields victims into a monstrous, feral AI: the 'Data-Wraith.' Cormac's masterpiece of revenge created the very monster that would become his future obsession, and it put him on the radar of a then-unknown Arasaka analyst named Kaiya Nakano, launching her career and their rivalry.",
+        "hiredMercs": "'Echo' (Netrunner)",
+        "mercFate": "The data-fragment of Cormac's wife used in the attack was not inert. A shard of the corrupted consciousness imprinted itself onto Echo's cyberdeck. She was paid to disappear but did not escape. Echo is now haunted by phantom data-streams—glitched memories and sensory ghosts of a life that was never hers. Her current status is unknown; she is a loose end, a living ghost herself, potentially seeking a cure, revenge, or silence.",
+        "mercFeedback": "'Requiem' is the only word for it. He had me use the corrupted data of his dead family as a key. One tower screamed a lullaby in shattered glass, the other wept their memory. I wasn't a netrunner that night; I was a priestess conducting a funeral for a man who died years ago.' - 'Echo' (Netrunner)",
+        "payout": "€$ 1,000,000 (Hush Money)",
+        "reputationImpact": "This operation cemented 'The Architect' as a mythical, vengeful ghost. It created the 'Data-Wraith,' a terrifying force in the Net, and it prompted the formation of Arasaka's Incident Resolution Division, headed by Kaiya Nakano. Cormac's masterpiece created the very monster and hunter that would define his future."
+      },
+      {
+        "gigTitle": "Ghost in the Machine",
+        "date": "CLASSIFIED (Ongoing)",
+        "objective": "To architect and install a dormant, city-wide logic bomb within the core network of the Night City Council's 'Phoenix Project.' His true, hidden objective is to use the massive processing power of the entire city grid to 'capture' the Data-Wraith and attempt to extract the fragmented consciousness of his family.",
+        "client": "Self-Funded (Endgame)",
+        "target": "The Soul of Night City",
+        "outcome": "This is Cormac's endgame. The operation is a long, slow campaign of seemingly unrelated data thefts and acts of sabotage. The logic bomb is not just a weapon of destruction; it is a cage, a net designed to catch a god. The final installation will be the most dangerous gig in Night City's history.",
+        "hiredMercs": "Recruiting (Requires Tier-1 Solo, Netrunner, and Tech)",
+        "mercFeedback": "N/A - This is Cormac's magnum opus. The only feedback will be the silence of a city brought to its knees, or the birth of something far worse than the Data-Wraith.",
+        "payout": "€$ 5,000,000+",
+        "reputationImpact": "If successful, Cormac will cease to be a fixer and become a god of the new dark age, the ghost who holds the trigger to the corporate world's soul. The crew that helps him will be legends... or ghosts, erased to protect the secret."
+      }
+    ],
     "fixerRatings": {
-      "overallThreat": "10/10 (The master of the intel)",
-      "reliability": "10/10 - If the contract is fulfilled to his exact specifications, payment is guaranteed and instantaneous.",
-      "payment": "9/10 - Consistently offers top-tier pay, but takes a significant cut for his premium intel.",
-      "intelQuality": "10/10 - His primary advantage. Provides flawless, comprehensive data packages for every gig.",
-      "discretion": "10/10 - Covers all tracks. Uses dead drops and encrypted transactions. Mercs who work for him rarely get burned.",
-      "resourcefulness": "7/10 - Excellent at acquiring corporate-grade software and access keys, but less connected for street-level gear or muscle.",
-      "mercSurvivability": "8/10 - His detailed planning leads to high success rates, but the consequences of failure on his high-security jobs are severe."
+      "overallThreat": "10/10 (The King of Glass)",
+      "reliability": "10/10 - The contract is an unbreakable vow.",
+      "payment": "9/10 - He pays in fortunes, but his cut is significant.",
+      "intelQuality": "10/10 - Flawless. His intel is a blueprint to a target's soul.",
+      "discretion": "10/10 - A true ghost. He makes it so the tracks were never there.",
+      "resourcefulness": "8/10 - Excellent at acquiring architectural data and black-ops tech.",
+      "mercSurvivability": "7/10 - His plans are perfect, but they operate on a razor's edge."
     },
-
     "advantages": {
       "strengths": [
-        "Unparalleled access to corporate security protocols and intel.",
-        "Specializes in high-value targets, ensuring massive payouts.",
-        "Meticulous planning minimizes risk and avoids unnecessary conflict.",
-        "Absolute discretion ensures mercs remain ghosts."
+        "Unparalleled, almost precognitive, understanding of corporate security, both physical and digital.",
+        "Specializes in high-impact, symbolic operations that pay massively.",
+        "Meticulous planning that exploits psychological weaknesses, not just system vulnerabilities.",
+        "Absolute discretion. For the world, his mercs are whispers and rumors."
       ],
       "weaknesses": [
-        "Lacks significant influence outside of City Center.",
-        "Strictly business; offers no loyalty or support if a job goes south.",
-        "Inflexible mission parameters; deviation from the plan is not tolerated.",
-        "Failure often means angering a major corporation with no fixer to shield you."
+        "Completely detached from the street. He has no understanding or influence in the world outside the corporate elite.",
+        "Strictly business. Offers no loyalty or support. A failed merc is a liability to be scrubbed.",
+        "Inflexible mission parameters. His plans are works of art; he will not tolerate a single misplaced brushstroke.",
+        "His personal vendetta can lead him to commission gigs that are less about profit and more about creating chaos."
       ]
     },
-
+    "mostFamousGig": {
+        "gigTitle": "The Sound of Silence",
+        "date": "11.08.2075",
+        "objective": "Infiltrate a fortified Arasaka data fortress and steal the R&D for 'Project Soulfire,' a next-gen Black ICE. The one condition: zero casualties, zero collateral damage.",
+        "client": "Zetatech (Anonymized via Mr. Hands)",
+        "target": "Arasaka's 'Project Soulfire' Data",
+        "outcome": "A legendary, bloodless coup that cemented Cormac's reputation as a master strategist. His chosen operative, 'Echo,' was given 'The Scream' prototype. When cornered by the elite Arasaka guard, 'Echo' used a single charged blast from the weapon to disable the entire squad's cyberware without firing a shot. The heist was so clean, Arasaka classified it to avoid the humiliation, but the story became a ghost story in the corporate world, a testament to 'The Architect's' genius.",
+        "hiredMercs": "'Echo' (Netrunner-Solo)",
+        "mercFeedback": "'Cormac's plan... it wasn't a fight. It was a system reboot. One *thrum*, and a dozen of Arasaka's finest were just blind, deaf, twitching statues. I didn't beat them; I just turned them off.' - Decrypted comms log from 'Echo'."
+    },
     "recentGigDetails": [
       {
-        "gigTitle": "Executive Extraction",
+        "gigTitle": "Absence as a Weapon",
         "date": "10.18.2077",
-        "objective": "Infiltrate Arasaka Tower's R&D wing and extract a lead researcher from the genetics division, Dr. Aris Thorne, who was looking to defect to Biotechnica.",
-        "client": "Biotechnica (Anonymized)",
-        "target": "Dr. Aris Thorne",
-        "outcome": "Successful. The solo, 'Spectre,' utilized a service maintenance cover and forged biometric credentials provided by Cormac to bypass lower-level security. A localized network disruption, timed to the second, allowed him to reach the target's lab during a shift change. Dr. Thorne was successfully sedated, placed in a cryo-stasis container disguised as waste material, and escorted to a Biotechnica safe house in Westbrook.",
-        "mercFeedback": "'The plan was tight, felt like I had the building's blueprints wired to my Kiroshis. Every guard, every camera sweep was exactly where Cormac said it'd be. Didn't have to fire a single shot. Clean, quiet, and a fat shard at the end. Can't ask for more.' - 'Spectre' (Solo)",
-        "payout": "€$ 25,000"
+        "objective": "Weaponize the absence of Militech executive Elias Haas's daughter, Isobel, to inflict the same sense of loss Cormac feels.",
+        "client": "Self-Funded",
+        "target": "The Psyche of Executive Director Elias Haas",
+        "outcome": "A psychological masterpiece that furthered his primary goal. The solo 'Spectre' was given the 'Iris' prototype for the gig. The extraction was flawless, but Nakano's investigation of the 'impossible' crime scene led her to suspect the involvement of a unique, non-lethal tool, giving her a new thread to pull in her hunt for Cormac.",
+        "mercFeedback": "'This wasn't an extraction. It was a haunting... I created a void in a man's life. He gave me this knife... it didn't kill, it just... blinded. A perfect tool for a perfect ghost.' - 'Spectre' (Solo)",
+        "payout": "€$ 50,000"
       },
       {
-        "gigTitle": "Data Heist: Fuyutsuki Plaza",
-        "date": "10.05.2077",
-        "objective": "Steal preclinical trial data for a new combat drug, 'Project Berserker,' from a secure server within the Fuyutsuki Plaza offices of Dai-Lung Cybernetics.",
-        "client": "Militech (Anonymized)",
-        "target": "Project 'Berserker' Research Data",
-        "outcome": "Successful with complications. The netrunner, 'Static,' breached the local network, but an unscheduled corporate security audit triggered a silent alarm. The team's solo had to create a diversion by triggering a fire alarm on another floor, resulting in a brief firefight with building security. The team escaped before corporate response units arrived. Cormac docked their pay 10% for 'unprofessional noise.'",
-        "mercFeedback": "'Cormac's access codes got me in, but you can't plan for everything. Had to get loud to get out, and he wasn't happy about it. The pay was still good, but don't expect a pat on the back if you have to improvise. He pays for silence.' - 'Static' (Netrunner)",
-        "payout": "€$ 18,000 (after deduction)"
+        "gigTitle": "The Soul Catcher",
+        "date": "10.12.2077",
+        "objective": "A Netwatch agent has successfully captured a small, isolated fragment of the Data-Wraith and is studying it in a secure location. Steal the data fragment and the agent's research.",
+        "client": "Self-Funded",
+        "target": "The Data-Wraith Fragment",
+        "outcome": "A desperate success. The merc stole the containment shard. The research data revealed that the Data-Wraith is 'learning' and retains fragmented memories of its past lives. This was the proof Cormac needed, the discovery that twisted his mission from pure revenge to a dark, obsessive quest for reunion. He is now more dangerous than ever.",
+        "mercFeedback": "'The data shard was screaming. Not with sound, but with data. It felt like a thousand people all crying out at once. Cormac didn't just want it back; he sounded... hopeful. It was the first time I'd ever heard any emotion in his voice. It was terrifying.' - 'Static' (Netrunner)",
+        "payout": "€$ 40,000"
       },
       {
-        "gigTitle": "Corpo Courier Clash",
+        "gigTitle": "A Scar on the Skyline",
         "date": "09.21.2077",
-        "objective": "Intercept a Kang Tao armored convoy en route to the Morro Rock spaceport and acquire a briefcase containing prototype schematics for a new generation of smart-targeting cyber-optics.",
+        "objective": "Sabotage a new Kang Tao power regulator to ruin the career of its lead engineer, Alistair Finch, one of the architects of the Elysian Fields' lethal security.",
         "client": "Zetatech (Anonymized)",
-        "target": "Briefcase of Schematics (ID: Zeta-9)",
-        "outcome": "Flawless execution. Cormac provided the exact convoy route and schedule. The team's wheelman, 'Roadblock,' used a remote vehicle hack to disable the lead car's brakes at a key intersection, causing a non-lethal pile-up. The solo team neutralized the guards with non-lethal shock rounds, secured the asset, and were gone in a new vehicle in under 90 seconds. No alarms were raised.",
-        "mercFeedback": "'It wasn't a fight, it was a procedure. We were just following the steps Cormac laid out on the shard. He turned a convoy bust into a simple traffic stop. Easiest 20k I ever made.' - 'Roadblock' (Wheelman)",
+        "target": "Alistair Finch's Hubris",
+        "outcome": "A flawless symbolic victory. The blackout created a ghostly image of the fallen tower. The unique energy signature was flagged by Nakano, who cross-referenced it with the surge from the 'Elysian Echo,' giving her the first concrete piece of data that proved 'The Architect' was real. Cormac's art is beginning to betray him.",
+        "mercFeedback": "'We were painting a masterpiece with a blackout. What he didn't say was that someone at Arasaka was watching the light show, and taking notes.' - 'Roadblock' (Wheelman)",
         "payout": "€$ 20,000"
       }
     ]

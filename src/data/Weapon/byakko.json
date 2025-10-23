@@ -1,71 +1,78 @@
 {
   "weaponProfile": {
-    "title": "Byakko",
+    "title": "White Tiger's Fang",
     "image": "/byakko.jpg",
-    "id": "tyger_claws_byakko",
-    "aliases": ["The White Tiger", "The Blur", "Japantown's Edge"],
+    "id": "tyger_claws_byakko_legendary",
+    "aliases": ["Hiromi's Edge", "The Blur", "The Unjust Blade"],
     "type": "Melee (Katana)",
-    "manufacturer": "Tyger Claws (Custom)",
-    "status": "Custom; Faction Signature Weapon",
-    "cost": "€$92,000 (Black Market Estimate)",
-    "specialAbility": "Every consecutive hit increases your attack speed and movement speed. After 5 hits, allows you to perform a powerful dash-strike.",
-
+    "manufacturer": "Tyger Claws (Unique Masterwork)",
+    "status": "Unique; Stolen Relic",
+    "cost": "Priceless (Symbol of a Blood Debt)",
+    "specialAbility": "Every consecutive hit increases your attack speed and movement speed. After 5 hits, allows you to perform a powerful dash-strike that applies Bleed. Defeating an enemy with a dash-strike instantly refreshes the dash.",
     "baseStats": {
       "attackSpeed": 3.2,
-      "damage": 300,
+      "damage": "300",
       "reloadSpeed": 0,
       "range": 2.5,
       "mods": 2
     },
-
-    "manufacturingIntel": {
-      "creator": "The Bladesmiths of the Hiromi Sato Dojo",
-      "creatorReputation": "The Byakko is forged by a secretive group of Tyger Claw masters who blend traditional sword-making with cutting-edge cybernetics. They believe a katana should be an extension of the user's will. The name 'Byakko' refers to the White Tiger of the West, a symbol of righteous fury and deadly speed.",
-      "developmentHistory": "The Byakko was created for the Tyger Claws' 'Kensei'—their sword saints and elite enforcers. The core innovation is the neuro-link integrated into the hilt. It monitors the user's adrenaline and bio-feedback, creating a feedback loop: as the user attacks faster, the link stimulates their nervous system, pushing their reflexes and speed even further. The dash-strike is the culmination of this, a short-range teleportation burst powered by the overclocked link. It's a weapon designed for duels and for cutting down multiple opponents in a furious, unstoppable storm of steel.",
-      "productionDate": "Ongoing, custom forged"
+    "keyRelationships": {
+      "nemesis": "Jun 'The Ghost Tiger' Sato (Ronin | Exile). Jun was the star pupil of the Hiromi Sato dojo and the one for whom the 'White Tiger's Fang' was originally forged. Consumed by ambition, he betrayed and murdered his master in a bid to steal the blade and seize control of the dojo. He was defeated and exiled but is now a powerful ronin obsessed with reclaiming the katana he believes is his birthright. He sees anyone who wields it as a thief, a pretender who is merely keeping his property warm.",
+      "creator": "Master Hiromi Sato (Deceased Tyger Claw Bladesmith)"
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Kensei's Test",
+        "date": "Circa 2074",
+        "objective": "The legendary bladesmith Hiromi Sato was to present his masterpiece, the 'White Tiger's Fang,' to his greatest student, Jun, upon his graduation to the rank of Kensei (Sword Saint).",
+        "client": "The Tyger Claw Elders",
+        "target": "The honor of the Hiromi Sato Dojo.",
+        "outcome": "A legendary betrayal. On the night of the ceremony, Jun, believing his master was holding him back, challenged him to a duel to the death for ownership of the blade and the dojo. In a shocking display of dishonor, Jun used a hidden cybernetic weapon to mortally wound his unarmed master. Hiromi's second-in-command, a young warrior named 'Kage,' intervened. He defeated the exhausted Jun in a duel, scarred him, and cast him out of the Tyger Claws forever. The blade, now stained by betrayal, was locked away.",
+        "mercFate": "N/A. This was a pivotal event in the Tyger Claws' history. Jun became a wandering ronin, a ghost consumed by rage and shame. 'Kage' became the stoic guardian of the dojo and the disgraced blade.",
+        "mercFeedback": "'A master's greatest creation should be a symbol of his teaching. For Hiromi, it became his tombstone. Jun sought to claim his legacy through murder, but only inherited dishonor. The blade is perfect, but its story is a tragedy. It sings a song of a student who killed his father.' - Wakako Okada.",
+        "payout": "A legacy of shame and a blood feud.",
+        "reputationImpact": "The event turned the 'White Tiger's Fang' into a forbidden weapon, a symbol of a master's love and a student's ultimate betrayal. Its legend is a cautionary tale within the Tyger Claws. The blade is now considered cursed, a beautiful object that carries a heavy and violent past, and a blood debt that its new wielder, Jun, is determined to collect."
+    },
+    "designAndMaterials": {
+        "materials": "The blade is forged from a single billet of high-carbon steel, folded over a thousand times in the traditional manner, but cryo-quenched to achieve a molecular edge. The hilt contains a custom, non-standard neuro-link that syncs directly with the user's adrenal and reflex co-processor systems, creating a powerful bio-feedback loop.",
+        "ammunitionType": "N/A. The blade is adorned with a single, perfectly cut sapphire in its pommel, rumored to be a data shard containing the combat philosophies of its creator.",
+        "compatibleMods": [
+            { "slot": "Hilt", "mod": "Hiromi's Blessing", "description": "The master-crafted neuro-link provides a more stable and powerful feedback loop, increasing the maximum attack speed and reducing the sensory overload effect." },
+            { "slot": "Edge", "mod": "Monofilament Edge", "description": "A cutting-edge, aftermarket modification that applies a monomolecular edge to the blade, significantly increasing its armor penetration and bleed intensity." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Byakko was designed to embody the philosophy of 'the relentless storm.' It is a weapon that rewards constant, overwhelming aggression. Its purpose is not to block or parry; it is to attack, to press, to never give the opponent a moment to breathe. The neuro-link creates a state of zen-like focus, where the wielder and the blade become a single entity, moving with the fluid, unstoppable grace of a pouncing tiger. It is a tool for those who believe that the only true defense is a perfect, unending offense."
+    },
+    "manufacturingIntel": {
+      "creatorReputation": "The Byakko is forged by a secretive group of Tyger Claw masters. The 'White Tiger's Fang,' however, was the final and greatest creation of Master Hiromi Sato, the most revered bladesmith in the gang's history. His death ended the era of true masterworks.",
+      "developmentHistory": "'The White Tiger's Fang' is a one-of-a-kind masterpiece. The other Byakko katanas used by Tyger Claw Kensei are exceptional weapons, but they are copies of Sato's design, lacking the perfect balance and the unique, powerful neuro-link of the original. Sato's blade is not just a weapon; it is a work of art, a legend stained by betrayal.",
+      "productionDate": "Circa 2074"
+    },
     "tacticalAssessment": {
       "strengths": [
         "Exceptional in prolonged engagements against multiple enemies, as its speed continuously ramps up.",
-        "The dash-strike provides incredible mobility, allowing the user to close gaps or escape encirclement.",
-        "High base attack speed makes it a formidable dueling weapon.",
+        "The resetting dash-strike provides unmatched mobility and crowd-clearing potential.",
+        "High base attack speed and bleed make it a formidable dueling weapon.",
         "Rewards an aggressive, relentless combat style."
       ],
       "weaknesses": [
-        "The speed-boosting effect resets if the user stops attacking, punishing defensive or hesitant play.",
+        "The speed-boosting effect resets if the user stops attacking, punishing defensive play.",
         "Lower single-hit damage compared to heavier blades or blunt weapons.",
         "The neuro-link can cause minor sensory overload (visual static) during intense, prolonged use.",
-        "As a signature Tyger Claw weapon, carrying it in other gang territories can attract unwanted attention."
+        "Possession of this weapon makes you the sworn enemy of the exiled ronin, Jun 'The Ghost Tiger' Sato."
       ],
       "recommendedRoles": "Street Samurai, Speed Solo, Melee Brawler.",
       "masteryArchetype": "A 'Bladedancer' build. A merc with a high Reflexes attribute, a Sandevistan, and cyberware that enhances melee damage and stamina. The ideal user never stops moving. They weave through enemies, their attack speed ramping up to a blur, culminating in a series of lightning-fast dash-strikes that leave a trail of dismembered bodies. They don't just fight; they perform a deadly dance."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Very Rare. The Byakko is a symbol of rank and skill within the Tyger Claws and is never sold on the open market. It is traditionally gifted to a Claw who has proven their mastery, or it can be 'inherited' from a defeated Kensei. Wakako Okada is the only fixer who can reliably source one, and only for her most trusted and skilled operatives.",
-      "rumoredLocation": "The current champion of the Tyger Claw dojo in Japantown, a solo known only as 'Kage' (Shadow), is said to wield the finest Byakko ever forged. He can sometimes be seen meditating at the Cherry Blossom Market shrine, the blade resting at his side."
+      "marketAvailability": "Unique. This weapon is a symbol of a blood debt and a stolen legacy. It cannot be bought.",
+      "rumoredLocation": "After the betrayal, the blade was locked away in the Hiromi Sato dojo, guarded by the new master, 'Kage.' It is said that Wakako Okada, as a sign of ultimate respect and trust, retrieves the blade and gifts it to mercs who have performed a truly legendary service for her and the people of Japantown. To be given the blade is to be tasked with restoring its honor."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Ronin' (Street Samurai)",
-        "context": "Clearing out a warehouse full of Maelstrom gangers.",
-        "feedback": "'This blade... it has a hunger. The more you feed it, the faster it gets. By the end of the fight, I wasn't even thinking, just moving. It felt like I was teleporting from one gonk to the next. It's not just a weapon; it's a partner.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Turtle' (Heavy Gunner)",
-        "context": "Defending a position against an Arasaka assault team.",
-        "feedback": "'I prefer to keep my distance. Tried using this thing when they breached my position. It's fast, I'll give it that, but you have to be right in their face, constantly swinging. If you stop for even a second to take cover, it feels sluggish. Not for a defensive fighter.'",
-        "rating": "2/5 (Wrong playstyle)"
-      },
-      {
-        "merc": "'V' (Mercenary)",
-        "context": "Received as a gift after completing all of Wakako's gigs.",
-        "feedback": "'Wakako said this was a gift for a true professional. She wasn't kidding. The feeling when the neuro-link kicks in and the world slows to a crawl around your blade... there's nothing else like it. It's the ultimate reward for a blade-master in this city.'",
-        "rating": "5/5 (A true masterpiece)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The White Tiger's Fang is the ultimate 'crowd-clearing' melee weapon for a crew's frontline fighter. Its user is a whirlwind of destruction, designed to dive into the thick of the enemy and carve them apart. A successful strategy pairs this user with a netrunner who can use quickhacks like Contagion or Cripple Movement to soften up and cluster enemies, creating the perfect target for the blade's chain-dashing ability. A marksman is also crucial to eliminate snipers or other high-ground threats that the blade's user cannot reach. Its role is to be the beautiful, terrifying, and unstoppable center of the storm."
+    }
   }
 }

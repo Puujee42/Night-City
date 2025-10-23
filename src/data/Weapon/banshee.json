@@ -1,15 +1,14 @@
 {
   "weaponProfile": {
-    "title": "Banshee",
+    "title": "The Scream",
     "image": "/banshee.png",
-    "id": "zetatech_banshee",
-    "aliases": ["The Screamer", "Sonic Boom", "Glass Shatterer"],
+    "id": "zetatech_banshee_prototype_01",
+    "aliases": ["The Ghost Note", "The Glass Shatterer", "The Silent Scream"],
     "type": "Tech Pistol",
-    "manufacturer": "Zetatech",
-    "status": "Corporate Security Issue; Restricted",
+    "manufacturer": "Zetatech (Non-Lethal Solutions Division)",
+    "status": "Unique Prototype; Blacklisted",
     "cost": "€$115,000 (Black Market Estimate)",
-    "specialAbility": "A fully charged shot releases a wide, conical sonic blast that deafens and stuns enemies, disabling their special abilities and scrambling their optics for a short time.",
-
+    "specialAbility": "A fully charged shot releases a wide, conical sonic blast that deafens and stuns enemies, disabling their special abilities and scrambling their optics. Enemies affected by the blast become vulnerable to a unique 'Shatter' quickhack, which causes their cyberware to violently explode.",
     "baseStats": {
       "attackSpeed": 3,
       "damage": "50 (+Sonic)",
@@ -17,88 +16,63 @@
       "range": 25,
       "mods": 2
     },
-
+    "keyRelationships": {
+      "nemesis": "Commander Kaito Ishikawa (Arasaka | Disgraced). Ishikawa was the decorated security commander in charge of protecting the 'Soulfire' data during the heist. 'The Scream' was used to neutralize his entire elite squad without a single casualty, making him a laughingstock in Arasaka's honor-bound culture. He was demoted to a dead-end patrol in the industrial district. He is now a broken man, obsessed with finding the weapon that destroyed his career, believing that its recovery is the only way to restore his honor.",
+      "creator": "Zetatech Non-Lethal Solutions Division"
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Sound of Silence",
+        "date": "11.08.2075",
+        "objective": "Infiltrate a heavily fortified Arasaka data fortress and steal the R&D data for 'Project Soulfire,' a next-generation Black ICE. The client's one condition: zero casualties, zero collateral damage.",
+        "client": "Mr. Hands (on behalf of an unknown party)",
+        "target": "'Project Soulfire' R&D Data",
+        "outcome": "A legendary, bloodless coup. Mr. Hands' chosen operative, a netrunner-solo hybrid known as 'Echo,' was given the sole Banshee prototype, 'The Scream.' 'Echo' infiltrated the facility and reached the server room, but was cornered by Commander Ishikawa and his elite cyborg guard. Instead of a firefight, 'Echo' used a single charged blast from 'The Scream.' The sonic wave instantly disabled the entire squad, rebooting their optics and cyberware. 'Echo' downloaded the data and walked past the stunned, helpless guards. The heist was so clean, so perfect, Arasaka classified it to avoid the corporate humiliation.",
+        "mercFate": "The netrunner 'Echo' was paid a fortune and became one of Mr. Hands' most trusted, high-value assets for operations requiring absolute subtlety. The weapon, 'The Scream,' was part of her payment.",
+        "mercFeedback": "'The Arasaka guards were monsters, full military chrome. A real firefight would have been a bloodbath. But this... this wasn't a fight. It was a system reboot. One *thrum*, and a dozen of Arasaka's finest were just blind, deaf, twitching statues. I didn't beat them; I just turned them off. It's the most terrifyingly elegant weapon I've ever seen.' - Decrypted comms log from 'Echo'.",
+        "payout": "A priceless piece of Black ICE R&D.",
+        "reputationImpact": "This event became a ghost story in the world of corporate espionage, the ultimate example of a 'perfect' heist. It cemented the Banshee's reputation as the ultimate tool for non-lethal operations and turned 'The Scream' into a legendary artifact. It also created a vengeful, disgraced Arasaka officer who now hunts the weapon that is the source of his shame."
+    },
     "designAndMaterials": {
-      "materials": "The Banshee is constructed from an injection-molded, sound-dampening polymer to prevent vibrations from affecting the user. The core of the weapon is a series of piezoelectric crystals housed within a resonant chamber. The flared, bell-like muzzle is a specially designed acoustic waveguide made from a lightweight ceramic composite, designed to shape the sonic blast with precision.",
-      "ammunitionType": "The Banshee uses no projectile ammunition. It is powered by a proprietary Zetatech high-density charge pack that energizes the internal piezoelectric crystals. A standard shot is a focused, high-frequency sonic 'punch,' while a charged shot releases a wide-spectrum sonic wave. The weapon is nearly silent until the pulse impacts the target area.",
-      "compatibleMods": [
-        {
-          "slot": "Optics",
-          "mod": "Zetatech 'Audiogram' Scope",
-          "description": "A diagnostic scope that highlights targets with active auditory and ocular cyberware, increasing the duration of the stun and scramble effects against them."
-        },
-        {
-          "slot": "Muzzle",
-          "mod": "Harmonic Amplifier",
-          "description": "Widens the cone of the charged sonic blast, allowing it to affect a larger group of enemies at the cost of a slight reduction in range."
-        },
-        {
-          "slot": "Internal",
-          "mod": "Overcharged Capacitor",
-          "description": "Reduces the charge time for the sonic blast by 30%, allowing for more frequent use of the weapon's crowd control capabilities."
-        }
-      ]
+        "materials": "The chassis of 'The Scream' is an advanced, sound-absorbent polymer not used in the commercial models, making it even quieter to the user. The core is a set of perfectly resonant, lab-grown piezoelectric crystals. The flared muzzle is a custom-tuned acoustic waveguide, designed to carry the unique 'Shatter' quickhack frequency within the main sonic wave.",
+        "ammunitionType": "The Banshee uses no projectile ammunition. It is powered by a proprietary Zetatech high-density charge pack. 'The Scream's' prototype power cell is overclocked, allowing it to generate the specific, complex waveform that renders targets vulnerable to the 'Shatter' quickhack, a feature that was deemed too unstable for the mass-produced models.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "Echo's Resonance Engine", "description": "This unique, non-replicable modification is the heart of the weapon. It contains the software for the 'Shatter' quickhack and a more efficient capacitor, allowing for faster charge times and a more potent stun effect." },
+            { "slot": "Muzzle", "mod": "Harmonic Amplifier", "description": "Widens the cone of the charged sonic blast, allowing it to affect a larger group of enemies at the cost of a slight reduction in range." }
+        ]
     },
-
-    "weaponPhilosophy": {
-      "concept": "The Banshee embodies Zetatech's core principle of 'Control, Don't Destroy.' In a world where a single stray bullet can obliterate millions of eddies worth of server data or kill a priceless extraction target, lethal force is a liability. The Banshee is the solution. It is a weapon of systemic disruption, designed not to end a life, but to temporarily erase a target's ability to function. Its philosophy is surgical and clean: overwhelm their senses, crash their cyberware, and neutralize the threat before a single drop of blood is shed. It is the chosen tool of an operator who sees violence as a messy, unprofitable last resort."
+     "weaponPhilosophy": {
+      "concept": "The Banshee embodies Zetatech's core principle of 'Control, Don't Destroy.' In a world where a single stray bullet can obliterate millions of eddies worth of server data or kill a priceless extraction target, lethal force is a liability. The Banshee is the solution. It is a weapon of systemic disruption, designed not to end a life, but to temporarily erase a target's ability to function. Its philosophy is surgical and clean: overwhelm their senses, crash their cyberware, and neutralize the threat before a single drop of blood is shed."
     },
-
     "manufacturingIntel": {
-      "creator": "Zetatech Non-Lethal Solutions Division",
-      "creatorReputation": "Zetatech's Non-Lethal division is known for creating some of the most advanced crowd control technology on the market. Their philosophy is 'asset preservation,' believing that it's more profitable to incapacitate a threat than to destroy it and the valuable environment around it. Their lead designer is a former audio engineer obsessed with harmonic resonance.",
-      "developmentHistory": "The Banshee was developed under a lucrative contract for corporate clients who needed a way to neutralize threats in sensitive locations like server farms, laboratories, and executive suites. Traditional firearms caused too much collateral damage. The Banshee's innovation is its 'Resonant Sonic Pulse' generator, which fires a focused wave of sound capable of incapacitating targets by overloading their auditory and ocular cyberware without piercing a single wall. It quickly became the preferred tool for high-end corporate security worldwide.",
+      "creatorReputation": "Zetatech's Non-Lethal division is known for creating the most advanced crowd control technology on the market. Their philosophy is 'asset preservation,' believing it's more profitable to incapacitate a threat than to destroy it.",
+      "developmentHistory": "'The Scream' is the one-of-a-kind prototype that proved the Banshee concept. After its legendary success in 'The Sound of Silence' heist, Zetatech used the data to create the less powerful, more stable commercial models for their corporate clients. The unique and dangerous 'Shatter' quickhack was removed from the production version, making 'The Scream' a truly unique and powerful artifact.",
       "productionDate": "Circa 2075"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Superb non-lethal crowd control, capable of stunning entire groups in a single blast.",
-        "The Stun and 'Optic Scramble' effects are devastating against netrunners and other tech-focused enemies.",
+        "The unique 'Shatter' quickhack provides a devastating lethal option against stunned, high-threat targets.",
         "Completely silent until the moment of impact, allowing for surprise attacks.",
-        "Zero collateral damage to the environment, making it ideal for hostage situations or data protection gigs."
+        "Zero collateral damage to the environment, making it ideal for hostage or data protection gigs."
       ],
       "weaknesses": [
-        "Extremely low lethal damage; not designed for killing.",
+        "Extremely low lethal damage without the use of the 'Shatter' quickhack.",
         "The sonic pulse has a short range and cannot penetrate cover.",
         "The charge-up time for the conical blast requires pre-meditation.",
-        "Almost useless against enemies with hardened or no auditory/optical cyberware."
+        "Possession of this weapon will make you the primary target of the disgraced Arasaka commander, Kaito Ishikawa."
       ],
-      "recommendedRoles": "Riot Control, Corporate Security, Non-Lethal Infiltrator, Support.",
-      "masteryArchetype": "A 'Field Controller' build. A merc with a high Cool and Intelligence attribute who focuses on managing the battlefield. The ideal user combines the Banshee with non-lethal quickhacks and EMP grenades. They don't eliminate threats; they disable them, controlling the flow of combat and creating openings for their squad to perform takedowns or achieve the objective without a single casualty."
+      "recommendedRoles": "Riot Control, Corporate Security, Non-Lethal Infiltrator, Support, Netrunner-Hybrid.",
+      "masteryArchetype": "A 'Field Controller' build. A merc with a high Cool and Intelligence attribute who focuses on managing the battlefield. The ideal user combines 'The Scream' with non-lethal quickhacks. They don't eliminate threats; they disable them, controlling the flow of combat and creating openings for their squad, reserving the deadly 'Shatter' quickhack for only the most dangerous, unavoidable threats."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Highly Restricted. The Banshee is a corporate-issue weapon and is not sold to the public. It can only be acquired through fixers with deep corporate security contacts, like Arthur Cormac, or by looting it from a high-level Zetatech security commander.",
-      "rumoredLocation": "Intel suggests a Maelstrom raid on a Zetatech convoy resulted in a crate of Banshees falling into their hands. They reportedly use them during their initiation rituals and 'raves' at the All Foods plant, enjoying the disorienting sonic effects. Their lead techie is said to be trying to weaponize the sonic frequency to lethal levels."
+      "marketAvailability": "Unique. This weapon is a corporate legend and cannot be bought.",
+      "rumoredLocation": "After the legendary netrunner 'Echo' used it to complete several high-profile gigs for Mr. Hands, the weapon vanished. Some say she still carries it, operating in the deepest shadows of the corporate world. Others claim she traded it to a high-ranking Voodoo Boy in exchange for safe passage through the Blackwall. The most persistent rumor is that a crate of Maelstrom gangers stumbled upon it and, unaware of its true nature, now use it as a noisemaker in their drug-fueled raves at the All Foods plant."
     },
-
     "fieldTestimonials": [
-      {
-        "mercName": "'Static' (Corpo Security Specialist)",
-        "role": "Field Control / Asset Protection",
-        "context": "Neutralizing a rival netrunner crew attempting a data heist in a secure server farm.",
-        "feedback": "'The op was clean. Five hostiles, armed to the teeth, jacked in and ready to fry the system. One charged blast from the Banshee and all five were on the floor, cyberware rebooting, optics full of static. No damage to the server racks, no fire suppression triggered. We just walked in and cuffed them. It's not a weapon; it's a 'problem solved' button.'",
-        "rating": "5/5"
-      },
-      {
-        "mercName": "'Rhino' (Brawler)",
-        "role": "The Muscle / Tank",
-        "context": "A street brawl against the Animals gang in Santo Domingo.",
-        "feedback": "'My fixer gave me this... *thing*... for a gig. I hit a juiced-up Animal with a full blast. He stumbled, shook his head like a dog trying to get water out of its ear, and then charged me even angrier than before. This peashooter is a liability. If you're in a real fight, you need something that makes holes, not noise. Threw it in the river.'",
-        "rating": "1/5 (A dangerous toy)"
-      },
-      {
-        "mercName": "'Quiet' (Cyberpsycho Hunter)",
-        "role": "Non-Lethal Specialist",
-        "context": "Subduing a cyberpsycho in a crowded Japantown market for Regina Jones.",
-        "feedback": "'The target was chromed to the gills, waving a shotgun around, civilians everywhere. A single shot would have caused a massacre. I came in from a side alley, charged the Banshee, and hit him with the sonic wave. His optics went haywire and his weapon system rebooted. That gave me the two-second window I needed to get in close and hit him with the tranquilizer. It's the perfect tool for when you absolutely cannot afford a stray round. It doesn't kill, it creates opportunities.'",
-        "rating": "4/5 (The ultimate specialist tool)"
-      }
+      
     ],
-
     "crewSynergyAssessment": {
-      "analysis": "The Banshee is a quintessential support weapon that can define a crew's effectiveness in non-lethal and control-based operations. It is best wielded by the crew's Netrunner or a dedicated 'Controller' merc. Their role is to initiate combat by disabling the most dangerous threats in a room, allowing the crew's solo or melee specialist to move in and perform takedowns on the stunned and blinded enemies. It synergizes perfectly with quickhacks like 'Cyberware Malfunction' and 'Optics Reboot,' creating a devastating cascade of sensory overload. In a crew built for stealth and subtlety, the Banshee is the ultimate insurance policy for when things go loud, ensuring the 'loud' part is one-sided."
+      "analysis": "The Scream is a quintessential support weapon that can define a crew's effectiveness in non-lethal and control-based operations. It is best wielded by the crew's Netrunner or a dedicated 'Controller' merc. Their role is to initiate combat by disabling the most dangerous threats in a room, allowing the crew's solo or melee specialist to move in and perform takedowns. The added 'Shatter' quickhack provides a crucial lethal option for 'oh shit' moments, allowing the controller to instantly eliminate a high-threat target that resists the initial stun. In a crew built for stealth and subtlety, The Scream is the ultimate insurance policy for when things go loud."
     }
   }
 }

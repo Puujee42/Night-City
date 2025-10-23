@@ -2,70 +2,85 @@
   "weaponProfile": {
     "title": "Beso Mortal",
     "image": "/mortal.jpg",
-    "id": "valentino_beso_mortal",
-    "aliases": ["Mortal Kiss", "The Peacemaker", "Goldie"],
+    "id": "valentino_beso_mortal_unique",
+    "aliases": ["Mortal Kiss", "The Saint's Tear", "The Golden Judas"],
     "type": "Power Revolver",
-    "manufacturer": "Valentinos (Custom)",
-    "status": "Unique; Legendary Street Art",
-    "cost": "€$95,000 (Black Market Estimate)",
-    "specialAbility": "Rounds have a high chance to charm enemies, causing them to fight for you for a short time. Headshots on charmed enemies cause them to explode.",
-
+    "manufacturer": "Valentinos (Custom Masterwork)",
+    "status": "Unique; Cursed Relic",
+    "cost": "Priceless (Cannot be bought or sold)",
+    "specialAbility": "Rounds have a high chance to charm enemies, causing them to fight for you for a short time. Headshots on charmed enemies cause them to explode in a shower of golden sparks, spreading the charm effect to nearby enemies.",
     "baseStats": {
       "attackSpeed": 2.2,
-      "damage": 350,
+      "damage": "350",
       "reloadSpeed": 1.8,
       "range": 50,
       "mods": 2
     },
-
+    "keyRelationships": {
+      "nemesis": "Inez 'La Llorona' Aguilar (6th Street | War Queen). Inez was the spurned lover of the Beso Mortal's creator, 'El Santo.' She believed the gun was meant for her. After El Santo was killed and the gun was stolen in what she perceived as a Valentino betrayal, her heartbreak curdled into a fanatical, all-consuming hatred. Now a ruthless leader in 6th Street, she is obsessed with claiming the Beso Mortal, not to use it, but to destroy it, believing that if she cannot have her lover's masterpiece, no one can."
+    },
+    "legendaryOrigin": {
+        "gigTitle": "The Wedding Gift",
+        "date": "02.14.2072",
+        "objective": "The artisan Isidro 'El Santo' Gallegos crafted the Beso Mortal as a wedding gift for his fiancée, a symbol of their union which was meant to finally bring peace between his Valentino family and her own.",
+        "client": "A Vow of Love",
+        "target": "Peace between two families.",
+        "outcome": "A legendary tragedy. On the night before the wedding, the celebration was ambushed by 6th Street, an attack secretly orchestrated by El Santo's spurned lover, Inez Aguilar. In the ensuing firefight, both El Santo and his bride-to-be were killed. A young Valentino named Gustavo Orta recovered the Beso Mortal from his fallen leader's hand. The wedding became a funeral, the peace treaty became a declaration of war, and Inez, believing the Valentinos had somehow orchestrated the tragedy to keep the gun, cemented her hatred for them forever.",
+        "mercFate": "N/A. This was not a gig, but a historical event that has defined the political landscape of Heywood for years.",
+        "mercFeedback": "'They say when Gustavo picked up the gun, the gold was stained with the tears of a saint. That it no longer charmed with love, but with grief. It turns enemies into friends just long enough for them to die for you. It is the most beautiful, tragic, and Valentino thing in all of Night City.' - Padre Sebastian Ibarra.",
+        "payout": "A blood feud that has lasted five years.",
+        "reputationImpact": "The 'Beso Mortal' became a sacred relic, a symbol of a peace that was murdered. Its legend grew, and it is now seen as both a blessing and a curse. It established Gustavo Orta's reputation as a man of honor, but also placed a permanent target on his back from Inez 'La Llorona' Aguilar, the woman who believes the gun is rightfully hers to destroy."
+    },
+    "designAndMaterials": {
+        "materials": "The Beso Mortal is forged from a unique alloy of high-tensile steel and smelted gold, giving it its signature luster and surprising durability. The grip is inlaid with mother-of-pearl, and the entire frame is covered in hand-etched Valentino iconography depicting saints of love and war. The barrel is rifled with a pattern that mimics a thorny rose stem.",
+        "ammunitionType": "Uses custom-loaded .44 caliber rounds. The tip of each bullet is a hollow-point filled with a micro-dose of a proprietary neurotoxin. The toxin induces a hyper-aggressive loyalty syndrome in targets with baseline human neurology, effectively 'charming' them. The headshot explosion is a secondary chemical reaction, not a feature of the bullet itself.",
+        "compatibleMods": [
+            { "slot": "Barrel", "mod": "El Santo's Engraving", "description": "The intricate rifling increases accuracy and slightly boosts the chance of the charm effect taking hold." },
+            { "slot": "Internal", "mod": "Blessed Mechanism", "description": "A perfectly balanced, hand-tuned trigger mechanism that drastically increases critical hit chance." }
+        ]
+    },
+    "weaponPhilosophy": {
+      "concept": "The Beso Mortal was conceived by 'El Santo' as a physical manifestation of the Valentino ideal: love and death, inextricably linked. It is a weapon that forces its victims to feel a moment of passionate, violent loyalty before their demise. It does not just kill; it converts. The philosophy is that even in death, an enemy can be made to understand the passion and beauty of the Valentino way. It is a work of art that demands every kill be a statement, a tragic, beautiful, and unforgettable performance."
+    },
     "manufacturingIntel": {
       "creator": "Isidro 'El Santo' Gallegos (Deceased Valentino Artisan)",
-      "creatorReputation": "El Santo was more of an artist than a gunsmith. He was a legendary Valentino who believed that their weapons should be as beautiful and passionate as their culture. He spent years on each of his creations, engraving them with intricate designs and blessing them with street-saints' iconography. He wasn't just building guns; he was crafting holy relics for his family.",
-      "developmentHistory": "The 'Beso Mortal' was El Santo's masterpiece, a peace offering intended to end a bloody feud between two Valentino families. The unique 'charm' effect was a piece of technical genius, utilizing a custom-brewed neurotoxin in the bullet tips that would trigger a brief, violent loyalty psychosis in the target. The gun was presented at a peace talk, but before a truce could be made, El Santo was killed in a 6th Street ambush. The Beso Mortal became a symbol of a peace that was stolen, and its effect is now seen as the gun's 'spirit' forcing enemies to love the Valentinos, even in death.",
+      "creatorReputation": "El Santo was more of an artist than a gunsmith, a legendary Valentino who believed weapons should be as beautiful and passionate as their culture. He was not just building guns; he was crafting holy relics. The Beso Mortal was his final and greatest work.",
+      "developmentHistory": "The Beso Mortal is a one-of-a-kind masterpiece. After El Santo's death, his workshop and all his notes were ritually burned, ensuring that his techniques could never be replicated. The gun is not a prototype; it is a singular work of art, a legend forged in love and baptized in blood.",
       "productionDate": "Circa 2072"
     },
-
     "tacticalAssessment": {
       "strengths": [
         "Excellent psychological warfare tool, capable of turning enemies against each other and creating chaos.",
         "High single-shot damage makes it a formidable sidearm.",
-        "Exploding headshots on charmed enemies provide excellent crowd control.",
-        "A work of art that carries immense street cred, especially in Heywood."
+        "Chain-reaction explosions from charmed enemies provide exceptional crowd control.",
+        "Carries immense street cred in Heywood, but will instantly mark you as an enemy of 6th Street."
       ],
       "weaknesses": [
         "The charm effect is unreliable and less effective on cyberpsychos or heavily chromed enemies.",
         "Slower rate of fire compared to pistols or SMGs.",
-        "The gold plating is notoriously difficult to keep clean.",
-        "Using this weapon against Valentinos is considered a grave insult."
+        "Using this weapon against Valentinos is a grave insult that will be answered with violence.",
+        "Possession of this weapon makes you the primary target of Inez Aguilar and her 6th Street warband."
       ],
       "recommendedRoles": "Stylistic Solo, Street Samurai, Chaos Agent.",
       "masteryArchetype": "A 'Gunslinger Poet' build. An operative who thrives on style and chaos, using a high Cool attribute to land precise headshots. The ideal user is a master of positioning, charming a key target to disrupt enemy formations before finishing them with an explosive final flourish. They don't just win fights; they make a statement."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "One of a kind. The Beso Mortal is a sacred relic to the Valentinos and is not for sale. It is passed down to those who have proven their unwavering loyalty and passion for the gang. Acquiring it would require becoming a legend within the Valentinos or taking it from a high-ranking member—an act that would start a war.",
-      "rumoredLocation": "Currently believed to be in the possession of Gustavo Orta, a rising star within the Valentinos. He reportedly keeps it in a custom-built, velvet-lined case in his Vista Del Rey apartment, taking it out only for special occasions or to settle matters of honor."
+      "marketAvailability": "Unique. The Beso Mortal is a sacred relic of the Valentinos and cannot be bought. It is a symbol of leadership and honor.",
+      "rumoredLocation": "It is the signature weapon of Gustavo Orta, a high-ranking Valentino. He carries it as a symbol of his grief and his authority. The only way to acquire this weapon is to earn it through an act of legendary loyalty to the Valentinos, or to take it from Gustavo's body—an act that would undoubtedly make you the most wanted person in all of Heywood."
     },
-
     "fieldTestimonials": [
       {
-        "merc": "'Jackie Welles' (Valentino Merc, Deceased)",
-        "context": "Territorial dispute with 6th Street.",
-        "feedback": "'Hijo de puta... this gun is something else! Shot one of the 6th Street gangers, and he just turns around and starts flatlining his own chooms! It was beautiful, man. Like poetry. El Santo's spirit is in this piece, for sure. It fights with style.'",
-        "rating": "5/5"
+        "mercName": "'Jackie Welles' (Valentino Merc, Deceased)", "role": "Solo", "context": "Territorial dispute with 6th Street.", "feedback": "'Hijo de puta... this gun is something else! Shot one of the 6th Street gangers, and he just turns around and starts flatlining his own chooms! It was beautiful, man. Like poetry. El Santo's spirit is in this piece, for sure. It fights with style.'", "rating": "5/5"
       },
       {
-        "merc": "'Static' (Netrunner)",
-        "context": "Data heist from a heavily guarded warehouse.",
-        "feedback": "'I prefer my deck, but this revolver is a hell of a panic button. When my cover was blown, I charmed the lead guard. He and his squad started a civil war while I slipped out the back. It's the ultimate distraction tool. The explosion from the headshot is just a bonus.'",
-        "rating": "4/5"
+        "mercName": "'Static' (Netrunner)", "role": "Support", "context": "Data heist from a heavily guarded warehouse.", "feedback": "'I prefer my deck, but this revolver is a hell of a panic button. When my cover was blown, I charmed the lead guard. He and his squad started a civil war while I slipped out the back. It's the ultimate distraction tool.'", "rating": "4/5"
       },
       {
-        "merc": "'Corpo V'",
-        "context": "Negotiation with a Maelstrom leader.",
-        "feedback": "'I attempted to use its 'charm' feature on the Maelstrom boss. The toxin had no discernible effect on his heavily augmented neurology. He seemed... amused, before attempting to sever my arm. This weapon's effectiveness appears to be directly proportional to the target's remaining humanity. Highly situational.'",
-        "rating": "2/5 (Against Maelstrom)"
+        "mercName": "'V' (Operator)", "role": "Mercenary", "context": "Negotiation with a Maelstrom leader.", "feedback": "'I attempted to use its 'charm' feature on the Maelstrom boss. The toxin had no discernible effect on his heavily augmented neurology. He seemed... amused, before attempting to sever my arm. This weapon's effectiveness appears to be directly proportional to the target's remaining humanity.'", "rating": "2/5 (Against Maelstrom)"
       }
-    ]
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Beso Mortal is a chaos agent's primary tool. Its user excels at breaking enemy formations and turning a firefight into a confusing, multi-front brawl. It is best paired with a solo or street samurai who can capitalize on the distraction, moving in to eliminate high-value targets while the enemy is disoriented. A netrunner can further enhance its effectiveness by using contagion or system reset quickhacks on un-charmed enemies, creating a cascade of failure across the entire enemy squad. Its role is not to be the primary damage dealer, but to be the conductor of a beautiful, violent symphony of chaos."
+    }
   }
 }

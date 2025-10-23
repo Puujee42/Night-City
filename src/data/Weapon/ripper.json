@@ -1,71 +1,77 @@
 {
   "weaponProfile": {
-    "title": "Gut Ripper",
+    "title": "The Organ Grinder",
     "image": "/ripper.jpg",
-    "id": "scavenger_gut_ripper",
-    "aliases": ["The Organ Grinder", "Scav Special", "Chop-Top"],
+    "id": "scavenger_gut_ripper_legendary",
+    "aliases": ["Yarilo's Tooth", "The Red Reaper", "Ol' Reliable"],
     "type": "Melee (Chainsword)",
-    "manufacturer": "Scavenger (Salvaged)",
-    "status": "Black Market; Highly Unreliable",
+    "manufacturer": "Scavenger (Unique Masterwork)",
+    "status": "Unique; Infamous",
     "cost": "€$45,000 (Black Market Estimate)",
-    "specialAbility": "Every hit applies a strong Bleed effect. Fully charged attacks have a 100% chance to dismember.",
-
+    "specialAbility": "Every hit applies a strong Bleed and a unique 'Terror' effect, with a high chance to cause nearby enemies to panic and flee. Fully charged attacks have a 100% chance to dismember and instantly trigger the Terror effect on all witnesses.",
     "baseStats": {
       "attackSpeed": 1.8,
-      "damage": 400,
+      "damage": "400",
       "reloadSpeed": 0,
       "range": 2.2,
       "mods": 1
     },
-
-    "manufacturingIntel": {
-      "creator": "Unknown Scav 'Ripperdoc'",
-      "creatorReputation": "This weapon has no single creator; it's a design born of grim necessity and cobbled together in the blood-soaked chop shops of Watson and Pacifica. The 'blueprints' are passed between Scavenger cells. Each Gut Ripper is unique, built from whatever parts are available—industrial chainsaws, motorcycle engines, and scrap metal welded together with more hope than skill.",
-      "developmentHistory": "The Gut Ripper was 'developed' for the Scavengers' primary business: involuntary organ and chrome harvesting. They needed a tool that could quickly and crudely tear through flesh and cheap armor to get to the valuable parts underneath. It's not a weapon of war; it's a butcher's tool, optimized for terror and messy disassembly. The roar of its engine is often the last thing a victim hears, a sound now synonymous with Scav activity.",
-      "productionDate": "Ongoing"
+    "keyRelationships": {
+      "nemesis": "Gage 'The Anvil' Makarov (Maelstrom Heavy). Gage is one of the few survivors of the 'Meat Locker Massacre' where his entire Maelstrom crew was dismembered by the Scavenger bogeyman, Yarilo, and his Organ Grinder. Gage, who lost both his arms in the attack, is now a heavily chromed engine of vengeance. He is fanatically obsessed with finding The Organ Grinder, not just to destroy it, but to reclaim it as a trophy and prove that Maelstrom's chrome is stronger than any Scavenger's rust."
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Meat Locker Massacre",
+        "date": "Circa 2074",
+        "objective": "A legendary Scavenger boss known only as 'Yarilo' launched a one-man assault on a Maelstrom-controlled meatpacking plant that was encroaching on his harvesting grounds.",
+        "client": "The Scavenger Collective (Territorial Dispute)",
+        "target": "The Maelstrom 'Chop Shop' Crew.",
+        "outcome": "A legendary act of butchery that became a cautionary tale in the underworld. Yarilo, armed with his signature, master-crafted Gut Ripper—'The Organ Grinder'—didn't just clear the plant; he turned it into a slaughterhouse. Braindance recordings of the event are a black market holy grail, rumored to show Yarilo systematically dismembering over twenty heavily-chromed Maelstrom gangers. The sheer brutality of the attack, combined with the terrifying roar of his weapon, caused the last few survivors to go cyberpsycho from pure fear. Yarilo vanished after the massacre, leaving his weapon behind, lodged in the corpse of the Maelstrom leader.",
+        "mercFate": "Yarilo was never seen again, becoming a Scavenger bogeyman overnight. The Organ Grinder was recovered from the scene by the first NCPD officer to arrive, a corrupt cop who then sold it to a black market arms dealer, introducing the infamous weapon into circulation.",
+        "mercFeedback": "'The BD is raw, uncut nightmare fuel. There's no skill, no finesse. Just a monster with a chainsaw walking through gunfire like it's rain. The Maelstrom gangers aren't fighting back; they're just... coming apart. The sound... that sound is what stays with you. It's the sound of metal eating chrome.' - Analysis from a braindance dealer.",
+        "payout": "Undisputed control of the territory and the birth of a legend.",
+        "reputationImpact": "This event cemented the reputation of all Gut Rippers as weapons of terror. 'The Organ Grinder' itself became a legendary, cursed object. Its history is soaked in the blood of Maelstrom, ensuring that anyone who wields it will instantly earn the fanatical, undying hatred of Gage Makarov and his crew."
+    },
+    "designAndMaterials": {
+        "materials": "The Organ Grinder is a masterwork of scrap. Its core is a modified, high-torque industrial rock saw, reinforced with salvaged Arasaka armor plating. The chain is composed of diamond-tipped teeth, originally designed for cutting through concrete. The engine has been crudely but effectively overclocked, giving it a distinctive, guttural roar that is noticeably deeper and more menacing than a standard Gut Ripper.",
+        "ammunitionType": "N/A (Fueled by a standard CHOOH2 mixture). The teeth of the chain are coated in a rust-colored, coagulant-resistant chemical, which is what causes the intense and prolonged bleeding effect on its victims.",
+        "compatibleMods": [
+            { "slot": "Internal", "mod": "'Yarilo's' Overdrive Engine", "description": "This unique, dangerously unstable engine modification is the source of the weapon's terrifying roar. It grants the 'Terror' effect but has a small chance to stall after a fully charged attack, leaving the user momentarily vulnerable." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Gut Ripper is a tool of pure psychological warfare. It was designed by Scavengers not just to kill, but to terrify. Its purpose is to end a fight through sheer, overwhelming brutality, often before it even begins. The deafening roar of its engine, the shower of blood and sparks, and the sight of a dismembered enemy are all calculated to break the morale of any witnesses. It is not a weapon for a soldier; it is a weapon for a monster, and its philosophy is simple: if the enemy is too scared to fight, the battle is already won."
+    },
+    "manufacturingIntel": {
+      "creator": "Yarilo (Legendary Scavenger, MIA)",
+      "creatorReputation": "Yarilo is a ghost story, a Scavenger bogeyman spoken of in hushed tones. He was said to be a master craftsman who built his Organ Grinder not from a blueprint, but from a nightmare. He is the alpha Scav, a legend whose brutal efficiency and terrifying methods are something even other Scavengers aspire to.",
+      "developmentHistory": "'The Organ Grinder' is a unique, one-of-a-kind weapon. It is the original, master-crafted version from which all other, cruder Gut Rippers are merely copies. After Yarilo's disappearance, the weapon became a legend, a bloody crown passed between the most savage and feared brawlers in the underworld.",
+      "productionDate": "Unknown"
+    },
     "tacticalAssessment": {
       "strengths": [
-        "Unmatched dismemberment capability, ideal for spreading terror and bypassing worn armor.",
-        "The continuous Bleed effect can quickly drain the health of even tough enemies.",
-        "High psychological impact; the sound and sight of it can cause less hardened enemies to panic.",
-        "Relatively easy to maintain with common industrial parts."
+        "Unmatched dismemberment and psychological warfare capability.",
+        "The continuous Bleed and spreading Terror effects can neutralize an entire squad through panic.",
+        "High base damage is devastating against unarmored or lightly armored opponents.",
+        "Carries an infamous reputation that can intimidate certain enemies."
       ],
       "weaknesses": [
         "Extremely loud, making stealth impossible.",
         "Slow, clumsy attack speed leaves the user open to counter-attacks.",
-        "Has a notorious tendency to jam or run out of fuel at the worst possible moment.",
-        "Being caught with this weapon by the NCPD will get you immediately flagged as a suspected Scavenger."
+        "The unique engine has a chance to jam, a fatal flaw in a prolonged fight.",
+        "Possession of this weapon makes you the sworn enemy of Gage Makarov and his Maelstrom crew."
       ],
       "recommendedRoles": "Berserker, Terror Trooper, Psycho-Brawler.",
-      "masteryArchetype": "A 'Slaughterhouse' build. A user with a Berserk operating system and cyberware focused on pain resistance and raw strength. The ideal user doesn't dodge; they charge forward, using the Gut Ripper's brutal power to tear through the front lines, ignoring incoming fire. They win fights not with skill, but with pure, unrelenting savagery."
+      "masteryArchetype": "A 'Slaughterhouse' build. A user with a Berserk operating system and cyberware focused on pain resistance and raw strength. The ideal user doesn't dodge; they charge forward, using the Organ Grinder's brutal power and terrifying presence to break the enemy's will to fight. They win not with skill, but with pure, unrelenting savagery."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Common on the black market, if you know which back alleys to check. Often sold by shady arms dealers in Kabuki or scavenged directly from the bodies of Scavenger heavies. No reputable vendor would ever carry this weapon.",
-      "rumoredLocation": "A high-ranking Scavenger boss known as 'The Surgeon' is said to wield a master-crafted Gut Ripper with a custom, chrome-plated engine. He reportedly runs a major harvesting operation out of a derelict hospital in the Northside Industrial District."
+      "marketAvailability": "Unique. This weapon is a legend and cannot be bought on any market. It must be taken.",
+      "rumoredLocation": "After being sold by the corrupt cop, The Organ Grinder passed through the hands of several infamous brawlers before ending up with its current owner: a Scavenger boss known as 'The Surgeon.' He views himself as Yarilo's successor and wields the weapon as a symbol of his authority. He runs a major harvesting operation out of a derelict hospital in the Northside Industrial District, and The Organ Grinder is said to never leave his side."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Animal' (Brawler)",
-        "context": "Clearing a rival gang's hideout.",
-        "feedback": "'This thing's a beast! It doesn't cut, it CHEWS. Ripped right through their armor, their chrome, their everything. Walked in the front door, left through a red mist. They were screaming before I even got to 'em. Hell of a good time.'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Ghost' (Infiltrator)",
-        "context": "Attempted stealth takedown.",
-        "feedback": "'Are you kidding me? I tried to sneak up on a guard, and the moment I revved this piece of junk, every alarm in the building went off. It sounds like a damn rocket taking off. It's the least subtle weapon I have ever held. Threw it in the bay.'",
-        "rating": "1/5 (Useless for stealth)"
-      },
-      {
-        "merc": "'Patch' (Techie)",
-        "context": "Sustained firefight with Tyger Claws.",
-        "feedback": "'It works... mostly. Chewed through three Claws before the drive chain snapped mid-swing. Had to finish the fight with my pistol. It's a Scav weapon, through and through: brutal, effective, and held together with spit and a prayer. Carry a backup.'",
-        "rating": "3/5 (Unreliable)"
-      }
-    ]
+     
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "The Organ Grinder is the ultimate shock-and-awe weapon. Its user is the crew's living battering ram and psychological weapon. Their primary role is to charge in first, creating an explosion of terror and chaos that the rest of the crew can exploit. It pairs exceptionally well with a netrunner who can pre-emptively use cyberpsychosis or short circuit quickhacks to further sow confusion. A marksman is also essential, as the Organ Grinder's user will be the center of all enemy attention and will need overwatch to eliminate threats they cannot reach. Its role is to be the brutal, bloody heart of the assault."
+    }
   }
 }

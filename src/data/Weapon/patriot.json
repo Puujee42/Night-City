@@ -1,71 +1,79 @@
 {
   "weaponProfile": {
-    "title": "The Patriot",
+    "title": "Old Glory",
     "image": "/patriot.jpg",
-    "id": "6th_street_patriot",
-    "aliases": ["The Freedom Cannon", "Old Glory", "The Second Amendment"],
+    "id": "6th_street_patriot_legendary",
+    "aliases": ["The Rampart", "Gunner's Pride", "The Last Stand"],
     "type": "Power LMG",
-    "manufacturer": "6th Street (Custom)",
-    "status": "Custom; Faction Signature Weapon",
-    "cost": "€$110,000 (Black Market Estimate)",
-    "specialAbility": "The rate of fire and Crit Chance increase the longer you fire the weapon. The final 10 rounds in the magazine deal bonus Electrical damage.",
-
+    "manufacturer": "6th Street (Custom Masterwork)",
+    "status": "Unique; Legendary Faction Relic",
+    "cost": "Priceless (Symbol of Leadership)",
+    "specialAbility": "The rate of fire, Crit Chance, and Dismemberment Chance all increase the longer you fire the weapon. The final 10 rounds in the magazine deal bonus Electrical damage and are guaranteed to be critical hits.",
     "baseStats": {
       "attackSpeed": "7.0 -> 15.0",
-      "damage": 110,
+      "damage": "110",
       "reloadSpeed": 3.8,
       "range": 60,
       "mods": 3
     },
-
-    "manufacturingIntel": {
-      "creator": "Gunner Paige (6th Street's Master Gunsmith)",
-      "creatorReputation": "Gunner is a grizzled NUSA veteran and the heart of 6th Street's arsenal. He believes in the 'American way' of weapon design: big, loud, and lots of bullets. He sees foreign-made weapons as flimsy and overly complicated. His creations are rugged, reliable, and designed to project maximum force, embodying the Second Amendment philosophy that underpins his gang's entire culture.",
-      "developmentHistory": "The Patriot began as a standard Constitutional Arms 'Defender' LMG. Gunner and his team stripped it down and rebuilt it with a custom-tooled accelerator and a modified ammo feed. The goal was to create the ultimate suppression weapon for their street battles, a gun that would become more ferocious the longer a firefight lasted. The NUSA flag wrap was a final touch, turning the weapon from a simple tool into a powerful piece of propaganda. It's now awarded to 6th Street members who show exceptional valor in defending their territory.",
-      "productionDate": "Ongoing, custom order only"
+    "keyRelationships": {
+      "nemesis": "Gustavo Orta (Valentino Lieutenant). Gustavo's younger brother, Julio, was killed by 'Old Glory' during the 'Battle of Reconciliation Park,' the weapon's most legendary appearance. Gustavo is now a high-ranking Valentino who harbors a deep, personal, and obsessive hatred for the weapon and the 6th Street hero who wielded it. He sees 'Old Glory' not as a gun, but as the murderer of his brother, and he will stop at nothing to capture it and melt it down into a statue of a Valentino saint.",
+      "creator": "Gunner Paige (6th Street's Master Gunsmith)"
     },
-
+    "legendaryOrigin": {
+        "gigTitle": "The Battle of Reconciliation Park",
+        "date": "07.04.2076",
+        "objective": "A 6th Street veteran named 'Sarge' Miller was tasked with holding a key intersection in Reconciliation Park, alone, to cover the retreat of a civilian convoy caught in a surprise Valentino ambush.",
+        "client": "6th Street (Emergency Defense)",
+        "target": "The advancing Valentino war party.",
+        "outcome": "A legendary last stand that became a cornerstone of 6th Street folklore. Armed with Gunner Paige's first and finest Patriot prototype, 'Old Glory,' Sarge held the intersection for seven minutes against overwhelming odds. Braindance recordings show him laying down a continuous, escalating storm of fire that suppressed the entire Valentino force, allowing the convoy to escape. He was eventually overwhelmed and killed, but his sacrifice saved dozens of lives. The Valentinos, out of a rare show of respect, left the weapon resting on his chest.",
+        "mercFate": "Sarge Miller became a martyr and a hero to 6th Street, a symbol of their creed to protect the community. The weapon, 'Old Glory,' was recovered and became a sacred relic, a symbol of ultimate valor.",
+        "mercFeedback": "'The BD is insane. You can hear the V-boys screaming 'El Diablo!' over the comms. It's just one man, one gun, against a hundred. The roar of that LMG... it doesn't stop. It just gets faster, louder. He didn't die defending a street. He died making a statement. That gun wasn't a weapon; it was his final words.' - Analysis from a BD vendor.",
+        "payout": "The lives of thirty-four civilians.",
+        "reputationImpact": "This event turned 'Old Glory' from a powerful weapon into a holy relic. It is the physical embodiment of 6th Street's highest ideal: self-sacrifice for the community. It also created an eternal blood feud with Gustavo Orta, who lost his brother in the battle and now sees the weapon as a personal insult that must be erased."
+    },
+    "designAndMaterials": {
+        "materials": "The chassis is a heavily reinforced Constitutional Arms 'Defender' frame. The barrel is a custom-forged, chrome-lined heavy barrel designed for sustained fire. The most crucial component is the experimental 'Patriot Accelerator,' a magnetic flywheel system hand-built by Gunner Paige that spools up over time, mechanically forcing the bolt to cycle at an exponentially increasing rate.",
+        "ammunitionType": "Standard LMG rounds. The final 10 rounds are linked to a micro-battery in the magazine which applies a powerful electrical charge to each projectile as it is chambered. This feature was a late addition by Gunner, intended to serve as a final, desperate 'punch' against heavily chromed targets.",
+        "compatibleMods": [
+            { "slot": "Muzzle", "mod": "Liberty Muzzle Brake", "description": "A custom 6th Street brake that provides best-in-class recoil reduction, essential for controlling the weapon at maximum fire rate." },
+            { "slot": "Internal", "mod": "Gunner's Own Accelerator", "description": "This unique, master-crafted accelerator is what makes 'Old Glory' legendary, providing a faster and more stable ramp-up than any replica." },
+            { "slot": "Magazine", "mod": "Patriot's Resolve Magazine", "description": "A reinforced, extended magazine that not only holds more rounds but also improves the power of the final 10 electrical shots." }
+        ]
+    },
+     "weaponPhilosophy": {
+      "concept": "The Patriot is the embodiment of the 6th Street philosophy of 'escalating force.' It is designed to start as a warning and end as a judgment. The initial slow rate of fire is a deterrent, a chance for the enemy to back down. The escalating roar and stream of lead is the punishment for not heeding that warning. It's a weapon that gives the enemy every chance to surrender, and then leaves them no chance of survival. It is not just a tool for defense; it is a statement of defiant, overwhelming power."
+    },
+    "manufacturingIntel": {
+      "creatorReputation": "Gunner Paige is a grizzled NUSA veteran and the heart of 6th Street's arsenal. He believes in the 'American way' of weapon design: big, loud, and lots of bullets. 'Old Glory' was his magnum opus, a weapon he built for his best friend, Sarge Miller. He has built other Patriots since, but none have the same perfect balance and master-crafted components as the original.",
+      "developmentHistory": "'Old Glory' is the original, one-of-a-kind prototype from which all other Patriots are based. After Sarge Miller's last stand, Gunner refused to ever try and replicate it perfectly, believing it would dishonor his friend's memory. The replicas he builds for other 6th Street heroes are powerful, but they are intentionally made to be a step below the original, preserving the unique, legendary status of 'Old Glory.'",
+      "productionDate": "Circa 2076"
+    },
     "tacticalAssessment": {
       "strengths": [
-        "Exceptional sustained-fire capability, ideal for pinning down large groups of enemies.",
-        "The escalating rate of fire can overwhelm even heavily armored targets.",
-        "Bonus electrical damage on the final rounds can disable cyberware and finish off wounded foes.",
-        "A large magazine capacity reduces the need for frequent reloads in prolonged engagements."
+        "Exceptional sustained-fire capability, ideal for pinning down entire squads.",
+        "Escalating fire rate and dismemberment chance can overwhelm even heavily armored targets.",
+        "Guaranteed electrical crits on the final rounds can finish off cyber-psychos or heavy cyborgs.",
+        "A large magazine capacity is perfect for prolonged engagements."
       ],
       "weaknesses": [
         "Initial accuracy is poor and gets worse as the rate of fire increases.",
         "Extremely heavy, significantly reducing user mobility and dodge speed.",
         "Chews through ammunition at an alarming rate.",
-        "The flashy design and loud firing sound make the user an obvious, high-priority target."
+        "Possession of this weapon will make you the number one target of Gustavo Orta and the Valentino nation."
       ],
       "recommendedRoles": "Heavy Gunner, Suppression Specialist, Point Defender.",
       "masteryArchetype": "A 'Walking Turret' build. A solo with a high Body attribute and cyberware that enhances recoil control and provides damage resistance. The ideal user finds a solid piece of cover, plants their feet, and holds down the trigger until nothing is left standing. They are the anchor of their squad, a screaming bastion of overwhelming firepower."
     },
-
     "acquisitionIntel": {
-      "marketAvailability": "Very Rare. The Patriot is a symbol of status within 6th Street and is never sold. It must be earned through loyalty to the gang or 'liberated' from a high-ranking 6th Street lieutenant. Some black-market replicas exist, but they lack the custom accelerator of a genuine Gunner Paige original.",
-      "rumoredLocation": "The current leader of the 6th Street chapter in Arroyo, 'Major' Rick, is said to carry a master-crafted Patriot on all his patrols. He's often seen holding court at their fortified HQ, a converted auto plant, with the weapon displayed prominently on his back."
+      "marketAvailability": "Unique. 'Old Glory' is a sacred relic of 6th Street and is never sold. It is a symbol of leadership and valor.",
+      "rumoredLocation": "The weapon is traditionally carried by the highest-ranking, most respected member of 6th Street in Santo Domingo. Currently, that is 'Major' Rick, a veteran who fought alongside Sarge Miller. He sees himself as the weapon's custodian, not its owner. It is said he will only pass it on to a warrior who proves themselves worthy through a legendary act of valor in defense of the community."
     },
-
     "fieldTestimonials": [
-      {
-        "merc": "'Gunner' (6th Street Veteran)",
-        "context": "Defending a checkpoint against a Valentino assault.",
-        "feedback": "'When the V-boys came charging, I just held down the trigger. The first few seconds, you're just scaring 'em. Then the accelerator kicks in and this baby starts to sing. It's not a gun, it's a declaration of independence written in hot lead. USA! USA!'",
-        "rating": "5/5"
-      },
-      {
-        "merc": "'Spectre' (Solo Infiltrator)",
-        "context": "Attempted stealth operation in a 6th Street compound.",
-        "feedback": "'I picked this up off a guard, thinking it might be useful. It's the loudest, heaviest, most obnoxious thing I've ever carried. Fired one burst and every 'patriot' in a three-block radius knew exactly where I was. It's a decent LMG, but 'subtlety' isn't in its vocabulary.'",
-        "rating": "2/5 (For my work)"
-      },
-      {
-        "merc": "'Breaker' (Brawler)",
-        "context": "Open street battle against Militech forces.",
-        "feedback": "'Holy hell, the kick on this thing! You gotta be chromed to the gills just to keep it pointed forward. But if you can handle it, it tears through corpo armor like it's paper. The light show at the end of the mag is a nice touch, fries their chrome right up. A real beast.'",
-        "rating": "4/5 (If you can handle it)"
-      }
-    ]
+      
+    ],
+    "crewSynergyAssessment": {
+        "analysis": "Old Glory is the anchor of a defensive or suppressive fire team. Its user is not meant to be mobile; they are a living turret, a fixed point of overwhelming force. A successful crew will build their strategy around this. A netrunner can use ping and marking to give the gunner clear targets, while a quick-moving solo or ninja can flank the enemy while they are pinned down by the relentless stream of fire. Its role is to be the immovable object that allows the rest of the crew to act as the unstoppable force."
+    }
   }
 }
