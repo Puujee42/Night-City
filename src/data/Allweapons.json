@@ -99,7 +99,7 @@
     {
       "id": "dynalar_wasp",
       "image": "/wasp.jpg",
-      "name": "The Hummingbird",
+      "name": "Hummingbird",
       "type": "Power Pistol",
       "manufacturer": "Dynalar Sandevistan",
       "iconic": true,
@@ -123,7 +123,7 @@
     {
       "id": "darra_polytechnic_widowmaker",
       "image": "/widowmaker.jpg",
-      "name": "The Vindicator",
+      "name": "Vindicator",
       "type": "Tech Double-Barrel Shotgun",
       "manufacturer": "Darra Polytechnic",
       "iconic": true,
@@ -183,7 +183,7 @@
     {
       "id": "zetatech_banshee",
       "image": "/banshee.png",
-      "name": "The Scream",
+      "name": "Scream",
       "type": "Tech Pistol",
       "manufacturer": "Zetatech",
       "iconic": true,
@@ -195,7 +195,7 @@
     {
       "id": "maelstrom_pain_drill",
       "image": "/pain-drill.png",
-      "name": "The Dentist",
+      "name": "Dentist",
       "type": "Melee (Brutal Arms)",
       "manufacturer": "Maelstrom (Modified)",
       "iconic": true,
@@ -219,7 +219,7 @@
     {
       "id": "ghede_gaze",
       "image": "/ghede.png",
-      "name": "The Hexer",
+      "name": "Hexer",
       "type": "Smart SMG",
       "manufacturer": "Voodoo Boys (Custom)",
       "iconic": true,
@@ -243,7 +243,7 @@
     {
       "id": "kang_tao_gyges",
       "image": "/gyges.png",
-      "name": "The Anatomist",
+      "name": "Anatomist",
       "type": "Smart Precision Rifle",
       "manufacturer": "Kang Tao",
       "iconic": true,
@@ -267,7 +267,7 @@
     {
       "id": "tsunami_seeker",
       "image": "/seeker.png",
-      "name": "The Corner-Cutter",
+      "name": "Corner-Cutter",
       "type": "Tech Pistol",
       "manufacturer": "Tsunami",
       "iconic": true,
@@ -279,7 +279,7 @@
     {
       "id": "animals_rhino",
       "image": "/rhino.png",
-      "name": "Big Bertha",
+      "name": "Bertha",
       "type": "Grenade Launcher",
       "manufacturer": "Animals (Modified)",
       "iconic": true,
@@ -291,7 +291,7 @@
     {
       "id": "kang_tao_warden",
       "image": "/warden.png",
-      "name": "The Shepherd's Crook",
+      "name": "Shepherd's Crook",
       "type": "Melee (Stun Staff)",
       "manufacturer": "Kang Tao",
       "iconic": true,

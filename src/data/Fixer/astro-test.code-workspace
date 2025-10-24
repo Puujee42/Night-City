@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "astro-test",
+			"path": "../../.."
+		},
+		{
+			"name": "deltha",
+			"path": "../../../../Downloads/deltha"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib"
+	}
+}
